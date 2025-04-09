@@ -51,7 +51,7 @@ const controlsStore = useControlsStore();
         <div class="mt-5 text-center text-sm text-gray-600">
             <p>Spanish Translation provided by: Colegio Federación Colombiana de Optómetras - Fedopto</p>
             <p>French translation provided by: Association des Optométristes de France (AOF)</p>
-            <p>Chinese translation provided by: 中国眼科医师协会</p>
+            <p>Chinese translation provided by: Alcon Professional Education Team, China</p>
         </div>
     </div>
 </template>
