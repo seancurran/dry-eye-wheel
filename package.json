@@ -1,0 +1,32 @@
+{
+    "name": "vite-test",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.9.1",
+        "@vitejs/plugin-vue": "^5.1.2",
+        "autoprefixer": "^10.4.14",
+        "axios": "^1.4.0",
+        "eslint": "^9.9.1",
+        "eslint-plugin-vue": "^9.28.0",
+        "globals": "^15.9.0",
+        "lottie-vuejs": "^0.4.0",
+        "pinia": "^2.0.35",
+        "postcss": "^8.4.23",
+        "postcss-import": "^15.1.0",
+        "postcss-nested": "^6.0.1",
+        "prettier": "^2.8.8",
+        "prettier-plugin-tailwindcss": "^0.2.7",
+        "tailwindcss": "^3.3.2",
+        "vite": "^5.4.2",
+        "vite-plugin-svgr": "^4.3.0",
+        "vite-svg-loader": "^5.1.0",
+        "vue": "3.4",
+        "vue-slider-component": "^4.1.0-beta.7"
+    }
+}

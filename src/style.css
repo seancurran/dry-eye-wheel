@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: EuclidCircularA-Regular;
+    src: url(/src/assets/fonts/EuclidCircularA-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: EuclidCircularA-Medium;
+    src: url(/src/assets/fonts/EuclidCircularA-Medium.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: EuclidCircularA-SemiBold;
+    src: url(/src/assets/fonts/EuclidCircularA-Bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: EuclidCircularA-Bold;
+    src: url(/src/assets/fonts/EuclidCircularA-SemiBold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,
+html,
+body {
+    @apply font-euclid-circular-regular antialiased;
+}
+
+.wheel-svg {
+    text-transform: uppercase;
+    font-family: 'EuclidCircularA-SemiBold', sans-serif;
+}
+
+.font-size-10px {
+    font-size: 10px;
+}
+
+.svg-active {
+    circle,
+    line,
+    polygon {
+        @apply !stroke-white;
+    }
+    rect,
+    polygon {
+        @apply !fill-white;
+    }
+
+    &.svg-fill-path {
+        path {
+            @apply !fill-white;
+        }
+    }
+    .svg-fill-path {
+        path {
+            @apply !fill-white;
+        }
+    }
+
+    &.svg-stroke-path {
+        path {
+            @apply !stroke-white;
+        }
+    }
+
+    &.svg-text-color {
+        tspan {
+            @apply !fill-white;
+        }
+    }
+
+    &.svg-fill-circle {
+        circle {
+            @apply !fill-white;
+        }
+    }
+
+    &.svg-fill-line {
+        line {
+            @apply !fill-white;
+        }
+    }
+
+    &.svg-stroke-polyline {
+        polyline {
+            @apply !stroke-white;
+        }
+    }
+
+    &.svg-fill-polyline {
+        polyline {
+            @apply !fill-white;
+        }
+    }
+}
