@@ -5,7 +5,7 @@ import LidHygieneIcon from '@/components/wheel/management/animated-icons/LidHygi
 
 <template>
     <PopoverCard
-        :title="$t('Lid Hygiene')"
+        :title="$t('_lid_hygiene_button')"
         class="absolute left-1/2 top-[280px] z-10 col-span-5 ml-[-224px] max-w-lg">
         <template #icon>
             <LidHygieneIcon class="!-mb-8 !-mt-10 !h-40" />

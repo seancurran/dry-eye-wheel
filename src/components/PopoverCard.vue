@@ -40,7 +40,11 @@ onMounted(() => {
                 'font-euclid-circular-medium text-2xl text-[#6D6E71]': props.theme !== 'popup',
             }"
             class="text-center uppercase">
-            {{ props.title }}
+            <div
+                v-for="(line, index) in props.title?.split('|')"
+                :key="index">
+                {{ line }}
+            </div>
         </div>
         <div class="flex flex-col gap-3 text-center text-sm leading-4 text-gray-600">
             <slot></slot>

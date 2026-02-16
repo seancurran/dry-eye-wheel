@@ -1,6 +1,13 @@
 // eslint-disable no-irregular-whitespace
 export default [
     {
+        code: '_mitigation_button',
+        en: 'Mitigation',
+        es: 'Mitigación',
+        fr: 'Atténuation',
+        zh: '缓解',
+    },
+    {
         en: 'Mitigation',
         es: 'Mitigación',
         fr: 'Atténuation',
@@ -44,10 +51,24 @@ remita al paciente según corresponda.</div>
 `,
     },
     {
+        code: '_risk_factors_button',
         en: 'Risk Factors',
         es: 'Factores De Riesgo',
         fr: `Facteurs de Risque`,
         zh: '风险因素',
+    },
+    {
+        en: 'Risk Factors',
+        es: 'Factores De Riesgo',
+        fr: `Facteurs de Risque`,
+        zh: '风险因素',
+    },
+    {
+        code: '_previous_eye_surgery_button',
+        en: 'Previous Eye|Surgery',
+        es: '',
+        fr: '',
+        zh: '',
     },
     {
         code: '_previous_eye_surgery_title',
@@ -71,6 +92,13 @@ remita al paciente según corresponda.</div>
         zh: '',
     },
     {
+        code: '_sleep_button',
+        en: 'Sleep',
+        es: 'Dormir',
+        fr: 'Sommeil',
+        zh: '睡眠',
+    },
+    {
         en: 'Sleep',
         es: 'Dormir',
         fr: 'Sommeil',
@@ -82,6 +110,13 @@ remita al paciente según corresponda.</div>
         es: 'Una mala calidad y cantidad de sueño, especialmente menos de 5 horas por noche, se asocia a un mayor riesgo de padecer la enfermedad del ojo seco. Fomente buenos hábitos de sueño para ayudar a reducir el riesgo de desarrollar síntomas de ojo seco.',
         fr: 'Une qualité et une quantité insuffisantes de sommeil, en particulier moins de 5 heures par nuit, sont associées à un risque accru de sécheresse oculaire. Encouragez de bonnes habitudes de sommeil pour aider à réduire le risque de symptômes de sécheresse oculaire.',
         zh: '睡眠质量差和睡眠时长不足（尤其是每晚睡眠时长低于5小时）与干眼症患病风险显著相关。建议养成良好的睡眠习惯，可有效预防干眼症发生。',
+    },
+    {
+        code: '_contact_lens_button',
+        en: 'Contact Lens',
+        es: 'Lentes De Contacto',
+        fr: `Lentilles de contact`,
+        zh: '隐形眼镜',
     },
     {
         en: 'Contact Lens',
@@ -97,6 +132,13 @@ remita al paciente según corresponda.</div>
         zh: '隐形眼镜可能会破坏泪膜，并存在与眼表产生摩擦的风险，因此应当谨慎调整戴镜方案，对于那些已患有眼表疾病的患者来说更是如此。',
     },
     {
+        code: '_digital_eye_strain_button',
+        en: 'Digital Eye Strain',
+        es: 'Fatiga Ocular',
+        fr: 'Fatigue visuelle',
+        zh: '眼疲劳',
+    },
+    {
         en: 'Digital Eye Strain',
         es: 'Fatiga Ocular',
         fr: 'Fatigue visuelle',
@@ -108,6 +150,13 @@ remita al paciente según corresponda.</div>
         es: 'La visualización prolongada de pantallas digitales, especialmente por más de 4-5 horas al día, puede agravar las enfermedades de la superficie ocular. Se puede reducir este impacto tomando descansos regulares, realizando ejercicios de parpadeo y colocando las pantallas a una altura inferior a la de los ojos.',
         fr: `L'utilisation d'écrans numériques peut exacerber les affections de surface oculaire, surtout quand elle a lieu plus de 4-5 heures par jour. Son impact peut être diminué en prenant des pauses régulières, en faisant des exercices de clignement des yeux et en positionnant les écrans plus bas que les yeux.`,
         zh: '观看电子屏幕会加重眼表疾病，尤其是每天观看时长超过4-5个小时。可以通过定期休息、进行眨眼练习以及将屏幕放置在低于眼睛的位置来减轻这种影响。',
+    },
+    {
+        code: '_environment_advice_button',
+        en: 'Environment Advice',
+        es: 'Ambiente',
+        fr: `Environnement`,
+        zh: '环境',
     },
     {
         en: 'Environment Advice',
@@ -130,6 +179,13 @@ remita al paciente según corresponda.</div>
         zh: '空调环境和多风天气等外部因素可能会导致干眼症；因此了解干眼症状最严重的时段有助于针对性地采取必要的应对措施。',
     },
     {
+        code: '_hormones_button',
+        en: 'Hormones',
+        es: 'Hormonas',
+        fr: `Hormones`,
+        zh: '激素',
+    },
+    {
         en: 'Hormones',
         es: 'Hormonas',
         fr: `Hormones`,
@@ -141,6 +197,13 @@ remita al paciente según corresponda.</div>
         es: 'Las hormonas regulan muchos procesos fisiológicos clave del organismo, y sus cambios pueden alterar el equilibrio de la película lagrimal. Por lo tanto, cuando ocurren cambios hormonales, puede ser necesario realizar una revisión médica.',
         fr: `Les hormones régulent de nombreux processus physiologiques du corps, de sorte que des changements peuvent perturber l'équilibre précis du film lacrymal. En présence de changements hormonaux, un examen médical peut être nécessaire.`,
         zh: '激素对许多关键的身体生理过程有调节作用，因此激素水平的变化会破坏泪膜的精确平衡。当激素发生变化时，可能需要进行医学检查。',
+    },
+    {
+        code: '_medication_review_button',
+        en: 'Medication Review',
+        es: 'Revisión De Medicamentos',
+        fr: `Médicaments`,
+        zh: '药物审查',
     },
     {
         en: 'Medication Review',
@@ -156,10 +219,24 @@ remita al paciente según corresponda.</div>
         zh: '无论是处方药还是非处方药，大多数药物都可能会影响泪膜。因此，与开具处方的临床医生一起进行药物审查，可能有助于减轻相关症状。',
     },
     {
+        code: '_triaging_button',
         en: 'Triaging',
         es: 'Triaje',
         fr: `Triage`,
         zh: '分诊',
+    },
+    {
+        en: 'Triaging',
+        es: 'Triaje',
+        fr: `Triage`,
+        zh: '分诊',
+    },
+    {
+        code: '_symptom_check_button',
+        en: 'Symptom Check',
+        es: 'Historia Y Síntomas',
+        fr: `Symptômes et histoire de cas`,
+        zh: '病史和症状',
     },
     {
         en: 'Symptom Check',
@@ -175,17 +252,24 @@ remita al paciente según corresponda.</div>
         zh: '病史采集：仔细的病史采集有助于识别干眼症状以及与干眼症发展相关的风险因素。识别可改变的风险因素尤为重要，因为通过简单的生活方式改变就可以帮助减轻或消除这些因素的影响，促进眼表健康。',
     },
     {
+        code: '_differential_diagnosis_button',
         en: 'Differential Diagnosis',
         es: 'Diagnóstico Diferencial',
         fr: `Diagnostic différentiel`,
-        zh: '鉴别诊断',
+        zh: '鉴别',
+    },
+    {
+        en: 'Differential Diagnosis',
+        es: 'Diagnóstico Diferencial',
+        fr: `Diagnostic différentiel`,
+        zh: '鉴别',
     },
     {
         code: '_differential_icon',
         en: 'Differential|Diagnosis',
         es: 'Diagnóstico|Diferencial',
         fr: 'Diagnostic|différentiel',
-        zh: '鉴别诊断',
+        zh: '鉴别',
     },
     {
         code: '_contact_lens_icon',
@@ -247,6 +331,13 @@ remita al paciente según corresponda.</div>
         code: `_differential_footer`,
         fr: `+ Diagnostic différentiel par examen oculaire antérieur détaillé quand indiqué par les réponses.`,
         zh: `+ 根据回答情况进行详细的前眼段检查以进行鉴别诊断。`,
+    },
+    {
+        code: '_prophylaxis_button',
+        en: 'Prophylaxis',
+        es: 'Profilaxis',
+        fr: `Prévention`,
+        zh: '预防',
     },
     {
         en: 'Prophylaxis',

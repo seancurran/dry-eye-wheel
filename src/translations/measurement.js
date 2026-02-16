@@ -1,6 +1,13 @@
 // eslint-disable no-irregular-whitespace
 export default [
     {
+        code: '_measurement_button',
+        en: 'Measurement',
+        es: 'Evaluación',
+        fr: `Évaluation`,
+        zh: '测量',
+    },
+    {
         en: 'Measurement',
         es: 'Evaluación',
         fr: `Évaluation`,
@@ -36,10 +43,24 @@ export default [
     },
     // Measurement -> Diagnosis.
     {
+        code: '_diagnosis_button',
         en: 'Diagnosis',
         es: 'Diagnóstico',
         fr: `Diagnostic`,
         zh: '诊断',
+    },
+    {
+        en: 'Diagnosis',
+        es: 'Diagnóstico',
+        fr: `Diagnostic`,
+        zh: '诊断',
+    },
+    {
+        code: '_comfort_time_after_blink_test_button',
+        en: 'Comfort Time After Blink Test',
+        es: 'Tiempo de Confort Tras La Prueba de Parpadeo',
+        fr: `Temps de confort après clignement des yeux`,
+        zh: '眨眼后舒适时间测试',
     },
     {
         code: '_comfort_time_after_blink_test_icon',
@@ -60,13 +81,20 @@ export default [
         en: '< 10s indicative of dry eye disease.',
         es: '< 10s es indicativo de la enfermedad del ojo seco.',
         fr: `< 10s est indicatif de la sécheresse oculaire.`,
-        zh: '若< 10s，则提示存在干眼症',
+        zh: '若< 10s, 则提示存在干眼症',
+    },
+    {
+        code: '_osdi_6_button',
+        en: 'OSDI-6',
+        es: 'Cuestionario Validado',
+        fr: `Questionnaire validé`,
+        zh: '有效问卷OSDI-6',
     },
     {
         en: 'OSDI-6',
         es: 'Cuestionario Validado',
         fr: `Questionnaire validé`,
-        zh: '验证问卷',
+        zh: '有效问卷OSDI-6',
     },
     {
         code: '_osdi_6_text',
@@ -83,9 +111,16 @@ export default [
 <div>D'autres questionnaires peuvent aider à orienter les choix de prise en charge, mais pas pour un diagnostic standardisé.</div>
 `,
         zh: `
-<div>OSDI评分 ≥ 13 或 DEQ-5评分 ≥ 6。</div>
-<div>其他问卷可以帮助选择治疗方案，但不适用于标准化诊断。</div>
+<div>OSDI-6得分≥ 4分,</div>
+<div>其他问卷可以辅助选择管理方案，但不能用于标准化诊断。</div>
 `,
+    },
+    {
+        code: '_fluorescein_staining_button',
+        en: 'Fluorescein Staining',
+        es: 'Tinción Con Fluoresceína',
+        fr: `Coloration à la fluorescéine`,
+        zh: '荧光素染色',
     },
     {
         code: '_fluorescein_staining_icon',
@@ -111,6 +146,13 @@ export default [
 <div>在眼部滴入少量荧光素；在滴入后1-3分钟内进行观察。</div>
 <div>角膜染色点 &gt; 5个即可诊断为干眼症。</div>
 `,
+    },
+    {
+        code: '_non_invasive_breakup_time_button',
+        en: 'Non-Invasive Breakup Time',
+        es: 'But No Invasivo',
+        fr: `Temps de rupture non invasif (NIBUT)`,
+        zh: '非侵入性泪膜破裂时间',
     },
     {
         code: '_non_invasive_breakup_time_icon',
@@ -142,6 +184,13 @@ export default [
 `,
     },
     {
+        code: '_osmolarity_button',
+        en: 'Osmolarity',
+        es: 'Osmolaridad',
+        fr: `Osmolarité`,
+        zh: '渗透压',
+    },
+    {
         en: 'Osmolarity',
         es: 'Osmolaridad',
         fr: `Osmolarité`,
@@ -168,6 +217,13 @@ export default [
 <div>提取少量泪膜样本，通过阻抗测定来评估泪膜的渗透压（盐度）。</div>
 <div>渗透压 ≥ 308 mOsm/L或双眼差值 > 8即可诊断为干眼症。</div>
 `,
+    },
+    {
+        code: '_lissamine_green_staining_button',
+        en: 'Lissamine Green Staining',
+        es: 'Tinción Con Lisamina Verde',
+        fr: `Coloration au vert de lissamine`,
+        zh: '绿色利萨明染色',
     },
     {
         code: '_lissamine_green_staining_icon',
@@ -212,6 +268,13 @@ export default [
     },
     // Measurement -> Sub-classification.
     {
+        code: '_sub_typing_button',
+        en: 'Sub-Typing',
+        es: 'Sub-Calsificación',
+        fr: `Sous-classification`,
+        zh: '亚分类',
+    },
+    {
         en: 'Sub-Typing',
         es: 'Sub-Calsificación',
         fr: `Sous-classification`,
@@ -230,21 +293,28 @@ export default [
         en: 'Blink Completeness and Lid Closure; Redness',
         es: 'Frecuencia De Parpadeo Completo',
         fr: `Fréquence et Complétude des Clignements`,
-        zh: '眨眼频率和完整性',
+        zh: '眨眼完整性及眼睑闭合：眼表充血',
     },
     {
         code: '_blink_rate_and_completeness_icon',
         en: 'Blink|Completeness|and Lid Closure;|Redness',
         es: 'Frecuencia De|Parpadeo Completo',
         fr: `Fréquence et|complétude des|clignements`,
-        zh: '眨眼频率和完整性',
+        zh: '眨眼完整性及眼睑闭合：眼表充血',
     },
     {
         code: '_blink_rate_and_completeness_text',
         en: 'Reduced blink rate or incomplete blinking can cause evaporative dry eye disease.',
         es: 'La reducción de la frecuencia de parpadeo o el parpadeo incompleto pueden causar la enfermedad evaporativa del ojo seco.',
         fr: `Une fréquence réduite de clignement ou des clignements incomplets peuvent entraîner une sécheresse oculaire évaporative.`,
-        zh: '眨眼频率降低或眨眼不完全可能导致蒸发过强型干眼症。',
+        zh: '眨眼频率降低或眨眼不完全可能会引发蒸发过强型干眼症。',
+    },
+    {
+        code: '_aqueous_tear_meniscus_height_button',
+        en: 'Aqueous Tear Meniscus Height',
+        es: 'Altura Del Menisco Lagrimal',
+        fr: `Hauteur du ménisque lacrymal`,
+        zh: '泪河高度',
     },
     {
         code: '_aqueous_tear_meniscus_height_icon',
@@ -269,8 +339,8 @@ export default [
 <div>Une irrégularité suggère une mauvaise qualité du film lacrymal.</div>
 `,
         zh: `
-<div>&lt; 0.2毫米提示存在水液缺乏型干眼症。</div>
-<div>不规则性提示泪膜质量差。</div>
+<div>若< 0.2mm，则提示存在泪液缺乏型干眼症。</div>
+<div>泪河高度不规则表明泪膜质量不佳。</div>
 `,
     },
     {
@@ -278,77 +348,105 @@ export default [
         en: 'Meibomian Gland Expression',
         es: '',
         fr: '',
-        zh: '',
+        zh: '眼睑：睑板腺挤压',
+    },
+    {
+        code: '_eyelids_meibomian_gland_expression_title',
+        en: 'Eyelids: Meibomian|Gland Expression',
+        es: '',
+        fr: '',
+        zh: '眼睑：睑板腺挤压',
     },
     {
         code: '_eyelids_meibomian_gland_expression_icon',
         en: 'Eyelids: Meibomian|Gland Expression',
         es: 'Expresión De|Las Glándulas|De Meibomio',
         fr: `Expression des|glandes de|Meibomius`,
-        zh: '睑板腺分泌物表达',
+        zh: '眼睑：睑板腺挤压',
     },
     {
         code: '_eyelids_meibomian_gland_expression_text',
         en: 'Cloudy, thickened, or no expression on pressure to the lid margin may be indicative of evaporative dry eye disease.',
         es: 'La expresión turbia, engrosada o inexistente al presionar el borde del párpado puede ser indicativa de enfermedad evaporativa del ojo seco.',
         fr: `Une expression trouble, épaissie ou absente lors de la pression sur le bord palpébral peut indiquer une sécheresse oculaire évaporative.`,
-        zh: '压迫睑缘时出现浑浊、增稠或无分泌物表达可能提示存在蒸发过强型干眼症。',
+        zh: '对睑缘施加压力时，出现分泌物混浊、变稠，或者没有分泌物挤出，都可能提示存在蒸发过强型干眼症。',
+    },
+    {
+        code: '_meibography_and_interferometry_button',
+        en: 'Meibography and Interferometry',
+        es: 'Miebografía',
+        fr: `Meibographie`,
+        zh: '睑板腺成像术 及 脂质层干涉成像术',
     },
     {
         code: '_meibography_and_interferometry_icon',
         en: 'Meibography and|Interferometry',
         es: 'Miebografía',
         fr: `Meibographie`,
-        zh: '睑板腺造影',
+        zh: '睑板腺成像术 及 脂质层干涉成像术',
     },
     {
         code: '_meibography_and_interferometry_text',
         en: 'Shortened glands / dropout on transillumination or IR imaging of everted lids may be indicative of evaporative dry eye disease.',
         es: 'Las glándulas acortadas / disminuidas en las imágenes de transiluminación o infrarrojas de los párpados evertidos, pueden ser indicativas de ojo seco evaporativo',
         fr: `L'observation de glandes raccourcies ou atrophiées lors de la transillumination ou de l'imagerie infrarouge des paupières retournées peut indiquer une sécheresse oculaire évaporative.`,
-        zh: '翻转眼睑进行透照或红外成像时发现腺体缩短/缺失可能提示存在蒸发过强型干眼症。',
+        zh: '翻转眼睑进行透照检查或红外成像检查时，若发现腺体缩短或缺失，可能提示存在蒸发过强型干眼症。',
+    },
+    {
+        code: '_ocular_surface_misalignment_button',
+        en: 'Ocular Surface Misalignment',
+        es: '',
+        fr: '',
+        zh: '眼表对位不良',
     },
     {
         code: '_ocular_surface_misalignment_title',
         en: 'Ocular Surface|Misalignment',
         es: '',
         fr: '',
-        zh: '',
+        zh: '眼表对位不良',
     },
     {
         code: '_ocular_surface_misalignment_icon',
         en: 'Ocular Surface|Misalignment',
         es: '',
         fr: '',
-        zh: '',
+        zh: '眼表对位不良',
     },
     {
         code: '_ocular_surface_misalignment_text',
         en: 'Altered alignment between the globe and inner eyelid surfaces due to pterygium, for example, impairs tear film distribution across the ocular surface, resulting in tear film instability.',
         es: '',
         fr: '',
-        zh: '',
+        zh: '由于翼状胬肉破坏了眼球与眼睑内表面的正常贴合关系，例如损害了泪膜在眼表的分布，从而导致泪膜不稳定',
+    },
+    {
+        code: '_eyelids_anterior_blepharitis_exam_button',
+        en: 'Eyelids: Anterior Blepharitis Exam',
+        es: '',
+        fr: '',
+        zh: '眼睑：前部睑缘炎检查',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_title',
         en: 'Eyelids: Anterior|Blepharitis Exam',
         es: '',
         fr: '',
-        zh: '',
+        zh: '眼睑：|前部睑缘炎检查',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_icon',
         en: 'Eyelids: Anterior|Blepharitis Exam',
         es: '',
         fr: '',
-        zh: '',
+        zh: '眼睑：|前部睑缘炎检查',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_text',
         en: 'Checking the eyelashes under magnification during downgaze for the presence of flakes or collarettes may reveal a high microbial load.',
         es: '',
         fr: '',
-        zh: '',
+        zh: '通过让患者向下看，借助裂隙灯检查其睫毛根部是否存在鳞屑或袖套样结痂，这一体征可能表明患者眼睑存在大量的微生物定植',
     },
 
     // The Wheel.
