@@ -283,24 +283,24 @@ export default [
     // There are two versions (one with ampersand) used in the English version.
     {
         code: '_blink_rate_and_completeness_button',
-        en: 'Lid Function; Redness',
-        es: '',
-        fr: '',
-        zh: '',
-    },
-    {
-        code: '_blink_rate_and_completeness_title',
         en: 'Blink Completeness and Lid Closure; Redness',
         es: 'Frecuencia De Parpadeo Completo',
         fr: `Fréquence et Complétude des Clignements`,
         zh: '眨眼完整性及眼睑闭合：眼表充血',
     },
     {
+        code: '_blink_rate_and_completeness_title',
+        en: 'Blink Completeness and Lid Closure; Redness',
+        es: 'Frecuencia De Parpadeo Completo',
+        fr: `Fréquence et Complétude des Clignements`,
+        zh: '眨眼完整性及眼睑闭合：|眼表充血',
+    },
+    {
         code: '_blink_rate_and_completeness_icon',
         en: 'Blink|Completeness|and Lid Closure;|Redness',
         es: 'Frecuencia De|Parpadeo Completo',
         fr: `Fréquence et|complétude des|clignements`,
-        zh: '眨眼完整性及眼睑闭合：眼表充血',
+        zh: '眨眼完整性及眼睑闭合：|眼表充血',
     },
     {
         code: '_blink_rate_and_completeness_text',
