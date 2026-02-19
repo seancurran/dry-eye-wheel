@@ -284,7 +284,7 @@ remita al paciente según corresponda.</div>
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_text',
-        en: 'Restores the homeostasis of the ocular surface, even in the absence of symptoms, to mitigate future symptom development',
+        en: 'Restores the homeostasis of the ocular surface, even in the absence of symptoms, to mitigate future symptom development.',
         es: '',
         fr: '',
         zh: '',
