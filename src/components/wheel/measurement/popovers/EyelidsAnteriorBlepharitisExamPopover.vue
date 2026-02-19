@@ -5,7 +5,7 @@ import EyelidsAnteriorBlepharitisExamIcon from '@/components/wheel/measurement/a
 
 <template>
     <PopoverCard
-        :title="$t('Eyelids: Anterior Blepharitis Exam')"
+        :title="$t('_eyelids_anterior_blepharitis_exam_button')"
         class="absolute left-1/2 top-[110px] z-10 col-span-5 ml-[-360px] max-w-lg">
         <template #icon>
             <EyelidsAnteriorBlepharitisExamIcon class="!-mb-8 !-mt-10 !h-40" />

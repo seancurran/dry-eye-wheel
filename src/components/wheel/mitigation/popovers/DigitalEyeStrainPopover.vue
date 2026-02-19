@@ -5,7 +5,7 @@ import DigitalEyeStrainIcon from '@/components/wheel/mitigation/animated-icons/D
 
 <template>
     <PopoverCard
-        :title="$t('Digital Eye Strain')"
+        :title="$t('_digital_eye_strain_button')"
         class="absolute left-1/2 top-[240px] z-10 col-span-5 ml-[-224px] max-w-lg">
         <template #icon>
             <DigitalEyeStrainIcon class="!-mb-8 !-mt-10 !h-40" />

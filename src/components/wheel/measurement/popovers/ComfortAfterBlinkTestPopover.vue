@@ -5,7 +5,7 @@ import ComfortAfterBlinkTestIcon from '@/components/wheel/measurement/animated-i
 
 <template>
     <PopoverCard
-        :title="$t('Comfort Time After Blink Test')"
+        :title="$t('_comfort_time_after_blink_test_button')"
         class="absolute left-1/2 top-[160px] z-10 col-span-5 ml-[-224px] max-w-lg">
         <template #icon>
             <ComfortAfterBlinkTestIcon class="!-mb-8 !-mt-10 !h-40" />

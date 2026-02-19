@@ -5,7 +5,7 @@ import MedicationReviewIcon from '@/components/wheel/mitigation/animated-icons/M
 
 <template>
     <PopoverCard
-        :title="$t('Medication Review')"
+        :title="$t('_medication_review_button')"
         class="absolute left-1/2 top-[390px] z-10 col-span-5 ml-[-224px] max-w-lg">
         <template #icon>
             <MedicationReviewIcon class="!-mb-8 !-mt-10 !h-40" />

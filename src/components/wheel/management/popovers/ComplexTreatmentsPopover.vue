@@ -5,7 +5,7 @@ import ComplexTreatmentsIcon from '@/components/wheel/management/animated-icons/
 
 <template>
     <PopoverCard
-        :title="$t('Complex Treatments')"
+        :title="$t('_complex_treatments_button')"
         class="absolute left-1/2 top-[180px] z-10 col-span-5 ml-[-260px] max-w-xl">
         <template #icon>
             <ComplexTreatmentsIcon class="!-mb-8 !-mt-10 !h-40" />

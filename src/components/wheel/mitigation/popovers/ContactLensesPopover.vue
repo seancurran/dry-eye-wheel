@@ -5,7 +5,7 @@ import ContactLensIcon from '@/components/wheel/mitigation/animated-icons/Contac
 
 <template>
     <PopoverCard
-        :title="$t('Contact Lens')"
+        :title="$t('_contact_lens_button')"
         class="absolute left-1/2 top-[280px] z-10 col-span-5 ml-[-224px] max-w-lg">
         <template #icon>
             <ContactLensIcon class="!-mb-8 !-mt-10 !h-40" />

@@ -1,6 +1,13 @@
 // eslint-disable no-irregular-whitespace
 export default [
     {
+        code: '_management_button',
+        en: 'Management',
+        es: 'Tratamiento',
+        fr: `Prise en Charge`,
+        zh: '管理',
+    },
+    {
         en: 'Management',
         es: 'Tratamiento',
         fr: `Prise en Charge`,
@@ -20,6 +27,13 @@ export default [
         zh: '轻度',
     },
     {
+        code: '_artificial_tears_button',
+        en: 'Artificial Tears',
+        es: 'Lágrimas Artificiales',
+        fr: `Larmes artificielles`,
+        zh: '人工泪液',
+    },
+    {
         code: '_artificial_tears_icon',
         en: 'Artificial|Tears',
         es: 'Lágrimas|Artificiales',
@@ -34,6 +48,13 @@ export default [
         zh: '眼部润滑剂仍然是干眼症治疗的主要手段。目前有许多不同的配方，包括有助于稳定泪膜的脂质类滴眼液，以及多种不含防腐剂的产品，这些产品适用于病情更为严重的干眼症患者。',
     },
     {
+        code: '_advice_button',
+        en: 'Advice',
+        es: 'Consejos',
+        fr: `Conseils`,
+        zh: '建议',
+    },
+    {
         en: 'Advice',
         es: 'Consejos',
         fr: `Conseils`,
@@ -45,6 +66,13 @@ export default [
         es: 'Es importante discutir con los pacientes que la enfermedad del ojo seco requiere un compromiso a largo plazo y continuo con el tratamiento y rara vez se cura, sino que se maneja utilizando una variedad de enfoques, siendo importante un seguimiento cuidadoso con su profesional.',
         fr: `Il est important de discuter avec les patients du fait que la sécheresse oculaire nécessite un engagement à long terme dans la prise en charge et est rarement guérie, mais plutôt gérée à l'aide de diverses approches, un suivi attentif avec leur praticien étant important.`,
         zh: '与患者沟通时务必要使其知晓以下几点：干眼症需要长期、持续地进行治疗，很少能被彻底治愈，而是要采用多种方法来进行管理，认真配合医生的随访也十分重要。',
+    },
+    {
+        code: '_blink_exercises_button',
+        en: 'Blink Exercises',
+        es: 'Ejercicios De Parpadeo',
+        fr: `Exercices de clignement`,
+        zh: '眨眼练习',
     },
     {
         code: '_blink_exercises_icon',
@@ -61,6 +89,13 @@ export default [
         zh: '在使用数字设备时眨眼次数减少可导致干眼症。可以通过以下方式缓解这些问题：训练患者如何充分眨眼，在近距离工作时定时休息，并使用各种方法提醒他们定期眨眼。',
     },
     {
+        code: '_diet_and_dietary_supplements_button',
+        en: 'Diet and Dietary Supplements',
+        es: 'Dieta Y Suplementos Dietéticos',
+        fr: `Régime et compléments alimentaires`,
+        zh: '饮食与膳食补充剂',
+    },
+    {
         code: '_diet_and_dietary_supplements_icon',
         en: 'Diet And Dietary|Supplements',
         es: 'Dieta Y Suplementos|Dietéticos',
@@ -75,6 +110,13 @@ export default [
         zh: '健康的饮食（尤其是地中海饮食）搭配富含欧米伽-3等成分的膳食补充剂，有助于保护眼表。',
     },
     {
+        code: '_warm_compress_button',
+        en: 'Warm Compress',
+        es: 'Compresas Calientes',
+        fr: `Compresses chaudes`,
+        zh: '热敷',
+    },
+    {
         code: '_warm_compress_icon',
         en: 'Warm|Compress',
         es: 'Compresas|Calientes',
@@ -87,6 +129,13 @@ export default [
         es: 'El calor puede aplicarse externamente a los párpados con la ayuda de una amplia gama de compresas calientes, que pueden contener semillas o cuentas de vidrio calentadas en microondas, o mediante la aplicación de calor húmedo latente a través de gafas protectoras.',
         fr: `La chaleur peut être appliquée de l'extérieur sur les paupières à l'aide d'une large gamme de compresses chaudes, qui peuvent contenir des graines ou des billes de verre chauffées au micro-ondes, ou par application de chaleur humide latente délivrée via des lunettes.`,
         zh: '可以通过多种热敷方法对眼睑进行外部热敷，例如使用微波加热的种子或玻璃珠制成的热敷包，或者也可以通过专用护目镜进行持续湿热敷。',
+    },
+    {
+        code: '_lid_hygiene_button',
+        en: 'Lid Hygiene',
+        es: 'Higiene Palpebral',
+        fr: `Hygiène des paupières`,
+        zh: '睑缘清洁',
     },
     {
         code: '_lid_hygiene_icon',
@@ -110,24 +159,31 @@ export default [
     },
     {
         code: '_in_office_light_heat_based_devices_button',
-        en: 'Light/Heat-Based Devices ',
+        en: 'In-Office Light/Heat|Based Devices',
         es: '',
         fr: '',
-        zh: '',
+        zh: '综合治疗',
     },
     {
         code: '_in_office_light_heat_based_devices_icon',
         en: 'In-Office Light/Heat|Based Devices',
         es: 'Tratamientos|En Consultorio',
         fr: `Traitements|en cabinet`,
-        zh: '门诊治疗',
+        zh: '综合治疗',
     },
     {
         code: '_in_office_light_heat_based_devices_text',
-        en: 'These include debridement, therapeutic expression, lid warming and massage therapies, intense pulsed light therapy and photobiomodulation.',
+        en: 'Complex treatments such as serum drops/amniotic membranes',
         es: 'Estos incluyen desbridamiento, expresión terapéutica, terapias de calentamiento y masaje de párpados, terapia de luz pulsada intensa y fotobiomodulación.',
         fr: `Ceux-ci comprennent le débridement, l'expression thérapeutique, les thérapies de réchauffement et de massage des paupières, la thérapie par lumière pulsée intense et la photobiomodulation.`,
-        zh: '这些治疗方法包括清创术、治疗性挤压术、眼睑加热及按摩疗法、强脉冲光疗法以及光生物调节疗法。',
+        zh: '血清滴眼液/羊膜等综合治疗。',
+    },
+    {
+        code: '_pharmaceuticals_button',
+        en: 'Pharmaceuticals',
+        es: 'Fármacos',
+        fr: `Médicaments`,
+        zh: '药物',
     },
     {
         en: 'Pharmaceuticals',
@@ -141,6 +197,13 @@ export default [
         es: 'Actualmente hay disponibles varios agentes farmacéuticos de prescripción, tanto orales como tópicos, para el tratamiento de las formas más graves de ojo seco.',
         fr: `Un certain nombre de médicaments sur ordonnance, oraux et topiques, sont maintenant disponibles pour la prise en charge des formes plus sévères de sécheresse oculaire.`,
         zh: '目前有多种口服和局部使用的处方药剂可用于治疗更严重类型的干眼症。',
+    },
+    {
+        code: '_scleral_lenses_button',
+        en: 'Scleral Lenses',
+        es: 'Lentes Esclerales',
+        fr: `Lentilles sclérales`,
+        zh: '巩膜接触镜',
     },
     {
         code: '_scleral_lenses_icon',
@@ -163,6 +226,13 @@ export default [
         zh: '重度',
     },
     {
+        code: '_surgical_approaches_button',
+        en: 'Surgical Approaches',
+        es: 'Tapones Punctales',
+        fr: `Bouchons méatiques`,
+        zh: '泪小点栓塞术',
+    },
+    {
         code: '_surgical_approaches_icon',
         en: 'Surgical|Approaches',
         es: 'Tapones|Punctales',
@@ -175,6 +245,13 @@ export default [
         es: 'Los tapones punctales pueden usarse para bloquear temporal o permanentemente el drenaje de lágrimas de la superficie ocular mediante la oclusión de los puntos lagrimales.',
         fr: `Les bouchons méatiques peuvent être utilisés pour bloquer temporairement ou définitivement le drainage des larmes de la surface oculaire en obstruant les points lacrymaux.`,
         zh: '泪小点栓塞术可通过阻塞泪小点，暂时性或永久性地阻止泪液从眼表排出。',
+    },
+    {
+        code: '_complex_treatments_button',
+        en: 'Complex Treatments',
+        es: 'Tratamientos Complejos',
+        fr: `Traitements complexes`,
+        zh: '综合治疗',
     },
     {
         code: '_complex_treatments_icon',
