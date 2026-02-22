@@ -11,7 +11,10 @@ export default {
             { code: 'es', name: 'español' },
             { code: 'fr', name: 'Français' },
             { code: 'zh', name: '中文' },
+            { code: 'ar', name: 'عربي' },
         ];
+
+        const rtlLanguages = ['ar'];
 
         const languageKeys = languages.map((l) => l.code);
 
@@ -46,6 +49,8 @@ export default {
             }
 
             state.selectedLanguage = languageCode;
+            document.documentElement.lang = languageCode;
+            document.documentElement.dir = rtlLanguages.includes(languageCode) ? 'rtl' : 'ltr';
         };
     },
 };

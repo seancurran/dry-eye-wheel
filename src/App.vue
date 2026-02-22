@@ -11,7 +11,7 @@ import GradientButton from '@/components/GradientButton.vue';
     <div class="p-6">
         <div class="flex h-[800px]">
             <!-- Vetical Slider/Menu Area -->
-            <div class="flex h-[700px] w-96">
+            <div class="flex h-[700px] w-96 rtl:mr-28">
                 <VerticalSlider />
                 <MainNavigation />
             </div>
@@ -54,7 +54,7 @@ import GradientButton from '@/components/GradientButton.vue';
         </div>
 
         <!-- Footer -->
-        <div class="mt-5 text-center text-sm text-gray-600">
+        <div class="mt-5 text-center text-xs text-gray-600">
             <p>Spanish Translation provided by: Colegio Federación Colombiana de Optómetras - Fedopto</p>
             <p>French translation provided by: Association des Optométristes de France (AOF)</p>
             <p>Chinese translation provided by: Alcon Professional Education Team, China</p>
