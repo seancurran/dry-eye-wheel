@@ -31,7 +31,7 @@ const controlsStore = useControlsStore();
                 v-for="(line, index) in $t('_in_office_light_heat_based_devices_icon').split('|')"
                 :key="index"
                 x="340  "
-                :dy="index === 0 ? 0 : 12"
+                :dy="index === 0 ? 0 : '1.2em'"
                 :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
                 {{ line }}
             </tspan>

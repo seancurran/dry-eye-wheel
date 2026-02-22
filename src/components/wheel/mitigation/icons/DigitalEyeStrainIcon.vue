@@ -43,7 +43,7 @@ const controlsStore = useControlsStore();
                 v-for="(line, index) in $t('_eye_strain_icon').split('|')"
                 :key="index"
                 x="126"
-                :dy="index === 0 ? 0 : 12"
+                :dy="index === 0 ? 0 : '1.2em'"
                 :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
                 {{ line }}
             </tspan>

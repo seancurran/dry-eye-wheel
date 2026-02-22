@@ -424,7 +424,7 @@ export default [
         en: 'Meibography and|Interferometry',
         es: 'Miebografía',
         fr: `Meibographie`,
-        zh: '睑板腺成像术 及 脂质层干涉成像术',
+        zh: '睑板腺成像术 及|脂质层干涉成像术',
         ar: '',
     },
     {

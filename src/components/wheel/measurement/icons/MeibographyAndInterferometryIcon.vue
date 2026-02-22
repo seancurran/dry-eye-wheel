@@ -35,9 +35,9 @@ const controlsStore = useControlsStore();
                 v-for="(line, index) in $t('_meibography_and_interferometry_icon').split('|')"
                 :key="index"
                 x="368"
-                :dy="index === 0 ? 0 : 12"
+                :dy="index === 0 ? 0 : '1.2em'"
                 :style="
-                    $selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : 'font-size: 9px !important;'
+                    $selectedLanguage.value === 'zh' ? 'font-size: 11px !important;' : 'font-size: 9px !important;'
                 ">
                 {{ line }}
             </tspan>

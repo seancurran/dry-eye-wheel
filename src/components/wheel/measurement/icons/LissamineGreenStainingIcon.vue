@@ -52,7 +52,7 @@ const controlsStore = useControlsStore();
                 v-for="(line, index) in $t('_lissamine_green_staining_icon').split('|')"
                 :key="index"
                 x="476"
-                :dy="index === 0 ? 0 : 12"
+                :dy="index === 0 ? 0 : '1.2em'"
                 :style="$selectedLanguage.value === 'en' ? '' : 'font-size: 8px !important'">
                 {{ line }}
             </tspan>
