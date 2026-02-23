@@ -403,7 +403,7 @@ export default [
         code: '_ocular_surface_misalignment_title',
         en: 'Ocular Surface|Misalignment',
         es: '',
-        fr: 'Mésalignement de la surface oculaire',
+        fr: 'Mésalignement de la|surface oculaire',
         zh: '眼表对位不良',
     },
     {

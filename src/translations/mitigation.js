@@ -370,7 +370,7 @@ remita al paciente según corresponda.</div>
         code: '_proactive_management_of_ocular_surface_disease_icon',
         en: 'Proactive Management|of Ocular Surface|Disease',
         es: '',
-        fr: `Prise en charge proactive de l'atteinte de la surface oculaire`,
+        fr: `Prise en charge proactive|de l'atteinte de la|surface oculaire`,
         zh: '',
     },
     {
@@ -398,7 +398,7 @@ remita al paciente según corresponda.</div>
         code: '_corneal_sensitivity_assessment_icon',
         en: 'Corneal Sensitivity|Assessment',
         es: '',
-        fr: 'Évaluation de la sensibilité cornéene',
+        fr: 'Évaluation de la|sensibilité cornéene',
         zh: '',
     },
     {
