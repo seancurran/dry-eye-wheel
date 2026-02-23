@@ -479,7 +479,7 @@ export default [
         code: '_eyelids_anterior_blepharitis_exam_title',
         en: 'Eyelids: Anterior|Blepharitis Exam',
         es: '',
-        fr: 'Examen Des Paupières : Blépharite Antérieure',
+        fr: 'Examen Des Paupières :|Blépharite Antérieure',
         zh: '眼睑：|前部睑缘炎检查',
         ar: '',
     },
