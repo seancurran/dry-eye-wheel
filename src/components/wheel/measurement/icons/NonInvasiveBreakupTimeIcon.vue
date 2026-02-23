@@ -23,7 +23,7 @@ const controlsStore = useControlsStore();
                 v-for="(line, index) in $t('_non_invasive_breakup_time_icon').split('|')"
                 :key="index"
                 x="584"
-                :dy="index === 0 ? 0 : 12"
+                :dy="index === 0 ? 0 : '1.2em'"
                 :style="$selectedLanguage.value === 'fr' ? 'font-size: 8px !important' : ''">
                 {{ line }}
             </tspan>

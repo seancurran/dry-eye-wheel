@@ -25,7 +25,7 @@ const controlsStore = useControlsStore();
                 v-for="(line, index) in $t('_surgical_approaches_icon').split('|')"
                 :key="index"
                 x="460"
-                :dy="index === 0 ? 0 : 12"
+                :dy="index === 0 ? 0 : '1.2em'"
                 :style="$selectedLanguage.value === 'zh' ? 'font-size: 11px !important;' : ''">
                 {{ line }}
             </tspan>

@@ -61,8 +61,8 @@ const controlsStore = useControlsStore();
                 v-for="(line, index) in $t('_fluorescein_staining_icon').split('|')"
                 :key="index"
                 x="546"
-                :dy="index === 0 ? 0 : 12"
-                :style="$selectedLanguage.value === 'en' ? '' : 'font-size: 8px !important;'">
+                :dy="index === 0 ? 0 : '1.2em'"
+                :style="$selectedLanguage.value === 'en' ? '' : $selectedLanguage.value === 'zh' ? 'font-size: 12px !important;' : 'font-size: 8px !important;'">
                 {{ line }}
             </tspan>
         </text>
