@@ -30,7 +30,7 @@ const controlsStore = useControlsStore();
 
         <!-- Key Area -->
         <div
-            class="w-54 absolute bottom-0 right-0 flex flex-col gap-2 border-4 border-[#E5E6E7] p-3 font-euclid-circular-medium text-sm">
+            class="w-54 absolute bottom-0 end-0 flex flex-col gap-2 border-4 border-[#E5E6E7] p-3 font-euclid-circular-medium text-sm">
             <div class="flex gap-2">
                 <div class="items-center justify-center">
                     <img
@@ -158,4 +158,5 @@ const controlsStore = useControlsStore();
         top: 45px;
     }
 }
+
 </style>

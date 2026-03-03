@@ -57,7 +57,7 @@ import GradientBorderBox from '@/components/GradientBorderBox.vue';
             <div v-html="$t('_measurement_header')" />
             <GradientBorderBox>
                 <ul
-                    class="mx-1 list-inside list-disc text-left text-xs"
+                    class="mx-1 list-inside list-disc text-start text-xs"
                     v-html="$t('_measurement_list')" />
             </GradientBorderBox>
             <div v-html="$t('_measurement_text_1')" />

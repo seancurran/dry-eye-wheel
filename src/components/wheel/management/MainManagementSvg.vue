@@ -146,7 +146,7 @@ import ManagementTextZh from '@/assets/svg/zh/management.svg';
             x="-230"
             y="590"
             text-anchor="middle"
-            style="rotate: -38deg; font-family: 'EuclidCircularA-Bold', sans-serif; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; fill: #fff;">
+            :style="{ rotate: '-38deg', fontFamily: '\'EuclidCircularA-Bold\', sans-serif', fontSize: $selectedLanguage.value === 'ar' ? '15px' : '12px', letterSpacing: '1.5px', textTransform: 'uppercase', fill: '#fff' }">
             {{ $t('Mild') }}
         </text>
 
@@ -155,7 +155,7 @@ import ManagementTextZh from '@/assets/svg/zh/management.svg';
             x="-68"
             y="593"
             text-anchor="middle"
-            style="rotate: -37deg; font-family: 'EuclidCircularA-Bold', sans-serif; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; fill: #fff;">
+            :style="{ rotate: '-37deg', fontFamily: '\'EuclidCircularA-Bold\', sans-serif', fontSize: $selectedLanguage.value === 'ar' ? '15px' : '12px', letterSpacing: '1.5px', textTransform: 'uppercase', fill: '#fff' }">
             {{ $t('Moderate') }}
         </text>
 
@@ -164,7 +164,7 @@ import ManagementTextZh from '@/assets/svg/zh/management.svg';
             x="70"
             y="596"
             text-anchor="middle"
-            style="rotate: -35deg; font-family: 'EuclidCircularA-Bold', sans-serif; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; fill: #fff;">
+            :style="{ rotate: '-35deg', fontFamily: '\'EuclidCircularA-Bold\', sans-serif', fontSize: $selectedLanguage.value === 'ar' ? '15px' : '12px', letterSpacing: '1.5px', textTransform: 'uppercase', fill: '#fff' }">
             {{ $t('Severe') }}
         </text>
 

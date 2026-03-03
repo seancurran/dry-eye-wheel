@@ -74,7 +74,7 @@ import GradientBorderBox from '@/components/GradientBorderBox.vue';
             <div v-html="$t('_differential_header')" />
             <GradientBorderBox>
                 <ul
-                    class="mx-1 list-inside list-disc text-left text-xs"
+                    class="mx-1 list-inside list-disc text-start text-xs"
                     v-html="$t('_differential_list')" />
                 <div
                     class="text-xs font-bold text-[#2B398F]"
