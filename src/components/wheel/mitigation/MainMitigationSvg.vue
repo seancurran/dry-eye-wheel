@@ -15,6 +15,7 @@ import CornealSensitivityAssessmentIcon from '@/components/wheel/mitigation/icon
 
 import MitigationTextFr from '@/assets/svg/fr/mitigation-text.svg';
 import MitigationTextZh from '@/assets/svg/zh/mitigation-text.svg';
+import MitigationTextAr from '@/assets/svg/ar/mitigation-text.svg';
 
 const controlsStore = useControlsStore();
 </script>
@@ -461,6 +462,11 @@ const controlsStore = useControlsStore();
             v-else-if="$selectedLanguage.value === 'zh'"
             style="transform: translate(22px, 118px)">
             <MitigationTextZh :viewBox="null" />
+        </g>
+        <g
+            v-else-if="$selectedLanguage.value === 'ar'"
+            style="transform: translate(-5px, 58px) rotate(-6deg)">
+            <MitigationTextAr :viewBox="null" />
         </g>
 
         <!-- Risk Factors text -->

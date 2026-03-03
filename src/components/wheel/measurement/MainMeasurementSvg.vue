@@ -15,6 +15,7 @@ import EyelidsAnteriorBlepharitisExamIcon from '@/components/wheel/measurement/i
 
 import MeasurementTextFr from '@/assets/svg/fr/measurement-text.svg';
 import MeasurementTextZh from '@/assets/svg/zh/measurement-text.svg';
+import MeasurementTextAr from '@/assets/svg/ar/measurement-text.svg';
 
 const controlsStore = useControlsStore();
 </script>
@@ -442,6 +443,11 @@ const controlsStore = useControlsStore();
             v-else-if="$selectedLanguage.value === 'zh'"
             style="transform: translate(770px, 125px)">
             <MeasurementTextZh :viewBox="null" />
+        </g>
+        <g
+            v-else-if="$selectedLanguage.value === 'ar'"
+            style="transform: translate(740px, 95px) rotate(-5deg)">
+            <MeasurementTextAr :viewBox="null" />
         </g>
     </svg>
 </template>

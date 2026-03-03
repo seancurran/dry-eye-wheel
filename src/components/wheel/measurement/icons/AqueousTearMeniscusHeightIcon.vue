@@ -60,12 +60,12 @@ const controlsStore = useControlsStore();
         </g>
         <!-- Use _aqueous_tear_meniscus_height_icon translation with | as line break delimiter -->
         <text
-            x="650"
+            :x="$selectedLanguage.value === 'ar' ? 710 : 650"
             y="358">
             <tspan
                 v-for="(line, index) in $t('_aqueous_tear_meniscus_height_icon').split('|')"
                 :key="index"
-                x="650"
+                :x="$selectedLanguage.value === 'ar' ? 710 : 650"
                 :dy="index === 0 ? 0 : '1.2em'"
                 :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
                 {{ line }}

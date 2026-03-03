@@ -14,6 +14,7 @@ import WarmCompressIcon from '@/components/wheel/management/icons/WarmCompressIc
 
 import ManagementTextFr from '@/assets/svg/fr/management-text.svg';
 import ManagementTextZh from '@/assets/svg/zh/management.svg';
+import ManagementTextAr from '@/assets/svg/ar/management-text.svg';
 
 // const controlsStore = useControlsStore();
 </script>
@@ -238,6 +239,11 @@ import ManagementTextZh from '@/assets/svg/zh/management.svg';
             v-else-if="$selectedLanguage.value === 'zh'"
             style="transform: translate(390px, 815px)">
             <ManagementTextZh :viewBox="null" />
+        </g>
+        <g
+            v-else-if="$selectedLanguage.value === 'ar'"
+            style="transform: translate(360px, 815px) rotate(0deg)">
+            <ManagementTextAr :viewBox="null" />
         </g>
     </svg>
 </template>
