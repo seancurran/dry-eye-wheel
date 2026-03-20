@@ -73,7 +73,7 @@ remita al paciente según corresponda.</div>
         en: 'Previous Eye|Surgery',
         es: '',
         fr: 'Chirurgies Passées',
-        zh: '',
+        zh: '既往眼科手术史',
         ar: 'جراحات العين السابقة',
     },
     {
@@ -81,7 +81,7 @@ remita al paciente según corresponda.</div>
         en: 'Previous Eye|Surgery',
         es: '',
         fr: 'Chirurgies Passées',
-        zh: '',
+        zh: '既往眼科手术史',
         ar: 'جراحات العين السابقة',
     },
     {
@@ -89,7 +89,7 @@ remita al paciente según corresponda.</div>
         en: 'Eye surgery often involves cutting corneal nerves and can result in anatomical misalignment between the ocular surface and eyelid surfaces, which can disrupt tear film homeostasis.',
         es: '',
         fr: `La chirurgie oculaire implique souvent de sectionner les nerfs cornéens et peut entraîner un mauvais positionnement anatomique entre la surface oculaire et les paupières, ce qui peut perturber l'homéostasie du film lacrymal.`,
-        zh: '',
+        zh: '眼科手术通常会切断角膜神经，并可能导致眼表与眼睑之间的结构不对位，从而破坏泪膜的稳态。',
         ar: 'تتضمن جراحة العين غالبًا قطع الأعصاب القرنية، وقد تؤدي إلى اختلالات تشريحية بين سطح العين وسطح الجفن، مما قد يعرقل توازن واستقرار طبقة الدموع.',
     },
     {
@@ -97,7 +97,7 @@ remita al paciente según corresponda.</div>
         en: 'Previous Eye|Surgery',
         es: '',
         fr: 'Chirurgies Passées',
-        zh: '',
+        zh: '既往眼科手术史',
         ar: 'جراحات|العين السابقة',
     },
     {
@@ -412,7 +412,7 @@ remita al paciente según corresponda.</div>
         en: 'Proactive OSD Management',
         es: '',
         fr: `Prise en charge proactive de l'atteinte de la surface oculaire`,
-        zh: '',
+        zh: '主动预防与管理眼表疾病',
         ar: 'الإدارة الاستباقية لمرض سطح العين',
     },
     {
@@ -420,7 +420,7 @@ remita al paciente según corresponda.</div>
         en: 'Proactive Management of Ocular Surface Disease',
         es: '',
         fr: `Prise en charge proactive de l'atteinte de la surface oculaire`,
-        zh: '',
+        zh: '主动预防与管理眼表疾病',
         ar: 'الإدارة الاستباقية لمرض سطح العين',
     },
     {
@@ -428,7 +428,7 @@ remita al paciente según corresponda.</div>
         en: 'Proactive Management|of Ocular Surface|Disease',
         es: '',
         fr: `Prise en charge proactive|de l'atteinte de la|surface oculaire`,
-        zh: '',
+        zh: '主动预防与管理眼表疾病',
         ar: 'الإدارة الاستباقية|لمرض سطح|العين',
     },
     {
@@ -436,7 +436,7 @@ remita al paciente según corresponda.</div>
         en: 'Restores the homeostasis of the ocular surface, even in the absence of symptoms, to mitigate future symptom development.',
         es: '',
         fr: `Restaurer l'homéostasie de la surface oculaire, même en l'absence de symptômes, afin de réduire le risque d'apparition de symptômes ultérieurs`,
-        zh: '',
+        zh: '作为主动管理措施，即便无临床症状呈现，亦可促进眼表稳态的重建，从而降低后续症状发生的风险。',
         ar: 'يُعيد التوازن لسطح العين حتى في غياب الأعراض، مما يساعد على الحد من تطوّر الأعراض مستقبلًا.',
     },
     {
@@ -444,7 +444,7 @@ remita al paciente según corresponda.</div>
         en: 'Corneal|Sensitivity',
         es: '',
         fr: 'Évaluation de la sensibilité cornéene',
-        zh: '',
+        zh: '角膜敏感度评估',
         ar: 'تقييم حساسية القرنية',
     },
     {
@@ -452,7 +452,7 @@ remita al paciente según corresponda.</div>
         en: 'Corneal Sensitivity Assessment',
         es: '',
         fr: 'Évaluation de la sensibilité cornéene',
-        zh: '',
+        zh: '角膜敏感度评估',
         ar: 'تقييم حساسية القرنية',
     },
     {
@@ -460,7 +460,7 @@ remita al paciente según corresponda.</div>
         en: 'Corneal Sensitivity|Assessment',
         es: '',
         fr: 'Évaluation de la|sensibilité cornéene',
-        zh: '',
+        zh: '角膜敏感度评估',
         ar: 'تقييم|حساسية القرنية',
     },
     {
@@ -468,7 +468,7 @@ remita al paciente según corresponda.</div>
         en: 'A tissue corner, cotton bud wisp, aesthesiometer, or topical anesthetic challenge can be used to assess for signs of neural dysfunction.',
         es: '',
         fr: 'On peut utiliser un coin de mouchoir, un filament de coton-tige, un esthésiomètre ou un test à l\u2019anesthésique topique pour évaluer des signes de dysfonctionnement neural.',
-        zh: '',
+        zh: '可使用纸巾尖角、棉签细丝、角膜感觉计，或通过表面麻醉试验来评估角膜是否存在神经功能异常的迹象。',
         ar: 'يمكن استخدام زاوية منديل، أو خيط قطني رقيق، أو جهاز قياس الحساسية، أو اختبار التخدير الموضعي لتقييم علامات الخلل العصبي.',
     },
 ];
