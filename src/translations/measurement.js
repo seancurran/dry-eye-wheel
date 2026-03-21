@@ -430,7 +430,7 @@ export default [
     {
         code: '_eyelids_meibomian_gland_expression_icon',
         en: 'Eyelids: Meibomian|Gland Expression',
-        es: 'Expresión De|Las Glándulas|De Meibomio',
+        es: 'Expresión De Las|Glándulas De Meibomio',
         fr: `Expression des|glandes de|Meibomius`,
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير|الغدد الميبومية',
@@ -510,7 +510,7 @@ export default [
     {
         code: '_eyelids_anterior_blepharitis_exam_title',
         en: 'Eyelids: Anterior|Blepharitis Exam',
-        es: 'Párpados: Examen|De La Blefaritis|Anterior',
+        es: 'Párpados: Examen De|La Blefaritis Anterior',
         fr: 'Examen Des Paupières :|Blépharite Antérieure',
         zh: '眼睑：|前部睑缘炎检查',
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
@@ -518,7 +518,7 @@ export default [
     {
         code: '_eyelids_anterior_blepharitis_exam_icon',
         en: 'Eyelids: Anterior|Blepharitis Exam',
-        es: 'Párpados: Examen|De La Blefaritis|Anterior',
+        es: 'Párpados: Examen De|La Blefaritis Anterior',
         fr: 'Examen Des Paupières : Blépharite Antérieure',
         zh: '眼睑：|前部睑缘炎检查',
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
