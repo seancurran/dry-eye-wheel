@@ -18,7 +18,7 @@ export default [
     {
         code: '_management_text',
         en: 'Management of dry eye requires a staged approach, with more severe conditions often requiring multiple treatments.\n\nHowever, the majority of patients can be managed with relatively simple strategies, comprising ocular lubricants and lid hygiene measures.\n\nManagement strategies should be ideally aimed at managing the severity of the disease, in addition to being targeted towards the major underlying reason for the dry eye. Sub-typing of the disease into whether it is aqueous-deficient, evaporative, or mixed in nature, can assist with the choice of treatment.',
-        es: 'El tratamiento del ojo seco requiere un enfoque por etapas, y las condiciones más graves a menudo requieren múltiples tratamientos.\n\nSin embargo, la mayoría de los pacientes pueden ser tratados con estrategias relativamente simples, que incluyen lubricantes oculares y medidas de higiene palpebral.\n\nLas estrategias de tratamiento deben estar idealmente dirigidas a manejar la gravedad de la enfermedad, además de estar orientadas hacia la razón subyacente principal del ojo seco. La subtipificación de la enfermedad en deficiencia acuosa, evaporativa o mixta puede ayudar en la elección del tratamiento.',
+        es: 'El tratamiento del ojo seco requiere un enfoque por etapas, y las afecciones más graves suelen necesitar múltiples tratamientos. Sin embargo, la mayoría de los pacientes pueden manejarse con estrategias relativamente sencillas, como lubricantes oculares y medidas de higiene del párpado.\nLo ideal es que las estrategias de tratamiento estén dirigidas tanto a controlar la gravedad de la enfermedad como a abordar la causa subyacente principal del ojo seco. La subtipificación de la enfermedad en deficiencia acuosa, evaporativa o mixta puede ayudar a seleccionar el tratamiento más adecuado.',
         fr: `La prise en charge de la sécheresse oculaire nécessite une approche par étapes, les cas plus sévères nécessitant souvent des traitements multiples.\n\nCependant, la majorité des patients peut être prise en charge avec des stratégies relativement simples, comprenant des lubrifiants oculaires et des mesures d'hygiène palpébrale.\n\nLes stratégies de prise en charge doivent idéalement viser à gérer la sévérité de la maladie, en plus d'être ciblées sur la cause principale sous-jacente de la sécheresse oculaire. Le sous-typage de la maladie, selon qu'elle est par déficit aqueux, évaporative ou mixte, peut aider au choix du traitement.`,
         zh: '干眼症的管理需要分阶段进行，病情较为严重的患者往往需要多种治疗手段。\n\n然而，大多数患者可以通过相对简单的策略来进行管理，包括使用眼部润滑剂和采取睑缘清洁措施。\n\n理想的管理策略不仅应针对干眼症的主要潜在病因，还应着眼于控制病情的严重程度。将干眼症细分为泪液缺乏型、蒸发过强型或混合型，有助于选择合适的治疗方法。',
         ar: 'تطلب إدارة جفاف العين اتباع نهج تدريجي، حيث إن الحالات الأكثر شدة غالبًا ما تحتاج إلى عدة خيارات علاجية. ومع ذلك، يمكن التعامل مع معظم المرضى باستخدام استراتيجيات بسيطة نسبيًا، تشمل المُلطفات العينية وإجراءات نظافة الجفون. ويُفضّل أن تستهدف استراتيجيات الإدارة شدة المرض، بالإضافة إلى معالجة السبب الرئيسي الكامن وراء جفاف العين. إن تصنيف المرض إلى جفاف مائي، أو تبخّري، أو مختلط يمكن أن يساعد في اختيار العلاج الأنسب.',
@@ -33,7 +33,7 @@ export default [
     {
         code: '_artificial_tears_button',
         en: 'Artificial Tears',
-        es: 'Lágrimas Artificiales',
+        es: 'Lágrimas Artificiales (Sustitutos Lagrimales)',
         fr: `Larmes artificielles`,
         zh: '人工泪液',
         ar: 'الدموع الاصطناعية',
@@ -41,7 +41,7 @@ export default [
     {
         code: '_artificial_tears_icon',
         en: 'Artificial|Tears',
-        es: 'Lágrimas|Artificiales',
+        es: 'Lágrimas|Artificiales|(Sustitutos|Lagrimales)',
         fr: `Larmes|artificielles`,
         zh: '人工泪液',
         ar: 'الدموع|الاصطناعية',
@@ -49,7 +49,7 @@ export default [
     {
         code: '_artificial_tears_text',
         en: 'Ocular lubricants remain a mainstay of dry eye disease management. Many different formulations exist, including lipid-based drops to help stabilize the tear film and many preservative-free options, which are advisable for more severe forms of the disease.',
-        es: 'Los lubricantes oculares siguen siendo un pilar fundamental en el tratamiento de la enfermedad del ojo seco. Existen muchas formulaciones diferentes, incluyendo gotas con base lipídica para ayudar a estabilizar la película lagrimal y muchas opciones sin conservantes, que son recomendables para las formas más graves de la enfermedad.',
+        es: 'Los lubricantes oculares siguen siendo uno de los pilares del tratamiento del ojo seco. Existen numerosas y diferentes fórmulas, incluidas gotas a base de lípidos que ayudan a estabilizar la película lagrimal y muchas opciones sin conservantes, que son recomendables para las formas más graves de la enfermedad.',
         fr: `Les lubrifiants oculaires restent un pilier de la prise en charge de la sécheresse oculaire. Il existe de nombreuses formulations différentes, notamment des gouttes à base de lipides pour aider à stabiliser le film lacrymal et de nombreuses options sans conservateurs, qui sont conseillées pour les formes plus sévères de la maladie.`,
         zh: '眼部润滑剂仍然是干眼症治疗的主要手段。目前有许多不同的配方，包括有助于稳定泪膜的脂质类滴眼液，以及多种不含防腐剂的产品，这些产品适用于病情更为严重的干眼症患者。',
         ar: 'تظل المُلطفات العينية (الدموع الاصطناعية) عنصرًا أساسيًا في إدارة مرض جفاف العين. وتتوافر العديد من التركيبات المختلفة، بما في ذلك القطرات المعتمدة على الدهون للمساعدة في استقرار طبقة الدموع، بالإضافة إلى العديد من الخيارات الخالية من المواد الحافظة، والتي تكون مفضلة في الحالات الأكثر شدة من المرض.',
@@ -57,14 +57,14 @@ export default [
     {
         code: '_advice_button',
         en: 'Advice',
-        es: 'Consejos',
+        es: 'Recomendaciones',
         fr: `Conseils`,
         zh: '建议',
         ar: 'نصائح',
     },
     {
         en: 'Advice',
-        es: 'Consejos',
+        es: 'Recomendaciones',
         fr: `Conseils`,
         zh: '建议',
         ar: 'نصائح',
@@ -72,7 +72,7 @@ export default [
     {
         code: '_advice_text',
         en: 'It is important to discuss with patients that dry eye disease requires a long-term, ongoing commitment to management and is rarely cured, but rather is managed using a variety of approaches, with careful follow-up with their practitioner being important.',
-        es: 'Es importante discutir con los pacientes que la enfermedad del ojo seco requiere un compromiso a largo plazo y continuo con el tratamiento y rara vez se cura, sino que se maneja utilizando una variedad de enfoques, siendo importante un seguimiento cuidadoso con su profesional.',
+        es: 'Es importante explicar a los pacientes que la enfermedad del ojo seco requiere un tratamiento continuo y a largo plazo. Rara vez se cura por completo, sino que se maneja mediante diversos métodos, por lo que es fundamental un seguimiento cuidadoso con el profesional tratante.',
         fr: `Il est important de discuter avec les patients du fait que la sécheresse oculaire nécessite un engagement à long terme dans la prise en charge et est rarement guérie, mais plutôt gérée à l'aide de diverses approches, un suivi attentif avec leur praticien étant important.`,
         zh: '与患者沟通时务必要使其知晓以下几点：干眼症需要长期、持续地进行治疗，很少能被彻底治愈，而是要采用多种方法来进行管理，认真配合医生的随访也十分重要。',
         ar: 'من المهم توضيح للمرضى أن مرض جفاف العين يتطلّب التزامًا طويل الأمد بالإدارة والمتابعة، وأنه نادرًا ما يُشفى تمامًا، بل تتم إدارته من خلال مجموعة من الأساليب المختلفة، مع ضرورة المتابعة الدقيقة مع الممارس الصحي لضمان أفضل النتائج.',
@@ -96,7 +96,7 @@ export default [
     {
         code: '_blink_exercises_text',
         en: 'Reduced blinking during digital device use can result in dry eyes. Training patients how to blink fully, to take regular breaks from near work and to use various methods to remind them to blink regularly can alleviate these issues.',
-        es: 'La reducción del parpadeo durante el uso de dispositivos digitales puede provocar sequedad ocular. Entrenar a los pacientes sobre cómo parpadear completamente, tomar descansos regulares del trabajo cercano y usar varios métodos para recordarles parpadear regularmente puede aliviar estos problemas.',
+        es: 'La reducción del parpadeo durante el uso de dispositivos digitales puede provocar sequedad ocular. Enseñar a los pacientes a parpadear completamente, tomar descansos regulares del trabajo cercano y utilizar diversos métodos para recordarles que deben parpadear con regularidad puede ayudar a aliviar estos problemas.',
         fr: `La diminution du clignement des yeux lors de l'utilisation d'appareils numériques peut entraîner une sécheresse oculaire. Former les patients à bien cligner des yeux, à faire des pauses régulières lors du travail de près et à utiliser diverses méthodes pour leur rappeler de cligner régulièrement peut atténuer ces problèmes.`,
         zh: '在使用数字设备时眨眼次数减少可导致干眼症。可以通过以下方式缓解这些问题：训练患者如何充分眨眼，在近距离工作时定时休息，并使用各种方法提醒他们定期眨眼。',
         ar: 'يمكن أن يؤدي انخفاض معدل الرَمش أثناء استخدام الأجهزة الرقمية إلى جفاف العين. ويمكن تدريب المرضى على كيفية الرَمش بشكل كامل، وأخذ فترات راحة منتظمة من الأعمال القريبة، واستخدام وسائل مختلفة لتذكيرهم بالرَمش بشكل منتظم للمساعدة في التخفيف من هذه المشكلات.',
@@ -104,7 +104,7 @@ export default [
     {
         code: '_diet_and_dietary_supplements_button',
         en: 'Diet and Dietary Supplements',
-        es: 'Dieta Y Suplementos Dietéticos',
+        es: 'Dieta Y Suplementos Alimenticios',
         fr: `Régime et compléments alimentaires`,
         zh: '饮食与膳食补充剂',
         ar: 'النظام الغذائي والمكملات الغذائية',
@@ -112,7 +112,7 @@ export default [
     {
         code: '_diet_and_dietary_supplements_icon',
         en: 'Diet And Dietary|Supplements',
-        es: 'Dieta Y Suplementos|Dietéticos',
+        es: 'Dieta Y Suplementos|Alimenticios',
         fr: `Régime et|compléments|alimentaires`,
         zh: '饮食与膳食补充剂',
         ar: 'النظام الغذائي|والمكملات|الغذائية',
@@ -120,7 +120,7 @@ export default [
     {
         code: '_diet_and_dietary_supplements_text',
         en: 'A healthy, particularly Mediterranean, diet can aid the ocular surface along with supplements such as those rich in Omega-3.',
-        es: 'Una dieta saludable, particularmente la mediterránea, puede ayudar a la superficie ocular junto con suplementos como los ricos en Omega-3.',
+        es: 'Una dieta sana, especialmente mediterránea, puede ayudar a la superficie ocular junto con suplementos como los ricos en Omega-3.',
         fr: `Un régime alimentaire sain, particulièrement méditerranéen, peut aider la surface oculaire, ainsi que des compléments comme ceux riches en Oméga-3.`,
         zh: '健康的饮食（尤其是地中海饮食）搭配富含欧米伽-3等成分的膳食补充剂，有助于保护眼表。',
         ar: 'يمكن أن يساعد اتباع نظام غذائي صحي وخاصة النظام المتوسطي في دعم صحة سطح العين، إلى جانب المكمّلات الغذائية مثل تلك الغنية بأوميغا‑3.',
@@ -144,7 +144,7 @@ export default [
     {
         code: '_warm_compress_text',
         en: 'Heat can be applied externally to the eyelids with the aid of a wide range of warm compresses, which may contain microwave-heated seeds or glass beads, or by latent moist heat application delivered via goggles.',
-        es: 'El calor puede aplicarse externamente a los párpados con la ayuda de una amplia gama de compresas calientes, que pueden contener semillas o cuentas de vidrio calentadas en microondas, o mediante la aplicación de calor húmedo latente a través de gafas protectoras.',
+        es: 'El calor puede aplicarse externamente a los párpados utilizando una amplia gama de compresas calientes, que pueden contener semillas o perlas de vidrio calentadas en el microondas, o mediante la aplicación de calor húmedo a través de gafas especiales. El calor ayuda a desobstruir las glándulas de Meibomio y desempeña un papel importante en el tratamiento de su disfunción, que es el principal factor causante del ojo seco evaporativo',
         fr: `La chaleur peut être appliquée de l'extérieur sur les paupières à l'aide d'une large gamme de compresses chaudes, qui peuvent contenir des graines ou des billes de verre chauffées au micro-ondes, ou par application de chaleur humide latente délivrée via des lunettes.`,
         zh: '可以通过多种热敷方法对眼睑进行外部热敷，例如使用微波加热的种子或玻璃珠制成的热敷包，或者也可以通过专用护目镜进行持续湿热敷。',
         ar: 'يمكن تطبيق الحرارة خارجيًا على الجفون باستخدام مجموعة واسعة من الكمادات الدافئة، والتي قد تحتوي على بذور تُسخَّن في الميكروويف أو خرز زجاجي، أو من خلال تطبيق حرارة رطبة كامنة تُوَصَّل عبر نظارات مخصّصة. تساعد الحرارة على فتح الغدد الميبومية، وتؤدي دورًا مهمًا في إدارة خلل الغدد الميبومية، وهو العامل الرئيسي المسبب لجفاف العين التبخّري.',
@@ -152,7 +152,7 @@ export default [
     {
         code: '_lid_hygiene_button',
         en: 'Lid Hygiene',
-        es: 'Higiene Palpebral',
+        es: 'Higiene De Los Párpados',
         fr: `Hygiène des paupières`,
         zh: '睑缘清洁',
         ar: 'نظافة الجفون',
@@ -160,7 +160,7 @@ export default [
     {
         code: '_lid_hygiene_icon',
         en: 'Lid Hygiene',
-        es: 'Higiene|Palpebral',
+        es: 'Higiene De|Los Párpados',
         fr: `Hygiène des|paupières`,
         zh: '睑缘清洁',
         ar: 'نظافة|الجفون',
@@ -168,7 +168,7 @@ export default [
     {
         code: '_lid_hygiene_text',
         en: 'Eyelid cleansing products can effectively remove lid debris and other irritants from around the eyes and reduce bacteria. Lid hygiene is a mainstay of blepharitis management with some containing active ingredients for the control of demodex specifically.',
-        es: 'Los productos de limpieza de párpados pueden eliminar eficazmente los residuos palpebrales y otros irritantes alrededor de los ojos y reducir las bacterias. La higiene palpebral es un pilar fundamental en el tratamiento de la blefaritis, y algunos productos contienen ingredientes activos específicamente para el control del Demodex.',
+        es: 'Los productos para la limpieza de los párpados pueden eliminar eficazmente los residuos y otros agentes irritantes del contorno de los ojos, además de reducir las bacterias. La higiene de los párpados es uno de los pilares del tratamiento de la blefaritis, y algunos de estos productos contienen principios activos específicos para el control del Demodex.',
         fr: `Les produits de nettoyage des paupières peuvent éliminer efficacement les débris et autres irritants autour des yeux et réduire la présence de bactéries. L'hygiène des paupières est un pilier dans la gestion de la blépharite, certains produits contenant des ingrédients actifs spécifiquement pour le contrôle des demodex.`,
         zh: '眼睑清洁产品可以有效清除眼睑周围的碎屑和其他刺激物，并减少细菌滋生。睑缘清洁是睑缘炎治疗的主要措施之一，某些产品还含有专门用于控制蠕形螨的活性成分。',
         ar: 'يمكن لمنتجات تنظيف الجفون إزالة الرواسب والمهيّجات المحيطة بالعين بفعالية، كما تساعد في تقليل البكتيريا. وتُعدّ نظافة الجفون عنصرًا أساسيًا في إدارة التهاب الجفن، إذ تحتوي بعض المنتجات على مكوّنات فعّالة للتحكم في الديموديكس بشكل خاص.',
@@ -183,7 +183,7 @@ export default [
     {
         code: '_in_office_light_heat_based_devices_button',
         en: 'In-Office Light/Heat|Based Devices',
-        es: '',
+        es: 'Tratamientos En Consulta',
         fr: 'Traitements complexes',
         zh: '综合治疗',
         ar: 'العلاجات داخل العيادة',
@@ -191,7 +191,7 @@ export default [
     {
         code: '_in_office_light_heat_based_devices_icon',
         en: 'In-Office Light/Heat|Based Devices',
-        es: 'Tratamientos|En Consultorio',
+        es: 'Tratamientos|En Consulta',
         fr: `Traitements|complexes`,
         zh: '综合治疗',
         ar: 'العلاجات|داخل العيادة',
@@ -199,7 +199,7 @@ export default [
     {
         code: '_in_office_light_heat_based_devices_text',
         en: 'Complex treatments such as serum drops/amniotic membranes',
-        es: 'Estos incluyen desbridamiento, expresión terapéutica, terapias de calentamiento y masaje de párpados, terapia de luz pulsada intensa y fotobiomodulación.',
+        es: 'Estos incluyen desbridamiento, expresión terapéutica, terapias de calentamiento y masaje de los párpados, terapia con luz pulsada intensa y fotobiomodulación.',
         fr: `Les traitements complexes tels que les gouttes de sérum ou les membranes amniotiques.`,
         zh: '血清滴眼液/羊膜等综合治疗。',
         ar: 'تشمل هذه العلاجات: إزالة الرواسب، والتعصير العلاجي للغدد، وتسخين الجفون وتدليكها، بالإضافة إلى العلاج بالضوء النبضي المكثّف، والعلاج بالتحفيز الضوئي الحيوي.',
@@ -207,14 +207,14 @@ export default [
     {
         code: '_pharmaceuticals_button',
         en: 'Pharmaceuticals',
-        es: 'Fármacos',
+        es: 'Productos Farmacéuticos',
         fr: `Médicaments`,
         zh: '药物',
         ar: 'الأدوية',
     },
     {
         en: 'Pharmaceuticals',
-        es: 'Fármacos',
+        es: 'Productos Farmacéuticos',
         fr: `Médicaments`,
         zh: '药物',
         ar: 'الأدوية',
@@ -222,7 +222,7 @@ export default [
     {
         code: '_pharmaceuticals_text',
         en: 'A number of oral and topical prescription pharmaceutical agents are now available for the management of more severe forms of dry eye.',
-        es: 'Actualmente hay disponibles varios agentes farmacéuticos de prescripción, tanto orales como tópicos, para el tratamiento de las formas más graves de ojo seco.',
+        es: 'Para el tratamiento de las formas más graves de ojo seco, actualmente se dispone de una variedad de fármacos orales y tópicos con prescripción.',
         fr: `Un certain nombre de médicaments sur ordonnance, oraux et topiques, sont maintenant disponibles pour la prise en charge des formes plus sévères de sécheresse oculaire.`,
         zh: '目前有多种口服和局部使用的处方药剂可用于治疗更严重类型的干眼症。',
         ar: 'تتوفر الآن مجموعة من العلاجات الدوائية الفموية والموضعية بوصفة طبية لإدارة الأشكال الأكثر شدة من جفاف العين.',
@@ -246,14 +246,14 @@ export default [
     {
         code: '_scleral_lenses_text',
         en: 'Growing evidence shows that some patients with dry eye can benefit from the wearing of scleral contact lenses, which hold tears between the lens and cornea/conjunctiva and prevent drying of the ocular surface.',
-        es: 'La evidencia creciente muestra que algunos pacientes con ojo seco pueden beneficiarse del uso de lentes de contacto esclerales, que retienen las lágrimas entre la lente y la córnea/conjuntiva y previenen la sequedad de la superficie ocular.',
+        es: 'Cada vez hay más evidencia de que algunos pacientes con ojo seco pueden beneficiarse del uso de lentes de contacto esclerales. Estas lentes retienen las lágrimas entre la lente y la córnea/conjuntiva, ayudando a mantener la superficie ocular hidratada y evitando su sequedad.',
         fr: `Des preuves croissantes montrent que certains patients souffrant de sécheresse oculaire peuvent bénéficier du port de lentilles de contact sclérales, qui retiennent les larmes entre la lentille et la cornée/conjonctive et empêchent le dessèchement de la surface oculaire.`,
         zh: '越来越多的研究证据表明，巩膜接触镜可作为部分干眼症患者的有效治疗选择，它能将泪液保留在镜片与角膜/结膜之间，从而防止眼表干燥。',
         ar: 'تُظهر الأدلة المتزايدة أن بعض مرضى جفاف العين قد يستفيدون من ارتداء العدسات الصُّلبية، والتي تحتفظ بطبقة من الدموع بين العدسة والقرنية/الملتحمة، مما يمنع جفاف سطح العين.',
     },
     {
         en: 'Severe',
-        es: 'Grave',
+        es: 'Severo',
         fr: `Sévère`,
         zh: '重度',
         ar: 'متقدم',
@@ -261,7 +261,7 @@ export default [
     {
         code: '_surgical_approaches_button',
         en: 'Surgical Approaches',
-        es: 'Tapones Punctales',
+        es: 'Tratamientos Complejos',
         fr: `Bouchons lacrymaux`,
         zh: '泪小点栓塞术',
         ar: 'الأساليب الجراحية',
@@ -269,7 +269,7 @@ export default [
     {
         code: '_surgical_approaches_icon',
         en: 'Surgical|Approaches',
-        es: 'Tapones|Punctales',
+        es: 'Tratamientos|Complejos',
         fr: `Bouchons|lacrymaux`,
         zh: '泪小点栓塞术',
         ar: 'الأساليب|الجراحية',
@@ -277,7 +277,7 @@ export default [
     {
         code: '_surgical_approaches_text',
         en: 'Punctal plugs can be used to temporarily or permanently block the drainage of tears from the ocular surface by occluding the puncta.',
-        es: 'Los tapones punctales pueden usarse para bloquear temporal o permanentemente el drenaje de lágrimas de la superficie ocular mediante la oclusión de los puntos lagrimales.',
+        es: 'Tratamientos avanzados como las gotas de suero autólogo y las membranas amnióticas.',
         fr: `Les bouchons méatiques peuvent être utilisés pour bloquer temporairement ou définitivement le drainage des larmes de la surface oculaire en obstruant les points lacrymaux.`,
         zh: '泪小点栓塞术可通过阻塞泪小点，暂时性或永久性地阻止泪液从眼表排出。',
         ar: 'يمكن استخدام السدادات النقطية لسدّ تصريف الدموع من سطح العين بشكل مؤقت أو دائم عن طريق إغلاق فتحات القنوات الدمعية.',
@@ -285,7 +285,7 @@ export default [
     {
         code: '_complex_treatments_button',
         en: 'Complex Treatments',
-        es: 'Tratamientos Complejos',
+        es: 'Tapones Lagrimales',
         fr: `Traitements complexes`,
         zh: '综合治疗',
         ar: 'الأجهزة الضوئية/الحرارية داخل العيادة',
@@ -293,7 +293,7 @@ export default [
     {
         code: '_complex_treatments_icon',
         en: 'Complex|Treatments',
-        es: 'Tratamientos|Complejos',
+        es: 'Tapones|Lagrimales',
         fr: `Traitements|complexes`,
         zh: '综合治疗',
         ar: 'الأجهزة الضوئية/|الحرارية|داخل العيادة',
@@ -301,7 +301,7 @@ export default [
     {
         code: '_complex_treatments_text',
         en: 'Complex treatments such as serum drops/amniotic membranes.',
-        es: 'Tratamientos complejos como gotas de suero/membranas amnióticas.',
+        es: 'Los tapones lagrimales pueden utilizarse para bloquear temporal o permanentemente el drenaje de lágrimas desde la superficie ocular al ocluir los puntos lagrimales.',
         fr: `Traitements complexes tels que gouttes de sérum/membranes amniotiques.`,
         zh: '血清滴眼液/羊膜等综合治疗',
         ar: 'علاجات متقدمة تشمل قطرات المصل البشري أو الأغشية الأمنيونية.',

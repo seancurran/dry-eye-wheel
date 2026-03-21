@@ -17,12 +17,18 @@ export default [
     },
     {
         code: `_measurement_header`,
+        es: 'El diagnóstico debe ser un proceso estandarizado para que:',
         fr: `Le diagnostic doit être un processus standardisé afin que :`,
         zh: `为了实现以下目标，诊断过程需要标准化：`,
         ar: 'يجب أن تكون عملية التشخيص عملية مُوَحَّدة من أجل:',
     },
     {
         code: `_measurement_list`,
+        es: `
+<li>Los pacientes tengan certeza de su enfermedad y confianza en los clínicos.</li>
+<li>Los profesionales adopten un enfoque coherente.</li>
+<li>Las autoridades reciban datos epidemiológicos sólidos para planificar la asignación de recursos.</li>
+`,
         fr: `
 <li>Les patients aient la certitude de leur maladie et confiance en leurs cliniciens.</li>
 <li>Les cliniciens aient une approche cohérente.</li>
@@ -41,12 +47,14 @@ export default [
     },
     {
         code: `_measurement_text_1`,
+        es: 'No se requiere tecnología avanzada para un diagnóstico indicativo, que puede lograrse mediante un cuestionario estandarizado y la sencilla prueba del tiempo de confort tras el parpadeo. El diagnóstico puede complementarse con una evaluación del daño en la superficie ocular utilizando las tinciones vitales y evaluaciones de la estabilidad y osmolaridad de la película lagrimal.',
         fr: `Une technologie avancée n'est pas nécessaire pour un diagnostic indicatif, lequel peut être réalisé avec un questionnaire standardisé et le test simple du temps de confort après clignement. Le diagnostic peut être aidé par une évaluation des lésions de la surface oculaire avec des colorants ophtalmiques et une évaluation de la stabilité et de l'osmolarité du film lacrymal.`,
         zh: `指示性诊断并不需要先进的技术，通过一份标准化问卷以及简单的眨眼后舒适时间测试即可实现。使用眼科染色剂进行眼表损伤评估，并对泪膜稳定性和渗透压进行评估也可以辅助诊断。`,
         ar: 'لا تتطلب التكنولوجيا المتقدمة للوصول إلى تشخيص مبدئي، إذ يمكن تحقيقه من خلال استبيان مُوَحَّد واختبار راحة العين بعد الرَمش. ويمكن دعم التشخيص بتقييم تلف سطح العين باستخدام الصبغات العينية، بالإضافة إلى تقييم استقرار طبقة الدموع وقياس الأسمولارية.',
     },
     {
         code: `_measurement_text_2`,
+        es: 'Además, la subclasificación para seleccionar el tratamiento adecuado puede investigarse observando el parpadeo (velocidad/completitud), el volumen lagrimal y la expresión de las glándulas de Meibomio, así como mediante el analisis de las imágenes de las glándulas de Meibomio.',
         fr: `De même, la sous-classification pour aider le choix du traitement peut être obtenue avec l'étude du clignement (fréquence et complétude), le volume lacrymal et l'expression des glandes de Meibomius, ainsi que l'imagerie des glandes de Meibomius.`,
         zh: `同样，可以通过眨眼（频率/完整性）、泪液量和睑板腺挤压情况以及睑板腺成像来进行亚分类研究，以帮助选择管理方案。`,
         ar: 'وبالمثل، يمكن إجراء التصنيف الفرعي للمساعدة في اختيار طريقة الإدارة المناسبة من خلال تقييم الرَمش (المعدل/الكمال)، وحجم الدموع، وضغط وإفراز الغدد الميبومية، إلى جانب تصوير الغدد الميبومية.',
@@ -86,7 +94,7 @@ export default [
     {
         code: '_comfort_time_after_blink_test_text_1',
         en: 'Patient blinks and reports when eyes first become uncomfortable - repeat 3 times.',
-        es: 'El paciente parpadea y reporta cuando los ojos comienzan a sentirse incómodos por primera vez - repetir 3 veces.',
+        es: 'El paciente parpadea e indica el momento en que siente molestias en los ojos. Repetir esta prueba 3 veces',
         fr: `Le patient cligne des yeux et signale quand ses yeux deviennent inconfortables pour la première fois - répéter 3 fois.`,
         zh: '患者眨眼并在眼睛首次感到不适时报告-重复3次。',
         ar: 'يَرْمُش المريض ثم يُبلِّغ عن اللحظة التي تبدأ فيها العين بالشعور بعدم الارتياح – ويُكرَّر ذلك 3 مرات',
@@ -94,7 +102,7 @@ export default [
     {
         code: '_comfort_time_after_blink_test_text_2',
         en: '< 10s indicative of dry eye disease.',
-        es: '< 10s es indicativo de la enfermedad del ojo seco.',
+        es: 'Un tiempo menor a 10 segundos indica la presencia de enfermedad de ojo seco',
         fr: `< 10s est indicatif de la sécheresse oculaire.`,
         zh: '若< 10s, 则提示存在干眼症',
         ar: 'أقل من 10 ثوانٍ يُعَدّ مؤشرًا على جفاف العين',
@@ -261,7 +269,7 @@ export default [
     {
         code: '_lissamine_green_staining_button',
         en: 'Lissamine Green Staining',
-        es: 'Tinción Con Lisamina Verde',
+        es: 'Tinción Con Verde Lisamina',
         fr: `Coloration au vert de lissamine`,
         zh: '绿色利萨明染色',
         ar: 'تلطيخ الليسّامين الأخضر',
@@ -269,7 +277,7 @@ export default [
     {
         code: '_lissamine_green_staining_icon',
         en: 'Lissamine|Green|Staining',
-        es: 'Tinción|Con Lisamina|Verde',
+        es: 'Tinción|Con Verde|Lisamina',
         fr: `Coloration|au vert de|lissamine`,
         zh: '绿色利萨明染色',
         ar: 'تلطيخ|الليسّامين|الأخضر',
@@ -406,7 +414,7 @@ export default [
     {
         code: '_eyelids_meibomian_gland_expression_button',
         en: 'Meibomian Gland Expression',
-        es: '',
+        es: 'Expresión De Las Glándulas De Meibomio',
         fr: '',
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير الغدد الميبومية',
@@ -414,7 +422,7 @@ export default [
     {
         code: '_eyelids_meibomian_gland_expression_title',
         en: 'Eyelids: Meibomian|Gland Expression',
-        es: '',
+        es: 'Expresión De Las Glándulas De Meibomio',
         fr: '',
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير|الغدد الميبومية',
@@ -438,7 +446,7 @@ export default [
     {
         code: '_meibography_and_interferometry_button',
         en: 'Meibography and Interferometry',
-        es: 'Miebografía',
+        es: 'Miebografía e Interferometría',
         fr: `Meibographie`,
         zh: '睑板腺成像术 及 脂质层干涉成像术',
         ar: 'تصوير الغدد الميبومية والإنترفيريومتري',
@@ -446,7 +454,7 @@ export default [
     {
         code: '_meibography_and_interferometry_icon',
         en: 'Meibography and|Interferometry',
-        es: 'Miebografía',
+        es: 'Miebografía|e Interferometría',
         fr: `Meibographie`,
         zh: '睑板腺成像术 及|脂质层干涉成像术',
         ar: 'تصوير الغدد الميبومية|والإنترفيريومتري',
@@ -462,7 +470,7 @@ export default [
     {
         code: '_ocular_surface_misalignment_button',
         en: 'Ocular Surface Misalignment',
-        es: '',
+        es: 'Desajustes De La Superficie Ocular',
         fr: 'Mésalignement de la surface oculaire',
         zh: '眼表对位不良',
         ar: 'اختلال محاذاة سطح العين',
@@ -470,7 +478,7 @@ export default [
     {
         code: '_ocular_surface_misalignment_title',
         en: 'Ocular Surface|Misalignment',
-        es: '',
+        es: 'Desajustes De La Superficie Ocular',
         fr: 'Mésalignement de la|surface oculaire',
         zh: '眼表对位不良',
         ar: 'اختلال محاذاة سطح العين',
@@ -478,7 +486,7 @@ export default [
     {
         code: '_ocular_surface_misalignment_icon',
         en: 'Ocular Surface|Misalignment',
-        es: '',
+        es: 'Desajustes De|La Superficie|Ocular',
         fr: 'Mésalignement de la surface oculaire',
         zh: '眼表对位不良',
         ar: 'اختلال محاذاة|سطح العين',
@@ -486,7 +494,7 @@ export default [
     {
         code: '_ocular_surface_misalignment_text',
         en: 'Altered alignment between the globe and inner eyelid surfaces due to pterygium, for example, impairs tear film distribution across the ocular surface, resulting in tear film instability.',
-        es: '',
+        es: 'La alteración de la alineación entre el globo ocular y las superficies internas del párpado, debida por ejemplo a un pterigión, dificulta la distribución de la película lagrimal sobre la superficie ocular, lo que provoca inestabilidad de la película lagrimal.',
         fr: 'Un mauvais alignement entre le globe oculaire et les surfaces internes des paupières, dû par exemple à un ptérygion, perturbe la répartition du film lacrymal sur la surface oculaire, entraînant une instabilité du film lacrymal.',
         zh: '由于翼状胬肉破坏了眼球与眼睑内表面的正常贴合关系，例如损害了泪膜在眼表的分布，从而导致泪膜不稳定',
         ar: 'يمكن أن يؤدي تغيّر المحاذاة بين مقلة العين والأسطح الداخلية للجفن — كما يحدث في حالات مثل الظفرة — إلى إعاقة توزيع طبقة الدموع على سطح العين، مما يؤدي إلى عدم استقرار طبقة الدموع.',
@@ -494,7 +502,7 @@ export default [
     {
         code: '_eyelids_anterior_blepharitis_exam_button',
         en: 'Eyelids: Anterior Blepharitis Exam',
-        es: '',
+        es: 'Párpados: Examen De La Blefaritis Anterior',
         fr: 'Examen Des Paupières : Blépharite Antérieure',
         zh: '眼睑：前部睑缘炎检查',
         ar: 'الجفون: فحص التهاب الجفن الأمامي',
@@ -502,7 +510,7 @@ export default [
     {
         code: '_eyelids_anterior_blepharitis_exam_title',
         en: 'Eyelids: Anterior|Blepharitis Exam',
-        es: '',
+        es: 'Párpados: Examen|De La Blefaritis|Anterior',
         fr: 'Examen Des Paupières :|Blépharite Antérieure',
         zh: '眼睑：|前部睑缘炎检查',
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
@@ -510,7 +518,7 @@ export default [
     {
         code: '_eyelids_anterior_blepharitis_exam_icon',
         en: 'Eyelids: Anterior|Blepharitis Exam',
-        es: '',
+        es: 'Párpados: Examen|De La Blefaritis|Anterior',
         fr: 'Examen Des Paupières : Blépharite Antérieure',
         zh: '眼睑：|前部睑缘炎检查',
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
@@ -518,7 +526,7 @@ export default [
     {
         code: '_eyelids_anterior_blepharitis_exam_text',
         en: 'Checking the eyelashes under magnification during downgaze for the presence of flakes or collarettes may reveal a high microbial load.',
-        es: '',
+        es: 'Revisar las pestañas bajo magnificación mientras el paciente mira hacia abajo, en busca de escamas o collaretes, puede revelar una alta carga microbiana.',
         fr: 'L\u2019examen précis des cils en regard inférieur permet de rechercher la présence de squames ou de collerettes pouvant révéler une charge microbienne élevée.',
         zh: '通过让患者向下看，借助裂隙灯检查其睫毛根部是否存在鳞屑或袖套样结痂，这一体征可能表明患者眼睑存在大量的微生物定植',
         ar: 'يمكن أن يساعد فحص الرموش تحت التكبير أثناء النظر إلى الأسفل في الكشف عن وجود قشور أو حلقات (Collarettes)، مما قد يشير إلى حمولة ميكروبية عالية.',

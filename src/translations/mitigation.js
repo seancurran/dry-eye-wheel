@@ -71,7 +71,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_previous_eye_surgery_button',
         en: 'Previous Eye|Surgery',
-        es: '',
+        es: 'Cirugía Ocular Previa',
         fr: 'Chirurgies Passées',
         zh: '既往眼科手术史',
         ar: 'جراحات العين السابقة',
@@ -79,7 +79,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_previous_eye_surgery_title',
         en: 'Previous Eye|Surgery',
-        es: '',
+        es: 'Cirugía Ocular Previa',
         fr: 'Chirurgies Passées',
         zh: '既往眼科手术史',
         ar: 'جراحات العين السابقة',
@@ -87,7 +87,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_previous_eye_surgery_text',
         en: 'Eye surgery often involves cutting corneal nerves and can result in anatomical misalignment between the ocular surface and eyelid surfaces, which can disrupt tear film homeostasis.',
-        es: '',
+        es: 'La cirugía ocular suele implicar el corte de nervios corneales y puede provocar un desalineamiento anatómico entre la superficie ocular y las superficies del párpado, lo cual puede alterar la homeostasis de la película lagrimal.',
         fr: `La chirurgie oculaire implique souvent de sectionner les nerfs cornéens et peut entraîner un mauvais positionnement anatomique entre la surface oculaire et les paupières, ce qui peut perturber l'homéostasie du film lacrymal.`,
         zh: '眼科手术通常会切断角膜神经，并可能导致眼表与眼睑之间的结构不对位，从而破坏泪膜的稳态。',
         ar: 'تتضمن جراحة العين غالبًا قطع الأعصاب القرنية، وقد تؤدي إلى اختلالات تشريحية بين سطح العين وسطح الجفن، مما قد يعرقل توازن واستقرار طبقة الدموع.',
@@ -95,7 +95,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_previous_eye_surgery_icon',
         en: 'Previous Eye|Surgery',
-        es: '',
+        es: 'Cirugía|Ocular Previa',
         fr: 'Chirurgies Passées',
         zh: '既往眼科手术史',
         ar: 'جراحات|العين السابقة',
@@ -172,14 +172,14 @@ remita al paciente según corresponda.</div>
     {
         code: '_environment_advice_button',
         en: 'Environment Advice',
-        es: 'Ambiente',
+        es: 'Medio Ambiente',
         fr: `Environnement`,
         zh: '环境',
         ar: 'إرشادات بيئية',
     },
     {
         en: 'Environment Advice',
-        es: 'Ambiente',
+        es: 'Medio Ambiente',
         fr: `Environnement`,
         zh: '环境',
         ar: 'إرشادات بيئية',
@@ -187,7 +187,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_environment_advice_icon',
         en: 'Environment|Advice',
-        es: 'Ambiente',
+        es: 'Medio|Ambiente',
         fr: `Environnement`,
         zh: '环境',
         ar: 'إرشادات|بيئية',
@@ -341,12 +341,23 @@ remita al paciente según corresponda.</div>
     },
     {
         code: `_differential_header`,
+        es: 'La enfermedad del ojo seco es solo una de las muchas patologías que pueden afectar la superficie ocular. El diagnóstico diferencial es esencial para garantizar que no haya otras afecciones subyacentes, como alergias o infecciones oculares, que sean responsables de los síntomas del paciente. Tratar las condiciones comórbidas antes de abordar cualquier enfermedad residual del ojo seco aumenta las posibilidades de éxito del tratamiento. La lista de comprobación de triaje TFOS DEWS II facilita de manera rápida y sencilla el diagnóstico preciso, evitando visitas clínicas innecesarias.',
         fr: `La sécheresse oculaire n'est qu'une des nombreuses affections de la surface oculaire. Le diagnostic différentiel permet de s'assurer qu'il n'existe pas d'autre affection sous-jacente, telle qu'une allergie ou une infection oculaire, qui soit responsable des symptômes. Traiter les comorbidités avant de traiter toute sécheresse oculaire résiduelle, afin d'augmenter les chances de succès pour le patient. La liste pour le dépistage du TFOS DEWS II permet d'affiner rapidement et facilement le diagnostic et d'éviter des visites cliniques inutiles.`,
         zh: `干眼症只是众多眼表疾病中的一种。鉴别诊断有助于确保没有其他潜在的疾病（如眼部过敏或感染）导致这些症状。在治疗残余干眼症之前应先处理合并症，以提高患者的治疗成功率。TFOS DEWS II分诊检查表可以帮助快速准确地进行诊断，避免不必要的临床就诊。`,
         ar: 'يُعدّ مرض جفاف العين واحدًا فقط من العديد من أمراض سطح العين. يساعد التشخيص التفريقي على التأكد من عدم وجود حالات أخرى كامنة—مثل الحساسية العينية أو العدوى—قد تكون هي السبب الحقيقي للأعراض التي يعاني منها المريض. يُنصَح بمعالجة الحالات المرضية المصاحبة أولًا قبل التعامل مع أي درجة متبقية من جفاف العين، مما يزيد من فرص تحقيق نتائج ناجحة للمريض. كما يساعد دليل الفرز الخاص بتقرير TFOS DEWS II في تسهيل وتسريع تضييق نطاق التشخيص وتجنّب الزيارات السريرية غير الضرورية.',
     },
     {
         code: `_differential_list`,
+        es: `
+<li>¿Cuál es la gravedad de sus molestias oculares?</li>
+<li>¿Presenta sequedad bucal o inflamación de los ganglios linfáticos?</li>
+<li>¿Cuánto tiempo han durado sus síntomas y hubo algún acontecimiento desencadenante?</li>
+<li>¿Está afectada su visión y se aclara al parpadear?</li>
+<li>¿Son sus síntomas o el enrojecimiento mucho peores en un ojo que en el otro?</li>
+<li>¿Tiene picazón, hinchazón, costras en los ojos o secreciones?</li>
+<li>¿Usa lentes de contacto?</li>
+<li>¿Le han diagnosticado alguna enfermedad general (incluidas infecciones respiratorias recientes) o está tomando algún medicamento?</li>
+`,
         fr: `
 <li>Quelle est la sévérité de l'inconfort oculaire ?</li>
 <li>Avez-vous la bouche sèche ou des glandes enflées ?</li>
@@ -380,6 +391,7 @@ remita al paciente según corresponda.</div>
     },
     {
         code: `_differential_footer`,
+        es: '+ Además, se debe realizar un diagnóstico diferencial detallado del examen ocular anterior según lo indiquen las respuestas.',
         fr: `+ Diagnostic différentiel par examen oculaire antérieur détaillé quand indiqué par les réponses.`,
         zh: `+ 根据回答情况进行详细的前眼段检查以进行鉴别诊断。`,
         ar: '+ إجراء فحص تفريقي مفصّل للجزء الأمامي من العين عند الحاجة وفقًا للإجابات.',
@@ -410,7 +422,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_proactive_management_of_ocular_surface_disease_button',
         en: 'Proactive OSD Management',
-        es: '',
+        es: 'Manejo Proactivo De La Enfermedad Del Ojo Seco',
         fr: `Prise en charge proactive de l'atteinte de la surface oculaire`,
         zh: '主动预防与管理眼表疾病',
         ar: 'الإدارة الاستباقية لمرض سطح العين',
@@ -418,7 +430,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_proactive_management_of_ocular_surface_disease_title',
         en: 'Proactive Management of Ocular Surface Disease',
-        es: '',
+        es: 'Manejo Proactivo De La Enfermedad Del Ojo Seco',
         fr: `Prise en charge proactive de l'atteinte de la surface oculaire`,
         zh: '主动预防与管理眼表疾病',
         ar: 'الإدارة الاستباقية لمرض سطح العين',
@@ -426,7 +438,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_proactive_management_of_ocular_surface_disease_icon',
         en: 'Proactive Management|of Ocular Surface|Disease',
-        es: '',
+        es: 'Manejo Proactivo|De La Enfermedad|Del Ojo Seco',
         fr: `Prise en charge proactive|de l'atteinte de la|surface oculaire`,
         zh: '主动预防与管理眼表疾病',
         ar: 'الإدارة الاستباقية|لمرض سطح|العين',
@@ -434,7 +446,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_proactive_management_of_ocular_surface_disease_text',
         en: 'Restores the homeostasis of the ocular surface, even in the absence of symptoms, to mitigate future symptom development.',
-        es: '',
+        es: 'Restaura la homeostasis de la superficie ocular, incluso en ausencia de síntomas, para mitigar el desarrollo de síntomas futuros.',
         fr: `Restaurer l'homéostasie de la surface oculaire, même en l'absence de symptômes, afin de réduire le risque d'apparition de symptômes ultérieurs`,
         zh: '作为主动管理措施，即便无临床症状呈现，亦可促进眼表稳态的重建，从而降低后续症状发生的风险。',
         ar: 'يُعيد التوازن لسطح العين حتى في غياب الأعراض، مما يساعد على الحد من تطوّر الأعراض مستقبلًا.',
@@ -442,7 +454,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_corneal_sensitivity_button',
         en: 'Corneal|Sensitivity',
-        es: '',
+        es: 'Evaluación De La Sensibilidad Corneal',
         fr: 'Évaluation de la sensibilité cornéene',
         zh: '角膜敏感度评估',
         ar: 'تقييم حساسية القرنية',
@@ -450,7 +462,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_corneal_sensitivity_title',
         en: 'Corneal Sensitivity Assessment',
-        es: '',
+        es: 'Evaluación De La Sensibilidad Corneal',
         fr: 'Évaluation de la sensibilité cornéene',
         zh: '角膜敏感度评估',
         ar: 'تقييم حساسية القرنية',
@@ -458,7 +470,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_corneal_sensitivity_assessment_icon',
         en: 'Corneal Sensitivity|Assessment',
-        es: '',
+        es: 'Evaluación De|La Sensibilidad|Corneal',
         fr: 'Évaluation de la|sensibilité cornéene',
         zh: '角膜敏感度评估',
         ar: 'تقييم|حساسية القرنية',
@@ -466,7 +478,7 @@ remita al paciente según corresponda.</div>
     {
         code: '_corneal_sensitivity_assessment_text',
         en: 'A tissue corner, cotton bud wisp, aesthesiometer, or topical anesthetic challenge can be used to assess for signs of neural dysfunction.',
-        es: '',
+        es: 'Se puede utilizar una esquina de tejido, una mota de un bastoncillo de algodón, un estesiometro o una prueba con anestésico tópico para evaluar signos de disfunción neural.',
         fr: 'On peut utiliser un coin de mouchoir, un filament de coton-tige, un esthésiomètre ou un test à l\u2019anesthésique topique pour évaluer des signes de dysfonctionnement neural.',
         zh: '可使用纸巾尖角、棉签细丝、角膜感觉计，或通过表面麻醉试验来评估角膜是否存在神经功能异常的迹象。',
         ar: 'يمكن استخدام زاوية منديل، أو خيط قطني رقيق، أو جهاز قياس الحساسية، أو اختبار التخدير الموضعي لتقييم علامات الخلل العصبي.',
