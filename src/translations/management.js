@@ -6,7 +6,7 @@ export default [
         es: 'Tratamiento',
         fr: `Prise en Charge`,
         zh: '管理',
-        ar: 'الإدارة',
+        ar: 'إدارة / علاج جفاف العين',
     },
     {
         en: 'Management',

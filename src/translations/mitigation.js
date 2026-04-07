@@ -6,7 +6,7 @@ export default [
         es: 'Mitigación',
         fr: 'Atténuation',
         zh: '缓解',
-        ar: 'التخفيف',
+        ar: 'تخفيف جفاف العين',
     },
     {
         en: 'Mitigation',

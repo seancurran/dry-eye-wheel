@@ -6,7 +6,7 @@ export default [
         es: 'Evaluación',
         fr: `Évaluation`,
         zh: '测量',
-        ar: 'القياس',
+        ar: 'قياسات جفاف العين',
     },
     {
         en: 'Measurement',
