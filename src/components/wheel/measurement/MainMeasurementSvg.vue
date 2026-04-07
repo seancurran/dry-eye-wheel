@@ -446,7 +446,7 @@ const controlsStore = useControlsStore();
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'ar'"
-            style="transform: translate(740px, 95px) rotate(-5deg)">
+            style="transform: translate(600px, -15px) rotate(-5deg)">
             <MeasurementTextAr :viewBox="null" />
         </g>
     </svg>

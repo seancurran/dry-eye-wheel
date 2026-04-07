@@ -242,7 +242,7 @@ import ManagementTextAr from '@/assets/svg/ar/management-text.svg';
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'ar'"
-            style="transform: translate(360px, 815px) rotate(0deg)">
+            style="transform: translate(180px, 735px) rotate(0deg)">
             <ManagementTextAr :viewBox="null" />
         </g>
     </svg>

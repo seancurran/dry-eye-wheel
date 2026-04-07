@@ -465,7 +465,7 @@ const controlsStore = useControlsStore();
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'ar'"
-            style="transform: translate(-5px, 58px) rotate(-6deg)">
+            style="transform: translate(-65px, 28px) rotate(-6deg)">
             <MitigationTextAr :viewBox="null" />
         </g>
 
