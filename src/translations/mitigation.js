@@ -8,6 +8,7 @@ export default [
         zh: '缓解',
         ar: 'تخفيف جفاف العين',
         uk: 'ПРОФІЛАКТИКА',
+        nl: 'MITIGATIE',
     },
     {
         en: 'Mitigation',
@@ -16,6 +17,7 @@ export default [
         zh: '缓解',
         ar: 'التخفيف',
         uk: 'ПРОФІЛАКТИКА',
+        nl: 'MITIGATIE',
     },
     {
         code: '_mitigation_text',
@@ -57,6 +59,9 @@ remita al paciente según corresponda.</div>
         uk: `Проведення первинного сортування пацієнтів із використанням цілеспрямованого збору анамнезу, оцінки симптомів та диференційної діагностики дозволяє впровадити профілактичні заходи для обмеження ушкодження поверхні ока.
 Інші захворювання поверхні ока можуть запускати «порочне коло» захворювання сухого ока та спричиняти дискомфорт.
 Ризик можна зменшити шляхом ретельного виявлення факторів ризику, таких як користування контактними лінзами, використання цифрових пристроїв, вплив навколишнього середовища, гормональні зміни та медикаментозна терапія, а також оцінки очей на наявність супутніх змін із подальшим веденням або направленням пацієнта.`,
+        nl: `Door het uitvoeren van triage aan de hand een gerichte anamnese, symptoombespreking en het uitvoeren van een differentiële diagnose, kan men vroegtijdig preventieve maatregelen nemen om schade aan het oogoppervlak te beperken. 
+
+Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vicieuze cirkel van droge ogen en zo leiden tot ongemak bij patiënten. Dit risico kan worden verminderd door risicofactoren zorgvuldig in kaart te brengen, zoals contactlensgebruik, gebruik van digitale apparaten, omgevingsfactoren en hormonale veranderingen of medicatiegebruik, en door alert te zijn op bijkomende klinische bevindingen. Op basis hiervan kan de patiënt adequaat worden behandeld binnen de eigen praktijk of, indien nodig, worden doorverwezen. `,
     },
     {
         code: '_risk_factors_button',
@@ -66,6 +71,7 @@ remita al paciente según corresponda.</div>
         zh: '风险因素',
         ar: 'عوامل الخطورة',
         uk: 'ФАКТОРИ РИЗИКУ',
+        nl: 'RISICOFACTOREN',
     },
     {
         en: 'Risk Factors',
@@ -74,6 +80,7 @@ remita al paciente según corresponda.</div>
         zh: '风险因素',
         ar: 'عوامل الخطورة',
         uk: 'ФАКТОРИ РИЗИКУ',
+        nl: 'RISICOFACTOREN',
     },
     {
         code: '_previous_eye_surgery_button',
@@ -83,6 +90,7 @@ remita al paciente según corresponda.</div>
         zh: '既往眼科手术史',
         ar: 'جراحات العين السابقة',
         uk: 'ПОПЕРЕДНІ ОФТАЛЬМОЛОГІЧНІ ОПЕРАЦІЇ',
+        nl: 'Eerdere Oogoperaties',
     },
     {
         code: '_previous_eye_surgery_title',
@@ -92,6 +100,7 @@ remita al paciente según corresponda.</div>
         zh: '既往眼科手术史',
         ar: 'جراحات العين السابقة',
         uk: 'ПОПЕРЕДНІ ОФТАЛЬМОЛОГІЧНІ ОПЕРАЦІЇ',
+        nl: 'Eerdere Oogoperaties',
     },
     {
         code: '_previous_eye_surgery_text',
@@ -101,6 +110,7 @@ remita al paciente según corresponda.</div>
         zh: '眼科手术通常会切断角膜神经，并可能导致眼表与眼睑之间的结构不对位，从而破坏泪膜的稳态。',
         ar: 'تتضمن جراحة العين غالبًا قطع الأعصاب القرنية، وقد تؤدي إلى اختلالات تشريحية بين سطح العين وسطح الجفن، مما قد يعرقل توازن واستقرار طبقة الدموع.',
         uk: 'Хірургічні втручання можуть призводити до ушкодження рогівкових нервів і порушення взаємодії між поверхнею ока та повіками, що впливає на гомеостаз слізної плівки.',
+        nl: 'Bij oogoperaties worden vaak corneazenuwen doorgesneden, wat kan leiden tot een anatomische verstoring van de uitlijning tussen het oogoppervlak en de oogleden, wat de homeostase van de traanfilm kan aantasten.',
     },
     {
         code: '_previous_eye_surgery_icon',
@@ -110,6 +120,7 @@ remita al paciente según corresponda.</div>
         zh: '既往眼科手术史',
         ar: 'جراحات|العين السابقة',
         uk: 'ПОПЕРЕДНІ|ОФТАЛЬМОЛОГІЧНІ|ОПЕРАЦІЇ',
+        nl: 'Eerdere|Oogoperaties',
     },
     {
         code: '_sleep_button',
@@ -119,6 +130,7 @@ remita al paciente según corresponda.</div>
         zh: '睡眠',
         ar: 'النوم',
         uk: 'СОН',
+        nl: 'SLAAP',
     },
     {
         en: 'Sleep',
@@ -127,6 +139,7 @@ remita al paciente según corresponda.</div>
         zh: '睡眠',
         ar: 'النوم',
         uk: 'СОН',
+        nl: 'SLAAP',
     },
     {
         code: '_sleep_text',
@@ -136,6 +149,7 @@ remita al paciente según corresponda.</div>
         zh: '睡眠质量差和睡眠时长不足（尤其是每晚睡眠时长低于5小时）与干眼症患病风险显著相关。建议养成良好的睡眠习惯，可有效预防干眼症发生。',
         ar: 'يرتبط سوء جودة النوم أو قلة عدد ساعات النوم بزيادة خطر الإصابة بجفاف العين، خصوصًا عند النوم أقل من 5 ساعات في الليلة. شجّع على تبني عادات نوم صحية للمساعدة في تقليل خطر ظهور أعراض جفاف العين.',
         uk: 'Недостатня тривалість і низька якість сну пов’язані з підвищеним ризиком захворювання сухого ока, особливо при сні менше ніж 5 годин на добу.\nРекомендується дотримуватися здорових звичок сну для зниження ризику симптомів.',
+        nl: 'Een slechte slaapkwaliteit en een te korte slaapduur worden in verband gebracht met een verhoogd risico op droge ogen, vooral bij minder dan 5 uur slaap per nacht. Stimuleer goede slaapgewoonten om het risico op klachten van droge ogen te verminderen. ',
     },
     {
         code: '_contact_lens_button',
@@ -145,6 +159,7 @@ remita al paciente según corresponda.</div>
         zh: '隐形眼镜',
         ar: 'العدسات اللاصقة',
         uk: 'КОНТАКТНІ ЛІНЗИ',
+        nl: 'CONTACTLENZEN  ',
     },
     {
         en: 'Contact Lens',
@@ -153,6 +168,7 @@ remita al paciente según corresponda.</div>
         zh: '隐形眼镜',
         ar: 'العدسات اللاصقة',
         uk: 'КОНТАКТНІ ЛІНЗИ',
+        nl: 'CONTACTLENZEN  ',
     },
     {
         code: '_contact_lens_text',
@@ -162,6 +178,7 @@ remita al paciente según corresponda.</div>
         zh: '隐形眼镜可能会破坏泪膜，并存在与眼表产生摩擦的风险，因此应当谨慎调整戴镜方案，对于那些已患有眼表疾病的患者来说更是如此。',
         ar: 'يمكن للعدسات اللاصقة أن تُحدث اضطرابًا في طبقة الدموع وتزيد من احتمالية الاحتكاك مع سطح العين، ولذلك يجب تحسينها بعناية، خصوصًا لدى المرضى الذين يعانون من أمراض سابقة في سطح العين.',
         uk: 'Контактні лінзи можуть порушувати слізну плівку та спричиняти тертя з поверхнею ока, тому їх використання потребує ретельної оптимізації, особливо у пацієнтів із наявною патологією поверхні ока.',
+        nl: 'Contactlenzen kunnen de traanfilm verstoren en daarmee het risico vergroten op wrijving met het oogoppervlak. Daarom is een zorgvuldige optimalisatie van het contactlensgebruik essentieel, met name bij patiënten met een reeds bestaande aandoening van het oogoppervlak. ',
     },
     {
         code: '_digital_eye_strain_button',
@@ -171,6 +188,7 @@ remita al paciente según corresponda.</div>
         zh: '眼疲劳',
         ar: 'إجهاد العين الرقمي',
         uk: 'ЕКРАННИЙ ЧАС',
+        nl: 'DIGITALE OOGVERMOEIDHEID',
     },
     {
         en: 'Digital Eye Strain',
@@ -179,6 +197,7 @@ remita al paciente según corresponda.</div>
         zh: '眼疲劳',
         ar: 'إجهاد العين الرقمي',
         uk: 'ЕКРАННИЙ ЧАС',
+        nl: 'DIGITALE OOGVERMOEIDHEID',
     },
     {
         code: '_digital_eye_strain_text',
@@ -188,6 +207,7 @@ remita al paciente según corresponda.</div>
         zh: '观看电子屏幕会加重眼表疾病，尤其是每天观看时长超过4-5个小时。可以通过定期休息、进行眨眼练习以及将屏幕放置在低于眼睛的位置来减轻这种影响。',
         ar: 'يمكن أن يؤدي التعرّض الطويل لشاشات الأجهزة الرقمية إلى تفاقم أمراض سطح العين، خصوصًا عند استخدامها لأكثر من 4–5 ساعات يوميًا. ويمكن الحد من هذا التأثير من خلال أخذ فترات راحة منتظمة، وممارسة تمارين الرَمش، ووضع الشاشات في مستوى أقل من مستوى العين.',
         uk: 'Тривала робота з екранами (понад 4-5 годин на добу) може погіршувати стан поверхні ока.\nНегативний вплив можна зменшити за рахунок регулярних перерв, вправ на моргання та розташування екрана нижче рівня очей.',
+        nl: 'Het kijken naar digitale schermen kan aandoeningen van het oogoppervlak verergeren, met name bij gebruik van meer dan 4-5 uur per dag. Deze belasting kan worden verminderd door regelmatig pauzes in te lassen, knipperoefeningen te doen en het scherm lager dan ooghoogte te positioneren. ',
     },
     {
         code: '_environment_advice_button',
@@ -197,6 +217,7 @@ remita al paciente según corresponda.</div>
         zh: '环境',
         ar: 'إرشادات بيئية',
         uk: 'ФАКТОРИ НАВКОЛИШНЬОГО СЕРЕДОВИЩА',
+        nl: 'OMGEVINGSADVIES ',
     },
     {
         en: 'Environment Advice',
@@ -205,6 +226,7 @@ remita al paciente según corresponda.</div>
         zh: '环境',
         ar: 'إرشادات بيئية',
         uk: 'ФАКТОРИ НАВКОЛИШНЬОГО СЕРЕДОВИЩА',
+        nl: 'OMGEVINGSADVIES ',
     },
     {
         code: '_environment_advice_icon',
@@ -214,6 +236,7 @@ remita al paciente según corresponda.</div>
         zh: '环境',
         ar: 'إرشادات|بيئية',
         uk: 'ФАКТОРИ|НАВКОЛИШНЬОГО|СЕРЕДОВИЩА',
+        nl: 'OMGEVINGSADVIES',
     },
     {
         code: '_environment_advice_text',
@@ -223,6 +246,7 @@ remita al paciente según corresponda.</div>
         zh: '空调环境和多风天气等外部因素可能会导致干眼症；因此了解干眼症状最严重的时段有助于针对性地采取必要的应对措施。',
         ar: 'يمكن أن تساهم الظروف البيئية مثل المكيفات الهوائية والرياح في زيادة جفاف العين. ويساعد تحديد الأوقات أو المواقف التي تزداد فيها أعراض جفاف العين على توجيه التعديلات اللازمة للحد من هذه التأثيرات.',
         uk: 'Кондиціоноване повітря та вітер можуть сприяти розвитку сухості очей.\nАналіз умов, у яких симптоми посилюються, допомагає визначити необхідні заходи корекції.',
+        nl: 'Omgevingsfactoren zoals airconditioning en winderige omstandigheden kunnen bijdragen aan het ontstaan of verergeren van droge ogen. Door te evalueren op welke momenten de klachten het meest uitgesproken zijn, kunnen gerichte aanpassingen worden gedaan. ',
     },
     {
         code: '_hormones_button',
@@ -232,6 +256,7 @@ remita al paciente según corresponda.</div>
         zh: '激素',
         ar: 'الهرمونات',
         uk: 'ГОРМОНИ',
+        nl: 'HORMONEN',
     },
     {
         en: 'Hormones',
@@ -240,6 +265,7 @@ remita al paciente según corresponda.</div>
         zh: '激素',
         ar: 'الهرمونات',
         uk: 'ГОРМОНИ',
+        nl: 'HORMONEN',
     },
     {
         code: '_hormones_text',
@@ -249,6 +275,7 @@ remita al paciente según corresponda.</div>
         zh: '激素对许多关键的身体生理过程有调节作用，因此激素水平的变化会破坏泪膜的精确平衡。当激素发生变化时，可能需要进行医学检查。',
         ar: 'تنظّم الهرمونات العديد من العمليات الفسيولوجية الأساسية في الجسم، ولذلك فإن أي تغيّرات فيها قد تُخلّ بالتوازن الدقيق لطبقة الدموع. وعند حدوث تغيّرات هرمونية، قد يكون من الضروري إجراء مراجعة طبية.',
         uk: 'Гормональні зміни можуть впливати на стабільність слізної плівки.\nУ таких випадках доцільна консультація лікаря.',
+        nl: 'Hormonen reguleren veel fysiologische processen in het lichaam. Veranderingen in de hormoonhuishouding kunnen daardoor het evenwicht van de traanfilm verstoren. Wanneer er sprake is van hormonale veranderingen, kan een medische evaluatie aangewezen zijn. ',
     },
     {
         code: '_medication_review_button',
@@ -258,6 +285,7 @@ remita al paciente según corresponda.</div>
         zh: '药物审查',
         ar: 'مراجعة الأدوية',
         uk: 'МЕДИКАМЕНТИ',
+        nl: 'MEDICATIE EVALUATIE',
     },
     {
         en: 'Medication Review',
@@ -266,6 +294,7 @@ remita al paciente según corresponda.</div>
         zh: '药物审查',
         ar: 'مراجعة الأدوية',
         uk: 'МЕДИКАМЕНТИ',
+        nl: 'MEDICATIE EVALUATIE',
     },
     {
         code: '_medication_review_text',
@@ -275,6 +304,7 @@ remita al paciente según corresponda.</div>
         zh: '无论是处方药还是非处方药，大多数药物都可能会影响泪膜。因此，与开具处方的临床医生一起进行药物审查，可能有助于减轻相关症状。',
         ar: 'يمكن أن تؤثر العديد من الأدوية، سواء كانت بوصفة طبية أو تُصرف دون وصفة، على طبقة الدموع. لذلك فإن مراجعة الأدوية، بالتنسيق مع الطبيب الموصي، قد تساعد في تقليل الأعراض.',
         uk: 'Багато лікарських засобів можуть впливати на слізну плівку.\nПерегляд терапії разом із лікуючим лікарем може сприяти зменшенню симптомів.',
+        nl: 'Veel geneesmiddelen, zowel receptplichtig als vrij verkrijgbaar, kunnen invloed hebben op de traanfilm. Een medicatie-evaluatie in samenwerking met de voorschrijvend arts kan daarom helpen om de klachten te verminderen. ',
     },
     {
         code: '_triaging_button',
@@ -284,6 +314,7 @@ remita al paciente según corresponda.</div>
         zh: '分诊',
         ar: 'الفرز الأولي',
         uk: 'ПЕРВИННИЙ ВІДБІР',
+        nl: 'TRIAGE ',
     },
     {
         en: 'Triaging',
@@ -292,6 +323,7 @@ remita al paciente según corresponda.</div>
         zh: '分诊',
         ar: 'الفرز الأولي',
         uk: 'ПЕРВИННИЙ ВІДБІР',
+        nl: 'TRIAGE ',
     },
     {
         code: '_symptom_check_button',
@@ -301,6 +333,7 @@ remita al paciente según corresponda.</div>
         zh: '病史和症状',
         ar: 'فحص الأعراض',
         uk: 'ОЦІНКА СИМПТОМІВ',
+        nl: 'SYMPTOOMCHECK',
     },
     {
         en: 'Symptom Check',
@@ -309,6 +342,7 @@ remita al paciente según corresponda.</div>
         zh: '病史和症状',
         ar: 'فحص الأعراض',
         uk: 'ОЦІНКА СИМПТОМІВ',
+        nl: 'SYMPTOOMCHECK',
     },
     {
         code: '_symptom_check_text',
@@ -318,6 +352,7 @@ remita al paciente según corresponda.</div>
         zh: '病史采集：仔细的病史采集有助于识别干眼症状以及与干眼症发展相关的风险因素。识别可改变的风险因素尤为重要，因为通过简单的生活方式改变就可以帮助减轻或消除这些因素的影响，促进眼表健康。',
         ar: 'يُتيح أخذ التاريخ المرضي بدقة تحديد أعراض جفاف العين بالإضافة إلى عوامل الخطورة المرتبطة بتطوّر المرض. وتُعد عوامل الخطورة القابلة للتعديل ذات أهمية خاصة، إذ يمكن أن تساعد التغييرات البسيطة في نمط الحياة على تقليل تأثيرها أو القضاء عليه، وتعزيز صحة سطح العين.',
         uk: 'Збір анамнезу дозволяє виявити симптоми сухості очей та фактори ризику розвитку захворювання.\nОсобливу увагу слід приділяти модифікованим факторам ризику, оскільки зміна способу життя може значно покращити стан поверхні ока.',
+        nl: 'Anamnese: een zorgvuldige anamnese maakt het mogelijk om zowel symptomen van droge ogen als risicofactoren die bijdragen aan het ontstaan ervan te identificeren. Het is met name belangrijk om beïnvloedbare risicofactoren in kaart te brengen, omdat eenvoudige leefstijlaanpassingen hun negatieve effect kunnen verminderen of zelfs wegnemen en daarmee kunnen bijdragen aan een gezonder oogoppervlak. ',
     },
     {
         code: '_differential_diagnosis_button',
@@ -327,6 +362,7 @@ remita al paciente según corresponda.</div>
         zh: '鉴别',
         ar: 'التشخيص التفريقي',
         uk: 'ДИФЕРЕНЦІЙНА ДІАГНОСТИКА',
+        nl: 'DIFFERENTIËLE DIAGNOSE',
     },
     {
         en: 'Differential Diagnosis',
@@ -335,6 +371,7 @@ remita al paciente según corresponda.</div>
         zh: '鉴别',
         ar: 'التشخيص التفريقي',
         uk: 'ДИФЕРЕНЦІЙНА ДІАГНОСТИКА',
+        nl: 'DIFFERENTIËLE DIAGNOSE',
     },
     {
         code: '_differential_icon',
@@ -344,6 +381,7 @@ remita al paciente según corresponda.</div>
         zh: '鉴别',
         ar: 'التشخيص|التفريقي',
         uk: 'ДИФЕРЕНЦІЙНА|ДІАГНОСТИКА',
+        nl: 'DIFFERENTIËLE|DIAGNOSE',
     },
     {
         code: '_contact_lens_icon',
@@ -353,6 +391,7 @@ remita al paciente según corresponda.</div>
         zh: '隐形眼镜',
         ar: 'العدسات|اللاصقة',
         uk: 'КОНТАКТНІ ЛІНЗИ',
+        nl: 'CONTACTLENZEN',
     },
     {
         code: '_eye_strain_icon',
@@ -362,6 +401,7 @@ remita al paciente según corresponda.</div>
         zh: '眼疲劳',
         ar: 'إجهاد العين|الرقمي',
         uk: 'ЕКРАННИЙ ЧАС',
+        nl: 'DIGITALE|OOGVERMOEIDHEID',
     },
     {
         code: '_medication_review_icon',
@@ -371,6 +411,7 @@ remita al paciente según corresponda.</div>
         zh: '药物审查',
         ar: 'مراجعة|الأدوية',
         uk: 'МЕДИКАМЕНТИ',
+        nl: 'MEDICATIE|EVALUATIE',
     },
     {
         code: '_symptom_check_icon',
@@ -380,6 +421,7 @@ remita al paciente según corresponda.</div>
         zh: '病史和症状',
         ar: 'فحص|الأعراض',
         uk: 'ОЦІНКА|СИМПТОМІВ',
+        nl: 'SYMPTOOMCHECK',
     },
     {
         code: `_differential_header`,
@@ -388,6 +430,7 @@ remita al paciente según corresponda.</div>
         zh: `干眼症只是众多眼表疾病中的一种。鉴别诊断有助于确保没有其他潜在的疾病（如眼部过敏或感染）导致这些症状。在治疗残余干眼症之前应先处理合并症，以提高患者的治疗成功率。TFOS DEWS II分诊检查表可以帮助快速准确地进行诊断，避免不必要的临床就诊。`,
         ar: 'يُعدّ مرض جفاف العين واحدًا فقط من العديد من أمراض سطح العين. يساعد التشخيص التفريقي على التأكد من عدم وجود حالات أخرى كامنة—مثل الحساسية العينية أو العدوى—قد تكون هي السبب الحقيقي للأعراض التي يعاني منها المريض. يُنصَح بمعالجة الحالات المرضية المصاحبة أولًا قبل التعامل مع أي درجة متبقية من جفاف العين، مما يزيد من فرص تحقيق نتائج ناجحة للمريض. كما يساعد دليل الفرز الخاص بتقرير TFOS DEWS II في تسهيل وتسريع تضييق نطاق التشخيص وتجنّب الزيارات السريرية غير الضرورية.',
         uk: 'Захворювання сухого ока є лише одним із захворювань поверхні ока.\nДиференційна діагностика дозволяє виключити інші причини симптомів, такі як алергія або інфекція.\nСпочатку необхідно лікувати супутні стани, а вже потім — залишкові прояви сухого ока.\nКонтрольний список TFOS DEWS II допомагає швидко звузити діагноз і уникнути зайвих візитів:',
+        nl: 'Droge ogen zijn slechts één van de vele aandoeningen van het oogoppervlak. Het uitvoeren van een differentiële diagnose is daarom essentieel om uit te sluiten dat andere onderliggende aandoeningen, zoals oculaire allergieën of infecties, verantwoordelijk zijn voor de klachten waarmee de patiënt zich presenteert. Eventuele bijkomende (comorbide) aandoeningen dienen eerst te worden behandeld voordat resterende droge ogen problematiek wordt aangepakt, om de kans op een succesvol behandelresultaat te vergroten. De TFOS DEWS II-triagechecklist biedt een snelle en praktische ondersteuning bij het verfijnen van de diagnose en kan helpen onnodige klinische bezoeken te voorkomen.',
     },
     {
         code: `_differential_list`,
@@ -441,6 +484,16 @@ remita al paciente según corresponda.</div>
 <li>Чи використовуєте ви контактні лінзи?</li>
 <li>Чи маєте супутні захворювання або приймаєте лікарські засоби?</li>
 `,
+        nl: `
+<li>Hoe ernstig is het ongemak van het oog?</li>
+<li>Heeft u last van een droge mond of gezwollen klieren?</li>
+<li>Sinds wanneer bestaan de klachten en was er sprake van een aanleidende gebeurtenis?</li>
+<li>Is uw zicht verminderd en verbetert dit na knipperen?</li>
+<li>Zijn de klachten en/of eventuele roodheid duidelijk erger aan één oog dan aan het andere?</li>
+<li>Zijn er klachten van jeukende ogen, gezwollen ogen, kortsvorming of afscheiding?</li>
+<li>Draagt u contactlenzen?</li>
+<li>Is er sprake van bekende algemene gezondheidsaandoeningen (inclusief recente luchtweginfecties) of gebruikt u medicatie?</li>
+`,
     },
     {
         code: `_differential_footer`,
@@ -449,6 +502,7 @@ remita al paciente según corresponda.</div>
         zh: `+ 根据回答情况进行详细的前眼段检查以进行鉴别诊断。`,
         ar: '+ إجراء فحص تفريقي مفصّل للجزء الأمامي من العين عند الحاجة وفقًا للإجابات.',
         uk: '+ Детальний огляд переднього відрізку ока, в тих випадках де це зазначено у відповідях',
+        nl: '+ Indien de antwoorden daartoe aanleiding geven, dient een uitgebreid differentieel diagnostisch onderzoek van het voorste oogsegment te worden uitgevoerd.',
     },
     {
         code: '_prophylaxis_button',
@@ -458,6 +512,7 @@ remita al paciente según corresponda.</div>
         zh: '预防',
         ar: 'الوقاية',
         uk: 'ПРОФІЛАКТИКА',
+        nl: 'PREVENTIEVE MAATREGELEN ',
     },
     {
         en: 'Prophylaxis',
@@ -466,6 +521,7 @@ remita al paciente según corresponda.</div>
         zh: '预防',
         ar: 'الوقاية',
         uk: 'ПРОФІЛАКТИКА',
+        nl: 'PREVENTIEVE MAATREGELEN ',
     },
     {
         code: '_prophylaxis_text',
@@ -475,6 +531,7 @@ remita al paciente según corresponda.</div>
         zh: '预防措施，如保持良好的水分摄入、控制环境条件和眼部卫生，可以帮助预防眼表损伤和由此导致的干眼症状。',
         ar: 'يمكن للإجراءات الوقائية، مثل الحفاظ على ترطيب جيد للجسم، والتحكم في الظروف البيئية، والحفاظ على نظافة العين، أن تساعد في منع تلف سطح العين وما يترتب عليه من أعراض جفاف العين.',
         uk: 'Профілактичні заходи, такі як достатнє споживання рідини, контроль умов навколишнього середовища та гігієна очей, сприяють запобіганню ушкодженню поверхні ока та розвитку симптомів сухого ока.',
+        nl: 'Preventieve maatregelen, zoals goede hydratatie, het beheersen van omgevingsfactoren en ooghygiëne, kunnen helpen om schade aan het oogoppervlak en de daaruit voortvloeiende klachten van droge ogen te voorkomen. ',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_button',
@@ -484,6 +541,7 @@ remita al paciente según corresponda.</div>
         zh: '主动预防与管理眼表疾病',
         ar: 'الإدارة الاستباقية لمرض سطح العين',
         uk: 'ПРОАКТИВНЕ ВЕДЕННЯ ЗАХВОРЮВАНЬ ПОВЕРХНІ ОКА',
+        nl: 'Proactief management van aandoeningen van het oogoppervlak',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_title',
@@ -493,6 +551,7 @@ remita al paciente según corresponda.</div>
         zh: '主动预防与管理眼表疾病',
         ar: 'الإدارة الاستباقية لمرض سطح العين',
         uk: 'ПРОАКТИВНЕ ВЕДЕННЯ ЗАХВОРЮВАНЬ ПОВЕРХНІ ОКА',
+        nl: 'Proactief management van aandoeningen van het oogoppervlak',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_icon',
@@ -502,6 +561,7 @@ remita al paciente según corresponda.</div>
         zh: '主动预防与管理眼表疾病',
         ar: 'الإدارة الاستباقية|لمرض سطح|العين',
         uk: 'ПРОАКТИВНЕ|ВЕДЕННЯ|ЗАХВОРЮВАНЬ|ПОВЕРХНІ ОКА',
+        nl: 'Proactief|management van|aandoeningen|van het|oogoppervlak',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_text',
@@ -511,6 +571,7 @@ remita al paciente según corresponda.</div>
         zh: '作为主动管理措施，即便无临床症状呈现，亦可促进眼表稳态的重建，从而降低后续症状发生的风险。',
         ar: 'يُعيد التوازن لسطح العين حتى في غياب الأعراض، مما يساعد على الحد من تطوّر الأعراض مستقبلًا.',
         uk: 'дозволяє відновити гомеостаз навіть за відсутності симптомів і запобігти їх розвитку в майбутньому.',
+        nl: 'Herstelt de homeostase van het oogoppervlak, zelfs bij afwezigheid van symptomen, en voorkomt zo het ontstaan van toekomstige klachten.',
     },
     {
         code: '_corneal_sensitivity_button',
@@ -520,6 +581,7 @@ remita al paciente según corresponda.</div>
         zh: '角膜敏感度评估',
         ar: 'تقييم حساسية القرنية',
         uk: 'ОЦІНКА ЧУТЛИВОСТІ|РОГІВКИ',
+        nl: 'Beoordeling van de|corneagevoeligheid',
     },
     {
         code: '_corneal_sensitivity_title',
@@ -529,6 +591,7 @@ remita al paciente según corresponda.</div>
         zh: '角膜敏感度评估',
         ar: 'تقييم حساسية القرنية',
         uk: 'ОЦІНКА ЧУТЛИВОСТІ РОГІВКИ',
+        nl: 'Beoordeling van de corneagevoeligheid',
     },
     {
         code: '_corneal_sensitivity_assessment_icon',
@@ -538,6 +601,7 @@ remita al paciente según corresponda.</div>
         zh: '角膜敏感度评估',
         ar: 'تقييم|حساسية القرنية',
         uk: 'ОЦІНКА|ЧУТЛИВОСТІ|РОГІВКИ',
+        nl: 'Beoordeling van|de|corneagevoeligheid',
     },
     {
         code: '_corneal_sensitivity_assessment_text',
@@ -547,5 +611,6 @@ remita al paciente según corresponda.</div>
         zh: '可使用纸巾尖角、棉签细丝、角膜感觉计，或通过表面麻醉试验来评估角膜是否存在神经功能异常的迹象。',
         ar: 'يمكن استخدام زاوية منديل، أو خيط قطني رقيق، أو جهاز قياس الحساسية، أو اختبار التخدير الموضعي لتقييم علامات الخلل العصبي.',
         uk: 'Може проводитися за допомогою торкання стерильним матеріалом, ватною паличкою, естезіометром або із застосуванням місцевого анестетика для виявлення ознак нейросенсорних порушень.',
+        nl: 'Een hoekje van een tissue, een wattenstaafje, een aesthesiometer of een test met een lokaal anestheticum kan worden ingezet om te beoordelen of er sprake is van neurale disfunctie. ',
     },
 ];

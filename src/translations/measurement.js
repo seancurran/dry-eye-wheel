@@ -8,6 +8,7 @@ export default [
         zh: '测量',
         ar: 'قياسات جفاف العين',
         uk: 'ОЦІНКА',
+        nl: 'METING',
     },
     {
         en: 'Measurement',
@@ -16,6 +17,7 @@ export default [
         zh: '测量',
         ar: 'القياس',
         uk: 'ОЦІНКА',
+        nl: 'METING',
     },
     {
         code: `_measurement_header`,
@@ -24,6 +26,7 @@ export default [
         zh: `为了实现以下目标，诊断过程需要标准化：`,
         ar: 'يجب أن تكون عملية التشخيص عملية مُوَحَّدة من أجل:',
         uk: 'Діагностика має бути стандартизованим процесом, щоб забезпечити:',
+        nl: 'Diagnostiek dient een gestandaardiseerd proces te zijn om te waarborgen dat:',
     },
     {
         code: `_measurement_list`,
@@ -52,6 +55,11 @@ export default [
 <li>узгоджений підхід серед фахівців;</li>
 <li>отримання достовірних епідеміологічних даних.</li>
 `,
+        nl: `
+<li>Patiënten zekerheid hebben over hun aandoening en vertrouwen in zorgverleners.</li>
+<li>Zorgveleners een consistente benadering hanteren.</li>
+<li>Instanties beschikken over robuuste epidemiologische gegevens voor het plannen en inzetten van middelen.</li>
+`,
     },
     {
         code: `_measurement_text_1`,
@@ -60,6 +68,7 @@ export default [
         zh: `指示性诊断并不需要先进的技术，通过一份标准化问卷以及简单的眨眼后舒适时间测试即可实现。使用眼科染色剂进行眼表损伤评估，并对泪膜稳定性和渗透压进行评估也可以辅助诊断。`,
         ar: 'لا تتطلب التكنولوجيا المتقدمة للوصول إلى تشخيص مبدئي، إذ يمكن تحقيقه من خلال استبيان مُوَحَّد واختبار راحة العين بعد الرَمش. ويمكن دعم التشخيص بتقييم تلف سطح العين باستخدام الصبغات العينية، بالإضافة إلى تقييم استقرار طبقة الدموع وقياس الأسمولارية.',
         uk: 'Для орієнтовної діагностики не обов’язково використовувати складні технології. Її можна провести за допомогою стандартизованої анкети та простого тесту часу настання дискомфорту після моргання.\nДодатково можуть застосовуватися:\n• профарбовування поверхні ока;\n• оцінка стабільності слізної плівки;\n• визначення осмолярності.',
+        nl: 'Geavanceerde technologie is niet noodzakelijk voor een indicatieve diagnose. Deze kan worden gesteld met behulp van een gestandaardiseerde vragenlijst en de eenvoudige \'comforttijd na knipperen\'-test. De diagnose kan verder worden ondersteund door beoordelen van schade aan het oogoppervlak met oftalmologische kleurstoffen en door evaluatie van de stabiliteit en osmolariteit van de traanfilm.',
     },
     {
         code: `_measurement_text_2`,
@@ -68,6 +77,7 @@ export default [
         zh: `同样，可以通过眨眼（频率/完整性）、泪液量和睑板腺挤压情况以及睑板腺成像来进行亚分类研究，以帮助选择管理方案。`,
         ar: 'وبالمثل، يمكن إجراء التصنيف الفرعي للمساعدة في اختيار طريقة الإدارة المناسبة من خلال تقييم الرَمش (المعدل/الكمال)، وحجم الدموع، وضغط وإفراز الغدد الميبومية، إلى جانب تصوير الغدد الميبومية.',
         uk: 'Для уточнення підтипу захворювання доцільно оцінювати:\n• частоту та повноту моргання;\n• об’єм слізи;\n• функцію мейбомієвих залоз;\n• візуалізацію мейбомієвих залоз (мейбографія).',
+        nl: 'Daarnaast kan ter ondersteuning van de behandelkeuze een verdere subclassificatie worden uitgevoerd. Dit kan door beoordeling van het knippergedrag (frequentie en volledigheid), het traanvolume en de expressie van de meibomklieren, aangevuld met beeldvorming van de meibomklieren.',
     },
     // Measurement -> Diagnosis.
     {
@@ -78,6 +88,7 @@ export default [
         zh: '诊断',
         ar: 'التشخيص',
         uk: 'ДІАГНОСТИКА',
+        nl: 'DIAGNOSE',
     },
     {
         en: 'Diagnosis',
@@ -86,6 +97,7 @@ export default [
         zh: '诊断',
         ar: 'التشخيص',
         uk: 'ДІАГНОСТИКА',
+        nl: 'DIAGNOSE',
     },
     {
         code: '_comfort_time_after_blink_test_button',
@@ -95,6 +107,7 @@ export default [
         zh: '眨眼后舒适时间测试',
         ar: 'اختبار مدة الراحة بعد الرَمش',
         uk: 'ЧАС ДО ПОЯВИ ДИСКОМФОРТУ ПІСЛЯ КЛІПАННЯ',
+        nl: 'COMFORTTIJD NA KNIPPEREN-TEST',
     },
     {
         code: '_comfort_time_after_blink_test_icon',
@@ -104,6 +117,7 @@ export default [
         zh: '眨眼后舒适时间测试',
         ar: 'اختبار مدة الراحة|بعد الرَمش',
         uk: 'ЧАС ДО ПОЯВИ|ДИСКОМФОРТУ|ПІСЛЯ КЛІПАННЯ',
+        nl: 'COMFORTTIJD NA|KNIPPEREN-TEST',
     },
     {
         code: '_comfort_time_after_blink_test_text_1',
@@ -113,6 +127,7 @@ export default [
         zh: '患者眨眼并在眼睛首次感到不适时报告-重复3次。',
         ar: 'يَرْمُش المريض ثم يُبلِّغ عن اللحظة التي تبدأ فيها العين بالشعور بعدم الارتياح – ويُكرَّر ذلك 3 مرات',
         uk: 'Пацієнт повідомляє, коли з’являється перший дискомфорт (повторити 3 рази) після останнього кліпання.',
+        nl: 'De patiënt knippert en geeft aan wanneer de ogen voor het eerst oncomfortabel aanvoelen, herhaal dit 3 keer.',
     },
     {
         code: '_comfort_time_after_blink_test_text_2',
@@ -122,6 +137,7 @@ export default [
         zh: '若< 10s, 则提示存在干眼症',
         ar: 'أقل من 10 ثوانٍ يُعَدّ مؤشرًا على جفاف العين',
         uk: '< 10 сек. — ознака захворювання сухого ока',
+        nl: '< 10 seconden is indicatief voor droge ogen.',
     },
     {
         code: '_osdi_6_button',
@@ -131,6 +147,7 @@ export default [
         zh: '有效问卷OSDI-6',
         ar: 'مؤشر مرض جفاف العين – نسخة 6 أسئلة',
         uk: 'OSDI-6',
+        nl: 'OSDI-6  ',
     },
     {
         en: 'OSDI-6',
@@ -139,6 +156,7 @@ export default [
         zh: '有效问卷OSDI-6',
         ar: 'مؤشر مرض جفاف العين – نسخة 6 أسئلة',
         uk: 'OSDI-6',
+        nl: 'OSDI-6  ',
     },
     {
         code: '_osdi_6_text',
@@ -166,6 +184,10 @@ export default [
 <div>OSDI-6 показник ≥ 4</div>
 <div>Інші анкети можуть допомагати у виборі лікування, але не є стандартизованими для діагностики.</div>
 `,
+        nl: `
+<div>OSDI-6 score ≥4</div>
+<div>Andere vragenlijsten kunnen helpen bij het bepalen van de behandeling, maar zijn niet geschikt voor een gestandaardiseerde diagnose.</div>
+`,
     },
     {
         code: '_fluorescein_staining_button',
@@ -175,6 +197,7 @@ export default [
         zh: '荧光素染色',
         ar: 'تلطيخ الفلوريسئين',
         uk: 'ПРОФАРБОВУВАННЯ ФЛЮОРЕСЦЕЇНОМ',
+        nl: 'FLUORESCEÏNE STAINING',
     },
     {
         code: '_fluorescein_staining_icon',
@@ -184,6 +207,7 @@ export default [
         zh: '荧光素染色',
         ar: 'تلطيخ|الفلوريسئين',
         uk: 'ПРОФАРБОВУВАННЯ|ФЛЮОРЕСЦЕЇНОМ',
+        nl: 'FLUORESCEÏNE|STAINING',
     },
     {
         code: '_fluorescein_staining_text',
@@ -210,6 +234,10 @@ export default [
 <div>Невелика кількість барвника наноситься на око; оцінка через 1–3 хвилини.</div>
 <div>> 5 точок на рогівці — діагностична ознака</div>
 `,
+        nl: `
+<div>Een minimale hoeveelheid fluoresceïne wordt op het oog aangebracht; beoordeling vindt plaats tussen 1 en 3 minuten na toediening.</div>
+<div>Meer dan 5 corneale aankleuringspunten is diagnostisch voor droge ogen.</div>
+`,
     },
     {
         code: '_non_invasive_breakup_time_button',
@@ -219,6 +247,7 @@ export default [
         zh: '非侵入性泪膜破裂时间',
         ar: 'زمن تكسّر الدموع غير التداخلي',
         uk: 'НЕІНВАЗИВНИЙ ЧАС РОЗРИВУ СЛІЗНОЇ ПЛІВКИ',
+        nl: 'NON-INVASIEVE BREAKUP TIME',
     },
     {
         code: '_non_invasive_breakup_time_icon',
@@ -228,6 +257,7 @@ export default [
         zh: '非侵入性泪|膜破裂时间',
         ar: 'زمن تكسّر الدموع|غير التداخلي',
         uk: 'НЕІНВАЗИВНИЙ|ЧАС РОЗРИВУ|СЛІЗНОЇ ПЛІВКИ',
+        nl: 'NON-INVASIEVE|BREAKUP TIME',
     },
     {
         code: '_non_invasive_breakup_time_text',
@@ -258,6 +288,10 @@ export default [
 <div>Інструментальний метод оцінки, коли деформація відблисків від поверхні ока свідчить про порушення слізної плівки.</div>
 <div>< 10 с — ознака захворювання</div>
 `,
+        nl: `
+<div>De patiënt knippert en houdt vervolgens de ogen zo lang mogelijk open. Het moment waarop de reflecties van het oogoppervlak vervormen, geeft de kwaliteit van de traanfilm aan.</div>
+<div>< 10 seconden is diagnostisch voor droge ogen.</div>
+`,
     },
     {
         code: '_osmolarity_button',
@@ -267,6 +301,7 @@ export default [
         zh: '渗透压',
         ar: 'الأسمولارية',
         uk: 'ОСМОЛЯРНІСТЬ',
+        nl: 'OSMOLARITEIT',
     },
     {
         en: 'Osmolarity',
@@ -275,6 +310,7 @@ export default [
         zh: '渗透压',
         ar: 'الأسمولارية',
         uk: 'ОСМОЛЯРНІСТЬ',
+        nl: 'OSMOLARITEIT',
     },
     {
         code: '_osmolarity_text',
@@ -305,6 +341,10 @@ export default [
 <div>Визначення концентрації розчинених речовин у слізній плівці.</div>
 <div>≥ 308 мОсм/л або різниця між очима > 8 — діагностична ознака</div>
 `,
+        nl: `
+<div>Een zeer klein monster van de traanfilm wordt afgenomen, waarna de osmolariteit (zoutgehalte) van de traanfilm wordt bepaald.</div>
+<div>≥ 308 mOsm/L of een verschil tussen beide ogen van > 8 mOsm/L is diagnostisch voor droge ogen.</div>
+`,
     },
     {
         code: '_lissamine_green_staining_button',
@@ -314,6 +354,7 @@ export default [
         zh: '绿色利萨明染色',
         ar: 'تلطيخ الليسّامين الأخضر',
         uk: 'ПРОФАРБОВУВАННЯ ЛІСАМІНОВИМ ЗЕЛЕНИМ',
+        nl: 'LISSAMINE GROEN STAINING ',
     },
     {
         code: '_lissamine_green_staining_icon',
@@ -323,6 +364,7 @@ export default [
         zh: '绿色利萨明染色',
         ar: 'تلطيخ|الليسّامين|الأخضر',
         uk: 'ПРОФАРБОВУВАННЯ|ЛІСАМІНОВИМ|ЗЕЛЕНИМ',
+        nl: 'LISSAMINE GROEN|STAINING',
     },
     {
         code: '_lissamine_green_staining_text',
@@ -369,6 +411,12 @@ export default [
 <div>Край повіки оцінюють через 3-6 хвилин.</div>
 <div>≥ 2 мм у довжину та/або ≥ 25% сагітальної ширини (за винятком лінії Маркса) — діагностична ознака захворювання сухого ока.</div>
 `,
+        nl: `
+<div>Een lissamine-groen strip wordt bevochtigd met zoutoplossing, waarbij de volledige druppel minimaal 5 seconden op de strip blijft om de kleurstof te laten vrijkomen. Beoordeling vindt plaats tussen 1 en 4 minuten na toediening.</div>
+<div>> 9 aankleuringspunten op de conjunctiva is diagnostisch voor droge ogen.</div>
+<div>Beoordeling van de ooglidrand vindt plaats tussen 3 en 6 minuten na toediening.</div>
+<div>Een afwijking van ≥ 2 mm in lengte en/of ≥ 25% van de sagittale breedte (exclusief de lijn van Marx) is diagnostisch voor droge ogen.</div>
+`,
     },
     // Measurement -> Sub-classification.
     {
@@ -379,6 +427,7 @@ export default [
         zh: '亚分类',
         ar: 'التصنيف الفرعي',
         uk: 'ВИЗНАЧЕННЯ ПІДТИПУ',
+        nl: 'SUBCLASSIFICATIE ',
     },
     {
         en: 'Sub-Typing',
@@ -387,6 +436,7 @@ export default [
         zh: '亚分类',
         ar: 'التصنيف الفرعي',
         uk: 'ВИЗНАЧЕННЯ ПІДТИПУ',
+        nl: 'SUBCLASSIFICATIE ',
     },
     // There are two versions (one with ampersand) used in the English version.
     {
@@ -397,6 +447,7 @@ export default [
         zh: '眨眼完整性及眼睑闭合：眼表充血',
         ar: 'اكتمال الرَمش وإغلاق الجفن؛ الاحمرار',
         uk: 'Кліпання та змикання повік; гіперемія',
+        nl: 'Volledigheid van de knipperslag en Ooglidsluiting; Roodheid',
     },
     {
         code: '_blink_rate_and_completeness_title',
@@ -406,6 +457,7 @@ export default [
         zh: '眨眼完整性及眼睑闭合：|眼表充血',
         ar: 'اكتمال الرَمش وإغلاق الجفن؛ الاحمرار',
         uk: 'Кліпання та змикання повік; гіперемія',
+        nl: 'Volledigheid van de knipperslag en Ooglidsluiting; Roodheid',
     },
     {
         code: '_blink_rate_and_completeness_icon',
@@ -415,6 +467,7 @@ export default [
         zh: '眨眼完整性及眼睑闭合：|眼表充血',
         ar: 'اكتمال الرَمش|وإغلاق الجفن؛|الاحمرار',
         uk: 'Кліпання та|змикання повік;|гіперемія',
+        nl: 'Volledigheid|van de|knipperslag en|Ooglidsluiting;|Roodheid',
     },
     {
         code: '_blink_rate_and_completeness_text',
@@ -424,6 +477,7 @@ export default [
         zh: '眨眼频率降低或眨眼不完全可能会引发蒸发过强型干眼症。',
         ar: 'يمكن أن يؤدي انخفاض معدل الرَمش أو عدم اكتمال الرَمش إلى الإصابة بجفاف العين التبخّري.',
         uk: 'Зменшення частоти або неповне змикання повік сприяє випаровуванню сльози.',
+        nl: 'Een verlaagde knipperfrequentie of een onvolledige knipperslag kan leiden tot evaporatieve droge ogen. ',
     },
     {
         code: '_aqueous_tear_meniscus_height_button',
@@ -433,6 +487,7 @@ export default [
         zh: '泪河高度',
         ar: 'ارتفاع الهلالة الدمعية المائية',
         uk: 'Висота слізного меніска',
+        nl: 'Traanmeniscushoogte ',
     },
     {
         code: '_aqueous_tear_meniscus_height_icon',
@@ -442,6 +497,7 @@ export default [
         zh: '泪河高度',
         ar: 'ارتفاع الهلالة|الدمعية المائية',
         uk: 'Висота слізного|меніска',
+        nl: 'Traanmeniscushoogte',
     },
     {
         code: '_aqueous_tear_meniscus_height_text',
@@ -470,6 +526,9 @@ export default [
 <div>< 0,2 мм — ознака вододефіцитного типу</div>
 <div>Нерівність — ознака поганої якості слізної плівки</div>
 `,
+        nl: `
+<div>Een waarde van < 0,2 mm is indicatief voor waterdeficiëntie droge-ogenproblematiek. Onregelmatigheid duidt op een verminderde traanfilmkwaliteit.</div>
+`,
     },
     {
         code: '_eyelids_meibomian_gland_expression_button',
@@ -479,6 +538,7 @@ export default [
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير الغدد الميبومية',
         uk: 'Повіки: Експресія мейбомієвих залоз',
+        nl: 'Oogleden: Meibomklier expressie',
     },
     {
         code: '_eyelids_meibomian_gland_expression_title',
@@ -488,6 +548,7 @@ export default [
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير|الغدد الميبومية',
         uk: 'Повіки: Експресія мейбомієвих залоз',
+        nl: 'Oogleden: Meibomklier expressie',
     },
     {
         code: '_eyelids_meibomian_gland_expression_icon',
@@ -497,6 +558,7 @@ export default [
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير|الغدد الميبومية',
         uk: 'Повіки:|Експресія|мейбомієвих|залоз',
+        nl: 'Oogleden:|Meibomklier|expressie',
     },
     {
         code: '_eyelids_meibomian_gland_expression_text',
@@ -506,6 +568,7 @@ export default [
         zh: '对睑缘施加压力时，出现分泌物混浊、变稠，或者没有分泌物挤出，都可能提示存在蒸发过强型干眼症。',
         ar: 'قد يشير خروج إفرازات ميبومية عكرة أو سميكة، أو عدم خروج أي إفراز عند الضغط على حافة الجفن، إلى الإصابة بجفاف العين التبخّري.',
         uk: 'Каламутний, густий секрет або його відсутність — ознака евапоративного типу захворювання сухого ока',
+        nl: 'Troebele, verdikte secretie of het uitblijven van expressie bij druk op de ooglidranden kan wijzen op evaporatieve droge ogen. ',
     },
     {
         code: '_meibography_and_interferometry_button',
@@ -515,6 +578,7 @@ export default [
         zh: '睑板腺成像术 及 脂质层干涉成像术',
         ar: 'تصوير الغدد الميبومية والإنترفيريومتري',
         uk: 'Мейбографія та інтерферометрія',
+        nl: 'Meibografie en Interferometrie ',
     },
     {
         code: '_meibography_and_interferometry_icon',
@@ -524,6 +588,7 @@ export default [
         zh: '睑板腺成像术 及|脂质层干涉成像术',
         ar: 'تصوير الغدد الميبومية|والإنترفيريومتري',
         uk: 'Мейбографія та|інтерферометрія',
+        nl: 'Meibografie en|Interferometrie',
     },
     {
         code: '_meibography_and_interferometry_text',
@@ -533,6 +598,7 @@ export default [
         zh: '翻转眼睑进行透照检查或红外成像检查时，若发现腺体缩短或缺失，可能提示存在蒸发过强型干眼症。',
         ar: 'قد يشير قصر الغدد الميبومية أو فقدانها عند الفحص بالإنارة النافذة أو بالتصوير بالأشعة تحت الحمراء للجفن المقلوب إلى الإصابة بجفاف العين التبخّري.',
         uk: 'Атрофія або зменшення кількості залоз — характерно для евапоративного типу захворювання сухого ока',
+        nl: 'Verkorte klieren of uitval (\'drop-out\'), zichtbaar bij transilluminatie of infraroodbeeldvorming (IR) van geëverteerde oogleden, kan wijzen op evaporatieve droge-ogenproblematiek. ',
     },
     {
         code: '_ocular_surface_misalignment_button',
@@ -542,6 +608,7 @@ export default [
         zh: '眼表对位不良',
         ar: 'اختلال محاذاة سطح العين',
         uk: 'Зміни очної поверхні',
+        nl: 'Verstoring door afwijkingen van het oogoppervlak',
     },
     {
         code: '_ocular_surface_misalignment_title',
@@ -551,6 +618,7 @@ export default [
         zh: '眼表对位不良',
         ar: 'اختلال محاذاة سطح العين',
         uk: 'Зміни очної поверхні',
+        nl: 'Verstoring door afwijkingen van het oogoppervlak',
     },
     {
         code: '_ocular_surface_misalignment_icon',
@@ -560,6 +628,7 @@ export default [
         zh: '眼表对位不良',
         ar: 'اختلال محاذاة|سطح العين',
         uk: 'Зміни очної|поверхні',
+        nl: 'Verstoring door|afwijkingen van|het|oogoppervlak',
     },
     {
         code: '_ocular_surface_misalignment_text',
@@ -569,6 +638,7 @@ export default [
         zh: '由于翼状胬肉破坏了眼球与眼睑内表面的正常贴合关系，例如损害了泪膜在眼表的分布，从而导致泪膜不稳定',
         ar: 'يمكن أن يؤدي تغيّر المحاذاة بين مقلة العين والأسطح الداخلية للجفن — كما يحدث في حالات مثل الظفرة — إلى إعاقة توزيع طبقة الدموع على سطح العين، مما يؤدي إلى عدم استقرار طبقة الدموع.',
         uk: 'Порушення відповідності очного яблука та внутрішньої поверхні повік, наприклад при птеригії, погіршує рівномірний розподіл слізної плівки по поверхні ока, що призводить до її нестабільності.',
+        nl: 'Een verstoorde uitlijning tussen de oogbol en de binnenzijde van de oogleden, bijvoorbeeld als gevolg van een pterygium, kan de gelijkmatige verdeling van de traanfilm over het oogoppervlak belemmeren. Dit resulteert in een verminderde stabiliteit van de traanfilm.   ',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_button',
@@ -578,6 +648,7 @@ export default [
         zh: '眼睑：前部睑缘炎检查',
         ar: 'الجفون: فحص التهاب الجفن الأمامي',
         uk: 'Повіки: Передній блефарит',
+        nl: 'Oogleden: Anterieure blefaritis',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_title',
@@ -587,6 +658,7 @@ export default [
         zh: '眼睑：|前部睑缘炎检查',
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
         uk: 'Повіки: Передній блефарит',
+        nl: 'Oogleden: Anterieure blefaritis',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_icon',
@@ -596,6 +668,7 @@ export default [
         zh: '眼睑：|前部睑缘炎检查',
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
         uk: 'Повіки:|Передній|блефарит',
+        nl: 'Oogleden:|Anterieure|blefaritis',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_text',
@@ -605,6 +678,7 @@ export default [
         zh: '通过让患者向下看，借助裂隙灯检查其睫毛根部是否存在鳞屑或袖套样结痂，这一体征可能表明患者眼睑存在大量的微生物定植',
         ar: 'يمكن أن يساعد فحص الرموش تحت التكبير أثناء النظر إلى الأسفل في الكشف عن وجود قشور أو حلقات (Collarettes)، مما قد يشير إلى حمولة ميكروبية عالية.',
         uk: 'Наявність лусочок або «комірців» на віях може свідчити про підвищене мікробне навантаження.',
+        nl: 'Door de wimpers onder vergroting te onderzoeken terwijl de patiënt naar beneden kijkt, kan de aanwezigheid van schilfers of collarettes worden vastgesteld. Dit kan wijzen op een verhoogde microbiële belasting. ',
     },
 
     // The Wheel.
@@ -615,6 +689,7 @@ export default [
         zh: '干眼轮',
         ar: 'العجلة',
         uk: 'Колесо',
+        nl: 'HET WIEL',
     },
     {
         code: '_the_wheel_text',
@@ -624,6 +699,7 @@ export default [
         zh: '干眼症是一种慢性疾病，需要您与患者共同努力进行管理。干眼轮象征着缓解、测量和利用信息来指导管理方法的过程。当患者复诊时，您需要再次收集信息以了解病情变化，从而指导进一步的缓解措施、测量方法，并完善管理方案。',
         ar: 'جفاف العين هو حالة مزمنة تتطلب منك العمل مع المريض لإدارتها بالشكل الصحيح. تمثل العجلة دورة مستمرة من التخفيف، والقياس، واستخدام هذه المعلومات لتوجيه خطة العلاج. وعند عودة المريض للمراجعة، ستقوم بجمع المعلومات مرة أخرى لفهم ما الذي تغيّر أو كيف تغيّر، وكيف يمكن أن يساعدك ذلك في تحسين خطوات التخفيف، وإعادة القياس، وتطوير خطة الإدارة العلاجية بشكل أدق.',
         uk: 'Сухість очей — це хронічний стан, який потребує співпраці з пацієнтом для ефективного контролю захворювання.\nКолесо символізує циклічний процес зменшення проявів, оцінки стану та використання отриманої інформації для формування стратегії ведення.\nПід час повторного візиту пацієнта необхідно знову зібрати дані, щоб оцінити зміни стану та скоригувати подальше ведення задля зменшення симптомів.',
+        nl: 'Droge ogen is een chronische aandoening waarvoor je samen met je patiënt een behandeltraject aangaat. Het wiel staat symbool voor dit proces: het verminderen van klachten (mitigatie), het meten, en het gebruiken van deze informatie om de behandelstrategie gericht bij te sturen. Bij elke controleafspraak verzamel je opnieuw de informatie om veranderingen in kaart te brengen. Deze evaluatie helpt om te begrijpen wat er is veranderd, waarom dat zo is, en hoe deze inzichten kunnen bijdragen aan verdere mitigatie en optimalisatie van je behandelaanpak. ',
     },
     {
         en: 'The Rings',
@@ -632,6 +708,7 @@ export default [
         zh: '干眼轮环',
         ar: 'الحلَقَات',
         uk: 'Кільця',
+        nl: 'DE RINGEN',
     },
     {
         code: '_the_rings_text',
@@ -664,6 +741,7 @@ export default [
 <div>هناك الكثير مما يمكنك فعله للتخفيف من انزعاج المرضى المصابين بجفاف العين من خلال التخفيف، والقياس، والإدارة، حتى دون أي استثمار إضافي (الحلقة الخارجية البرونزية) أو مع استثمار محدود (الحلقة الوسطى الفضية). ونظرًا لأن غالبية مرضى جفاف العين يعانون من حالات خفيفة إلى متوسطة، يجب على جميع الممارسين المشاركة في الإدارة، مع إحالة الحالات إلى المراكز المتخصصة عند الحاجة.</div>
 `,
         uk: 'Кільця на схемі «Колесо ведення захворювання сухого ока» символізують послідовний перехід від найпростіших до більш складних підходів у зменшенні проявів, оцінці та лікуванні захворювання сухого ока відповідно до ступеня тяжкості.\nІснує багато можливостей полегшити дискомфорт у пацієнтів із захворюванням сухого ока шляхом профілактики, оцінки та ведення, навіть без додаткових інвестицій (зовнішнє бронзове кільце) або з мінімальними вкладеннями (середнє срібне кільце).\nОскільки більшість пацієнтів мають легкий або помірний перебіг захворювання, усі фахівці повинні брати участь у веденні таких пацієнтів, за потреби направляючи їх до спеціалізованих центрів.',
+        nl: 'De ringen die in het dry eye wheel worden weergegeven, symboliseren een aanpak die loopt van eenvoudig tot meer complex voor het verminderen (mitigatie), meten en behandelen van droge ogen, afhankelijk van de ernst van de aandoening. \n\nEr zijn veel mogelijkheden om het ongemak van patiënten met droge ogen te verlichten door middel van mitigatie, meting en behandeling, zelfs zonder extra investering (de bronzen buitenring), of met een beperkte investering (zilveren middelste ring). Aangezien het merendeel van de patiënten milde tot matige droge ogen heeft, is het belangrijk dat alle zorgverleners hierbij betrokken zijn en, waar nodig, doorverwijzen naar specialistische centra.  ',
     },
     {
         en: 'Simple Treatment',
@@ -672,6 +750,7 @@ export default [
         zh: '简单治疗',
         ar: 'علاج بسيط',
         uk: 'Лікування легкого рівня',
+        nl: 'Eenvoudige behandeling',
     },
     {
         en: 'Moderate Treatment',
@@ -680,6 +759,7 @@ export default [
         zh: '中等治疗',
         ar: 'علاج متوسط',
         uk: 'Лікування середнього рівня',
+        nl: 'Gemiddelde behandeling',
     },
     {
         en: 'Complex Treatment',
@@ -688,5 +768,6 @@ export default [
         zh: '复杂治疗',
         ar: 'علاج معقد',
         uk: 'Лікування тяжкого рівня',
+        nl: 'Complexe behandeling',
     },
 ];
