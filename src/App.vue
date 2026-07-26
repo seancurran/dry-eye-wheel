@@ -11,7 +11,7 @@ import GradientButton from '@/components/GradientButton.vue';
     <div class="p-6">
         <div class="flex h-[800px]">
             <!-- Vetical Slider/Menu Area -->
-            <div class="flex h-[700px] w-96 rtl:mr-28">
+            <div class="flex h-[700px] w-96 rtl:mr-40">
                 <VerticalSlider />
                 <MainNavigation />
             </div>
