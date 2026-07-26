@@ -331,6 +331,7 @@ const controlsStore = useControlsStore();
                     $selectedLanguage.value === 'es' ? '11px' :
                     $selectedLanguage.value === 'fr' ? '11px' :
                     $selectedLanguage.value === 'zh' ? '14px' :
+                    $selectedLanguage.value === 'uk' ? '12px' :
                     '14px'
             }"
             style="rotate: -32deg; font-family: 'EuclidCircularA-Bold', sans-serif; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; fill: #fff;">
@@ -348,6 +349,7 @@ const controlsStore = useControlsStore();
                     $selectedLanguage.value === 'es' ? '11px' :
                     $selectedLanguage.value === 'fr' ? '11px' :
                     $selectedLanguage.value === 'zh' ? '14px' :
+                    $selectedLanguage.value === 'uk' ? '12px' :
                     '14px'
             }"
             style="rotate: -32deg; letter-spacing: 1.5px;">
