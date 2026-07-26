@@ -103,7 +103,7 @@ export default [
         fr: `Exercices de|clignement`,
         zh: '眨眼练习',
         ar: 'تمارين|الرَمش',
-        uk: 'ВПРАВИ ДЛЯ КЛІПАННЯ',
+        uk: 'ВПРАВИ ДЛЯ|КЛІПАННЯ',
     },
     {
         code: '_blink_exercises_text',
@@ -130,7 +130,7 @@ export default [
         fr: `Régime et|compléments|alimentaires`,
         zh: '饮食与膳食补充剂',
         ar: 'النظام الغذائي|والمكملات|الغذائية',
-        uk: 'ДІЄТА ТА ХОРЧОВІ ДОБАВКИ',
+        uk: 'ДІЄТА ТА|ХОРЧОВІ ДОБАВКИ',
     },
     {
         code: '_diet_and_dietary_supplements_text',
@@ -219,7 +219,7 @@ export default [
         fr: `Traitements|complexes`,
         zh: '综合治疗',
         ar: 'العلاجات|داخل العيادة',
-        uk: 'Апаратні методи: світлотерапія, теплові системи',
+        uk: 'Апаратні|методи:|світлотерапія,|теплові системи',
     },
     {
         code: '_in_office_light_heat_based_devices_text',
@@ -272,7 +272,7 @@ export default [
         fr: `Lentilles|sclérales`,
         zh: '巩膜接触镜',
         ar: 'العدسات|الصُلبة',
-        uk: 'СКЛЕРАЛЬНІ ЛІНЗИ',
+        uk: 'СКЛЕРАЛЬНІ|ЛІНЗИ',
     },
     {
         code: '_scleral_lenses_text',
@@ -307,7 +307,7 @@ export default [
         fr: `Bouchons|lacrymaux`,
         zh: '泪小点栓塞术',
         ar: 'الأساليب|الجراحية',
-        uk: 'Хірургічні методи',
+        uk: 'Хірургічні|методи',
     },
     {
         code: '_surgical_approaches_text',
@@ -334,7 +334,7 @@ export default [
         fr: `Traitements|complexes`,
         zh: '综合治疗',
         ar: 'الأجهزة الضوئية/|الحرارية|داخل العيادة',
-        uk: 'Лікування тяжкого рівня',
+        uk: 'Лікування|тяжкого рівня',
     },
     {
         code: '_complex_treatments_text',

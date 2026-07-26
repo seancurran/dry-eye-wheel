@@ -103,7 +103,7 @@ export default [
         fr: `Temps de confort après|clignement des yeux`,
         zh: '眨眼后舒适时间测试',
         ar: 'اختبار مدة الراحة|بعد الرَمش',
-        uk: 'ЧАС ДО ПОЯВИ ДИСКОМФОРТУ ПІСЛЯ КЛІПАННЯ',
+        uk: 'ЧАС ДО ПОЯВИ|ДИСКОМФОРТУ|ПІСЛЯ КЛІПАННЯ',
     },
     {
         code: '_comfort_time_after_blink_test_text_1',
@@ -183,7 +183,7 @@ export default [
         fr: `Coloration à la|fluorescéine`,
         zh: '荧光素染色',
         ar: 'تلطيخ|الفلوريسئين',
-        uk: 'ПРОФАРБОВУВАННЯ ФЛЮОРЕСЦЕЇНОМ',
+        uk: 'ПРОФАРБОВУВАННЯ|ФЛЮОРЕСЦЕЇНОМ',
     },
     {
         code: '_fluorescein_staining_text',
@@ -227,7 +227,7 @@ export default [
         fr: `Temps de rupture|non invasif|(NIBUT)`,
         zh: '非侵入性泪|膜破裂时间',
         ar: 'زمن تكسّر الدموع|غير التداخلي',
-        uk: 'НЕІНВАЗИВНИЙ ЧАС РОЗРИВУ СЛІЗНОЇ ПЛІВКИ',
+        uk: 'НЕІНВАЗИВНИЙ|ЧАС РОЗРИВУ|СЛІЗНОЇ ПЛІВКИ',
     },
     {
         code: '_non_invasive_breakup_time_text',
@@ -322,7 +322,7 @@ export default [
         fr: `Coloration|au vert de|lissamine`,
         zh: '绿色利萨明染色',
         ar: 'تلطيخ|الليسّامين|الأخضر',
-        uk: 'ПРОФАРБОВУВАННЯ ЛІСАМІНОВИМ ЗЕЛЕНИМ',
+        uk: 'ПРОФАРБОВУВАННЯ|ЛІСАМІНОВИМ|ЗЕЛЕНИМ',
     },
     {
         code: '_lissamine_green_staining_text',
@@ -414,7 +414,7 @@ export default [
         fr: `Fréquence et|complétude des|clignements`,
         zh: '眨眼完整性及眼睑闭合：|眼表充血',
         ar: 'اكتمال الرَمش|وإغلاق الجفن؛|الاحمرار',
-        uk: 'Кліпання та змикання повік; гіперемія',
+        uk: 'Кліпання та|змикання повік;|гіперемія',
     },
     {
         code: '_blink_rate_and_completeness_text',
@@ -441,7 +441,7 @@ export default [
         fr: `Hauteur du|ménisque lacrymal`,
         zh: '泪河高度',
         ar: 'ارتفاع الهلالة|الدمعية المائية',
-        uk: 'Висота слізного меніска',
+        uk: 'Висота слізного|меніска',
     },
     {
         code: '_aqueous_tear_meniscus_height_text',
@@ -496,7 +496,7 @@ export default [
         fr: `Expression des|glandes de|Meibomius`,
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير|الغدد الميبومية',
-        uk: 'Повіки: Експресія мейбомієвих залоз',
+        uk: 'Повіки:|Експресія|мейбомієвих|залоз',
     },
     {
         code: '_eyelids_meibomian_gland_expression_text',
@@ -523,7 +523,7 @@ export default [
         fr: `Meibographie`,
         zh: '睑板腺成像术 及|脂质层干涉成像术',
         ar: 'تصوير الغدد الميبومية|والإنترفيريومتري',
-        uk: 'Мейбографія та інтерферометрія',
+        uk: 'Мейбографія та|інтерферометрія',
     },
     {
         code: '_meibography_and_interferometry_text',
@@ -559,7 +559,7 @@ export default [
         fr: 'Mésalignement de la surface oculaire',
         zh: '眼表对位不良',
         ar: 'اختلال محاذاة|سطح العين',
-        uk: 'Зміни очної поверхні',
+        uk: 'Зміни очної|поверхні',
     },
     {
         code: '_ocular_surface_misalignment_text',
@@ -595,7 +595,7 @@ export default [
         fr: 'Examen Des Paupières : Blépharite Antérieure',
         zh: '眼睑：|前部睑缘炎检查',
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
-        uk: 'Повіки: Передній блефарит',
+        uk: 'Повіки:|Передній|блефарит',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_text',

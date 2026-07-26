@@ -109,7 +109,7 @@ remita al paciente según corresponda.</div>
         fr: 'Chirurgies Passées',
         zh: '既往眼科手术史',
         ar: 'جراحات|العين السابقة',
-        uk: 'ПОПЕРЕДНІ ОФТАЛЬМОЛОГІЧНІ ОПЕРАЦІЇ',
+        uk: 'ПОПЕРЕДНІ|ОФТАЛЬМОЛОГІЧНІ|ОПЕРАЦІЇ',
     },
     {
         code: '_sleep_button',
@@ -213,7 +213,7 @@ remita al paciente según corresponda.</div>
         fr: `Environnement`,
         zh: '环境',
         ar: 'إرشادات|بيئية',
-        uk: 'ФАКТОРИ НАВКОЛИШНЬОГО СЕРЕДОВИЩА',
+        uk: 'ФАКТОРИ|НАВКОЛИШНЬОГО|СЕРЕДОВИЩА',
     },
     {
         code: '_environment_advice_text',
@@ -343,7 +343,7 @@ remita al paciente según corresponda.</div>
         fr: 'Diagnostic|différentiel',
         zh: '鉴别',
         ar: 'التشخيص|التفريقي',
-        uk: 'ДИФЕРЕНЦІЙНА ДІАГНОСТИКА',
+        uk: 'ДИФЕРЕНЦІЙНА|ДІАГНОСТИКА',
     },
     {
         code: '_contact_lens_icon',
@@ -379,7 +379,7 @@ remita al paciente según corresponda.</div>
         fr: 'Symptômes et|histoire de cas',
         zh: '病史和症状',
         ar: 'فحص|الأعراض',
-        uk: 'ОЦІНКА СИМПТОМІВ',
+        uk: 'ОЦІНКА|СИМПТОМІВ',
     },
     {
         code: `_differential_header`,
@@ -501,7 +501,7 @@ remita al paciente según corresponda.</div>
         fr: `Prise en charge proactive|de l'atteinte de la|surface oculaire`,
         zh: '主动预防与管理眼表疾病',
         ar: 'الإدارة الاستباقية|لمرض سطح|العين',
-        uk: 'ПРОАКТИВНЕ ВЕДЕННЯ ЗАХВОРЮВАНЬ ПОВЕРХНІ ОКА',
+        uk: 'ПРОАКТИВНЕ|ВЕДЕННЯ|ЗАХВОРЮВАНЬ|ПОВЕРХНІ ОКА',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_text',
@@ -519,7 +519,7 @@ remita al paciente según corresponda.</div>
         fr: 'Évaluation de la sensibilité cornéene',
         zh: '角膜敏感度评估',
         ar: 'تقييم حساسية القرنية',
-        uk: 'ОЦІНКА ЧУТЛИВОСТІ РОГІВКИ',
+        uk: 'ОЦІНКА ЧУТЛИВОСТІ|РОГІВКИ',
     },
     {
         code: '_corneal_sensitivity_title',
@@ -537,7 +537,7 @@ remita al paciente según corresponda.</div>
         fr: 'Évaluation de la|sensibilité cornéene',
         zh: '角膜敏感度评估',
         ar: 'تقييم|حساسية القرنية',
-        uk: 'ОЦІНКА ЧУТЛИВОСТІ РОГІВКИ',
+        uk: 'ОЦІНКА|ЧУТЛИВОСТІ|РОГІВКИ',
     },
     {
         code: '_corneal_sensitivity_assessment_text',
