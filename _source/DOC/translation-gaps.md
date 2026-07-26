@@ -2,6 +2,14 @@
 
 This file tracks anything discovered while adding the 5 new languages (Ukrainian `uk`, Dutch `nl`, Czech `cs`, Bahasa Indonesia `id`, Hungarian `hu`) that wasn't a clean 1:1 match against the supplied `.xlsx` files, so nothing gets silently guessed. See `docs/superpowers/plans/` — actually see the approved plan at the time of writing: `C:\Users\me\.claude\plans\iterative-knitting-crown.md`.
 
+## Wheel-title rollout (post-pilot)
+
+After the English `textPath` pilot for the 3 big ring titles (MITIGATION/MEASUREMENT/MANAGEMENT) was signed off, it was rolled out to all 10 languages, replacing the old per-language hand-vectorized/imported SVG word-art for `es`/`fr`/`zh`/`ar`.
+
+This surfaced a real bug: the wheel title and the popover button for the same concept were both looked up via the literal English string (e.g. `$t('Management')`), which always resolves to the *first* matching object in the array — the `_management_button` entry — not the second, functionally-unreachable duplicate object that historically held a different (shorter) translation. New explicit codes (`_mitigation_title`, `_measurement_title`, `_management_title`) were added to those duplicate objects so the ring title and the popover button can be looked up independently.
+
+For Arabic specifically, the duplicate object's shorter translation (`التخفيف`, `القياس`, `الإدارة`, sourced from the older `_source/DOC/completed/Dry Eye Wheel - Arabic 202602 (2).xlsx`) turned out to **not** match the actual previously-shipped artwork — a reference screenshot showed the ring text reading `تخفيف جفاف العين` / `قياسات جفاف العين` / `إدارة / علاج جفاف العين` (i.e. the longer, button-style phrasing). The new `_*_title` codes were set to match the reference screenshot (the longer phrasing) for Arabic, while `es`/`fr`/`zh` (which didn't have this discrepancy) keep the same value in both the button and title codes.
+
 ## Pre-existing content mismatch (not caused by this work)
 
 Three objects in `src/translations/management.js` already had inconsistent `en`/`es`/`fr`/`zh`/`ar` content **before** this task, verified against the live app:
