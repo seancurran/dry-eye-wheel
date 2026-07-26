@@ -134,13 +134,13 @@ const controlsStore = useControlsStore();
         </g>
         <!-- Use _complex_treatments_icon translation with | as line break delimiter -->
         <text
-            x="528"
+            :x="$selectedLanguage.value === 'uk' ? 534 : 528"
             y="450"
             text-anchor="middle">
             <tspan
                 v-for="(line, index) in $t('_complex_treatments_icon').split('|')"
                 :key="index"
-                x="528  "
+                :x="$selectedLanguage.value === 'uk' ? 534 : 528"
                 :dy="index === 0 ? 0 : '1.2em'"
                 :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
                 {{ line }}
