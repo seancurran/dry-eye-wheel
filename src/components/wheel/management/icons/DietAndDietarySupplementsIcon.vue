@@ -95,7 +95,7 @@ const controlsStore = useControlsStore();
 <style lang="postcss" scoped>
 .st9 {
     fill: none;
-    stroke: #241f20;
+    stroke: #000;
     stroke-width: 1.35;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -108,7 +108,7 @@ const controlsStore = useControlsStore();
 
 .st10 {
     fill: none;
-    stroke: #241f20;
+    stroke: #000;
     stroke-width: 1.35;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -121,7 +121,7 @@ const controlsStore = useControlsStore();
 
 .st11 {
     fill: none;
-    stroke: #241f20;
+    stroke: #000;
     stroke-width: 1.1;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -133,7 +133,7 @@ const controlsStore = useControlsStore();
 }
 
 .st12 {
-    fill: #241f20;
+    fill: #000;
 }
 
 .svg-active .st12 {
