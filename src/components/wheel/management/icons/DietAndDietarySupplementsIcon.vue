@@ -11,7 +11,7 @@ const controlsStore = useControlsStore();
         class="svg-icon"
         :class="{ 'svg-active': controlsStore.selectedItem === 'diet-and-dietary-supplements' }"
         style="transform: translate(0px, 0px)">
-        <g>
+        <g style="transform: translate(506px, 702px) scale(0.85) translate(-506px, -702px)">
             <path
                 class="st9"
                 d="M478.9,702.8L478.9,702.8l-11.6,11.6c-4.5,4.5-4.5,11.8,0,16.3s11.8,4.5,16.3,0l11.6-11.6l0,0
