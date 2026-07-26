@@ -7,7 +7,7 @@ const controlsStore = useControlsStore();
     <g
         class="svg-icon svg-fill-path"
         :class="{ 'svg-active': controlsStore.selectedItem === 'previous-eye-surgery' }"
-        style="transform: translate(60px, 20px)">
+        :style="{ transform: $selectedLanguage.value === 'uk' ? 'translate(60px, 10px)' : 'translate(60px, 20px)' }">
         <!-- Icon -->
         <g style="transform: translate(620px, 1030px); scale: 0.29">
             <path
