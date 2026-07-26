@@ -36,6 +36,11 @@ body {
     @apply font-euclid-circular-regular antialiased;
 }
 
+/* Ukrainian button labels are already sentence-cased in the data; don't force uppercase on them. */
+html[lang='uk'] .btn-section {
+    text-transform: none;
+}
+
 .wheel-svg {
     text-transform: uppercase;
     font-family: 'EuclidCircularA-SemiBold', sans-serif;
