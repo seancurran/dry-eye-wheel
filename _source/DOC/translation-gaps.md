@@ -44,6 +44,8 @@ No translator/organization name was supplied for any of the 5 new languages (unl
 ### Ukrainian (uk)
 No additional issues found beyond the above.
 
+`_advice_button`/`_advice_icon` originally used the xlsx's literal translation "РЕКОМЕНДАЦІЇ ПАЦІЄНТУ" ("Recommendations to the patient"), which is accurate but much longer than the English "Advice" and didn't fit the icon label on one line. Per request, replaced with "ПОРАДИ" (a standard, shorter Ukrainian word meaning "Advice"/"tips") — this is a deviation from the literal xlsx text, done deliberately for a short UI label, not a translation error.
+
 ### Dutch (nl)
 No additional issues found beyond the above.
 
