@@ -12,6 +12,11 @@ export default {
             { code: 'fr', name: 'Français' },
             { code: 'zh', name: '中文' },
             { code: 'ar', name: 'عربي' },
+            { code: 'uk', name: 'Українська' },
+            { code: 'nl', name: 'Nederlands' },
+            { code: 'cs', name: 'Čeština' },
+            { code: 'id', name: 'Bahasa Indonesia' },
+            { code: 'hu', name: 'Magyar' },
         ];
 
         const rtlLanguages = ['ar'];
