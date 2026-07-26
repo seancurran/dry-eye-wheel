@@ -378,38 +378,22 @@ const controlsStore = useControlsStore();
         <!-- MEASUREMENT text -->
         <g v-if="$selectedLanguage.value === 'en'">
             <path
-                class="measurement-cls-14"
-                d="m683.36,36.59l-12.44,17.87-6.49-4.51,20.17-28.97,5.92,4.12.37,18.79,17.75-6.18,5.92,4.12-20.17,28.97-6.53-4.54,12.44-17.87-16.6,5.83-.34-17.62Z" />
-            <path
-                class="measurement-cls-14"
-                d="m725.21,50.5l17.07,14.46-4.88,5.76-11.04-9.35-4.08,4.82,8.76,7.42-4.88,5.76-8.76-7.42-4.08,4.82,11.04,9.35-4.88,5.76-17.07-14.46,22.82-26.93Z" />
-            <path
-                class="measurement-cls-14"
-                d="m759.2,81.1l5.04,5.08-14.42,35.59-5.81-5.86,3.09-7.47-10.29-10.38-7.5,3.03-5.81-5.86,35.71-14.12Zm-9.26,20.46l4.44-10.63-10.67,4.35,6.23,6.28Z" />
-            <path
-                class="measurement-cls-14"
-                d="m760.56,117.1l5.07,6.06c-1.97,2.3-1.67,5.22.31,7.58,1.69,2.02,3.81,2.77,5.34,1.5,1.26-1.05,1.45-2.84-.03-6l-1.52-3.21c-2.46-5.27-2.2-10.54,2-14.11,5.08-4.31,11.33-3.19,16.02,2.41,4.94,5.91,3.73,13.21-.3,16.84l-5.04-6.02c1.62-2.4.95-4.68-.27-6.13-1.47-1.75-3.41-2.53-4.89-1.35-1.52,1.21-1.38,3.16-.16,5.7l1.78,3.76c2.56,5.38,1.95,10.55-2.28,14.09-4.61,3.86-11.39,3.04-16.27-2.79-5.61-6.71-4.12-14.31.22-18.33Z" />
-            <path
-                class="measurement-cls-14"
-                d="m785.34,143.14l17.46-12.24,4.54,6.47-17.54,12.3c-3.46,2.43-4.04,6.11-1.78,9.32,2.25,3.22,5.91,3.93,9.37,1.5l17.54-12.3,4.54,6.47-17.46,12.24c-7.2,5.05-15.41,3.4-20.26-3.52-4.88-6.96-3.61-15.2,3.59-20.25Z" />
-            <path
-                class="measurement-cls-14"
-                d="m826.48,165.82l6.94,12.07c3.32,5.77,1.32,11.86-3.77,14.78-3.96,2.28-7.72,1.63-11.33-1.45l-7.27,18.57-4.73-8.23,6.78-17.43-.64-1.12-12.63,7.26-3.94-6.85,30.6-17.6Zm-5.68,18.24c1.17,2.03,3.17,2.82,4.94,1.81,1.85-1.07,2.09-3.15.92-5.18l-2.53-4.4-5.86,3.37,2.53,4.4Z" />
-            <path
-                class="measurement-cls-14"
-                d="m845.28,199.79l9.53,20.23-6.83,3.22-6.17-13.08-5.71,2.69,4.89,10.39-6.83,3.22-4.89-10.39-5.71,2.69,6.17,13.08-6.83,3.22-9.53-20.23,31.93-15.04Z" />
-            <path
-                class="measurement-cls-14"
-                d="m849.76,243.32l-20.49,7.37-2.67-7.44,33.22-11.94,2.44,6.78-10.58,15.53,18.05,5.24,2.44,6.78-33.22,11.94-2.69-7.49,20.49-7.37-16.91-4.86,9.93-14.56Z" />
-            <path
-                class="measurement-cls-14"
-                d="m875.82,278.88l5.53,21.67-7.32,1.87-3.58-14.01-6.12,1.56,2.84,11.12-7.32,1.87-2.84-11.12-6.12,1.56,3.58,14.01-7.32,1.87-5.53-21.67,34.19-8.73Z" />
-            <path
-                class="measurement-cls-14"
-                d="m853.2,342.81l18.78-20.48-21.54,3.5-1.27-7.8,34.84-5.66,1.09,6.72-18.74,20.42,21.49-3.49,1.28,7.85-34.84,5.66-1.09-6.72Z" />
-            <path
-                class="measurement-cls-14"
-                d="m883.38,364.3l-.65-8.97,7.54-.54,1.88,25.98-7.54.54-.66-9.07-27.67,2-.57-7.93,27.67-2Z" />
+                id="measurement-title-arc"
+                d="M 682 50 A 462.7 462.7 0 0 1 878 372"
+                fill="none"
+                stroke="none" />
+            <text
+                font-family="'EuclidCircularA-Bold', sans-serif"
+                font-weight="700"
+                font-size="46"
+                letter-spacing="1"
+                class="measurement-cls-14">
+                <textPath
+                    href="#measurement-title-arc"
+                    startOffset="2%">
+                    {{ $t('Measurement') }}
+                </textPath>
+            </text>
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'es'"
@@ -448,6 +432,31 @@ const controlsStore = useControlsStore();
             v-else-if="$selectedLanguage.value === 'ar'"
             style="transform: translate(600px, -15px) rotate(-5deg)">
             <MeasurementTextAr :viewBox="null" />
+        </g>
+        <g v-else>
+            <!--
+                Pilot: languages without bespoke hand-vectorized word-art fall back to the same
+                live textPath treatment as 'en' above, showing the English word until the pilot
+                is signed off and rolled out with real per-language translations (see
+                translation-gaps.md).
+            -->
+            <path
+                id="measurement-title-arc-fallback"
+                d="M 682 50 A 462.7 462.7 0 0 1 878 372"
+                fill="none"
+                stroke="none" />
+            <text
+                font-family="'EuclidCircularA-Bold', sans-serif"
+                font-weight="700"
+                font-size="46"
+                letter-spacing="1"
+                class="measurement-cls-14">
+                <textPath
+                    href="#measurement-title-arc-fallback"
+                    startOffset="2%">
+                    Measurement
+                </textPath>
+            </text>
         </g>
     </svg>
 </template>

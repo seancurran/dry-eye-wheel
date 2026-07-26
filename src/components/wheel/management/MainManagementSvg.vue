@@ -172,35 +172,22 @@ import ManagementTextAr from '@/assets/svg/ar/management-text.svg';
         <!-- MANAGEMENT text -->
         <g v-if="$selectedLanguage.value === 'en'">
             <path
-                class="management-cls-8"
-                d="m284.33,806.98l-7.48,20.45-7.42-2.72,12.13-33.15,6.77,2.48,5.14,18.08,15.59-10.49,6.77,2.48-12.13,33.15-7.47-2.73,7.48-20.45-14.57,9.86-4.81-16.95Z" />
-            <path
-                class="management-cls-8"
-                d="m336.25,809.62l6.94,1.76,6,37.92-8-2.02-1.21-8-14.17-3.58-4.86,6.46-8-2.02,23.31-30.51Zm2.61,22.3l-1.68-11.4-6.9,9.23,8.58,2.17Z" />
-            <path
-                class="management-cls-8"
-                d="m383.39,854.79l-13.75-24.14-3.25,21.58-7.82-1.18,5.26-34.9,6.73,1.02,13.71,24.09,3.25-21.53,7.86,1.19-5.26,34.9-6.73-1.02Z" />
-            <path
-                class="management-cls-8"
-                d="m416.55,822.41l7.15.37,13.29,36.03-8.24-.42-2.75-7.61-14.6-.75-3.51,7.29-8.24-.42,16.9-34.48Zm6.92,21.36l-3.87-10.85-4.96,10.4,8.84.45Z" />
-            <path
-                class="management-cls-8"
-                d="m442.16,841.17c-.45-10.23,6.95-18.57,17.72-19.04,7.15-.31,14.29,3.55,17.07,10.3l-9.09.4c-1.79-2.16-4.82-3.17-7.65-3.05-6.46.28-10.37,5.13-10.11,11.04.26,5.91,4.59,10.4,11.14,10.11,5.26-.23,8.18-3,8.83-7.31l-10.13.45-.33-7.4,18.33-.8c2.39,14.87-5.79,22.25-16.37,22.71-10.88.48-18.97-7.18-19.42-17.41Z" />
-            <path
-                class="management-cls-8"
-                d="m485.66,820.9l22.18-2.93.99,7.49-14.34,1.89.83,6.26,11.39-1.5.99,7.49-11.39,1.5.83,6.26,14.34-1.9.99,7.49-22.18,2.93-4.62-35Z" />
-            <path
-                class="management-cls-8"
-                d="m526.83,828.24l4.79,21.24-7.71,1.74-7.77-34.43,7.03-1.59,14.11,12.41,7.42-17.27,7.03-1.59,7.77,34.43-7.76,1.75-4.79-21.24-6.9,16.18-13.23-11.64Z" />
-            <path
-                class="management-cls-8"
-                d="m561.25,805.77l21.28-6.9,2.33,7.19-13.76,4.46,1.95,6,10.92-3.54,2.33,7.19-10.92,3.54,1.95,6.01,13.76-4.46,2.33,7.19-21.28,6.9-10.89-33.58Z" />
-            <path
-                class="management-cls-8"
-                d="m627.5,818.74l-24.35-13.38,8.52,20.09-7.28,3.08-13.78-32.5,6.27-2.66,24.29,13.35-8.5-20.05,7.32-3.1,13.78,32.5-6.27,2.66Z" />
-            <path
-                class="management-cls-8"
-                d="m638.09,782.73l-7.95,4.23-3.55-6.67,23-12.24,3.55,6.67-8.03,4.27,13.03,24.5-7.02,3.74-13.03-24.5Z" />
+                id="management-title-arc"
+                d="M 278 822 A 446.5 446.5 0 0 0 644 785"
+                fill="none"
+                stroke="none" />
+            <text
+                font-family="'EuclidCircularA-Bold', sans-serif"
+                font-weight="700"
+                font-size="46"
+                letter-spacing="1"
+                class="management-cls-8">
+                <textPath
+                    href="#management-title-arc"
+                    startOffset="2%">
+                    {{ $t('Management') }}
+                </textPath>
+            </text>
         </g>
         <g
             v-else-if="$selectedLanguage.value === 'es'"
@@ -244,6 +231,31 @@ import ManagementTextAr from '@/assets/svg/ar/management-text.svg';
             v-else-if="$selectedLanguage.value === 'ar'"
             style="transform: translate(180px, 735px) rotate(0deg)">
             <ManagementTextAr :viewBox="null" />
+        </g>
+        <g v-else>
+            <!--
+                Pilot: languages without bespoke hand-vectorized word-art fall back to the same
+                live textPath treatment as 'en' above, showing the English word until the pilot
+                is signed off and rolled out with real per-language translations (see
+                translation-gaps.md).
+            -->
+            <path
+                id="management-title-arc-fallback"
+                d="M 278 822 A 446.5 446.5 0 0 0 644 785"
+                fill="none"
+                stroke="none" />
+            <text
+                font-family="'EuclidCircularA-Bold', sans-serif"
+                font-weight="700"
+                font-size="46"
+                letter-spacing="1"
+                class="management-cls-8">
+                <textPath
+                    href="#management-title-arc-fallback"
+                    startOffset="2%">
+                    Management
+                </textPath>
+            </text>
         </g>
     </svg>
 </template>
