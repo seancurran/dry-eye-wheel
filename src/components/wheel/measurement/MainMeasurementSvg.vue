@@ -353,7 +353,13 @@ const controlsStore = useControlsStore();
                     '14px'
             }"
             style="rotate: -32deg; letter-spacing: 1.5px;">
-            {{ $t('Sub-Typing') }}
+            <tspan
+                v-for="(line, index) in $t('Sub-Typing').split('|')"
+                :key="index"
+                x="480"
+                :dy="index === 0 ? 0 : '1.1em'">
+                {{ line }}
+            </tspan>
         </text>
 
         <BlinkRateAndCompletenessIcon />
