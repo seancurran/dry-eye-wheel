@@ -47,3 +47,9 @@ No additional issues found beyond the above. Button label is shown as "Bahasa" (
 
 ### Hungarian (hu)
 No additional issues found beyond the above.
+
+## Icon / popover-title line-break pass (all 5 new languages)
+
+`PopoverCard.vue`'s `:title` prop is *also* split on `|` (same mechanism as the small wheel icons), so essentially every `_..._button`/`_..._title` field needed the same French-style pipe line-break treatment as the dedicated `_..._icon` fields — not just the icon fields themselves. All button/title fields across the 5 new languages now get an automatic greedy word-wrap (matching existing line lengths used by `fr`), same as the icon fields.
+
+A handful of individual words (e.g. Ukrainian "МЕДИКАМЕНТОЗНА", Dutch "Eerstelijnsbehandelingen") are long enough on their own that wrapping doesn't bring them fully in line with the shortest English/Spanish labels — these are within roughly the same range as the longest labels the English version itself already ships (e.g. "Proactive Management of Ocular Surface Disease"), but could benefit from a further per-language `font-size` override (the same mechanism already used for `zh`/`fr` on ~40 icon components), to be confirmed by eye once someone can view the running app directly — the screenshot tool wasn't available in this session, so this pass was verified via DOM text-measurement (`getComputedTextLength()`) rather than visually.
