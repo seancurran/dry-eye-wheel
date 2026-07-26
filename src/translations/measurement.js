@@ -170,9 +170,9 @@ export default [
         ar: 'يَرْمُش المريض ثم يُبلِّغ عن اللحظة التي تبدأ فيها العين بالشعور بعدم الارتياح – ويُكرَّر ذلك 3 مرات',
         uk: 'Пацієнт повідомляє, коли з’являється перший дискомфорт (повторити 3 рази) після останнього кліпання.',
         nl: 'De patiënt knippert en geeft aan wanneer de ogen voor het eerst oncomfortabel aanvoelen, herhaal dit 3 keer.',
-        cs: 'Pacient mrkne a oznámí, kdy poprvé začnou být oči nepohodlné.',
+        cs: 'Pacient mrkne a oznámí, kdy poprvé začnou být oči nepohodlné. - opakujte 3krát',
         id: 'Pasien berkedip dan melaporkan ketika mata pertama kali menjadi tidak nyaman – ulangi 3 kali',
-        hu: 'A beteg pislog, majd jelzi, hogy mikor érez először kellemetlenséget, 3 alkalommal megismételve                                                                                <10 mp száraz szem betegségre utal',
+        hu: 'A beteg pislog, majd jelzi, hogy mikor érez először kellemetlenséget, 3 alkalommal megismételve',
     },
     {
         code: '_comfort_time_after_blink_test_text_2',
@@ -183,9 +183,9 @@ export default [
         ar: 'أقل من 10 ثوانٍ يُعَدّ مؤشرًا على جفاف العين',
         uk: '< 10 сек. — ознака захворювання сухого ока',
         nl: '< 10 seconden is indicatief voor droge ogen.',
-        cs: '- opakujte 3krát < 10s značí orientační diagnózu onemocnění suchého oka',
+        cs: '< 10s značí orientační diagnózu onemocnění suchého oka',
         id: '< 10-an yang mengindikasikan penyakit mata kering',
-        hu: '',
+        hu: '<10 mp száraz szem betegségre utal',
     },
     {
         code: '_osdi_6_button',
@@ -251,7 +251,8 @@ export default [
 <div>Kuesioner lain dapat membantu pilihan manajemen, tetapi tidak diagnosis standar.</div>
 `,
         hu: `
-<div>OSDI-6 pontszám≥ 4                                                                                   más kérdőívek segíthetik a kezelési döntéseket, de nem alkalmasak standarizált diagnózis felállítására.</div>
+<div>OSDI-6 pontszám≥ 4</div>
+<div>más kérdőívek segíthetik a kezelési döntéseket, de nem alkalmasak standarizált diagnózis felállítására.</div>
 `,
     },
     {
@@ -318,7 +319,8 @@ export default [
 <div>> 5 bintik kornea diagnostik penyakit mata kering.</div>
 `,
         hu: `
-<div>Minimális mennyiségű fluoreszceint juttatnak a szembe. A vizsgálat a becseppentést követően 1-3 perccel történik.                                                                                                             > 5 corneális festődési pont diagnosztikus a száraz szem betegségre</div>
+<div>Minimális mennyiségű fluoreszceint juttatnak a szembe. A vizsgálat a becseppentést követően 1-3 perccel történik.</div>
+<div>> 5 corneális festődési pont diagnosztikus a száraz szem betegségre</div>
 `,
     },
     {
@@ -389,7 +391,8 @@ export default [
 <div>< 10-an adalah diagnostik penyakit mata kering</div>
 `,
         hu: `
-<div>A beteg pislog, majd nyitva tartja a szemét, ameddig csak tudja; azt az időpontot mérjük, amikor a szemfelszínről visszaverődő kép torzul. Ez a könnyfilm minőségét jelzi.                                                                                 <10 mp száraz szem betegségre utal</div>
+<div>A beteg pislog, majd nyitva tartja a szemét, ameddig csak tudja; azt az időpontot mérjük, amikor a szemfelszínről visszaverődő kép torzul. Ez a könnyfilm minőségét jelzi.</div>
+<div><10 mp száraz szem betegségre utal</div>
 `,
     },
     {
