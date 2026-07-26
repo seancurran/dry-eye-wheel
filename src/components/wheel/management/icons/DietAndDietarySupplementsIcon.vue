@@ -96,7 +96,7 @@ const controlsStore = useControlsStore();
 .st9 {
     fill: none;
     stroke: #241f20;
-    stroke-width: 1.0871;
+    stroke-width: 1.35;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-miterlimit: 10;
@@ -109,7 +109,7 @@ const controlsStore = useControlsStore();
 .st10 {
     fill: none;
     stroke: #241f20;
-    stroke-width: 1.0871;
+    stroke-width: 1.35;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-miterlimit: 9.9997;
@@ -122,7 +122,7 @@ const controlsStore = useControlsStore();
 .st11 {
     fill: none;
     stroke: #241f20;
-    stroke-width: 0.9059;
+    stroke-width: 1.1;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-miterlimit: 10;
