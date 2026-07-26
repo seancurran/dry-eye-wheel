@@ -743,7 +743,7 @@ export default [
         fr: `Expression des|glandes de|Meibomius`,
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير|الغدد الميبومية',
-        uk: 'Повіки:|Експресія|мейбомієвих|залоз',
+        uk: 'Повіки: Експресія|мейбомієвих залоз',
         nl: 'Oogleden:|Meibomklier|expressie',
         cs: 'Oční víčka:|Exprese|Meibomských|žlaz',
         id: 'Kelopak Mata:|Ekspresi|Kelenjar|Meibomian',
