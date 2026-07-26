@@ -10,6 +10,7 @@ export default [
         uk: 'ПРОФІЛАКТИКА',
         nl: 'MITIGATIE',
         cs: 'ZMÍRNĚNÍ NÁSLEDKŮ',
+        id: 'MITIGASI',
     },
     {
         en: 'Mitigation',
@@ -20,6 +21,7 @@ export default [
         uk: 'ПРОФІЛАКТИКА',
         nl: 'MITIGATIE',
         cs: 'ZMÍRNĚNÍ NÁSLEDKŮ',
+        id: 'MITIGASI',
     },
     {
         code: '_mitigation_text',
@@ -67,6 +69,9 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         cs: `Třídění pacientů (triáž) na základě sílené anamnézy a symptomů spolu s provedením diferenciální diagnostiky umožňuje zavést profylaktická opatření k omezení poškození oka
 
 Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu syndromu onemocnění suchého oka a vést k nepříjemným symptomům u pacientů. Snižte riziko pečlivou identifikací rizikových faktorů, jako je nošení kontaktních čoček, používání digitálních zařízení, vlivy prostředí, hormonální změny, vlivy prostředí, hormonální změny a změny v užívání léků. Dále řešte oči z hlediska náhodných nálezů a podle toho pacienta řešte nebo odešlete ke specialistovi`,
+        id: `Triase dengan riwayat dan gejala yang ditargetkan, serta melakukan diagnosis banding dapat memungkinkan tindakan profilaksis dilakukan untuk membatasi kerusakan permukaan mata
+
+Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan penyakit mata kering dan menyebabkan gejala ketidaknyamanan bagi pasien. Kurangi risiko ini dengan hati-hati mengidentifikasi faktor risiko seperti pemakaian lensa kontak, penggunaan perangkat digital, tantangan lingkungan, dan perubahan hormon dan obat-obatan, serta menilai mata untuk temuan insidental, dan kelola atau rujuk pasien sesuai dengan itu.`,
     },
     {
         code: '_risk_factors_button',
@@ -78,6 +83,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ФАКТОРИ РИЗИКУ',
         nl: 'RISICOFACTOREN',
         cs: 'RIZIKOVÉ FAKTORY',
+        id: 'FAKTOR RISIKO',
     },
     {
         en: 'Risk Factors',
@@ -88,6 +94,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ФАКТОРИ РИЗИКУ',
         nl: 'RISICOFACTOREN',
         cs: 'RIZIKOVÉ FAKTORY',
+        id: 'FAKTOR RISIKO',
     },
     {
         code: '_previous_eye_surgery_button',
@@ -99,6 +106,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ПОПЕРЕДНІ ОФТАЛЬМОЛОГІЧНІ ОПЕРАЦІЇ',
         nl: 'Eerdere Oogoperaties',
         cs: 'Předchozí oční operace',
+        id: 'Operasi Mata Sebelumnya',
     },
     {
         code: '_previous_eye_surgery_title',
@@ -110,6 +118,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ПОПЕРЕДНІ ОФТАЛЬМОЛОГІЧНІ ОПЕРАЦІЇ',
         nl: 'Eerdere Oogoperaties',
         cs: 'Předchozí oční operace',
+        id: 'Operasi Mata Sebelumnya',
     },
     {
         code: '_previous_eye_surgery_text',
@@ -121,6 +130,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Хірургічні втручання можуть призводити до ушкодження рогівкових нервів і порушення взаємодії між поверхнею ока та повіками, що впливає на гомеостаз слізної плівки.',
         nl: 'Bij oogoperaties worden vaak corneazenuwen doorgesneden, wat kan leiden tot een anatomische verstoring van de uitlijning tussen het oogoppervlak en de oogleden, wat de homeostase van de traanfilm kan aantasten.',
         cs: 'Operace oka často zahrnuje přetnutí rohovkových nervů a může vést k anatomickému nesouladu mezi povrchem oka a povrchem očních víček, což může narušit homeostázu slzného filmu',
+        id: 'Operasi mata sering melibatkan pemotongan saraf kornea dan dapat mengakibatkan ketidaksejajaran anatomi antara permukaan okular dan permukaan kelopak mata, yang dapat mengganggu homeostasis film air mata',
     },
     {
         code: '_previous_eye_surgery_icon',
@@ -132,6 +142,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ПОПЕРЕДНІ|ОФТАЛЬМОЛОГІЧНІ|ОПЕРАЦІЇ',
         nl: 'Eerdere|Oogoperaties',
         cs: 'Předchozí oční|operace',
+        id: 'Operasi Mata|Sebelumnya',
     },
     {
         code: '_sleep_button',
@@ -143,6 +154,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'СОН',
         nl: 'SLAAP',
         cs: 'SPÁNEK',
+        id: 'TIDUR',
     },
     {
         en: 'Sleep',
@@ -153,6 +165,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'СОН',
         nl: 'SLAAP',
         cs: 'SPÁNEK',
+        id: 'TIDUR',
     },
     {
         code: '_sleep_text',
@@ -164,6 +177,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Недостатня тривалість і низька якість сну пов’язані з підвищеним ризиком захворювання сухого ока, особливо при сні менше ніж 5 годин на добу.\nРекомендується дотримуватися здорових звичок сну для зниження ризику симптомів.',
         nl: 'Een slechte slaapkwaliteit en een te korte slaapduur worden in verband gebracht met een verhoogd risico op droge ogen, vooral bij minder dan 5 uur slaap per nacht. Stimuleer goede slaapgewoonten om het risico op klachten van droge ogen te verminderen. ',
         cs: 'Špatná kvalita nebo nedostatečné množství spánku jsou spojeny se zvýšeným rizikem onemocnění suchého oka, zejména při spánku kratším než 5 hodin za noc. Podporujte u pacientů správné spánkové návyky, které pomohou snížit riziko projevů suchého oka',
+        id: 'Kualitas dan kuantitas tidur yang buruk dikaitkan dengan peningkatan risiko penyakit mata kering, terutama kurang dari 5 jam tidur per malam. Dorong kebiasaan tidur yang baik untuk membantu mengurangi risiko gejala mata kering.',
     },
     {
         code: '_contact_lens_button',
@@ -175,6 +189,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'КОНТАКТНІ ЛІНЗИ',
         nl: 'CONTACTLENZEN  ',
         cs: 'KONTAKTNÍ ČOČKY',
+        id: 'LENSA KONTAK',
     },
     {
         en: 'Contact Lens',
@@ -185,6 +200,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'КОНТАКТНІ ЛІНЗИ',
         nl: 'CONTACTLENZEN  ',
         cs: 'KONTAKTNÍ ČOČKY',
+        id: 'LENSA KONTAK',
     },
     {
         code: '_contact_lens_text',
@@ -196,6 +212,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Контактні лінзи можуть порушувати слізну плівку та спричиняти тертя з поверхнею ока, тому їх використання потребує ретельної оптимізації, особливо у пацієнтів із наявною патологією поверхні ока.',
         nl: 'Contactlenzen kunnen de traanfilm verstoren en daarmee het risico vergroten op wrijving met het oogoppervlak. Daarom is een zorgvuldige optimalisatie van het contactlensgebruik essentieel, met name bij patiënten met een reeds bestaande aandoening van het oogoppervlak. ',
         cs: 'Kontaktní čočky mohou narušit slzný film a riskují vznik tření s povrchem oka. Jejich používání by proto mělo být pečlivě optimalizováno, obzvláště u osob s již existujícím onemocněním povrchu oka.',
+        id: 'Lensa kontak dapat mengganggu lapisan air mata dan berisiko menyebabkan gesekan dengan permukaan mata sehingga harus dioptimalkan dengan hati-hati, terutama pada mereka yang memiliki penyakit permukaan mata yang sudah ada sebelumnya.',
     },
     {
         code: '_digital_eye_strain_button',
@@ -207,6 +224,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ЕКРАННИЙ ЧАС',
         nl: 'DIGITALE OOGVERMOEIDHEID',
         cs: 'DIGITÁLNÍ ÚNAVA OČÍ',
+        id: 'KETEGANGAN MATA DIGITAL',
     },
     {
         en: 'Digital Eye Strain',
@@ -217,6 +235,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ЕКРАННИЙ ЧАС',
         nl: 'DIGITALE OOGVERMOEIDHEID',
         cs: 'DIGITÁLNÍ ÚNAVA OČÍ',
+        id: 'KETEGANGAN MATA DIGITAL',
     },
     {
         code: '_digital_eye_strain_text',
@@ -228,6 +247,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Тривала робота з екранами (понад 4-5 годин на добу) може погіршувати стан поверхні ока.\nНегативний вплив можна зменшити за рахунок регулярних перерв, вправ на моргання та розташування екрана нижче рівня очей.',
         nl: 'Het kijken naar digitale schermen kan aandoeningen van het oogoppervlak verergeren, met name bij gebruik van meer dan 4-5 uur per dag. Deze belasting kan worden verminderd door regelmatig pauzes in te lassen, knipperoefeningen te doen en het scherm lager dan ooghoogte te positioneren. ',
         cs: 'Sledování digitálních obrazovek může zhoršit onemocnění povrchu oka, zejména při délce nad 4-5 hodin denně. Tento dopad lze zmírnit pravidelnými přestávkami, mrkacími cvičeními a umístění obrazovek pod úroveň očí.',
+        id: 'Tampilan layar digital dapat memperburuk penyakit permukaan okular, terutama lebih dari 4-5 jam sehari. Dampaknya dapat dikurangi dengan beristirahat secara teratur, latihan berkedip, dan memposisikan layar lebih rendah dari mata.',
     },
     {
         code: '_environment_advice_button',
@@ -239,6 +259,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ФАКТОРИ НАВКОЛИШНЬОГО СЕРЕДОВИЩА',
         nl: 'OMGEVINGSADVIES ',
         cs: 'DOPORUČENÍ TÝKAJÍCÍ SE PROSTŘEDÍ',
+        id: 'SARAN LINGKUNGAN [Pindahkan Ikon ke Perunggu]',
     },
     {
         en: 'Environment Advice',
@@ -249,6 +270,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ФАКТОРИ НАВКОЛИШНЬОГО СЕРЕДОВИЩА',
         nl: 'OMGEVINGSADVIES ',
         cs: 'DOPORUČENÍ TÝKAJÍCÍ SE PROSTŘEDÍ',
+        id: 'SARAN LINGKUNGAN [Pindahkan Ikon ke Perunggu]',
     },
     {
         code: '_environment_advice_icon',
@@ -260,6 +282,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ФАКТОРИ|НАВКОЛИШНЬОГО|СЕРЕДОВИЩА',
         nl: 'OMGEVINGSADVIES',
         cs: 'DOPORUČENÍ|TÝKAJÍCÍ SE|PROSTŘEDÍ',
+        id: 'SARAN|LINGKUNGAN|[Pindahkan Ikon|ke Perunggu]',
     },
     {
         code: '_environment_advice_text',
@@ -271,6 +294,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Кондиціоноване повітря та вітер можуть сприяти розвитку сухості очей.\nАналіз умов, у яких симптоми посилюються, допомагає визначити необхідні заходи корекції.',
         nl: 'Omgevingsfactoren zoals airconditioning en winderige omstandigheden kunnen bijdragen aan het ontstaan of verergeren van droge ogen. Door te evalueren op welke momenten de klachten het meest uitgesproken zijn, kunnen gerichte aanpassingen worden gedaan. ',
         cs: 'Podmínky prostředí, jako je klimatizace a větrné počasí, mohou přispívat ke vzniku suchého oka. Analýza toho, kdy jsou symptomy suchého oka nejhorší, umožňuje víleně zavést nezbytná opatření.',
+        id: 'Kondisi lingkungan seperti AC dan kondisi berangin dapat menyebabkan mata kering; Tinjauan kapan gejala mata kering terburuk dapat memungkinkan untuk menargetkan adaptasi yang diperlukan.',
     },
     {
         code: '_hormones_button',
@@ -282,6 +306,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ГОРМОНИ',
         nl: 'HORMONEN',
         cs: 'HORMONY',
+        id: 'HORMON',
     },
     {
         en: 'Hormones',
@@ -292,6 +317,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ГОРМОНИ',
         nl: 'HORMONEN',
         cs: 'HORMONY',
+        id: 'HORMON',
     },
     {
         code: '_hormones_text',
@@ -303,6 +329,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Гормональні зміни можуть впливати на стабільність слізної плівки.\nУ таких випадках доцільна консультація лікаря.',
         nl: 'Hormonen reguleren veel fysiologische processen in het lichaam. Veranderingen in de hormoonhuishouding kunnen daardoor het evenwicht van de traanfilm verstoren. Wanneer er sprake is van hormonale veranderingen, kan een medische evaluatie aangewezen zijn. ',
         cs: 'Hormony regulují mnoho klíčových fyziologických procesů v těle, takže jejich změny mohou narušit přesně vyvážený slzný film. Při hormonálních změnách může být opodstatněné lékařské vysvětlení.',
+        id: 'Hormon mengatur banyak proses fisiologis utama tubuh, sehingga perubahan dapat mengganggu film air mata yang seimbang dengan tepat. Ketika hormon berubah, tinjauan medis mungkin diperlukan.',
     },
     {
         code: '_medication_review_button',
@@ -314,6 +341,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'МЕДИКАМЕНТИ',
         nl: 'MEDICATIE EVALUATIE',
         cs: 'KONTROLA UŽÍVANÝCH LÉKŮ',
+        id: 'ULASAN OBAT',
     },
     {
         en: 'Medication Review',
@@ -324,6 +352,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'МЕДИКАМЕНТИ',
         nl: 'MEDICATIE EVALUATIE',
         cs: 'KONTROLA UŽÍVANÝCH LÉKŮ',
+        id: 'ULASAN OBAT',
     },
     {
         code: '_medication_review_text',
@@ -335,6 +364,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Багато лікарських засобів можуть впливати на слізну плівку.\nПерегляд терапії разом із лікуючим лікарем може сприяти зменшенню симптомів.',
         nl: 'Veel geneesmiddelen, zowel receptplichtig als vrij verkrijgbaar, kunnen invloed hebben op de traanfilm. Een medicatie-evaluatie in samenwerking met de voorschrijvend arts kan daarom helpen om de klachten te verminderen. ',
         cs: 'Mnoho léků, ať už na lékařský předpis nebo volně prodejných, může ovlivnit slzný film. Kontrola užívaných léků ve spolupráci s lékařem proto může pomoci zmírnit přítomné symptomy.',
+        id: 'Banyak obat, baik yang diresepkan atau yang dijual bebas, dapat memengaruhi film air mata, sehingga tinjauan pengobatan, bersama dengan dokter yang meresepkan, mungkin memungkinkan gejala berkurang.',
     },
     {
         code: '_triaging_button',
@@ -346,6 +376,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ПЕРВИННИЙ ВІДБІР',
         nl: 'TRIAGE ',
         cs: 'TRIÁŽ',
+        id: 'TRIASE',
     },
     {
         en: 'Triaging',
@@ -356,6 +387,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ПЕРВИННИЙ ВІДБІР',
         nl: 'TRIAGE ',
         cs: 'TRIÁŽ',
+        id: 'TRIASE',
     },
     {
         code: '_symptom_check_button',
@@ -367,6 +399,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ОЦІНКА СИМПТОМІВ',
         nl: 'SYMPTOOMCHECK',
         cs: 'KONTROLA SYMPTOMŮ',
+        id: 'PEMERIKSAAN GEJALA',
     },
     {
         en: 'Symptom Check',
@@ -377,6 +410,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ОЦІНКА СИМПТОМІВ',
         nl: 'SYMPTOOMCHECK',
         cs: 'KONTROLA SYMPTOMŮ',
+        id: 'PEMERIKSAAN GEJALA',
     },
     {
         code: '_symptom_check_text',
@@ -388,6 +422,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Збір анамнезу дозволяє виявити симптоми сухості очей та фактори ризику розвитку захворювання.\nОсобливу увагу слід приділяти модифікованим факторам ризику, оскільки зміна способу життя може значно покращити стан поверхні ока.',
         nl: 'Anamnese: een zorgvuldige anamnese maakt het mogelijk om zowel symptomen van droge ogen als risicofactoren die bijdragen aan het ontstaan ervan te identificeren. Het is met name belangrijk om beïnvloedbare risicofactoren in kaart te brengen, omdat eenvoudige leefstijlaanpassingen hun negatieve effect kunnen verminderen of zelfs wegnemen en daarmee kunnen bijdragen aan een gezonder oogoppervlak. ',
         cs: 'Anamnéza: Pečlivé odebrání anamnézy umožňuje identifikovat symptomy suchého oka i rizika spojená s rozvojem tohoto onemocnění. Obzvláště důležité je rozpoznat ovlivnitelné rizikové faktory, protože jednoduché změny v životním stylu mohou pomoci snížit jejich dopad a podpořit zdravější povrch oka.',
+        id: 'Pencatatan riwayat: Pencatatan riwayat yang cermat memungkinkan identifikasi gejala mata kering serta risiko yang terkait dengan perkembangan penyakit mata kering. Faktor risiko yang dapat dimodifikasi sangat penting untuk diidentifikasi, karena perubahan sederhana dalam gaya hidup dapat membantu mengurangi atau menghilangkan dampaknya, dan meningkatkan permukaan mata yang lebih sehat.',
     },
     {
         code: '_differential_diagnosis_button',
@@ -399,6 +434,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ДИФЕРЕНЦІЙНА ДІАГНОСТИКА',
         nl: 'DIFFERENTIËLE DIAGNOSE',
         cs: 'DIFERENCIÁLNÍ DIAGNÓZY',
+        id: 'PERBEDAAN DIAGNOSA',
     },
     {
         en: 'Differential Diagnosis',
@@ -409,6 +445,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ДИФЕРЕНЦІЙНА ДІАГНОСТИКА',
         nl: 'DIFFERENTIËLE DIAGNOSE',
         cs: 'DIFERENCIÁLNÍ DIAGNÓZY',
+        id: 'PERBEDAAN DIAGNOSA',
     },
     {
         code: '_differential_icon',
@@ -420,6 +457,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ДИФЕРЕНЦІЙНА|ДІАГНОСТИКА',
         nl: 'DIFFERENTIËLE|DIAGNOSE',
         cs: 'DIFERENCIÁLNÍ|DIAGNÓZY',
+        id: 'PERBEDAAN|DIAGNOSA',
     },
     {
         code: '_contact_lens_icon',
@@ -431,6 +469,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'КОНТАКТНІ ЛІНЗИ',
         nl: 'CONTACTLENZEN',
         cs: 'KONTAKTNÍ ČOČKY',
+        id: 'LENSA KONTAK',
     },
     {
         code: '_eye_strain_icon',
@@ -442,6 +481,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ЕКРАННИЙ ЧАС',
         nl: 'DIGITALE|OOGVERMOEIDHEID',
         cs: 'DIGITÁLNÍ ÚNAVA|OČÍ',
+        id: 'KETEGANGAN MATA|DIGITAL',
     },
     {
         code: '_medication_review_icon',
@@ -453,6 +493,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'МЕДИКАМЕНТИ',
         nl: 'MEDICATIE|EVALUATIE',
         cs: 'KONTROLA|UŽÍVANÝCH LÉKŮ',
+        id: 'ULASAN OBAT',
     },
     {
         code: '_symptom_check_icon',
@@ -464,6 +505,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ОЦІНКА|СИМПТОМІВ',
         nl: 'SYMPTOOMCHECK',
         cs: 'KONTROLA|SYMPTOMŮ',
+        id: 'PEMERIKSAAN|GEJALA',
     },
     {
         code: `_differential_header`,
@@ -474,6 +516,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Захворювання сухого ока є лише одним із захворювань поверхні ока.\nДиференційна діагностика дозволяє виключити інші причини симптомів, такі як алергія або інфекція.\nСпочатку необхідно лікувати супутні стани, а вже потім — залишкові прояви сухого ока.\nКонтрольний список TFOS DEWS II допомагає швидко звузити діагноз і уникнути зайвих візитів:',
         nl: 'Droge ogen zijn slechts één van de vele aandoeningen van het oogoppervlak. Het uitvoeren van een differentiële diagnose is daarom essentieel om uit te sluiten dat andere onderliggende aandoeningen, zoals oculaire allergieën of infecties, verantwoordelijk zijn voor de klachten waarmee de patiënt zich presenteert. Eventuele bijkomende (comorbide) aandoeningen dienen eerst te worden behandeld voordat resterende droge ogen problematiek wordt aangepakt, om de kans op een succesvol behandelresultaat te vergroten. De TFOS DEWS II-triagechecklist biedt een snelle en praktische ondersteuning bij het verfijnen van de diagnose en kan helpen onnodige klinische bezoeken te voorkomen.',
         cs: 'Onemocnění suchého oka je jen jedním z mnoha onemocnění povrchu oka. Diferenciální diagnostika pomáhá zajistit, aby pacientovy přítomné symptomy nebyly zodpovědné jiné základní diagnózy, jako je oční alergie nebo infekce. Před řešením jakéhokoli přetrvávajícího onemocnění suchého oka vyřešte přidružená onemocnění (komorbidity), abyste zvýšili šance na úspěšný výsledek pacientů. Triážní dotazník TFOS DEWS II pomáhá rychle a snadno zúžit diagnózu a vyhnout se zbytečným klinickým návštěvám',
+        id: 'Penyakit mata kering hanyalah salah satu dari banyak penyakit permukaan okular. Diagnosis banding membantu memastikan tidak ada kondisi mendasar lainnya, seperti alergi mata atau infeksi, yang bertanggung jawab atas gejala pasien yang muncul. Mengobati kondisi penyerkabel sebelum mengatasi sisa penyakit mata kering, untuk meningkatkan peluang hasil yang berhasil bagi pasien. Daftar periksa triase TFOS DEWS II dengan cepat dan mudah membantu mempersempit diagnosis dan menghindari kunjungan klinis yang tidak perlu.',
     },
     {
         code: `_differential_list`,
@@ -547,6 +590,16 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
 <li>Nosíte kontaktní čočky?</li>
 <li>Byly vám diagnostikovány nějaké obecné zdravotní potíže (včetně nedávných respiračních infekcí) nebo užíváte nějaké léky?</li>
 `,
+        id: `
+<li>Seberapa parah ketidaknyamanan mata?</li>
+<li>Apakah Anda mengalami kekeringan mulut atau kelenjar bengkak?</li>
+<li>Berapa lama gejala Anda berlangsung dan apakah ada peristiwa pemicu?</li>
+<li>Apakah penglihatan Anda terpengaruh dan apakah terlihat jelas saat berkedip?</li>
+<li>Apakah gejala atau kemerahan jauh lebih buruk di satu mata daripada mata lainnya?</li>
+<li>Apakah mata gatal, tampak bengkak atau berkerak, atau mengeluarkan cairan?</li>
+<li>Apakah Anda memakai lensa kontak?</li>
+<li>Apakah Anda telah didiagnosis dengan kondisi kesehatan umum (termasuk infeksi pernapasan baru-baru ini) atau apakah Anda mengonsumsi obat apa pun?</li>
+`,
     },
     {
         code: `_differential_footer`,
@@ -557,6 +610,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: '+ Детальний огляд переднього відрізку ока, в тих випадках де це зазначено у відповідях',
         nl: '+ Indien de antwoorden daartoe aanleiding geven, dient een uitgebreid differentieel diagnostisch onderzoek van het voorste oogsegment te worden uitgevoerd.',
         cs: '+ Podrobné vyšetření předního segmentu oka, diferenciální diagnostika tam, kde to naznačují odpovědi.',
+        id: '+ Diagnosis banding pemeriksaan mata anterior terperinci jika ditunjukkan oleh jawaban.',
     },
     {
         code: '_prophylaxis_button',
@@ -568,6 +622,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ПРОФІЛАКТИКА',
         nl: 'PREVENTIEVE MAATREGELEN ',
         cs: 'PROFYLAXE ',
+        id: 'PROFILAKSIS',
     },
     {
         en: 'Prophylaxis',
@@ -578,6 +633,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ПРОФІЛАКТИКА',
         nl: 'PREVENTIEVE MAATREGELEN ',
         cs: 'PROFYLAXE ',
+        id: 'PROFILAKSIS',
     },
     {
         code: '_prophylaxis_text',
@@ -589,6 +645,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Профілактичні заходи, такі як достатнє споживання рідини, контроль умов навколишнього середовища та гігієна очей, сприяють запобіганню ушкодженню поверхні ока та розвитку симптомів сухого ока.',
         nl: 'Preventieve maatregelen, zoals goede hydratatie, het beheersen van omgevingsfactoren en ooghygiëne, kunnen helpen om schade aan het oogoppervlak en de daaruit voortvloeiende klachten van droge ogen te voorkomen. ',
         cs: 'Profylaxe, jako je dobrá hydratace, kontrola podmínek prostředí a oční hygiena, může pomoci předcházet poškození povrchu oka a následným příznakům suchého oka.',
+        id: 'Profilaksis, seperti hidrasi yang baik, mengontrol kondisi lingkungan, dan kebersihan okular, dapat membantu mencegah kerusakan permukaan okular dan mengakibatkan gejala mata kering.',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_button',
@@ -600,6 +657,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ПРОАКТИВНЕ ВЕДЕННЯ ЗАХВОРЮВАНЬ ПОВЕРХНІ ОКА',
         nl: 'Proactief management van aandoeningen van het oogoppervlak',
         cs: 'Proaktivní management onemocnění povrchu oka',
+        id: 'Manajemen proaktif penyakit permukaan mata',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_title',
@@ -611,6 +669,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ПРОАКТИВНЕ ВЕДЕННЯ ЗАХВОРЮВАНЬ ПОВЕРХНІ ОКА',
         nl: 'Proactief management van aandoeningen van het oogoppervlak',
         cs: 'Proaktivní management onemocnění povrchu oka',
+        id: 'Manajemen proaktif penyakit permukaan mata',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_icon',
@@ -622,6 +681,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ПРОАКТИВНЕ|ВЕДЕННЯ|ЗАХВОРЮВАНЬ|ПОВЕРХНІ ОКА',
         nl: 'Proactief|management van|aandoeningen|van het|oogoppervlak',
         cs: 'Proaktivní|management|onemocnění|povrchu oka',
+        id: 'Manajemen|proaktif|penyakit|permukaan mata',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_text',
@@ -633,6 +693,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'дозволяє відновити гомеостаз навіть за відсутності симптомів і запобігти їх розвитку в майбутньому.',
         nl: 'Herstelt de homeostase van het oogoppervlak, zelfs bij afwezigheid van symptomen, en voorkomt zo het ontstaan van toekomstige klachten.',
         cs: 'Obnova homeostázy povrchu oka, a to i v nepřítomnosti symptomů, za účelem zmírnění budoucího rozvoje symptomů.',
+        id: 'Mengembalikan homeostasis permukaan okular, bahkan tanpa adanya gejala, untuk mengurangi perkembangan gejala di masa depan',
     },
     {
         code: '_corneal_sensitivity_button',
@@ -644,6 +705,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ОЦІНКА ЧУТЛИВОСТІ|РОГІВКИ',
         nl: 'Beoordeling van de|corneagevoeligheid',
         cs: 'Hodnocení citlivosti|rohovky',
+        id: 'Sensitivitas Kornea|Penilaian',
     },
     {
         code: '_corneal_sensitivity_title',
@@ -655,6 +717,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ОЦІНКА ЧУТЛИВОСТІ РОГІВКИ',
         nl: 'Beoordeling van de corneagevoeligheid',
         cs: 'Hodnocení citlivosti rohovky',
+        id: 'Sensitivitas Kornea Penilaian',
     },
     {
         code: '_corneal_sensitivity_assessment_icon',
@@ -666,6 +729,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'ОЦІНКА|ЧУТЛИВОСТІ|РОГІВКИ',
         nl: 'Beoordeling van|de|corneagevoeligheid',
         cs: 'Hodnocení|citlivosti|rohovky',
+        id: 'Sensitivitas|Kornea|Penilaian',
     },
     {
         code: '_corneal_sensitivity_assessment_text',
@@ -677,5 +741,6 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         uk: 'Може проводитися за допомогою торкання стерильним матеріалом, ватною паличкою, естезіометром або із застосуванням місцевого анестетика для виявлення ознак нейросенсорних порушень.',
         nl: 'Een hoekje van een tissue, een wattenstaafje, een aesthesiometer of een test met een lokaal anestheticum kan worden ingezet om te beoordelen of er sprake is van neurale disfunctie. ',
         cs: 'K posouzení známek neurální dysfunkce lze použít cíp papírového kapesníku, chomáček vatové tyčinky, esteziometr nebo test lokální anestezie',
+        id: 'Sudut jaringan, gumpalan cotton bud, aesthesiometer, atau tantangan anestesi topikal dapat digunakan untuk menilai tanda-tanda disfungsi saraf',
     },
 ];

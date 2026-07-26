@@ -41,3 +41,6 @@ No additional issues found beyond the above.
 
 ### Czech (cs)
 No additional issues found beyond the above. (Its `DRY EYE WHEEL` sheet splits the color-code legend across 3 separate rows instead of 1 combined cell — handled directly, no gap.)
+
+### Bahasa Indonesia (id)
+No additional issues found beyond the above. Button label is shown as "Bahasa" (per request), while the language code remains `id`/Indonesian to match the actual content in the spreadsheet (see the earlier "Bahasa language" clarification in this session — the file's vocabulary/spelling is Indonesian, not Malay).

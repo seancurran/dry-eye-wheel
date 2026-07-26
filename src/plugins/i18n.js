@@ -15,7 +15,7 @@ export default {
             { code: 'uk', name: 'Українська' },
             { code: 'nl', name: 'Nederlands' },
             { code: 'cs', name: 'Čeština' },
-            { code: 'id', name: 'Bahasa Indonesia' },
+            { code: 'id', name: 'Bahasa' },
             { code: 'hu', name: 'Magyar' },
         ];
 
