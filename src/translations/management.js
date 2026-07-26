@@ -14,11 +14,12 @@ export default [
         hu: 'KEZELÉS',
     },
     {
+        code: '_management_title',
         en: 'Management',
         es: 'Tratamiento',
         fr: `Prise en Charge`,
         zh: '管理',
-        ar: 'الإدارة',
+        ar: 'إدارة / علاج جفاف العين',
         uk: 'ВЕДЕННЯ',
         nl: 'MANAGEMENT',
         cs: 'MANAGEMENT',

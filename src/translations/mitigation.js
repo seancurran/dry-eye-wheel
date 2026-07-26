@@ -14,11 +14,12 @@ export default [
         hu: 'TÜNETEK CSÖKKENTÉSE',
     },
     {
+        code: '_mitigation_title',
         en: 'Mitigation',
         es: 'Mitigación',
         fr: 'Atténuation',
         zh: '缓解',
-        ar: 'التخفيف',
+        ar: 'تخفيف جفاف العين',
         uk: 'ПРОФІЛАКТИКА',
         nl: 'MITIGATIE',
         cs: 'ZMÍRNĚNÍ NÁSLEDKŮ',

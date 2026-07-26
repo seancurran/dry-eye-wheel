@@ -13,10 +13,6 @@ import PreviousEyeSurgeryIcon from '@/components/wheel/mitigation/icons/Previous
 import ProactiveManagementOfOcularSurfaceDiseaseIcon from '@/components/wheel/mitigation/icons/ProactiveManagementOfOcularSurfaceDiseaseIcon.vue';
 import CornealSensitivityAssessmentIcon from '@/components/wheel/mitigation/icons/CornealSensitivityAssessmentIcon.vue';
 
-import MitigationTextFr from '@/assets/svg/fr/mitigation-text.svg';
-import MitigationTextZh from '@/assets/svg/zh/mitigation-text.svg';
-import MitigationTextAr from '@/assets/svg/ar/mitigation-text.svg';
-
 const controlsStore = useControlsStore();
 </script>
 
@@ -395,88 +391,25 @@ const controlsStore = useControlsStore();
                 y2="189.17" />
         </g>
 
-        <!-- MITIGATION text -->
-        <g v-if="$selectedLanguage.value === 'en'">
+        <!-- MITIGATION text: live textPath, same curve/position for every language -->
+        <g>
             <path
                 id="mitigation-title-arc"
-                d="M 8 282 A 602.6 602.6 0 0 1 216 39"
+                d="M 6.3 339.8 A 462.7 462.7 0 0 1 224.3 32.2"
                 fill="none"
                 stroke="none" />
             <text
                 font-family="'EuclidCircularA-Bold', sans-serif"
                 font-weight="700"
                 font-size="46"
-                letter-spacing="1"
+                letter-spacing="3"
+                text-anchor="middle"
+                style="text-transform: uppercase"
                 class="mitigation-cls-3">
                 <textPath
                     href="#mitigation-title-arc"
-                    startOffset="4%">
-                    {{ $t('Mitigation') }}
-                </textPath>
-            </text>
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'es'"
-            style="transform: translate(-3px, 15px)"
-            id="mitigation-text-es"
-            class="fill-grey">
-            <g>
-                <path
-                    d="M0,289.74l1.56-6.41,18.14-7.46-12.66-14.98,1.57-6.41,34.48,8.43-1.72,7.04-22.44-5.48,11.94,14.14-17.11,7.04,22.44,5.48-1.72,7.04L0,289.74Z" />
-                <path d="M46.75,252.27l-33.71-11.14,2.27-6.88,33.71,11.14-2.28,6.88Z" />
-                <path
-                    d="M55.16,228.55l-26.56-10.6-3.5,8.78-6.41-2.56,9.75-24.43,6.41,2.56-3.54,8.87,26.56,10.6-2.71,6.78Z" />
-                <path d="M65.06,205.21l-32.12-15.13,3.09-6.56,32.11,15.13-3.09,6.56Z" />
-                <path
-                    d="M81.61,174.26c-2.64,4.67-6.37,7.68-11.2,9.04-4.82,1.35-9.48.76-13.98-1.79-4.5-2.54-7.42-6.22-8.76-11.03-1.34-4.81-.69-9.54,1.93-14.19,1.84-3.25,4.41-5.73,7.73-7.43,3.32-1.7,6.71-2.27,10.17-1.69l-4.08,7.23c-1.53.13-2.99.68-4.37,1.64-1.38.96-2.5,2.19-3.36,3.7-1.64,2.9-2.03,5.8-1.18,8.69.85,2.89,2.69,5.14,5.5,6.73,2.82,1.59,5.68,2.01,8.6,1.24,2.92-.76,5.22-2.62,6.89-5.58,1.39-2.47,1.9-4.79,1.51-6.99-.39-2.19-1.59-4.08-3.59-5.68l-5.34,9.45-5.92-3.35,9.03-15.98c3.27,1.39,5.95,3.12,8.04,5.18,2.09,2.06,3.49,4.25,4.19,6.56.7,2.31.9,4.69.6,7.12-.3,2.43-1.11,4.81-2.42,7.13Z" />
-                <path
-                    d="M91.88,155.22l-20.3-32.9,3.7-5.28,37.88,7.8-4.36,6.23-8.61-1.82-8.69,12.41,4.68,7.43-4.3,6.14ZM81.25,125.18l6.61,10.61,5.59-7.99-12.2-2.63Z" />
-                <path
-                    d="M127.92,108.26c-3.46,4.06-7.68,6.29-12.66,6.69-4.98.4-9.44-1.08-13.37-4.43-3.93-3.35-6.1-7.52-6.5-12.5-.4-4.98,1.13-9.5,4.59-13.56,2.62-3.07,5.86-5.07,9.73-5.99,3.88-.93,7.57-.55,11.09,1.13l-5.09,5.98c-1.77-.59-3.62-.55-5.54.11-1.92.66-3.54,1.77-4.86,3.32-2.16,2.54-3.1,5.31-2.81,8.31s1.66,5.55,4.12,7.65c2.46,2.1,5.2,3.05,8.21,2.85,3.01-.19,5.6-1.56,7.76-4.1,1.32-1.55,2.15-3.32,2.5-5.33.35-2,.09-3.83-.78-5.49l5.09-5.98c2.22,3.2,3.18,6.79,2.88,10.76-.3,3.97-1.75,7.49-4.37,10.56Z" />
-                <path d="M144.84,88.76l-25.29-24.91,5.09-5.17,25.29,24.91-5.09,5.17Z" />
-                <path
-                    d="M176.65,52.67c-.33,5.06-2.41,9.25-6.22,12.59-3.81,3.34-8.25,4.84-13.3,4.5s-9.25-2.41-12.59-6.22c-3.34-3.81-4.84-8.25-4.5-13.3.34-5.06,2.41-9.25,6.22-12.59,3.81-3.34,8.25-4.84,13.3-4.5,5.05.34,9.25,2.41,12.59,6.22,3.34,3.81,4.84,8.25,4.5,13.3ZM143.02,37.29l-2.46-8.28,5.79-5.07.54,9.96-3.88,3.39ZM157.74,62.65c3.08.25,5.77-.63,8.08-2.65,2.31-2.02,3.54-4.57,3.7-7.66.16-3.08-.8-5.8-2.86-8.16-2.06-2.36-4.63-3.66-7.71-3.91s-5.77.63-8.08,2.65c-2.31,2.02-3.54,4.57-3.7,7.66-.16,3.08.79,5.8,2.86,8.16s4.63,3.66,7.71,3.91Z" />
-                <path
-                    d="M216.8,28.97l-5.1,3.61-28.23-8.37,13.38,18.89-5.91,4.19-20.52-28.97,5.1-3.61,28.23,8.37-13.38-18.89,5.92-4.19,20.52,28.97Z" />
-            </g>
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'fr'"
-            style="transform: translate(-10px, 18px)">
-            <MitigationTextFr :viewBox="null" />
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'zh'"
-            style="transform: translate(22px, 118px)">
-            <MitigationTextZh :viewBox="null" />
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'ar'"
-            style="transform: translate(-65px, 28px) rotate(-6deg)">
-            <MitigationTextAr :viewBox="null" />
-        </g>
-        <g v-else>
-            <!--
-                Pilot: languages without bespoke hand-vectorized word-art (uk/nl/cs/id/hu, and any
-                future language) fall back to the same live textPath treatment as 'en' above, but
-                showing the English word until the pilot is signed off and rolled out with real
-                per-language translations (see translation-gaps.md).
-            -->
-            <path
-                id="mitigation-title-arc-fallback"
-                d="M 8 282 A 602.6 602.6 0 0 1 216 39"
-                fill="none"
-                stroke="none" />
-            <text
-                font-family="'EuclidCircularA-Bold', sans-serif"
-                font-weight="700"
-                font-size="46"
-                letter-spacing="1"
-                class="mitigation-cls-3">
-                <textPath
-                    href="#mitigation-title-arc-fallback"
-                    startOffset="4%">
-                    Mitigation
+                    startOffset="50%">
+                    {{ $t('_mitigation_title') }}
                 </textPath>
             </text>
         </g>

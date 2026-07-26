@@ -12,10 +12,6 @@ import ComplexTreatmentsIcon from '@/components/wheel/management/icons/ComplexTr
 import ScleralLensesIcon from '@/components/wheel/management/icons/ScleralLensesIcon.vue';
 import WarmCompressIcon from '@/components/wheel/management/icons/WarmCompressIcon.vue';
 
-import ManagementTextFr from '@/assets/svg/fr/management-text.svg';
-import ManagementTextZh from '@/assets/svg/zh/management.svg';
-import ManagementTextAr from '@/assets/svg/ar/management-text.svg';
-
 // const controlsStore = useControlsStore();
 </script>
 
@@ -169,91 +165,25 @@ import ManagementTextAr from '@/assets/svg/ar/management-text.svg';
             {{ $t('Severe') }}
         </text>
 
-        <!-- MANAGEMENT text -->
-        <g v-if="$selectedLanguage.value === 'en'">
+        <!-- MANAGEMENT text: live textPath, same curve/position for every language -->
+        <g>
             <path
                 id="management-title-arc"
-                d="M 278 822 A 446.5 446.5 0 0 0 644 785"
+                d="M 261.4 823.2 A 446.5 446.5 0 0 0 629.2 818.3"
                 fill="none"
                 stroke="none" />
             <text
                 font-family="'EuclidCircularA-Bold', sans-serif"
                 font-weight="700"
                 font-size="46"
-                letter-spacing="1"
+                letter-spacing="3"
+                text-anchor="middle"
+                style="text-transform: uppercase"
                 class="management-cls-8">
                 <textPath
                     href="#management-title-arc"
-                    startOffset="2%">
-                    {{ $t('Management') }}
-                </textPath>
-            </text>
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'es'"
-            id="management-text-es"
-            style="transform: translate(258px, 788px)"
-            class="fill-grey">
-            <g>
-                <path d="M0,35.94L10.78,10.01,2.21,6.45,4.81.19l23.85,9.91-2.6,6.26-8.66-3.6-10.78,25.93-6.62-2.75Z" />
-                <path
-                    d="M25.14,45.91l10.82-33.14,12.7,4.14c3.02.98,5.16,2.72,6.44,5.2,1.27,2.48,1.45,5.12.54,7.92-1.42,4.36-4.63,6.49-9.63,6.41l7.1,18.59-8.17-2.67-6.83-17.67-1.63-.53-4.56,13.96-6.77-2.21ZM38.35,28.38l5.13,1.68c1.31.43,2.45.45,3.42.06.97-.39,1.64-1.14,2-2.26.37-1.12.27-2.12-.28-3.01-.55-.89-1.48-1.54-2.79-1.97l-5.13-1.68-2.35,7.19Z" />
-                <path
-                    d="M57.64,56.34l22.53-30.55,6.17,1.44,6.78,37.37-7.27-1.69-1.5-8.51-14.49-3.37-5.05,6.99-7.17-1.67ZM81.11,35.64l-7.25,9.91,9.33,2.17-2.08-12.08Z" />
-                <path
-                    d="M105.38,66.42l4.32-27.75-9.17-1.43,1.04-6.69,25.52,3.97-1.04,6.7-9.27-1.44-4.32,27.75-7.08-1.1Z" />
-                <path
-                    d="M124.84,69.53l17.74-33.56,6.31.5,12.26,35.95-7.44-.59-2.75-8.2-14.83-1.18-3.96,7.66-7.34-.58ZM144.97,45.57l-5.69,10.88,9.54.76-3.85-11.64Z" />
-                <path
-                    d="M170.37,37.83l6.48-.14,11.68,15.31,10.99-15.81,6.48-.14.77,34.85-7.12.16-.5-22.68-10.38,14.92-11.03-14.44.5,22.68-7.12.16-.77-34.85Z" />
-                <path d="M220.04,70.54l-3.45-34.69,7.08-.7,3.45,34.69-7.08.7Z" />
-                <path
-                    d="M239.97,68.37l-5.48-34.43,21.43-3.41,1.06,6.69-14.4,2.29,1.13,7.08,11.49-1.83,1.07,6.69-11.49,1.83,1.16,7.27,14.4-2.29,1.07,6.69-21.43,3.41Z" />
-                <path
-                    d="M303.36,55.2l-5.96,1.49-22.84-17.73,5.5,22.06-6.91,1.72-8.44-33.82,5.96-1.48,22.84,17.73-5.5-22.06,6.91-1.72,8.44,33.82Z" />
-                <path
-                    d="M322.34,49.05l-9.12-26.56-8.78,3.01-2.2-6.41,24.43-8.38,2.2,6.41-8.87,3.04,9.12,26.56-6.78,2.33Z" />
-                <path
-                    d="M370.99,24.61c-1.81,4.64-4.99,7.96-9.54,9.96-4.55,2-9.15,2.1-13.79.29-4.64-1.8-7.96-4.98-9.96-9.54-2-4.55-2.1-9.15-.29-13.79,1.8-4.64,4.99-7.96,9.54-9.96,4.56-2,9.15-2.1,13.79-.3,4.64,1.81,7.96,4.99,9.96,9.54,2,4.56,2.1,9.15.3,13.79ZM350.33,28.38c2.81,1.14,5.59,1.11,8.35-.1s4.67-3.24,5.72-6.08c1.06-2.84.97-5.67-.27-8.49-1.24-2.82-3.26-4.8-6.07-5.94-2.81-1.14-5.59-1.11-8.35.1-2.76,1.21-4.66,3.24-5.72,6.08-1.06,2.84-.97,5.67.27,8.49,1.24,2.82,3.26,4.8,6.07,5.94Z" />
-            </g>
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'fr'"
-            style="transform: translate(202px, 772px)">
-            <ManagementTextFr :viewBox="null" />
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'zh'"
-            style="transform: translate(390px, 815px)">
-            <ManagementTextZh :viewBox="null" />
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'ar'"
-            style="transform: translate(180px, 735px) rotate(0deg)">
-            <ManagementTextAr :viewBox="null" />
-        </g>
-        <g v-else>
-            <!--
-                Pilot: languages without bespoke hand-vectorized word-art fall back to the same
-                live textPath treatment as 'en' above, showing the English word until the pilot
-                is signed off and rolled out with real per-language translations (see
-                translation-gaps.md).
-            -->
-            <path
-                id="management-title-arc-fallback"
-                d="M 278 822 A 446.5 446.5 0 0 0 644 785"
-                fill="none"
-                stroke="none" />
-            <text
-                font-family="'EuclidCircularA-Bold', sans-serif"
-                font-weight="700"
-                font-size="46"
-                letter-spacing="1"
-                class="management-cls-8">
-                <textPath
-                    href="#management-title-arc-fallback"
-                    startOffset="2%">
-                    Management
+                    startOffset="50%">
+                    {{ $t('_management_title') }}
                 </textPath>
             </text>
         </g>

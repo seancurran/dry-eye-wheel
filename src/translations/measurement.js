@@ -14,11 +14,12 @@ export default [
         hu: 'MÉRÉS',
     },
     {
+        code: '_measurement_title',
         en: 'Measurement',
         es: 'Evaluación',
         fr: `Évaluation`,
         zh: '测量',
-        ar: 'القياس',
+        ar: 'قياسات جفاف العين',
         uk: 'ОЦІНКА',
         nl: 'METING',
         cs: 'MĚŘENÍ',

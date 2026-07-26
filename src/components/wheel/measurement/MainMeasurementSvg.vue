@@ -13,10 +13,6 @@ import Osdi6Icon from '@/components/wheel/measurement/icons/Osdi6Icon.vue';
 import OcularSurfaceMisalignmentIcon from '@/components/wheel/measurement/icons/OcularSurfaceMisalignmentIcon.vue';
 import EyelidsAnteriorBlepharitisExamIcon from '@/components/wheel/measurement/icons/EyelidsAnteriorBlepharitisExamIcon.vue';
 
-import MeasurementTextFr from '@/assets/svg/fr/measurement-text.svg';
-import MeasurementTextZh from '@/assets/svg/zh/measurement-text.svg';
-import MeasurementTextAr from '@/assets/svg/ar/measurement-text.svg';
-
 const controlsStore = useControlsStore();
 </script>
 
@@ -375,8 +371,8 @@ const controlsStore = useControlsStore();
             class="measurement-cls-1"
             points="518.9 267.4 521.4 267.4 521.4 269.9 518.9 269.9" />
 
-        <!-- MEASUREMENT text -->
-        <g v-if="$selectedLanguage.value === 'en'">
+        <!-- MEASUREMENT text: live textPath, same curve/position for every language -->
+        <g>
             <path
                 id="measurement-title-arc"
                 d="M 682 50 A 462.7 462.7 0 0 1 878 372"
@@ -386,75 +382,14 @@ const controlsStore = useControlsStore();
                 font-family="'EuclidCircularA-Bold', sans-serif"
                 font-weight="700"
                 font-size="46"
-                letter-spacing="1"
+                letter-spacing="3"
+                text-anchor="middle"
+                style="text-transform: uppercase"
                 class="measurement-cls-14">
                 <textPath
                     href="#measurement-title-arc"
-                    startOffset="2%">
-                    {{ $t('Measurement') }}
-                </textPath>
-            </text>
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'es'"
-            style="transform: translate(682px, 31px)"
-            class="fill-grey"
-            id="measurement-text-es">
-            <path
-                d="M0,28.27L21.48,0l17.6,13.37-4.17,5.5-11.83-8.98-4.42,5.81,9.43,7.17-4.17,5.49-9.44-7.17-4.54,5.97,11.83,8.98-4.17,5.49L0,28.27Z" />
-            <path d="M33.09,54.96l12.94-36.16,5.82,5.26-9.08,25.03,23.88-11.65,5.93,5.36-34.71,16.48-4.78-4.33Z" />
-            <path
-                d="M48.43,68.77l36.41-12.99,4.4,4.72-15.52,35.42-5.18-5.56,3.58-8.04-10.32-11.09-8.25,3.03-5.11-5.49ZM80.03,64.63l-11.75,4.25,6.64,7.14,5.11-11.39Z" />
-            <path d="M78.11,101.64l27.94-21.9,4.47,5.71-22.51,17.64,9.38,11.96-5.43,4.26-13.85-17.67Z" />
-            <path
-                d="M103.48,137.2c-2.37-3.59-3.18-7.23-2.42-10.92.75-3.69,2.97-6.76,6.64-9.18l17.94-11.85,4,6.05-18.02,11.91c-1.95,1.29-3.12,2.84-3.51,4.66-.4,1.82.01,3.65,1.23,5.48s2.73,2.93,4.56,3.28c1.83.35,3.72-.12,5.66-1.41l18.02-11.91,4,6.05-17.94,11.86c-3.64,2.41-7.33,3.22-11.06,2.45-3.73-.77-6.76-2.93-9.09-6.46Z" />
-            <path
-                d="M114.92,153.54l38.51-3.31,3.05,5.68-24.02,30.32-3.6-6.7,5.5-6.87-7.17-13.35-8.75.84-3.55-6.61ZM146.53,157.56l-12.45,1.12,4.61,8.59,7.84-9.71Z" />
-            <path
-                d="M140.64,206.88c-2.07-4.92-2.16-9.69-.27-14.31,1.88-4.63,5.21-7.94,9.97-9.95,4.76-2,9.46-2.06,14.08-.18,4.63,1.89,7.97,5.29,10.04,10.2,1.56,3.72,1.89,7.51.97,11.39-.92,3.88-2.92,7.01-6,9.39l-3.04-7.24c1.33-1.32,2.13-2.98,2.4-5,.27-2.01.02-3.96-.77-5.83-1.29-3.07-3.35-5.16-6.16-6.25-2.81-1.09-5.71-1.02-8.69.24-2.98,1.25-5.06,3.27-6.24,6.05-1.18,2.78-1.13,5.7.17,8.77.79,1.87,2,3.42,3.63,4.63,1.63,1.21,3.38,1.8,5.25,1.78l3.04,7.24c-3.86.54-7.5-.22-10.91-2.27-3.42-2.05-5.9-4.94-7.47-8.66Z" />
-            <path d="M150.44,230.76l33.63-11.37,2.32,6.87-33.63,11.37-2.32-6.87Z" />
-            <path
-                d="M168.33,275.42c-4.36-2.58-7.18-6.32-8.44-11.23-1.26-4.91-.6-9.54,1.97-13.91,2.58-4.36,6.32-7.17,11.23-8.44,4.91-1.26,9.54-.6,13.91,1.97,4.36,2.58,7.17,6.32,8.44,11.23,1.26,4.91.6,9.54-1.97,13.9-2.58,4.36-6.32,7.17-11.23,8.44-4.91,1.26-9.54.6-13.9-1.97ZM167.94,254.04c-1.61,2.63-2.03,5.44-1.27,8.41.76,2.97,2.49,5.22,5.17,6.75,2.68,1.53,5.54,1.91,8.58,1.12,3.03-.78,5.36-2.49,6.97-5.12,1.61-2.63,2.03-5.44,1.27-8.41-.77-2.97-2.49-5.22-5.17-6.75-2.68-1.53-5.54-1.9-8.58-1.12-3.03.78-5.36,2.49-6.97,5.12ZM197.21,252.32l8.5,1.53,1.92,7.46-9.13-4-1.28-4.99Z" />
-            <path
-                d="M171.38,321.93l-.93-6.18,20.2-21.43-22.89,3.43-1.07-7.17,35.11-5.26.93,6.18-20.2,21.43,22.89-3.43,1.07,7.17-35.11,5.26Z" />
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'fr'"
-            style="transform: translate(682px, 31px)">
-            <MeasurementTextFr :viewBox="null" />
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'zh'"
-            style="transform: translate(770px, 125px)">
-            <MeasurementTextZh :viewBox="null" />
-        </g>
-        <g
-            v-else-if="$selectedLanguage.value === 'ar'"
-            style="transform: translate(600px, -15px) rotate(-5deg)">
-            <MeasurementTextAr :viewBox="null" />
-        </g>
-        <g v-else>
-            <!--
-                Pilot: languages without bespoke hand-vectorized word-art fall back to the same
-                live textPath treatment as 'en' above, showing the English word until the pilot
-                is signed off and rolled out with real per-language translations (see
-                translation-gaps.md).
-            -->
-            <path
-                id="measurement-title-arc-fallback"
-                d="M 682 50 A 462.7 462.7 0 0 1 878 372"
-                fill="none"
-                stroke="none" />
-            <text
-                font-family="'EuclidCircularA-Bold', sans-serif"
-                font-weight="700"
-                font-size="46"
-                letter-spacing="1"
-                class="measurement-cls-14">
-                <textPath
-                    href="#measurement-title-arc-fallback"
-                    startOffset="2%">
-                    Measurement
+                    startOffset="50%">
+                    {{ $t('_measurement_title') }}
                 </textPath>
             </text>
         </g>
