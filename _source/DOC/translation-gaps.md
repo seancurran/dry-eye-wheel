@@ -38,3 +38,6 @@ No additional issues found beyond the above.
 
 ### Dutch (nl)
 No additional issues found beyond the above.
+
+### Czech (cs)
+No additional issues found beyond the above. (Its `DRY EYE WHEEL` sheet splits the color-code legend across 3 separate rows instead of 1 combined cell — handled directly, no gap.)

@@ -9,6 +9,7 @@ export default [
         ar: 'قياسات جفاف العين',
         uk: 'ОЦІНКА',
         nl: 'METING',
+        cs: 'MĚŘENÍ',
     },
     {
         en: 'Measurement',
@@ -18,6 +19,7 @@ export default [
         ar: 'القياس',
         uk: 'ОЦІНКА',
         nl: 'METING',
+        cs: 'MĚŘENÍ',
     },
     {
         code: `_measurement_header`,
@@ -27,6 +29,7 @@ export default [
         ar: 'يجب أن تكون عملية التشخيص عملية مُوَحَّدة من أجل:',
         uk: 'Діагностика має бути стандартизованим процесом, щоб забезпечити:',
         nl: 'Diagnostiek dient een gestandaardiseerd proces te zijn om te waarborgen dat:',
+        cs: 'Diagnostika mucí být standardizovaným procesem, aby:',
     },
     {
         code: `_measurement_list`,
@@ -60,6 +63,11 @@ export default [
 <li>Zorgveleners een consistente benadering hanteren.</li>
 <li>Instanties beschikken over robuuste epidemiologische gegevens voor het plannen en inzetten van middelen.</li>
 `,
+        cs: `
+<li>Pacienti měli jistotu ohledně svého onemocnění a důvěru ke klinickým lékařům</li>
+<li>Kliničtí lékaři měli konzistatní přístup</li>
+<li>Úřady získávaly robustní epidemiologická data pro plánování alokace zdrojů</li>
+`,
     },
     {
         code: `_measurement_text_1`,
@@ -69,6 +77,7 @@ export default [
         ar: 'لا تتطلب التكنولوجيا المتقدمة للوصول إلى تشخيص مبدئي، إذ يمكن تحقيقه من خلال استبيان مُوَحَّد واختبار راحة العين بعد الرَمش. ويمكن دعم التشخيص بتقييم تلف سطح العين باستخدام الصبغات العينية، بالإضافة إلى تقييم استقرار طبقة الدموع وقياس الأسمولارية.',
         uk: 'Для орієнтовної діагностики не обов’язково використовувати складні технології. Її можна провести за допомогою стандартизованої анкети та простого тесту часу настання дискомфорту після моргання.\nДодатково можуть застосовуватися:\n• профарбовування поверхні ока;\n• оцінка стабільності слізної плівки;\n• визначення осмолярності.',
         nl: 'Geavanceerde technologie is niet noodzakelijk voor een indicatieve diagnose. Deze kan worden gesteld met behulp van een gestandaardiseerde vragenlijst en de eenvoudige \'comforttijd na knipperen\'-test. De diagnose kan verder worden ondersteund door beoordelen van schade aan het oogoppervlak met oftalmologische kleurstoffen en door evaluatie van de stabiliteit en osmolariteit van de traanfilm.',
+        cs: 'Pro orientační diagnostiku nejsou vyžadovány pokročilé technologie, lze jí dosáhnout pomocí standardizovaného dotazníku a jednoduchého testu doby komfortu po mrknutí. Diagnostice může napomoci posouzení poškození povrchu oka pomocí oftalmologických barviv a vyhodnocení stability a osmolarity slzného filmu.',
     },
     {
         code: `_measurement_text_2`,
@@ -78,6 +87,7 @@ export default [
         ar: 'وبالمثل، يمكن إجراء التصنيف الفرعي للمساعدة في اختيار طريقة الإدارة المناسبة من خلال تقييم الرَمش (المعدل/الكمال)، وحجم الدموع، وضغط وإفراز الغدد الميبومية، إلى جانب تصوير الغدد الميبومية.',
         uk: 'Для уточнення підтипу захворювання доцільно оцінювати:\n• частоту та повноту моргання;\n• об’єм слізи;\n• функцію мейбомієвих залоз;\n• візуалізацію мейбомієвих залоз (мейбографія).',
         nl: 'Daarnaast kan ter ondersteuning van de behandelkeuze een verdere subclassificatie worden uitgevoerd. Dit kan door beoordeling van het knippergedrag (frequentie en volledigheid), het traanvolume en de expressie van de meibomklieren, aangevuld met beeldvorming van de meibomklieren.',
+        cs: 'Podobně lze podrobnější klasifikaci pro usnadnění volby léčebného postupu vyšetřit pomocí mrkání (frekvence/úplnost), objemu slz a exprese meibomských žláz, stejně jako zobrazovacích metod meibomských žláz',
     },
     // Measurement -> Diagnosis.
     {
@@ -89,6 +99,7 @@ export default [
         ar: 'التشخيص',
         uk: 'ДІАГНОСТИКА',
         nl: 'DIAGNOSE',
+        cs: 'DIAGNOSTIKA  ',
     },
     {
         en: 'Diagnosis',
@@ -98,6 +109,7 @@ export default [
         ar: 'التشخيص',
         uk: 'ДІАГНОСТИКА',
         nl: 'DIAGNOSE',
+        cs: 'DIAGNOSTIKA  ',
     },
     {
         code: '_comfort_time_after_blink_test_button',
@@ -108,6 +120,7 @@ export default [
         ar: 'اختبار مدة الراحة بعد الرَمش',
         uk: 'ЧАС ДО ПОЯВИ ДИСКОМФОРТУ ПІСЛЯ КЛІПАННЯ',
         nl: 'COMFORTTIJD NA KNIPPEREN-TEST',
+        cs: 'TEST DOBY KOMFORTU PO MRKNUTÍ',
     },
     {
         code: '_comfort_time_after_blink_test_icon',
@@ -118,6 +131,7 @@ export default [
         ar: 'اختبار مدة الراحة|بعد الرَمش',
         uk: 'ЧАС ДО ПОЯВИ|ДИСКОМФОРТУ|ПІСЛЯ КЛІПАННЯ',
         nl: 'COMFORTTIJD NA|KNIPPEREN-TEST',
+        cs: 'TEST DOBY|KOMFORTU PO|MRKNUTÍ',
     },
     {
         code: '_comfort_time_after_blink_test_text_1',
@@ -128,6 +142,7 @@ export default [
         ar: 'يَرْمُش المريض ثم يُبلِّغ عن اللحظة التي تبدأ فيها العين بالشعور بعدم الارتياح – ويُكرَّر ذلك 3 مرات',
         uk: 'Пацієнт повідомляє, коли з’являється перший дискомфорт (повторити 3 рази) після останнього кліпання.',
         nl: 'De patiënt knippert en geeft aan wanneer de ogen voor het eerst oncomfortabel aanvoelen, herhaal dit 3 keer.',
+        cs: 'Pacient mrkne a oznámí, kdy poprvé začnou být oči nepohodlné.',
     },
     {
         code: '_comfort_time_after_blink_test_text_2',
@@ -138,6 +153,7 @@ export default [
         ar: 'أقل من 10 ثوانٍ يُعَدّ مؤشرًا على جفاف العين',
         uk: '< 10 сек. — ознака захворювання сухого ока',
         nl: '< 10 seconden is indicatief voor droge ogen.',
+        cs: '- opakujte 3krát < 10s značí orientační diagnózu onemocnění suchého oka',
     },
     {
         code: '_osdi_6_button',
@@ -148,6 +164,7 @@ export default [
         ar: 'مؤشر مرض جفاف العين – نسخة 6 أسئلة',
         uk: 'OSDI-6',
         nl: 'OSDI-6  ',
+        cs: 'OSDI-6',
     },
     {
         en: 'OSDI-6',
@@ -157,6 +174,7 @@ export default [
         ar: 'مؤشر مرض جفاف العين – نسخة 6 أسئلة',
         uk: 'OSDI-6',
         nl: 'OSDI-6  ',
+        cs: 'OSDI-6',
     },
     {
         code: '_osdi_6_text',
@@ -188,6 +206,10 @@ export default [
 <div>OSDI-6 score ≥4</div>
 <div>Andere vragenlijsten kunnen helpen bij het bepalen van de behandeling, maar zijn niet geschikt voor een gestandaardiseerde diagnose.</div>
 `,
+        cs: `
+<div>Skóre OSDI-6 ≥ 4</div>
+<div>Jiné dotazník mohou pomoci při výběru léčebného postupu, nikoli však při standardizované diagnostice.</div>
+`,
     },
     {
         code: '_fluorescein_staining_button',
@@ -198,6 +220,7 @@ export default [
         ar: 'تلطيخ الفلوريسئين',
         uk: 'ПРОФАРБОВУВАННЯ ФЛЮОРЕСЦЕЇНОМ',
         nl: 'FLUORESCEÏNE STAINING',
+        cs: 'BARVENÍ FLUORESCEINEM',
     },
     {
         code: '_fluorescein_staining_icon',
@@ -208,6 +231,7 @@ export default [
         ar: 'تلطيخ|الفلوريسئين',
         uk: 'ПРОФАРБОВУВАННЯ|ФЛЮОРЕСЦЕЇНОМ',
         nl: 'FLUORESCEÏNE|STAINING',
+        cs: 'BARVENÍ|FLUORESCEINEM',
     },
     {
         code: '_fluorescein_staining_text',
@@ -238,6 +262,10 @@ export default [
 <div>Een minimale hoeveelheid fluoresceïne wordt op het oog aangebracht; beoordeling vindt plaats tussen 1 en 3 minuten na toediening.</div>
 <div>Meer dan 5 corneale aankleuringspunten is diagnostisch voor droge ogen.</div>
 `,
+        cs: `
+<div>Do oka se aplikuje minimální množství fluoresceinu; pozoruje se mezi 1 a 3 minutami po nakapání.</div>
+<div>> 5 rohovkových bodů je diagnostickým znakem onemocnění suchého oka</div>
+`,
     },
     {
         code: '_non_invasive_breakup_time_button',
@@ -248,6 +276,7 @@ export default [
         ar: 'زمن تكسّر الدموع غير التداخلي',
         uk: 'НЕІНВАЗИВНИЙ ЧАС РОЗРИВУ СЛІЗНОЇ ПЛІВКИ',
         nl: 'NON-INVASIEVE BREAKUP TIME',
+        cs: 'NEINVAZIVNÍ ROZPAD SLZNÉHO FILMU - NIBUT',
     },
     {
         code: '_non_invasive_breakup_time_icon',
@@ -258,6 +287,7 @@ export default [
         ar: 'زمن تكسّر الدموع|غير التداخلي',
         uk: 'НЕІНВАЗИВНИЙ|ЧАС РОЗРИВУ|СЛІЗНОЇ ПЛІВКИ',
         nl: 'NON-INVASIEVE|BREAKUP TIME',
+        cs: 'NEINVAZIVNÍ|ROZPAD SLZNÉHO|FILMU - NIBUT',
     },
     {
         code: '_non_invasive_breakup_time_text',
@@ -292,6 +322,10 @@ export default [
 <div>De patiënt knippert en houdt vervolgens de ogen zo lang mogelijk open. Het moment waarop de reflecties van het oogoppervlak vervormen, geeft de kwaliteit van de traanfilm aan.</div>
 <div>< 10 seconden is diagnostisch voor droge ogen.</div>
 `,
+        cs: `
+<div>Pacient mrkne a nechá oči otevřené co nejdéle; čas, kdy se odrazy od očního povrchu zkreslí, indikuje kvalitu slz.</div>
+<div>< 10s je diagnostickým znakem onemocnění suchého oka</div>
+`,
     },
     {
         code: '_osmolarity_button',
@@ -302,6 +336,7 @@ export default [
         ar: 'الأسمولارية',
         uk: 'ОСМОЛЯРНІСТЬ',
         nl: 'OSMOLARITEIT',
+        cs: 'OSMOLARITA',
     },
     {
         en: 'Osmolarity',
@@ -311,6 +346,7 @@ export default [
         ar: 'الأسمولارية',
         uk: 'ОСМОЛЯРНІСТЬ',
         nl: 'OSMOLARITEIT',
+        cs: 'OSMOLARITA',
     },
     {
         code: '_osmolarity_text',
@@ -345,6 +381,10 @@ export default [
 <div>Een zeer klein monster van de traanfilm wordt afgenomen, waarna de osmolariteit (zoutgehalte) van de traanfilm wordt bepaald.</div>
 <div>≥ 308 mOsm/L of een verschil tussen beide ogen van > 8 mOsm/L is diagnostisch voor droge ogen.</div>
 `,
+        cs: `
+<div>Odebere se drobný vzorek slzného filmu a impedance se použije k posouzení osmolarity slzného filmu.</div>
+<div>≥ 308 mOsm/L nebo rozdíl mezi očima > 8 je diagnostickým znakem onemocnění suchého oka</div>
+`,
     },
     {
         code: '_lissamine_green_staining_button',
@@ -355,6 +395,7 @@ export default [
         ar: 'تلطيخ الليسّامين الأخضر',
         uk: 'ПРОФАРБОВУВАННЯ ЛІСАМІНОВИМ ЗЕЛЕНИМ',
         nl: 'LISSAMINE GROEN STAINING ',
+        cs: 'BARVENÍ LISSAMINOVOU ZELENÍ',
     },
     {
         code: '_lissamine_green_staining_icon',
@@ -365,6 +406,7 @@ export default [
         ar: 'تلطيخ|الليسّامين|الأخضر',
         uk: 'ПРОФАРБОВУВАННЯ|ЛІСАМІНОВИМ|ЗЕЛЕНИМ',
         nl: 'LISSAMINE GROEN|STAINING',
+        cs: 'BARVENÍ|LISSAMINOVOU|ZELENÍ',
     },
     {
         code: '_lissamine_green_staining_text',
@@ -417,6 +459,12 @@ export default [
 <div>Beoordeling van de ooglidrand vindt plaats tussen 3 en 6 minuten na toediening.</div>
 <div>Een afwijking van ≥ 2 mm in lengte en/of ≥ 25% van de sagittale breedte (exclusief de lijn van Marx) is diagnostisch voor droge ogen.</div>
 `,
+        cs: `
+<div>Proužek s lissaminovou zelení se navlhčí fyziologickým roztokem, přičemž celá kapka se nechá na proužku alespoň 5 sekund, aby se barvivo uvolnilo; pozoruje se mezi 1 a 4 minutami po nakapání.</div>
+<div>> 9 spojivkových bodů je diagnostickým znakem onemocnění suchého oka.</div>
+<div>Okraj očního víčka se pozoruje mezi 3 a 6 minutami.</div>
+<div>≥ 2 mm délky a/nebo ≥ 25% sagitální šířky (s vyjímkou Marxovy linie) je diagnostickým znakem onemocnění suchého oka.</div>
+`,
     },
     // Measurement -> Sub-classification.
     {
@@ -428,6 +476,7 @@ export default [
         ar: 'التصنيف الفرعي',
         uk: 'ВИЗНАЧЕННЯ ПІДТИПУ',
         nl: 'SUBCLASSIFICATIE ',
+        cs: 'URČENÍ TYPU (SUBTYPIZACE)',
     },
     {
         en: 'Sub-Typing',
@@ -437,6 +486,7 @@ export default [
         ar: 'التصنيف الفرعي',
         uk: 'ВИЗНАЧЕННЯ ПІДТИПУ',
         nl: 'SUBCLASSIFICATIE ',
+        cs: 'URČENÍ TYPU (SUBTYPIZACE)',
     },
     // There are two versions (one with ampersand) used in the English version.
     {
@@ -448,6 +498,7 @@ export default [
         ar: 'اكتمال الرَمش وإغلاق الجفن؛ الاحمرار',
         uk: 'Кліпання та змикання повік; гіперемія',
         nl: 'Volledigheid van de knipperslag en Ooglidsluiting; Roodheid',
+        cs: 'Úplnost mrkání a dovření víček; Zarudnutí',
     },
     {
         code: '_blink_rate_and_completeness_title',
@@ -458,6 +509,7 @@ export default [
         ar: 'اكتمال الرَمش وإغلاق الجفن؛ الاحمرار',
         uk: 'Кліпання та змикання повік; гіперемія',
         nl: 'Volledigheid van de knipperslag en Ooglidsluiting; Roodheid',
+        cs: 'Úplnost mrkání a dovření víček; Zarudnutí',
     },
     {
         code: '_blink_rate_and_completeness_icon',
@@ -468,6 +520,7 @@ export default [
         ar: 'اكتمال الرَمش|وإغلاق الجفن؛|الاحمرار',
         uk: 'Кліпання та|змикання повік;|гіперемія',
         nl: 'Volledigheid|van de|knipperslag en|Ooglidsluiting;|Roodheid',
+        cs: 'Úplnost mrkání|a dovření|víček;|Zarudnutí',
     },
     {
         code: '_blink_rate_and_completeness_text',
@@ -478,6 +531,7 @@ export default [
         ar: 'يمكن أن يؤدي انخفاض معدل الرَمش أو عدم اكتمال الرَمش إلى الإصابة بجفاف العين التبخّري.',
         uk: 'Зменшення частоти або неповне змикання повік сприяє випаровуванню сльози.',
         nl: 'Een verlaagde knipperfrequentie of een onvolledige knipperslag kan leiden tot evaporatieve droge ogen. ',
+        cs: 'Snížená frekvence mrkání nebo neúplné mrkání může způsobit evaporativní formu onemocnění suchého oka.',
     },
     {
         code: '_aqueous_tear_meniscus_height_button',
@@ -488,6 +542,7 @@ export default [
         ar: 'ارتفاع الهلالة الدمعية المائية',
         uk: 'Висота слізного меніска',
         nl: 'Traanmeniscushoogte ',
+        cs: 'Výška slzného menisku',
     },
     {
         code: '_aqueous_tear_meniscus_height_icon',
@@ -498,6 +553,7 @@ export default [
         ar: 'ارتفاع الهلالة|الدمعية المائية',
         uk: 'Висота слізного|меніска',
         nl: 'Traanmeniscushoogte',
+        cs: 'Výška slzného|menisku',
     },
     {
         code: '_aqueous_tear_meniscus_height_text',
@@ -529,6 +585,10 @@ export default [
         nl: `
 <div>Een waarde van < 0,2 mm is indicatief voor waterdeficiëntie droge-ogenproblematiek. Onregelmatigheid duidt op een verminderde traanfilmkwaliteit.</div>
 `,
+        cs: `
+<div><0,2 mm svědčí pro hyposekreční formu onemocnění suchého oka</div>
+<div>Nepravidelnost naznačuje špatnou kvalitu slzného filmu</div>
+`,
     },
     {
         code: '_eyelids_meibomian_gland_expression_button',
@@ -539,6 +599,7 @@ export default [
         ar: 'الجفون: تعصير الغدد الميبومية',
         uk: 'Повіки: Експресія мейбомієвих залоз',
         nl: 'Oogleden: Meibomklier expressie',
+        cs: 'Oční víčka: Exprese Meibomských žlaz',
     },
     {
         code: '_eyelids_meibomian_gland_expression_title',
@@ -549,6 +610,7 @@ export default [
         ar: 'الجفون: تعصير|الغدد الميبومية',
         uk: 'Повіки: Експресія мейбомієвих залоз',
         nl: 'Oogleden: Meibomklier expressie',
+        cs: 'Oční víčka: Exprese Meibomských žlaz',
     },
     {
         code: '_eyelids_meibomian_gland_expression_icon',
@@ -559,6 +621,7 @@ export default [
         ar: 'الجفون: تعصير|الغدد الميبومية',
         uk: 'Повіки:|Експресія|мейбомієвих|залоз',
         nl: 'Oogleden:|Meibomklier|expressie',
+        cs: 'Oční víčka:|Exprese|Meibomských|žlaz',
     },
     {
         code: '_eyelids_meibomian_gland_expression_text',
@@ -569,6 +632,7 @@ export default [
         ar: 'قد يشير خروج إفرازات ميبومية عكرة أو سميكة، أو عدم خروج أي إفراز عند الضغط على حافة الجفن، إلى الإصابة بجفاف العين التبخّري.',
         uk: 'Каламутний, густий секрет або його відсутність — ознака евапоративного типу захворювання сухого ока',
         nl: 'Troebele, verdikte secretie of het uitblijven van expressie bij druk op de ooglidranden kan wijzen op evaporatieve droge ogen. ',
+        cs: 'Zakalený, zahuštěný nebo žádný sekret při tlaku na okraj víčka může svědčit pro evaporativní formu onemocnění suchého oka.',
     },
     {
         code: '_meibography_and_interferometry_button',
@@ -579,6 +643,7 @@ export default [
         ar: 'تصوير الغدد الميبومية والإنترفيريومتري',
         uk: 'Мейбографія та інтерферометрія',
         nl: 'Meibografie en Interferometrie ',
+        cs: 'Meibografie a Interferometrie',
     },
     {
         code: '_meibography_and_interferometry_icon',
@@ -589,6 +654,7 @@ export default [
         ar: 'تصوير الغدد الميبومية|والإنترفيريومتري',
         uk: 'Мейбографія та|інтерферометрія',
         nl: 'Meibografie en|Interferometrie',
+        cs: 'Meibografie a|Interferometrie',
     },
     {
         code: '_meibography_and_interferometry_text',
@@ -599,6 +665,7 @@ export default [
         ar: 'قد يشير قصر الغدد الميبومية أو فقدانها عند الفحص بالإنارة النافذة أو بالتصوير بالأشعة تحت الحمراء للجفن المقلوب إلى الإصابة بجفاف العين التبخّري.',
         uk: 'Атрофія або зменшення кількості залоз — характерно для евапоративного типу захворювання сухого ока',
         nl: 'Verkorte klieren of uitval (\'drop-out\'), zichtbaar bij transilluminatie of infraroodbeeldvorming (IR) van geëverteerde oogleden, kan wijzen op evaporatieve droge-ogenproblematiek. ',
+        cs: 'Zkrácené žlázy nebo ztráta žláz (drop out) při prosvícení (transiluminaci) nebo infračerveném (IR) snímání evertonovaných víček může svědčit pro evaporativní formu onemocnění suchého oka',
     },
     {
         code: '_ocular_surface_misalignment_button',
@@ -609,6 +676,7 @@ export default [
         ar: 'اختلال محاذاة سطح العين',
         uk: 'Зміни очної поверхні',
         nl: 'Verstoring door afwijkingen van het oogoppervlak',
+        cs: 'Malpozice očního povrchu',
     },
     {
         code: '_ocular_surface_misalignment_title',
@@ -619,6 +687,7 @@ export default [
         ar: 'اختلال محاذاة سطح العين',
         uk: 'Зміни очної поверхні',
         nl: 'Verstoring door afwijkingen van het oogoppervlak',
+        cs: 'Malpozice očního povrchu',
     },
     {
         code: '_ocular_surface_misalignment_icon',
@@ -629,6 +698,7 @@ export default [
         ar: 'اختلال محاذاة|سطح العين',
         uk: 'Зміни очної|поверхні',
         nl: 'Verstoring door|afwijkingen van|het|oogoppervlak',
+        cs: 'Malpozice|očního povrchu',
     },
     {
         code: '_ocular_surface_misalignment_text',
@@ -639,6 +709,7 @@ export default [
         ar: 'يمكن أن يؤدي تغيّر المحاذاة بين مقلة العين والأسطح الداخلية للجفن — كما يحدث في حالات مثل الظفرة — إلى إعاقة توزيع طبقة الدموع على سطح العين، مما يؤدي إلى عدم استقرار طبقة الدموع.',
         uk: 'Порушення відповідності очного яблука та внутрішньої поверхні повік, наприклад при птеригії, погіршує рівномірний розподіл слізної плівки по поверхні ока, що призводить до її нестабільності.',
         nl: 'Een verstoorde uitlijning tussen de oogbol en de binnenzijde van de oogleden, bijvoorbeeld als gevolg van een pterygium, kan de gelijkmatige verdeling van de traanfilm over het oogoppervlak belemmeren. Dit resulteert in een verminderde stabiliteit van de traanfilm.   ',
+        cs: 'Změna vzájemného postavení mezi očním bulbem a vnitřním povrchem očních víček, například v důsledku pterygia, narušuje distribuci slzného filmu po povrchu oka, což vede k nestabilitě slzného filmu',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_button',
@@ -649,6 +720,7 @@ export default [
         ar: 'الجفون: فحص التهاب الجفن الأمامي',
         uk: 'Повіки: Передній блефарит',
         nl: 'Oogleden: Anterieure blefaritis',
+        cs: 'Oční víčka: Vyšetření přední blefaritidy',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_title',
@@ -659,6 +731,7 @@ export default [
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
         uk: 'Повіки: Передній блефарит',
         nl: 'Oogleden: Anterieure blefaritis',
+        cs: 'Oční víčka: Vyšetření přední blefaritidy',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_icon',
@@ -669,6 +742,7 @@ export default [
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
         uk: 'Повіки:|Передній|блефарит',
         nl: 'Oogleden:|Anterieure|blefaritis',
+        cs: 'Oční víčka:|Vyšetření|přední|blefaritidy',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_text',
@@ -679,6 +753,7 @@ export default [
         ar: 'يمكن أن يساعد فحص الرموش تحت التكبير أثناء النظر إلى الأسفل في الكشف عن وجود قشور أو حلقات (Collarettes)، مما قد يشير إلى حمولة ميكروبية عالية.',
         uk: 'Наявність лусочок або «комірців» на віях може свідчити про підвищене мікробне навантаження.',
         nl: 'Door de wimpers onder vergroting te onderzoeken terwijl de patiënt naar beneden kijkt, kan de aanwezigheid van schilfers of collarettes worden vastgesteld. Dit kan wijzen op een verhoogde microbiële belasting. ',
+        cs: 'Kontrola řas pod zvětšením při pohledu dolů na přítomnost šupinek nebo kolaret může odhalit vysokou mikrobiální zátěž.',
     },
 
     // The Wheel.
@@ -690,6 +765,7 @@ export default [
         ar: 'العجلة',
         uk: 'Колесо',
         nl: 'HET WIEL',
+        cs: 'KOLO  ',
     },
     {
         code: '_the_wheel_text',
@@ -700,6 +776,7 @@ export default [
         ar: 'جفاف العين هو حالة مزمنة تتطلب منك العمل مع المريض لإدارتها بالشكل الصحيح. تمثل العجلة دورة مستمرة من التخفيف، والقياس، واستخدام هذه المعلومات لتوجيه خطة العلاج. وعند عودة المريض للمراجعة، ستقوم بجمع المعلومات مرة أخرى لفهم ما الذي تغيّر أو كيف تغيّر، وكيف يمكن أن يساعدك ذلك في تحسين خطوات التخفيف، وإعادة القياس، وتطوير خطة الإدارة العلاجية بشكل أدق.',
         uk: 'Сухість очей — це хронічний стан, який потребує співпраці з пацієнтом для ефективного контролю захворювання.\nКолесо символізує циклічний процес зменшення проявів, оцінки стану та використання отриманої інформації для формування стратегії ведення.\nПід час повторного візиту пацієнта необхідно знову зібрати дані, щоб оцінити зміни стану та скоригувати подальше ведення задля зменшення симптомів.',
         nl: 'Droge ogen is een chronische aandoening waarvoor je samen met je patiënt een behandeltraject aangaat. Het wiel staat symbool voor dit proces: het verminderen van klachten (mitigatie), het meten, en het gebruiken van deze informatie om de behandelstrategie gericht bij te sturen. Bij elke controleafspraak verzamel je opnieuw de informatie om veranderingen in kaart te brengen. Deze evaluatie helpt om te begrijpen wat er is veranderd, waarom dat zo is, en hoe deze inzichten kunnen bijdragen aan verdere mitigatie en optimalisatie van je behandelaanpak. ',
+        cs: 'Onemocnění suchého oka je chronické onemocnění, které od vás bude vyžadovat spolupráci s pacientem při jeho zvládání. Kolo symbolizuje proces zmírňování projevů (prevence). Měření a využití těchto informací k určení vašeho léčebné přístupu. Když se pacient vrátí na kontrolu, shromáždíte tyto informace znovu, abyste porozumněli tomu, co nebo jak se změnilo, a jak to může ovlivnit další zmírňování, měření a upřesnění vašeho přístupu k managementu léčby.',
     },
     {
         en: 'The Rings',
@@ -709,6 +786,7 @@ export default [
         ar: 'الحلَقَات',
         uk: 'Кільця',
         nl: 'DE RINGEN',
+        cs: 'PRSTENCE',
     },
     {
         code: '_the_rings_text',
@@ -742,6 +820,7 @@ export default [
 `,
         uk: 'Кільця на схемі «Колесо ведення захворювання сухого ока» символізують послідовний перехід від найпростіших до більш складних підходів у зменшенні проявів, оцінці та лікуванні захворювання сухого ока відповідно до ступеня тяжкості.\nІснує багато можливостей полегшити дискомфорт у пацієнтів із захворюванням сухого ока шляхом профілактики, оцінки та ведення, навіть без додаткових інвестицій (зовнішнє бронзове кільце) або з мінімальними вкладеннями (середнє срібне кільце).\nОскільки більшість пацієнтів мають легкий або помірний перебіг захворювання, усі фахівці повинні брати участь у веденні таких пацієнтів, за потреби направляючи їх до спеціалізованих центрів.',
         nl: 'De ringen die in het dry eye wheel worden weergegeven, symboliseren een aanpak die loopt van eenvoudig tot meer complex voor het verminderen (mitigatie), meten en behandelen van droge ogen, afhankelijk van de ernst van de aandoening. \n\nEr zijn veel mogelijkheden om het ongemak van patiënten met droge ogen te verlichten door middel van mitigatie, meting en behandeling, zelfs zonder extra investering (de bronzen buitenring), of met een beperkte investering (zilveren middelste ring). Aangezien het merendeel van de patiënten milde tot matige droge ogen heeft, is het belangrijk dat alle zorgverleners hierbij betrokken zijn en, waar nodig, doorverwijzen naar specialistische centra.  ',
+        cs: 'Prstence zobrazené v kole onemocnění suchého oka symbolizují nejjednodušší až složitější přístupy k prevenci, měření a managementu suchého oka v závislosti na závažnosti onemocnění\n\nExistuje mnoho způsobů, jak můžete zmírnit nepohodlí pacientů s onemocněním suchého oka prostřednictvím prevence, měření a managementu léčby, a to i bez jakýchkoli dalších nákladů (bronzový vnější prstenec) nebo s omezenými náklady (stříbrný prstenec). Vzhledem k tomu, že většina pacientů s onemocněním suchého oka má mírnou až středně závažnou formu onemocnění, je zapotřebí, aby se zapojili všichni oční specialisté v praxi a v případě potřeby odesílali pacienty do specializovaných center.',
     },
     {
         en: 'Simple Treatment',
@@ -751,6 +830,7 @@ export default [
         ar: 'علاج بسيط',
         uk: 'Лікування легкого рівня',
         nl: 'Eenvoudige behandeling',
+        cs: 'Základní léčba',
     },
     {
         en: 'Moderate Treatment',
@@ -760,6 +840,7 @@ export default [
         ar: 'علاج متوسط',
         uk: 'Лікування середнього рівня',
         nl: 'Gemiddelde behandeling',
+        cs: 'Středně pokročilá léčba',
     },
     {
         en: 'Complex Treatment',
@@ -769,5 +850,6 @@ export default [
         ar: 'علاج معقد',
         uk: 'Лікування тяжкого рівня',
         nl: 'Complexe behandeling',
+        cs: 'Komplexní léčba',
     },
 ];

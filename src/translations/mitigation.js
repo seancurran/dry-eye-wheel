@@ -9,6 +9,7 @@ export default [
         ar: 'تخفيف جفاف العين',
         uk: 'ПРОФІЛАКТИКА',
         nl: 'MITIGATIE',
+        cs: 'ZMÍRNĚNÍ NÁSLEDKŮ',
     },
     {
         en: 'Mitigation',
@@ -18,6 +19,7 @@ export default [
         ar: 'التخفيف',
         uk: 'ПРОФІЛАКТИКА',
         nl: 'MITIGATIE',
+        cs: 'ZMÍRNĚNÍ NÁSLEDKŮ',
     },
     {
         code: '_mitigation_text',
@@ -62,6 +64,9 @@ remita al paciente según corresponda.</div>
         nl: `Door het uitvoeren van triage aan de hand een gerichte anamnese, symptoombespreking en het uitvoeren van een differentiële diagnose, kan men vroegtijdig preventieve maatregelen nemen om schade aan het oogoppervlak te beperken. 
 
 Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vicieuze cirkel van droge ogen en zo leiden tot ongemak bij patiënten. Dit risico kan worden verminderd door risicofactoren zorgvuldig in kaart te brengen, zoals contactlensgebruik, gebruik van digitale apparaten, omgevingsfactoren en hormonale veranderingen of medicatiegebruik, en door alert te zijn op bijkomende klinische bevindingen. Op basis hiervan kan de patiënt adequaat worden behandeld binnen de eigen praktijk of, indien nodig, worden doorverwezen. `,
+        cs: `Třídění pacientů (triáž) na základě sílené anamnézy a symptomů spolu s provedením diferenciální diagnostiky umožňuje zavést profylaktická opatření k omezení poškození oka
+
+Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu syndromu onemocnění suchého oka a vést k nepříjemným symptomům u pacientů. Snižte riziko pečlivou identifikací rizikových faktorů, jako je nošení kontaktních čoček, používání digitálních zařízení, vlivy prostředí, hormonální změny, vlivy prostředí, hormonální změny a změny v užívání léků. Dále řešte oči z hlediska náhodných nálezů a podle toho pacienta řešte nebo odešlete ke specialistovi`,
     },
     {
         code: '_risk_factors_button',
@@ -72,6 +77,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'عوامل الخطورة',
         uk: 'ФАКТОРИ РИЗИКУ',
         nl: 'RISICOFACTOREN',
+        cs: 'RIZIKOVÉ FAKTORY',
     },
     {
         en: 'Risk Factors',
@@ -81,6 +87,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'عوامل الخطورة',
         uk: 'ФАКТОРИ РИЗИКУ',
         nl: 'RISICOFACTOREN',
+        cs: 'RIZIKOVÉ FAKTORY',
     },
     {
         code: '_previous_eye_surgery_button',
@@ -91,6 +98,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'جراحات العين السابقة',
         uk: 'ПОПЕРЕДНІ ОФТАЛЬМОЛОГІЧНІ ОПЕРАЦІЇ',
         nl: 'Eerdere Oogoperaties',
+        cs: 'Předchozí oční operace',
     },
     {
         code: '_previous_eye_surgery_title',
@@ -101,6 +109,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'جراحات العين السابقة',
         uk: 'ПОПЕРЕДНІ ОФТАЛЬМОЛОГІЧНІ ОПЕРАЦІЇ',
         nl: 'Eerdere Oogoperaties',
+        cs: 'Předchozí oční operace',
     },
     {
         code: '_previous_eye_surgery_text',
@@ -111,6 +120,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'تتضمن جراحة العين غالبًا قطع الأعصاب القرنية، وقد تؤدي إلى اختلالات تشريحية بين سطح العين وسطح الجفن، مما قد يعرقل توازن واستقرار طبقة الدموع.',
         uk: 'Хірургічні втручання можуть призводити до ушкодження рогівкових нервів і порушення взаємодії між поверхнею ока та повіками, що впливає на гомеостаз слізної плівки.',
         nl: 'Bij oogoperaties worden vaak corneazenuwen doorgesneden, wat kan leiden tot een anatomische verstoring van de uitlijning tussen het oogoppervlak en de oogleden, wat de homeostase van de traanfilm kan aantasten.',
+        cs: 'Operace oka často zahrnuje přetnutí rohovkových nervů a může vést k anatomickému nesouladu mezi povrchem oka a povrchem očních víček, což může narušit homeostázu slzného filmu',
     },
     {
         code: '_previous_eye_surgery_icon',
@@ -121,6 +131,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'جراحات|العين السابقة',
         uk: 'ПОПЕРЕДНІ|ОФТАЛЬМОЛОГІЧНІ|ОПЕРАЦІЇ',
         nl: 'Eerdere|Oogoperaties',
+        cs: 'Předchozí oční|operace',
     },
     {
         code: '_sleep_button',
@@ -131,6 +142,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'النوم',
         uk: 'СОН',
         nl: 'SLAAP',
+        cs: 'SPÁNEK',
     },
     {
         en: 'Sleep',
@@ -140,6 +152,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'النوم',
         uk: 'СОН',
         nl: 'SLAAP',
+        cs: 'SPÁNEK',
     },
     {
         code: '_sleep_text',
@@ -150,6 +163,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'يرتبط سوء جودة النوم أو قلة عدد ساعات النوم بزيادة خطر الإصابة بجفاف العين، خصوصًا عند النوم أقل من 5 ساعات في الليلة. شجّع على تبني عادات نوم صحية للمساعدة في تقليل خطر ظهور أعراض جفاف العين.',
         uk: 'Недостатня тривалість і низька якість сну пов’язані з підвищеним ризиком захворювання сухого ока, особливо при сні менше ніж 5 годин на добу.\nРекомендується дотримуватися здорових звичок сну для зниження ризику симптомів.',
         nl: 'Een slechte slaapkwaliteit en een te korte slaapduur worden in verband gebracht met een verhoogd risico op droge ogen, vooral bij minder dan 5 uur slaap per nacht. Stimuleer goede slaapgewoonten om het risico op klachten van droge ogen te verminderen. ',
+        cs: 'Špatná kvalita nebo nedostatečné množství spánku jsou spojeny se zvýšeným rizikem onemocnění suchého oka, zejména při spánku kratším než 5 hodin za noc. Podporujte u pacientů správné spánkové návyky, které pomohou snížit riziko projevů suchého oka',
     },
     {
         code: '_contact_lens_button',
@@ -160,6 +174,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'العدسات اللاصقة',
         uk: 'КОНТАКТНІ ЛІНЗИ',
         nl: 'CONTACTLENZEN  ',
+        cs: 'KONTAKTNÍ ČOČKY',
     },
     {
         en: 'Contact Lens',
@@ -169,6 +184,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'العدسات اللاصقة',
         uk: 'КОНТАКТНІ ЛІНЗИ',
         nl: 'CONTACTLENZEN  ',
+        cs: 'KONTAKTNÍ ČOČKY',
     },
     {
         code: '_contact_lens_text',
@@ -179,6 +195,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'يمكن للعدسات اللاصقة أن تُحدث اضطرابًا في طبقة الدموع وتزيد من احتمالية الاحتكاك مع سطح العين، ولذلك يجب تحسينها بعناية، خصوصًا لدى المرضى الذين يعانون من أمراض سابقة في سطح العين.',
         uk: 'Контактні лінзи можуть порушувати слізну плівку та спричиняти тертя з поверхнею ока, тому їх використання потребує ретельної оптимізації, особливо у пацієнтів із наявною патологією поверхні ока.',
         nl: 'Contactlenzen kunnen de traanfilm verstoren en daarmee het risico vergroten op wrijving met het oogoppervlak. Daarom is een zorgvuldige optimalisatie van het contactlensgebruik essentieel, met name bij patiënten met een reeds bestaande aandoening van het oogoppervlak. ',
+        cs: 'Kontaktní čočky mohou narušit slzný film a riskují vznik tření s povrchem oka. Jejich používání by proto mělo být pečlivě optimalizováno, obzvláště u osob s již existujícím onemocněním povrchu oka.',
     },
     {
         code: '_digital_eye_strain_button',
@@ -189,6 +206,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'إجهاد العين الرقمي',
         uk: 'ЕКРАННИЙ ЧАС',
         nl: 'DIGITALE OOGVERMOEIDHEID',
+        cs: 'DIGITÁLNÍ ÚNAVA OČÍ',
     },
     {
         en: 'Digital Eye Strain',
@@ -198,6 +216,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'إجهاد العين الرقمي',
         uk: 'ЕКРАННИЙ ЧАС',
         nl: 'DIGITALE OOGVERMOEIDHEID',
+        cs: 'DIGITÁLNÍ ÚNAVA OČÍ',
     },
     {
         code: '_digital_eye_strain_text',
@@ -208,6 +227,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'يمكن أن يؤدي التعرّض الطويل لشاشات الأجهزة الرقمية إلى تفاقم أمراض سطح العين، خصوصًا عند استخدامها لأكثر من 4–5 ساعات يوميًا. ويمكن الحد من هذا التأثير من خلال أخذ فترات راحة منتظمة، وممارسة تمارين الرَمش، ووضع الشاشات في مستوى أقل من مستوى العين.',
         uk: 'Тривала робота з екранами (понад 4-5 годин на добу) може погіршувати стан поверхні ока.\nНегативний вплив можна зменшити за рахунок регулярних перерв, вправ на моргання та розташування екрана нижче рівня очей.',
         nl: 'Het kijken naar digitale schermen kan aandoeningen van het oogoppervlak verergeren, met name bij gebruik van meer dan 4-5 uur per dag. Deze belasting kan worden verminderd door regelmatig pauzes in te lassen, knipperoefeningen te doen en het scherm lager dan ooghoogte te positioneren. ',
+        cs: 'Sledování digitálních obrazovek může zhoršit onemocnění povrchu oka, zejména při délce nad 4-5 hodin denně. Tento dopad lze zmírnit pravidelnými přestávkami, mrkacími cvičeními a umístění obrazovek pod úroveň očí.',
     },
     {
         code: '_environment_advice_button',
@@ -218,6 +238,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'إرشادات بيئية',
         uk: 'ФАКТОРИ НАВКОЛИШНЬОГО СЕРЕДОВИЩА',
         nl: 'OMGEVINGSADVIES ',
+        cs: 'DOPORUČENÍ TÝKAJÍCÍ SE PROSTŘEDÍ',
     },
     {
         en: 'Environment Advice',
@@ -227,6 +248,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'إرشادات بيئية',
         uk: 'ФАКТОРИ НАВКОЛИШНЬОГО СЕРЕДОВИЩА',
         nl: 'OMGEVINGSADVIES ',
+        cs: 'DOPORUČENÍ TÝKAJÍCÍ SE PROSTŘEDÍ',
     },
     {
         code: '_environment_advice_icon',
@@ -237,6 +259,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'إرشادات|بيئية',
         uk: 'ФАКТОРИ|НАВКОЛИШНЬОГО|СЕРЕДОВИЩА',
         nl: 'OMGEVINGSADVIES',
+        cs: 'DOPORUČENÍ|TÝKAJÍCÍ SE|PROSTŘEDÍ',
     },
     {
         code: '_environment_advice_text',
@@ -247,6 +270,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'يمكن أن تساهم الظروف البيئية مثل المكيفات الهوائية والرياح في زيادة جفاف العين. ويساعد تحديد الأوقات أو المواقف التي تزداد فيها أعراض جفاف العين على توجيه التعديلات اللازمة للحد من هذه التأثيرات.',
         uk: 'Кондиціоноване повітря та вітер можуть сприяти розвитку сухості очей.\nАналіз умов, у яких симптоми посилюються, допомагає визначити необхідні заходи корекції.',
         nl: 'Omgevingsfactoren zoals airconditioning en winderige omstandigheden kunnen bijdragen aan het ontstaan of verergeren van droge ogen. Door te evalueren op welke momenten de klachten het meest uitgesproken zijn, kunnen gerichte aanpassingen worden gedaan. ',
+        cs: 'Podmínky prostředí, jako je klimatizace a větrné počasí, mohou přispívat ke vzniku suchého oka. Analýza toho, kdy jsou symptomy suchého oka nejhorší, umožňuje víleně zavést nezbytná opatření.',
     },
     {
         code: '_hormones_button',
@@ -257,6 +281,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'الهرمونات',
         uk: 'ГОРМОНИ',
         nl: 'HORMONEN',
+        cs: 'HORMONY',
     },
     {
         en: 'Hormones',
@@ -266,6 +291,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'الهرمونات',
         uk: 'ГОРМОНИ',
         nl: 'HORMONEN',
+        cs: 'HORMONY',
     },
     {
         code: '_hormones_text',
@@ -276,6 +302,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'تنظّم الهرمونات العديد من العمليات الفسيولوجية الأساسية في الجسم، ولذلك فإن أي تغيّرات فيها قد تُخلّ بالتوازن الدقيق لطبقة الدموع. وعند حدوث تغيّرات هرمونية، قد يكون من الضروري إجراء مراجعة طبية.',
         uk: 'Гормональні зміни можуть впливати на стабільність слізної плівки.\nУ таких випадках доцільна консультація лікаря.',
         nl: 'Hormonen reguleren veel fysiologische processen in het lichaam. Veranderingen in de hormoonhuishouding kunnen daardoor het evenwicht van de traanfilm verstoren. Wanneer er sprake is van hormonale veranderingen, kan een medische evaluatie aangewezen zijn. ',
+        cs: 'Hormony regulují mnoho klíčových fyziologických procesů v těle, takže jejich změny mohou narušit přesně vyvážený slzný film. Při hormonálních změnách může být opodstatněné lékařské vysvětlení.',
     },
     {
         code: '_medication_review_button',
@@ -286,6 +313,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'مراجعة الأدوية',
         uk: 'МЕДИКАМЕНТИ',
         nl: 'MEDICATIE EVALUATIE',
+        cs: 'KONTROLA UŽÍVANÝCH LÉKŮ',
     },
     {
         en: 'Medication Review',
@@ -295,6 +323,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'مراجعة الأدوية',
         uk: 'МЕДИКАМЕНТИ',
         nl: 'MEDICATIE EVALUATIE',
+        cs: 'KONTROLA UŽÍVANÝCH LÉKŮ',
     },
     {
         code: '_medication_review_text',
@@ -305,6 +334,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'يمكن أن تؤثر العديد من الأدوية، سواء كانت بوصفة طبية أو تُصرف دون وصفة، على طبقة الدموع. لذلك فإن مراجعة الأدوية، بالتنسيق مع الطبيب الموصي، قد تساعد في تقليل الأعراض.',
         uk: 'Багато лікарських засобів можуть впливати на слізну плівку.\nПерегляд терапії разом із лікуючим лікарем може сприяти зменшенню симптомів.',
         nl: 'Veel geneesmiddelen, zowel receptplichtig als vrij verkrijgbaar, kunnen invloed hebben op de traanfilm. Een medicatie-evaluatie in samenwerking met de voorschrijvend arts kan daarom helpen om de klachten te verminderen. ',
+        cs: 'Mnoho léků, ať už na lékařský předpis nebo volně prodejných, může ovlivnit slzný film. Kontrola užívaných léků ve spolupráci s lékařem proto může pomoci zmírnit přítomné symptomy.',
     },
     {
         code: '_triaging_button',
@@ -315,6 +345,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'الفرز الأولي',
         uk: 'ПЕРВИННИЙ ВІДБІР',
         nl: 'TRIAGE ',
+        cs: 'TRIÁŽ',
     },
     {
         en: 'Triaging',
@@ -324,6 +355,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'الفرز الأولي',
         uk: 'ПЕРВИННИЙ ВІДБІР',
         nl: 'TRIAGE ',
+        cs: 'TRIÁŽ',
     },
     {
         code: '_symptom_check_button',
@@ -334,6 +366,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'فحص الأعراض',
         uk: 'ОЦІНКА СИМПТОМІВ',
         nl: 'SYMPTOOMCHECK',
+        cs: 'KONTROLA SYMPTOMŮ',
     },
     {
         en: 'Symptom Check',
@@ -343,6 +376,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'فحص الأعراض',
         uk: 'ОЦІНКА СИМПТОМІВ',
         nl: 'SYMPTOOMCHECK',
+        cs: 'KONTROLA SYMPTOMŮ',
     },
     {
         code: '_symptom_check_text',
@@ -353,6 +387,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'يُتيح أخذ التاريخ المرضي بدقة تحديد أعراض جفاف العين بالإضافة إلى عوامل الخطورة المرتبطة بتطوّر المرض. وتُعد عوامل الخطورة القابلة للتعديل ذات أهمية خاصة، إذ يمكن أن تساعد التغييرات البسيطة في نمط الحياة على تقليل تأثيرها أو القضاء عليه، وتعزيز صحة سطح العين.',
         uk: 'Збір анамнезу дозволяє виявити симптоми сухості очей та фактори ризику розвитку захворювання.\nОсобливу увагу слід приділяти модифікованим факторам ризику, оскільки зміна способу життя може значно покращити стан поверхні ока.',
         nl: 'Anamnese: een zorgvuldige anamnese maakt het mogelijk om zowel symptomen van droge ogen als risicofactoren die bijdragen aan het ontstaan ervan te identificeren. Het is met name belangrijk om beïnvloedbare risicofactoren in kaart te brengen, omdat eenvoudige leefstijlaanpassingen hun negatieve effect kunnen verminderen of zelfs wegnemen en daarmee kunnen bijdragen aan een gezonder oogoppervlak. ',
+        cs: 'Anamnéza: Pečlivé odebrání anamnézy umožňuje identifikovat symptomy suchého oka i rizika spojená s rozvojem tohoto onemocnění. Obzvláště důležité je rozpoznat ovlivnitelné rizikové faktory, protože jednoduché změny v životním stylu mohou pomoci snížit jejich dopad a podpořit zdravější povrch oka.',
     },
     {
         code: '_differential_diagnosis_button',
@@ -363,6 +398,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'التشخيص التفريقي',
         uk: 'ДИФЕРЕНЦІЙНА ДІАГНОСТИКА',
         nl: 'DIFFERENTIËLE DIAGNOSE',
+        cs: 'DIFERENCIÁLNÍ DIAGNÓZY',
     },
     {
         en: 'Differential Diagnosis',
@@ -372,6 +408,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'التشخيص التفريقي',
         uk: 'ДИФЕРЕНЦІЙНА ДІАГНОСТИКА',
         nl: 'DIFFERENTIËLE DIAGNOSE',
+        cs: 'DIFERENCIÁLNÍ DIAGNÓZY',
     },
     {
         code: '_differential_icon',
@@ -382,6 +419,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'التشخيص|التفريقي',
         uk: 'ДИФЕРЕНЦІЙНА|ДІАГНОСТИКА',
         nl: 'DIFFERENTIËLE|DIAGNOSE',
+        cs: 'DIFERENCIÁLNÍ|DIAGNÓZY',
     },
     {
         code: '_contact_lens_icon',
@@ -392,6 +430,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'العدسات|اللاصقة',
         uk: 'КОНТАКТНІ ЛІНЗИ',
         nl: 'CONTACTLENZEN',
+        cs: 'KONTAKTNÍ ČOČKY',
     },
     {
         code: '_eye_strain_icon',
@@ -402,6 +441,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'إجهاد العين|الرقمي',
         uk: 'ЕКРАННИЙ ЧАС',
         nl: 'DIGITALE|OOGVERMOEIDHEID',
+        cs: 'DIGITÁLNÍ ÚNAVA|OČÍ',
     },
     {
         code: '_medication_review_icon',
@@ -412,6 +452,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'مراجعة|الأدوية',
         uk: 'МЕДИКАМЕНТИ',
         nl: 'MEDICATIE|EVALUATIE',
+        cs: 'KONTROLA|UŽÍVANÝCH LÉKŮ',
     },
     {
         code: '_symptom_check_icon',
@@ -422,6 +463,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'فحص|الأعراض',
         uk: 'ОЦІНКА|СИМПТОМІВ',
         nl: 'SYMPTOOMCHECK',
+        cs: 'KONTROLA|SYMPTOMŮ',
     },
     {
         code: `_differential_header`,
@@ -431,6 +473,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'يُعدّ مرض جفاف العين واحدًا فقط من العديد من أمراض سطح العين. يساعد التشخيص التفريقي على التأكد من عدم وجود حالات أخرى كامنة—مثل الحساسية العينية أو العدوى—قد تكون هي السبب الحقيقي للأعراض التي يعاني منها المريض. يُنصَح بمعالجة الحالات المرضية المصاحبة أولًا قبل التعامل مع أي درجة متبقية من جفاف العين، مما يزيد من فرص تحقيق نتائج ناجحة للمريض. كما يساعد دليل الفرز الخاص بتقرير TFOS DEWS II في تسهيل وتسريع تضييق نطاق التشخيص وتجنّب الزيارات السريرية غير الضرورية.',
         uk: 'Захворювання сухого ока є лише одним із захворювань поверхні ока.\nДиференційна діагностика дозволяє виключити інші причини симптомів, такі як алергія або інфекція.\nСпочатку необхідно лікувати супутні стани, а вже потім — залишкові прояви сухого ока.\nКонтрольний список TFOS DEWS II допомагає швидко звузити діагноз і уникнути зайвих візитів:',
         nl: 'Droge ogen zijn slechts één van de vele aandoeningen van het oogoppervlak. Het uitvoeren van een differentiële diagnose is daarom essentieel om uit te sluiten dat andere onderliggende aandoeningen, zoals oculaire allergieën of infecties, verantwoordelijk zijn voor de klachten waarmee de patiënt zich presenteert. Eventuele bijkomende (comorbide) aandoeningen dienen eerst te worden behandeld voordat resterende droge ogen problematiek wordt aangepakt, om de kans op een succesvol behandelresultaat te vergroten. De TFOS DEWS II-triagechecklist biedt een snelle en praktische ondersteuning bij het verfijnen van de diagnose en kan helpen onnodige klinische bezoeken te voorkomen.',
+        cs: 'Onemocnění suchého oka je jen jedním z mnoha onemocnění povrchu oka. Diferenciální diagnostika pomáhá zajistit, aby pacientovy přítomné symptomy nebyly zodpovědné jiné základní diagnózy, jako je oční alergie nebo infekce. Před řešením jakéhokoli přetrvávajícího onemocnění suchého oka vyřešte přidružená onemocnění (komorbidity), abyste zvýšili šance na úspěšný výsledek pacientů. Triážní dotazník TFOS DEWS II pomáhá rychle a snadno zúžit diagnózu a vyhnout se zbytečným klinickým návštěvám',
     },
     {
         code: `_differential_list`,
@@ -494,6 +537,16 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
 <li>Draagt u contactlenzen?</li>
 <li>Is er sprake van bekende algemene gezondheidsaandoeningen (inclusief recente luchtweginfecties) of gebruikt u medicatie?</li>
 `,
+        cs: `
+<li>Jak často pociťujete oční diskomfort?</li>
+<li>Máte suchost v ústech nebo oteklé žlázy?</li>
+<li>Jak dlouho vaše příznaky trvají a byl nějaký spouštěč?</li>
+<li>Je váš zrak ovlivněn a vyjasní se při mrkání?</li>
+<li>Jsou příznaky nebo zarudnutí v jednom oku mnohem horší než v druhém?</li>
+<li>Svědí oči, jsou oteklé nebo zaschlé, nebo už z nich vychází nějaký výtok?</li>
+<li>Nosíte kontaktní čočky?</li>
+<li>Byly vám diagnostikovány nějaké obecné zdravotní potíže (včetně nedávných respiračních infekcí) nebo užíváte nějaké léky?</li>
+`,
     },
     {
         code: `_differential_footer`,
@@ -503,6 +556,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: '+ إجراء فحص تفريقي مفصّل للجزء الأمامي من العين عند الحاجة وفقًا للإجابات.',
         uk: '+ Детальний огляд переднього відрізку ока, в тих випадках де це зазначено у відповідях',
         nl: '+ Indien de antwoorden daartoe aanleiding geven, dient een uitgebreid differentieel diagnostisch onderzoek van het voorste oogsegment te worden uitgevoerd.',
+        cs: '+ Podrobné vyšetření předního segmentu oka, diferenciální diagnostika tam, kde to naznačují odpovědi.',
     },
     {
         code: '_prophylaxis_button',
@@ -513,6 +567,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'الوقاية',
         uk: 'ПРОФІЛАКТИКА',
         nl: 'PREVENTIEVE MAATREGELEN ',
+        cs: 'PROFYLAXE ',
     },
     {
         en: 'Prophylaxis',
@@ -522,6 +577,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'الوقاية',
         uk: 'ПРОФІЛАКТИКА',
         nl: 'PREVENTIEVE MAATREGELEN ',
+        cs: 'PROFYLAXE ',
     },
     {
         code: '_prophylaxis_text',
@@ -532,6 +588,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'يمكن للإجراءات الوقائية، مثل الحفاظ على ترطيب جيد للجسم، والتحكم في الظروف البيئية، والحفاظ على نظافة العين، أن تساعد في منع تلف سطح العين وما يترتب عليه من أعراض جفاف العين.',
         uk: 'Профілактичні заходи, такі як достатнє споживання рідини, контроль умов навколишнього середовища та гігієна очей, сприяють запобіганню ушкодженню поверхні ока та розвитку симптомів сухого ока.',
         nl: 'Preventieve maatregelen, zoals goede hydratatie, het beheersen van omgevingsfactoren en ooghygiëne, kunnen helpen om schade aan het oogoppervlak en de daaruit voortvloeiende klachten van droge ogen te voorkomen. ',
+        cs: 'Profylaxe, jako je dobrá hydratace, kontrola podmínek prostředí a oční hygiena, může pomoci předcházet poškození povrchu oka a následným příznakům suchého oka.',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_button',
@@ -542,6 +599,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'الإدارة الاستباقية لمرض سطح العين',
         uk: 'ПРОАКТИВНЕ ВЕДЕННЯ ЗАХВОРЮВАНЬ ПОВЕРХНІ ОКА',
         nl: 'Proactief management van aandoeningen van het oogoppervlak',
+        cs: 'Proaktivní management onemocnění povrchu oka',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_title',
@@ -552,6 +610,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'الإدارة الاستباقية لمرض سطح العين',
         uk: 'ПРОАКТИВНЕ ВЕДЕННЯ ЗАХВОРЮВАНЬ ПОВЕРХНІ ОКА',
         nl: 'Proactief management van aandoeningen van het oogoppervlak',
+        cs: 'Proaktivní management onemocnění povrchu oka',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_icon',
@@ -562,6 +621,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'الإدارة الاستباقية|لمرض سطح|العين',
         uk: 'ПРОАКТИВНЕ|ВЕДЕННЯ|ЗАХВОРЮВАНЬ|ПОВЕРХНІ ОКА',
         nl: 'Proactief|management van|aandoeningen|van het|oogoppervlak',
+        cs: 'Proaktivní|management|onemocnění|povrchu oka',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_text',
@@ -572,6 +632,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'يُعيد التوازن لسطح العين حتى في غياب الأعراض، مما يساعد على الحد من تطوّر الأعراض مستقبلًا.',
         uk: 'дозволяє відновити гомеостаз навіть за відсутності симптомів і запобігти їх розвитку в майбутньому.',
         nl: 'Herstelt de homeostase van het oogoppervlak, zelfs bij afwezigheid van symptomen, en voorkomt zo het ontstaan van toekomstige klachten.',
+        cs: 'Obnova homeostázy povrchu oka, a to i v nepřítomnosti symptomů, za účelem zmírnění budoucího rozvoje symptomů.',
     },
     {
         code: '_corneal_sensitivity_button',
@@ -582,6 +643,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'تقييم حساسية القرنية',
         uk: 'ОЦІНКА ЧУТЛИВОСТІ|РОГІВКИ',
         nl: 'Beoordeling van de|corneagevoeligheid',
+        cs: 'Hodnocení citlivosti|rohovky',
     },
     {
         code: '_corneal_sensitivity_title',
@@ -592,6 +654,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'تقييم حساسية القرنية',
         uk: 'ОЦІНКА ЧУТЛИВОСТІ РОГІВКИ',
         nl: 'Beoordeling van de corneagevoeligheid',
+        cs: 'Hodnocení citlivosti rohovky',
     },
     {
         code: '_corneal_sensitivity_assessment_icon',
@@ -602,6 +665,7 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'تقييم|حساسية القرنية',
         uk: 'ОЦІНКА|ЧУТЛИВОСТІ|РОГІВКИ',
         nl: 'Beoordeling van|de|corneagevoeligheid',
+        cs: 'Hodnocení|citlivosti|rohovky',
     },
     {
         code: '_corneal_sensitivity_assessment_text',
@@ -612,5 +676,6 @@ Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vic
         ar: 'يمكن استخدام زاوية منديل، أو خيط قطني رقيق، أو جهاز قياس الحساسية، أو اختبار التخدير الموضعي لتقييم علامات الخلل العصبي.',
         uk: 'Може проводитися за допомогою торкання стерильним матеріалом, ватною паличкою, естезіометром або із застосуванням місцевого анестетика для виявлення ознак нейросенсорних порушень.',
         nl: 'Een hoekje van een tissue, een wattenstaafje, een aesthesiometer of een test met een lokaal anestheticum kan worden ingezet om te beoordelen of er sprake is van neurale disfunctie. ',
+        cs: 'K posouzení známek neurální dysfunkce lze použít cíp papírového kapesníku, chomáček vatové tyčinky, esteziometr nebo test lokální anestezie',
     },
 ];

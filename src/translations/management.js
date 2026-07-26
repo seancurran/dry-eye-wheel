@@ -9,6 +9,7 @@ export default [
         ar: 'إدارة / علاج جفاف العين',
         uk: 'ВЕДЕННЯ',
         nl: 'MANAGEMENT',
+        cs: 'MANAGEMENT  ',
     },
     {
         en: 'Management',
@@ -18,6 +19,7 @@ export default [
         ar: 'الإدارة',
         uk: 'ВЕДЕННЯ',
         nl: 'MANAGEMENT',
+        cs: 'MANAGEMENT  ',
     },
     {
         code: '_management_text',
@@ -28,6 +30,7 @@ export default [
         ar: 'تطلب إدارة جفاف العين اتباع نهج تدريجي، حيث إن الحالات الأكثر شدة غالبًا ما تحتاج إلى عدة خيارات علاجية. ومع ذلك، يمكن التعامل مع معظم المرضى باستخدام استراتيجيات بسيطة نسبيًا، تشمل المُلطفات العينية وإجراءات نظافة الجفون. ويُفضّل أن تستهدف استراتيجيات الإدارة شدة المرض، بالإضافة إلى معالجة السبب الرئيسي الكامن وراء جفاف العين. إن تصنيف المرض إلى جفاف مائي، أو تبخّري، أو مختلط يمكن أن يساعد في اختيار العلاج الأنسب.',
         uk: 'Ведення захворювання сухого ока має поетапний характер, при цьому більш тяжкі форми часто потребують комбінованого лікування.\n\nБільшість пацієнтів можна ефективно контролювати за допомогою базових заходів, таких як застосування зволожувальних засобів та гігієна повік.\n\nСтратегія лікування має враховувати:\n- ступінь тяжкості захворювання;\n- основний патогенетичний механізм (вододефіцитний, евапоративний або змішаний тип).',
         nl: 'De behandeling van droge ogen vereist een stapsgewijze aanpak, waarbij ernstigere vormen vaak meerdere behandelingen nodig hebben. \n\nDe meeste patiënten kunnen echter effectief worden geholpen met relatief eenvoudige maatregelen, zoals bevochtiging en goede ooglidhygiëne. \n\nIdealiter is de behandeling gericht op het verminderen van de ernst van de aandoening én op het aanpakken van de onderliggende oorzaak van de droge ogen. Het onderverdeeln van de aandoening in subtypes, zoals een waterdeficiëntie, evaporatief of een gemengde oorzaak, kan daarbij helpen om een gerichte en passende behandelstrategie te kiezen. ',
+        cs: 'Způsob zvládání onemocnění suchého oka vyžaduje stupňovitý přístup, přičemž závažnější stavy často vyžadují kombinaci několika typů terapie.\n\nVětšina pacientů lze však úspěšně vyřešit pomocí relativně jednoduchých strategií, které zahrnují oční lubrikanta a opatření v oblasti hygieny očních víček.\n\nStrategie terapie by měly být v ideálním případě zaměřeny na zvládání závažnosti onemocnění a zároveň cíleny na hlavní vyvolávající příčinu suchého oka. Určení podtypu onemocnění podle toho, zda se jedná o formu s deficitem vodné složky (hyposekreční), evaporativní (se zvýšeným odpařováním), nebo smíšenou, může pomoci při výběru správné léčby.',
     },
     {
         en: 'Mild',
@@ -37,6 +40,7 @@ export default [
         ar: 'خفيف',
         uk: 'ЛЕГКИЙ РІВЕНЬ',
         nl: 'MILD',
+        cs: 'LEHKÁ FORMA',
     },
     {
         code: '_artificial_tears_button',
@@ -47,6 +51,7 @@ export default [
         ar: 'الدموع الاصطناعية',
         uk: 'Штучні сльози',
         nl: 'KUNSTTRANEN',
+        cs: 'UMĚLÉ SLZY',
     },
     {
         code: '_artificial_tears_icon',
@@ -57,6 +62,7 @@ export default [
         ar: 'الدموع|الاصطناعية',
         uk: 'Штучні сльози',
         nl: 'KUNSTTRANEN',
+        cs: 'UMĚLÉ SLZY',
     },
     {
         code: '_artificial_tears_text',
@@ -67,6 +73,7 @@ export default [
         ar: 'تظل المُلطفات العينية (الدموع الاصطناعية) عنصرًا أساسيًا في إدارة مرض جفاف العين. وتتوافر العديد من التركيبات المختلفة، بما في ذلك القطرات المعتمدة على الدهون للمساعدة في استقرار طبقة الدموع، بالإضافة إلى العديد من الخيارات الخالية من المواد الحافظة، والتي تكون مفضلة في الحالات الأكثر شدة من المرض.',
         uk: 'Є основою лікування.\nІснують різні форми, включаючи ліпідні, що стабілізують слізну плівку.\nДля тяжчих випадків рекомендовано безконсервантні препарати.',
         nl: 'Kunsttranen vormen een essentieel onderdeel van de behandeling van droge ogen. Er is een breed scala aan samenstellingen beschikbaar, waaronder lipide-gebaseerde oogdruppels die bijdragen aan het stabiliseren van de traanfilm. Daarnaast bestaan er veel conserveringsmiddel-vrije opties, die met name worden aanbevolen bij ernstigere vormen van droge ogen.  ',
+        cs: 'Oční lubrikanty zůstávají hlavním pilířem léčby onemocnění suchého oka. Existuje mnoho různých forem, včetně kapek na bázi lipidů, které pomáhají stabilizovat slzný film, a mnoha variant bez konzervačních látek, které se doporučují u závažnějších forem tohoto onemocnění.',
     },
     {
         code: '_advice_button',
@@ -77,6 +84,7 @@ export default [
         ar: 'نصائح',
         uk: 'РЕКОМЕНДАЦІЇ ПАЦІЄНТУ',
         nl: 'ADVIES',
+        cs: 'RADY/DOPORUČENÍ',
     },
     {
         en: 'Advice',
@@ -86,6 +94,7 @@ export default [
         ar: 'نصائح',
         uk: 'РЕКОМЕНДАЦІЇ ПАЦІЄНТУ',
         nl: 'ADVIES',
+        cs: 'RADY/DOPORUČENÍ',
     },
     {
         code: '_advice_text',
@@ -96,6 +105,7 @@ export default [
         ar: 'من المهم توضيح للمرضى أن مرض جفاف العين يتطلّب التزامًا طويل الأمد بالإدارة والمتابعة، وأنه نادرًا ما يُشفى تمامًا، بل تتم إدارته من خلال مجموعة من الأساليب المختلفة، مع ضرورة المتابعة الدقيقة مع الممارس الصحي لضمان أفضل النتائج.',
         uk: 'Важливо пояснити, що захворювання потребує тривалого контролю і не має повного одужання.\nРегулярне спостереження є необхідним.',
         nl: 'Het is belangrijk om met patiënten te bespreken dat de behandeling van droge ogen een langdurige en consequente inzet vraagt. Genezing is zelden mogelijk; de behandeling is daarom vooral gericht op het beheersen van de klachten door middel van verschillende behandelstrategieën, met zorgvuldige en regelmatige follow-up door de zorgprofessional. ',
+        cs: 'Je důžeité s pacienty probrat, že onemocnění suchého oka vyžaduje dlouhodobý a nepřetržitý přístup k léčbě a jen zřídkakdy se zcela vyléčí. Spíše se zvládá pomocí různých přístupů, přičemž zásadní je pečlivé sledování u jejich ošetřujícího lékaře. ',
     },
     {
         code: '_blink_exercises_button',
@@ -106,6 +116,7 @@ export default [
         ar: 'تمارين الرَمش',
         uk: 'ВПРАВИ ДЛЯ КЛІПАННЯ',
         nl: 'KNIPPER OEFENINGEN',
+        cs: 'CVIČENÍ MRKÁNÍ',
     },
     {
         code: '_blink_exercises_icon',
@@ -116,6 +127,7 @@ export default [
         ar: 'تمارين|الرَمش',
         uk: 'ВПРАВИ ДЛЯ|КЛІПАННЯ',
         nl: 'KNIPPER|OEFENINGEN',
+        cs: 'CVIČENÍ MRKÁNÍ',
     },
     {
         code: '_blink_exercises_text',
@@ -126,6 +138,7 @@ export default [
         ar: 'يمكن أن يؤدي انخفاض معدل الرَمش أثناء استخدام الأجهزة الرقمية إلى جفاف العين. ويمكن تدريب المرضى على كيفية الرَمش بشكل كامل، وأخذ فترات راحة منتظمة من الأعمال القريبة، واستخدام وسائل مختلفة لتذكيرهم بالرَمش بشكل منتظم للمساعدة في التخفيف من هذه المشكلات.',
         uk: 'Знижена частота кліпання під час роботи з цифровими пристроями може призводити до розвитку сухості очей. Навчання пацієнтів повному морганню, регулярним перервам під час роботи на близькій відстані, а також використанню різних способів нагадування про моргання допомагає зменшити ці прояви.',
         nl: 'Verminderd knipperen tijdens beeldschermwerk kan bijdragen aan het ontstaan van droge ogen. Door patiënten te trainen om volledig te knipperen, hen aan te moedigen regelmatig pauzes te nemen van nabijwerk en gebruik te maken van hulpmiddelen die het knipperen actief onder aandacht brengen, kunnen deze klachten worden verminderd. ',
+        cs: 'Snížená frekvence mrkání během používání digitálních zařízení může vést k suchosti očí. Nácvik úplného mrkání u pacientů, zařazování pravidelných přestávek při práci do blízka a používání různých metod, které jim pravidelné mrkání připomenou, může tyto problémy zmírnit.',
     },
     {
         code: '_diet_and_dietary_supplements_button',
@@ -136,6 +149,7 @@ export default [
         ar: 'النظام الغذائي والمكملات الغذائية',
         uk: 'ДІЄТА ТА ХОРЧОВІ ДОБАВКИ',
         nl: 'VOEDING EN VOEDINGSSUPPLEMENTEN',
+        cs: 'STRAVA A DOPLŇKY STRAVY',
     },
     {
         code: '_diet_and_dietary_supplements_icon',
@@ -146,6 +160,7 @@ export default [
         ar: 'النظام الغذائي|والمكملات|الغذائية',
         uk: 'ДІЄТА ТА|ХОРЧОВІ ДОБАВКИ',
         nl: 'VOEDING EN|VOEDINGSSUPPLEMENTEN',
+        cs: 'STRAVA A|DOPLŇKY STRAVY',
     },
     {
         code: '_diet_and_dietary_supplements_text',
@@ -156,6 +171,7 @@ export default [
         ar: 'يمكن أن يساعد اتباع نظام غذائي صحي وخاصة النظام المتوسطي في دعم صحة سطح العين، إلى جانب المكمّلات الغذائية مثل تلك الغنية بأوميغا‑3.',
         uk: 'Здорове харчування (зокрема середземноморська дієта) та Омега-3 можуть покращити стан поверхні ока.',
         nl: 'Een gezonde voeding, met name een mediterraan dieet, kan bijdragen aan het ondersteunen van het oogoppervlak. Dit kan eventueel worden aangevuld met supplementen die rijk zijn aan Omega-3-vetzuren.',
+        cs: 'Zdravá strava, zejména středomořská, může společně s doplňky stravy, jakou jsou ty bohaté na Omega-3 mastné kyseliny, podpořit oční povrch.',
     },
     {
         code: '_warm_compress_button',
@@ -166,6 +182,7 @@ export default [
         ar: 'الكمادات الدافئة',
         uk: 'ТЕПЛІ КОМПРЕСИ',
         nl: 'WARME COMPRESSEN',
+        cs: 'TEPLÉ OBKLADY',
     },
     {
         code: '_warm_compress_icon',
@@ -176,6 +193,7 @@ export default [
         ar: 'الكمادات|الدافئة',
         uk: 'ТЕПЛІ КОМПРЕСИ',
         nl: 'WARME|COMPRESSEN',
+        cs: 'TEPLÉ OBKLADY',
     },
     {
         code: '_warm_compress_text',
@@ -186,6 +204,7 @@ export default [
         ar: 'يمكن تطبيق الحرارة خارجيًا على الجفون باستخدام مجموعة واسعة من الكمادات الدافئة، والتي قد تحتوي على بذور تُسخَّن في الميكروويف أو خرز زجاجي، أو من خلال تطبيق حرارة رطبة كامنة تُوَصَّل عبر نظارات مخصّصة. تساعد الحرارة على فتح الغدد الميبومية، وتؤدي دورًا مهمًا في إدارة خلل الغدد الميبومية، وهو العامل الرئيسي المسبب لجفاف العين التبخّري.',
         uk: 'Тепло можна застосовувати зовнішньо до повік за допомогою різних теплих компресів, що можуть містити нагріті в мікрохвильовій печі зерна або скляні кульки, або шляхом використання пристроїв, що забезпечують тривале вологе тепло (наприклад, у вигляді окулярів).\nТепло сприяє розблокуванню мейбомієвих залоз і відіграє важливу роль у лікуванні їхньої дисфункції, яка є основним чинником розвитку евапоративного типу захворювання сухого ока.',
         nl: 'Warmte kan worden toegepast op de buitenzijde van de oogleden met behulp van diverse warme compressen, zoals maskers gevuld met magnetron-verwarmde zaden of kraaltjes, of via speciale brillen die vochtige warmte afgeven. Warmtetoepassing bevordert het openen van de meibomklieren en speelt daarmee een belangrijke rol in de behandeling van meibomklierdysfunctie, de belangrijkste oorzaak van evaporatieve droge ogen.',
+        cs: 'Teplo lze na oční víčka aplikovat zevně pomocí široké škály teplých obkladů. Ty mohou obsahovat semínka ohřívaná v mikrovlné troubě nebo skleněné kuličky, případně lze využít aplikaci latentního vlhkého tepla prostřednictvím speciálních brýlí. Teplo pomáhá uvolnit meibomské žlázy a hraje důležitou roli při léčbě dysfunkce meibomských žláz, která je hlavním faktorem vedoucím k evaporativní formě suchého oka.',
     },
     {
         code: '_lid_hygiene_button',
@@ -196,6 +215,7 @@ export default [
         ar: 'نظافة الجفون',
         uk: 'ГІГІЄНА ПОВІК',
         nl: 'OOGLIDHYGIËNE',
+        cs: 'HYGIENA OČNÍCH VÍČEK',
     },
     {
         code: '_lid_hygiene_icon',
@@ -206,6 +226,7 @@ export default [
         ar: 'نظافة|الجفون',
         uk: 'ГІГІЄНА ПОВІК',
         nl: 'OOGLIDHYGIËNE',
+        cs: 'HYGIENA OČNÍCH|VÍČEK',
     },
     {
         code: '_lid_hygiene_text',
@@ -216,6 +237,7 @@ export default [
         ar: 'يمكن لمنتجات تنظيف الجفون إزالة الرواسب والمهيّجات المحيطة بالعين بفعالية، كما تساعد في تقليل البكتيريا. وتُعدّ نظافة الجفون عنصرًا أساسيًا في إدارة التهاب الجفن، إذ تحتوي بعض المنتجات على مكوّنات فعّالة للتحكم في الديموديكس بشكل خاص.',
         uk: 'Засоби для очищення повік ефективно видаляють забруднення з краю повік та інші подразники в ділянці очей, а також зменшують бактеріальне навантаження.\nГігієна повік є ключовим компонентом лікування блефариту; деякі засоби містять активні компоненти, спрямовані, зокрема, на контроль демодексу.',
         nl: 'Ooglidreinigingsproducten kunnen effectief vuil en andere verontreinigingen van en rond de ogen verwijderen en helpen de bacteriële belasting te verminderen. Ooglidhygiëne vormt een essentieel onderdeel van de behandeling van blefaritis, waarbij sommige producten actieve ingrediënten bevatten die specifiek gericht zijn op de aanpak van Demodex.',
+        cs: 'Přípravky na čištění očních víček dokážou účinně odstranit nečistoty z víček a jiné dráždivé látky z okolí očí a snížit výskyt bakterií. Hygiena očních víček je hlavním pilířem léčby blefaritidy (zánětu očních víček), přičemže některé přípravky obsahují aktivní složky specificky určené k hubení Demodexe ',
     },
     {
         en: 'Moderate',
@@ -225,6 +247,7 @@ export default [
         ar: 'متوسط',
         uk: 'СЕРЕДНІЙ РІВЕНЬ',
         nl: 'MATIG',
+        cs: 'STŘEDNĚ ZÁVAŽNÁ FORMA',
     },
     {
         code: '_in_office_light_heat_based_devices_button',
@@ -235,6 +258,7 @@ export default [
         ar: 'العلاجات داخل العيادة',
         uk: 'Апаратні методи: світлотерапія, теплові системи',
         nl: 'Eerstelijnsbehandelingen met licht/warmte apparatuur ',
+        cs: 'AMBULANTNÍ PŘÍSTROJE NA BÁZI SVĚTLA/TEPLA',
     },
     {
         code: '_in_office_light_heat_based_devices_icon',
@@ -245,6 +269,7 @@ export default [
         ar: 'العلاجات|داخل العيادة',
         uk: 'Апаратні|методи:|світлотерапія,|теплові системи',
         nl: 'Eerstelijnsbehandelingen|met|licht/warmte|apparatuur',
+        cs: 'AMBULANTNÍ|PŘÍSTROJE NA|BÁZI|SVĚTLA/TEPLA',
     },
     {
         code: '_in_office_light_heat_based_devices_text',
@@ -255,6 +280,7 @@ export default [
         ar: 'تشمل هذه العلاجات: إزالة الرواسب، والتعصير العلاجي للغدد، وتسخين الجفون وتدليكها، بالإضافة إلى العلاج بالضوء النبضي المكثّف، والعلاج بالتحفيز الضوئي الحيوي.',
         uk: 'Складні методи:\n- автологічна сироватка\n- амніотичні мембрани',
         nl: 'Complexere behandelingen zoals serumdruppels en amnionmembranen. ',
+        cs: 'Komplexní léčba, jako jsou sérové kapky/ amniová membrána',
     },
     {
         code: '_pharmaceuticals_button',
@@ -265,6 +291,7 @@ export default [
         ar: 'الأدوية',
         uk: 'МЕДИКАМЕНТОЗНА ТЕРАПІЯ',
         nl: 'GENEESMIDDELEN',
+        cs: 'FARMAKOLOGICKÁ LÉČBA / LÉKY ',
     },
     {
         en: 'Pharmaceuticals',
@@ -274,6 +301,7 @@ export default [
         ar: 'الأدوية',
         uk: 'МЕДИКАМЕНТОЗНА ТЕРАПІЯ',
         nl: 'GENEESMIDDELEN',
+        cs: 'FARMAKOLOGICKÁ LÉČBA / LÉKY ',
     },
     {
         code: '_pharmaceuticals_text',
@@ -284,6 +312,7 @@ export default [
         ar: 'تتوفر الآن مجموعة من العلاجات الدوائية الفموية والموضعية بوصفة طبية لإدارة الأشكال الأكثر شدة من جفاف العين.',
         uk: 'Наразі доступна низка лікарських засобів — як для перорального застосування, так і для місцевого лікування — для ведення більш тяжких форм захворювання сухого ока.',
         nl: 'Voor de behandeling van ernstigere vormen van droge ogen zijn inmiddels diverse receptplichtige geneesmiddelen beschikbaar, zowel voor orale als lokale (topicale) toepassing.  ',
+        cs: 'Pro léčbu závažnějších forem onemocnění suchého oka je nyní k dispozici řada perorálních a lokálních fakmakologických přípravků na lékařský předpis.',
     },
     {
         code: '_scleral_lenses_button',
@@ -294,6 +323,7 @@ export default [
         ar: 'العدسات الصُلبة (الصلبية)',
         uk: 'СКЛЕРАЛЬНІ ЛІНЗИ',
         nl: 'SCLERALE LENZEN',
+        cs: 'SKLERÁLNÍ ČOČKY',
     },
     {
         code: '_scleral_lenses_icon',
@@ -304,6 +334,7 @@ export default [
         ar: 'العدسات|الصُلبة',
         uk: 'СКЛЕРАЛЬНІ|ЛІНЗИ',
         nl: 'SCLERALE LENZEN',
+        cs: 'SKLERÁLNÍ ČOČKY',
     },
     {
         code: '_scleral_lenses_text',
@@ -314,6 +345,7 @@ export default [
         ar: 'تُظهر الأدلة المتزايدة أن بعض مرضى جفاف العين قد يستفيدون من ارتداء العدسات الصُّلبية، والتي تحتفظ بطبقة من الدموع بين العدسة والقرنية/الملتحمة، مما يمنع جفاف سطح العين.',
         uk: 'Зростаюча кількість даних свідчить про те, що у деяких пацієнтів із захворюванням сухого ока застосування склеральних контактних лінз може бути ефективним. Ці лінзи утримують слізну рідину між лінзою та рогівкою/кон’юнктивою, що запобігає висиханню поверхні ока.',
         nl: 'Steeds meer bewijs toont aan dat sommige patiënten met droge ogen baat kunnen hebben bij het dragen van sclerale contactlenzen. Deze lenzen houden tranen vast tussen de lens en het hoornvlies/de conjunctiva en voorkomen zo uitdroging van het oogoppervlak. ',
+        cs: 'Přibývající důkazy ukazují, že někteří pacienti se suchým okem mohou mít prospěch z nošení sklerálních kontaktních čoček, které zadržují slzy mezi čočkou a rohovkou/spojivkou a zabraňují vysychání očního povrchu.',
     },
     {
         en: 'Severe',
@@ -323,6 +355,7 @@ export default [
         ar: 'متقدم',
         uk: 'ТЯЖКИЙ РІВЕНЬ',
         nl: 'ERNSTIG',
+        cs: 'TĚŽKÁ FORMA',
     },
     {
         code: '_surgical_approaches_button',
@@ -333,6 +366,7 @@ export default [
         ar: 'الأساليب الجراحية',
         uk: 'Хірургічні методи',
         nl: 'Chirurgische behandelingen',
+        cs: 'CHIRURGICKÉ PŘÍSTUPY',
     },
     {
         code: '_surgical_approaches_icon',
@@ -343,6 +377,7 @@ export default [
         ar: 'الأساليب|الجراحية',
         uk: 'Хірургічні|методи',
         nl: 'Chirurgische|behandelingen',
+        cs: 'CHIRURGICKÉ|PŘÍSTUPY',
     },
     {
         code: '_surgical_approaches_text',
@@ -353,6 +388,7 @@ export default [
         ar: 'يمكن استخدام السدادات النقطية لسدّ تصريف الدموع من سطح العين بشكل مؤقت أو دائم عن طريق إغلاق فتحات القنوات الدمعية.',
         uk: 'Оклюдери слізних точок можуть застосовуватися для тимчасового або постійного блокування відтоку сльози з поверхні ока.',
         nl: 'Punctumpluggen kunnen worden ingezet om de afvoer van tranen vanaf het oogoppervlak tijdelijk of permanent te blokkeren, door te traanpunten (puncta) af te sluiten.',
+        cs: 'Uzávěry slzných bodů (punktální plugy) lze použít k dočasnému nebo trvalému zablokování odtoku slz z očního povrchu ucpáním slzných bodů.',
     },
     {
         code: '_complex_treatments_button',
@@ -363,6 +399,7 @@ export default [
         ar: 'الأجهزة الضوئية/الحرارية داخل العيادة',
         uk: 'Лікування тяжкого рівня',
         nl: 'Complexe behandeling',
+        cs: 'Komplexní léčba',
     },
     {
         code: '_complex_treatments_icon',
@@ -373,6 +410,7 @@ export default [
         ar: 'الأجهزة الضوئية/|الحرارية|داخل العيادة',
         uk: 'Лікування|тяжкого рівня',
         nl: 'Complexe|behandeling',
+        cs: 'Komplexní léčba',
     },
     {
         code: '_complex_treatments_text',
@@ -383,5 +421,6 @@ export default [
         ar: 'علاجات متقدمة تشمل قطرات المصل البشري أو الأغشية الأمنيونية.',
         uk: 'Складні методи:\n- автологічна сироватка\n- амніотичні мембрани',
         nl: 'Complexere behandelingen zoals serumdruppels en amnionmembranen. ',
+        cs: 'Komplexní léčba, jako jsou sérové kapky/ amniová membrána',
     },
 ];
