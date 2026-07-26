@@ -161,6 +161,7 @@ const controlsStore = useControlsStore();
 
 .st15 {
     font-family: 'EuclidCircularA-SemiBold';
+    font-weight: 600;
 }
 
 .st16 {

@@ -337,7 +337,7 @@ const controlsStore = useControlsStore();
                     $selectedLanguage.value === 'zh' ? '14px' :
                     '14px'
             }"
-            style="rotate: -32deg; font-family: 'EuclidCircularA-Bold', sans-serif; letter-spacing: 1.5px; text-transform: uppercase; fill: #fff;">
+            style="rotate: -32deg; font-family: 'EuclidCircularA-Bold', sans-serif; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; fill: #fff;">
             {{ $t('Diagnosis') }}
         </text>
 

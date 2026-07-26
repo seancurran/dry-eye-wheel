@@ -39,6 +39,7 @@ body {
 .wheel-svg {
     text-transform: uppercase;
     font-family: 'EuclidCircularA-SemiBold', sans-serif;
+    font-weight: 600;
 }
 
 .font-size-10px {
@@ -47,6 +48,7 @@ body {
 
 .block-title {
     font-family: 'EuclidCircularA-Bold', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
     fill: #fff;
@@ -57,11 +59,13 @@ body {
     text {
         font-size: 10.5px;
         font-family: 'EuclidCircularA-SemiBold', sans-serif;
+        font-weight: 600;
         text-transform: uppercase;
 
         tspan {
             font-size: 10.5px;
             font-family: 'EuclidCircularA-SemiBold', sans-serif;
+            font-weight: 600;
             text-transform: uppercase;
         }
     }

@@ -147,7 +147,7 @@ import ManagementTextAr from '@/assets/svg/ar/management-text.svg';
             x="-230"
             y="590"
             text-anchor="middle"
-            :style="{ rotate: '-38deg', fontFamily: '\'EuclidCircularA-Bold\', sans-serif', fontSize: $selectedLanguage.value === 'ar' ? '15px' : '12px', letterSpacing: '1.5px', textTransform: 'uppercase', fill: '#fff' }">
+            :style="{ rotate: '-38deg', fontFamily: '\'EuclidCircularA-Bold\', sans-serif', fontWeight: '700', fontSize: $selectedLanguage.value === 'ar' ? '15px' : '12px', letterSpacing: '1.5px', textTransform: 'uppercase', fill: '#fff' }">
             {{ $t('Mild') }}
         </text>
 
@@ -156,7 +156,7 @@ import ManagementTextAr from '@/assets/svg/ar/management-text.svg';
             x="-68"
             y="593"
             text-anchor="middle"
-            :style="{ rotate: '-37deg', fontFamily: '\'EuclidCircularA-Bold\', sans-serif', fontSize: $selectedLanguage.value === 'ar' ? '15px' : '12px', letterSpacing: '1.5px', textTransform: 'uppercase', fill: '#fff' }">
+            :style="{ rotate: '-37deg', fontFamily: '\'EuclidCircularA-Bold\', sans-serif', fontWeight: '700', fontSize: $selectedLanguage.value === 'ar' ? '15px' : '12px', letterSpacing: '1.5px', textTransform: 'uppercase', fill: '#fff' }">
             {{ $t('Moderate') }}
         </text>
 
@@ -165,7 +165,7 @@ import ManagementTextAr from '@/assets/svg/ar/management-text.svg';
             x="70"
             y="596"
             text-anchor="middle"
-            :style="{ rotate: '-35deg', fontFamily: '\'EuclidCircularA-Bold\', sans-serif', fontSize: $selectedLanguage.value === 'ar' ? '15px' : '12px', letterSpacing: '1.5px', textTransform: 'uppercase', fill: '#fff' }">
+            :style="{ rotate: '-35deg', fontFamily: '\'EuclidCircularA-Bold\', sans-serif', fontWeight: '700', fontSize: $selectedLanguage.value === 'ar' ? '15px' : '12px', letterSpacing: '1.5px', textTransform: 'uppercase', fill: '#fff' }">
             {{ $t('Severe') }}
         </text>
 

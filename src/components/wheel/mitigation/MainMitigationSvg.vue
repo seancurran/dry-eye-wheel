@@ -481,7 +481,7 @@ const controlsStore = useControlsStore();
                     $selectedLanguage.value === 'zh' ? '14px' :
                     '14px'
             }"
-            style="rotate: 31deg; font-family: 'EuclidCircularA-Bold', sans-serif; letter-spacing: 1.5px; text-transform: uppercase; fill: #fff;">
+            style="rotate: 31deg; font-family: 'EuclidCircularA-Bold', sans-serif; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; fill: #fff;">
             {{ $t('Risk Factors') }}
         </text>
 
@@ -521,7 +521,7 @@ const controlsStore = useControlsStore();
                     $selectedLanguage.value === 'zh' ? '14px' :
                     '14px'
             }"
-            style="rotate: 31deg; font-family: 'EuclidCircularA-Bold', sans-serif; text-transform: uppercase; letter-spacing: 1.5px; fill: #fff;">
+            style="rotate: 31deg; font-family: 'EuclidCircularA-Bold', sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; fill: #fff;">
             {{ $t('Triaging') }}
         </text>
         </svg>
