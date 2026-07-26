@@ -11,6 +11,7 @@ export default [
         nl: 'MITIGATIE',
         cs: 'ZMÍRNĚNÍ NÁSLEDKŮ',
         id: 'MITIGASI',
+        hu: 'TÜNETEK CSÖKKENTÉSE',
     },
     {
         en: 'Mitigation',
@@ -22,6 +23,7 @@ export default [
         nl: 'MITIGATIE',
         cs: 'ZMÍRNĚNÍ NÁSLEDKŮ',
         id: 'MITIGASI',
+        hu: 'TÜNETEK CSÖKKENTÉSE',
     },
     {
         code: '_mitigation_text',
@@ -72,6 +74,7 @@ Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu s
         id: `Triase dengan riwayat dan gejala yang ditargetkan, serta melakukan diagnosis banding dapat memungkinkan tindakan profilaksis dilakukan untuk membatasi kerusakan permukaan mata
 
 Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan penyakit mata kering dan menyebabkan gejala ketidaknyamanan bagi pasien. Kurangi risiko ini dengan hati-hati mengidentifikasi faktor risiko seperti pemakaian lensa kontak, penggunaan perangkat digital, tantangan lingkungan, dan perubahan hormon dan obat-obatan, serta menilai mata untuk temuan insidental, dan kelola atau rujuk pasien sesuai dengan itu.`,
+        hu: `A célzott anamnézis felvételen és tünetek értékelésén alapuló triázs, valamint a differenciáldiagnózis felállítása lehetővé teszi a megelőző intézkedések bevezetését, amelyek csökkenthetik a szemfelszín károsodását. Más szemfelszíni betegségek kiváltó tényezőként szerepelhetnek a szárazszem-betegség ördögi körében, és a betegek számára kellemetlen tünetekhez vezethetnek. Ennek kockázatát csökkenthetjük a rizikófaktorok gondos azonosításával, mint például a kontaktlencse-viselés, digitális eszközhasználat, környezeti hatások, valamint hormonális és gyógyszeres változások figyelembevételével. Emellett fontos a szemek alapos vizsgálata esetleges járulékos eltérések felismerése érdekében, és a beteg ennek megfelelő kezelése vagy szükség esetén szakellátásba irányítása.`,
     },
     {
         code: '_risk_factors_button',
@@ -84,6 +87,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'RISICOFACTOREN',
         cs: 'RIZIKOVÉ FAKTORY',
         id: 'FAKTOR RISIKO',
+        hu: 'RIZIKÓFAKTOROK',
     },
     {
         en: 'Risk Factors',
@@ -95,6 +99,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'RISICOFACTOREN',
         cs: 'RIZIKOVÉ FAKTORY',
         id: 'FAKTOR RISIKO',
+        hu: 'RIZIKÓFAKTOROK',
     },
     {
         code: '_previous_eye_surgery_button',
@@ -107,6 +112,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Eerdere Oogoperaties',
         cs: 'Předchozí oční operace',
         id: 'Operasi Mata Sebelumnya',
+        hu: 'Korábbi szemműtét',
     },
     {
         code: '_previous_eye_surgery_title',
@@ -119,6 +125,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Eerdere Oogoperaties',
         cs: 'Předchozí oční operace',
         id: 'Operasi Mata Sebelumnya',
+        hu: 'Korábbi szemműtét',
     },
     {
         code: '_previous_eye_surgery_text',
@@ -131,6 +138,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Bij oogoperaties worden vaak corneazenuwen doorgesneden, wat kan leiden tot een anatomische verstoring van de uitlijning tussen het oogoppervlak en de oogleden, wat de homeostase van de traanfilm kan aantasten.',
         cs: 'Operace oka často zahrnuje přetnutí rohovkových nervů a může vést k anatomickému nesouladu mezi povrchem oka a povrchem očních víček, což může narušit homeostázu slzného filmu',
         id: 'Operasi mata sering melibatkan pemotongan saraf kornea dan dapat mengakibatkan ketidaksejajaran anatomi antara permukaan okular dan permukaan kelopak mata, yang dapat mengganggu homeostasis film air mata',
+        hu: 'A szemműtétek során gyakran sérülnek a szaruhártya ideigei, ami anatómiai eltérést okozhat a szemfelszín és a szemhéjak között. Ez megzavarhatja a könnyfilm egyensúlyát.',
     },
     {
         code: '_previous_eye_surgery_icon',
@@ -143,6 +151,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Eerdere|Oogoperaties',
         cs: 'Předchozí oční|operace',
         id: 'Operasi Mata|Sebelumnya',
+        hu: 'Korábbi|szemműtét',
     },
     {
         code: '_sleep_button',
@@ -155,6 +164,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'SLAAP',
         cs: 'SPÁNEK',
         id: 'TIDUR',
+        hu: 'ALVÁS',
     },
     {
         en: 'Sleep',
@@ -166,6 +176,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'SLAAP',
         cs: 'SPÁNEK',
         id: 'TIDUR',
+        hu: 'ALVÁS',
     },
     {
         code: '_sleep_text',
@@ -178,6 +189,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Een slechte slaapkwaliteit en een te korte slaapduur worden in verband gebracht met een verhoogd risico op droge ogen, vooral bij minder dan 5 uur slaap per nacht. Stimuleer goede slaapgewoonten om het risico op klachten van droge ogen te verminderen. ',
         cs: 'Špatná kvalita nebo nedostatečné množství spánku jsou spojeny se zvýšeným rizikem onemocnění suchého oka, zejména při spánku kratším než 5 hodin za noc. Podporujte u pacientů správné spánkové návyky, které pomohou snížit riziko projevů suchého oka',
         id: 'Kualitas dan kuantitas tidur yang buruk dikaitkan dengan peningkatan risiko penyakit mata kering, terutama kurang dari 5 jam tidur per malam. Dorong kebiasaan tidur yang baik untuk membantu mengurangi risiko gejala mata kering.',
+        hu: 'A rossz alvásminőség és az elégtelen alvásmennyiség összefüggésben áll a szárazszem-betegség fokozott kockázatával, különösen napi 5 óránál kevesebb alvás esetén.Az egészséges alvási szokások kialakítása segíthet csökkenteni a száraz szem tünetek kialakulásának kockázatát.',
     },
     {
         code: '_contact_lens_button',
@@ -190,6 +202,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'CONTACTLENZEN  ',
         cs: 'KONTAKTNÍ ČOČKY',
         id: 'LENSA KONTAK',
+        hu: 'Kontaktlencse',
     },
     {
         en: 'Contact Lens',
@@ -201,6 +214,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'CONTACTLENZEN  ',
         cs: 'KONTAKTNÍ ČOČKY',
         id: 'LENSA KONTAK',
+        hu: 'Kontaktlencse',
     },
     {
         code: '_contact_lens_text',
@@ -213,6 +227,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Contactlenzen kunnen de traanfilm verstoren en daarmee het risico vergroten op wrijving met het oogoppervlak. Daarom is een zorgvuldige optimalisatie van het contactlensgebruik essentieel, met name bij patiënten met een reeds bestaande aandoening van het oogoppervlak. ',
         cs: 'Kontaktní čočky mohou narušit slzný film a riskují vznik tření s povrchem oka. Jejich používání by proto mělo být pečlivě optimalizováno, obzvláště u osob s již existujícím onemocněním povrchu oka.',
         id: 'Lensa kontak dapat mengganggu lapisan air mata dan berisiko menyebabkan gesekan dengan permukaan mata sehingga harus dioptimalkan dengan hati-hati, terutama pada mereka yang memiliki penyakit permukaan mata yang sudah ada sebelumnya.',
+        hu: 'A kontaktlencse-viselés megzavarhatja a könnyfilm stabilitását, és növelheti a szemfelszínnel való surlódás kockázatát, ezért használatát gondosan optimalizálni kell, különösen már fennálló szemfelszíni betegség esetén.',
     },
     {
         code: '_digital_eye_strain_button',
@@ -225,6 +240,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'DIGITALE OOGVERMOEIDHEID',
         cs: 'DIGITÁLNÍ ÚNAVA OČÍ',
         id: 'KETEGANGAN MATA DIGITAL',
+        hu: 'Digitális szemterhelés',
     },
     {
         en: 'Digital Eye Strain',
@@ -236,6 +252,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'DIGITALE OOGVERMOEIDHEID',
         cs: 'DIGITÁLNÍ ÚNAVA OČÍ',
         id: 'KETEGANGAN MATA DIGITAL',
+        hu: 'Digitális szemterhelés',
     },
     {
         code: '_digital_eye_strain_text',
@@ -248,6 +265,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Het kijken naar digitale schermen kan aandoeningen van het oogoppervlak verergeren, met name bij gebruik van meer dan 4-5 uur per dag. Deze belasting kan worden verminderd door regelmatig pauzes in te lassen, knipperoefeningen te doen en het scherm lager dan ooghoogte te positioneren. ',
         cs: 'Sledování digitálních obrazovek může zhoršit onemocnění povrchu oka, zejména při délce nad 4-5 hodin denně. Tento dopad lze zmírnit pravidelnými přestávkami, mrkacími cvičeními a umístění obrazovek pod úroveň očí.',
         id: 'Tampilan layar digital dapat memperburuk penyakit permukaan okular, terutama lebih dari 4-5 jam sehari. Dampaknya dapat dikurangi dengan beristirahat secara teratur, latihan berkedip, dan memposisikan layar lebih rendah dari mata.',
+        hu: 'A digitális képernyők hosszan tartó használata súlyosbíthatja a szemfelszíni betegségeket, különösen napi 4-5 óránál hosszabb használat esetén.A hatás csökkenthető rendszeres szünetek beiktatásával, pislogási gyakorlatokkal, valamint a képernyő szemmagasságánál alacsonyabb elhelyezésével',
     },
     {
         code: '_environment_advice_button',
@@ -260,6 +278,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'OMGEVINGSADVIES ',
         cs: 'DOPORUČENÍ TÝKAJÍCÍ SE PROSTŘEDÍ',
         id: 'SARAN LINGKUNGAN [Pindahkan Ikon ke Perunggu]',
+        hu: 'Környezeti tanácsok ( Ikon áthelyezése a bronz kategóriába)',
     },
     {
         en: 'Environment Advice',
@@ -271,6 +290,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'OMGEVINGSADVIES ',
         cs: 'DOPORUČENÍ TÝKAJÍCÍ SE PROSTŘEDÍ',
         id: 'SARAN LINGKUNGAN [Pindahkan Ikon ke Perunggu]',
+        hu: 'Környezeti tanácsok ( Ikon áthelyezése a bronz kategóriába)',
     },
     {
         code: '_environment_advice_icon',
@@ -283,6 +303,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'OMGEVINGSADVIES',
         cs: 'DOPORUČENÍ|TÝKAJÍCÍ SE|PROSTŘEDÍ',
         id: 'SARAN|LINGKUNGAN|[Pindahkan Ikon|ke Perunggu]',
+        hu: 'Környezeti|tanácsok ( Ikon|áthelyezése a|bronz|kategóriába)',
     },
     {
         code: '_environment_advice_text',
@@ -295,6 +316,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Omgevingsfactoren zoals airconditioning en winderige omstandigheden kunnen bijdragen aan het ontstaan of verergeren van droge ogen. Door te evalueren op welke momenten de klachten het meest uitgesproken zijn, kunnen gerichte aanpassingen worden gedaan. ',
         cs: 'Podmínky prostředí, jako je klimatizace a větrné počasí, mohou přispívat ke vzniku suchého oka. Analýza toho, kdy jsou symptomy suchého oka nejhorší, umožňuje víleně zavést nezbytná opatření.',
         id: 'Kondisi lingkungan seperti AC dan kondisi berangin dapat menyebabkan mata kering; Tinjauan kapan gejala mata kering terburuk dapat memungkinkan untuk menargetkan adaptasi yang diperlukan.',
+        hu: 'A környezeti tényezők, például a légkondícionálás vagy a szeles környezet hozzájárulhatnak a száraz szem kialakulásához. A tünetek súlyosbodásának időbeli mintázata segíthet a szükséges környezeti módosítások célzott bevezetésében.',
     },
     {
         code: '_hormones_button',
@@ -307,6 +329,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'HORMONEN',
         cs: 'HORMONY',
         id: 'HORMON',
+        hu: 'Hormonok',
     },
     {
         en: 'Hormones',
@@ -318,6 +341,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'HORMONEN',
         cs: 'HORMONY',
         id: 'HORMON',
+        hu: 'Hormonok',
     },
     {
         code: '_hormones_text',
@@ -330,6 +354,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Hormonen reguleren veel fysiologische processen in het lichaam. Veranderingen in de hormoonhuishouding kunnen daardoor het evenwicht van de traanfilm verstoren. Wanneer er sprake is van hormonale veranderingen, kan een medische evaluatie aangewezen zijn. ',
         cs: 'Hormony regulují mnoho klíčových fyziologických procesů v těle, takže jejich změny mohou narušit přesně vyvážený slzný film. Při hormonálních změnách může být opodstatněné lékařské vysvětlení.',
         id: 'Hormon mengatur banyak proses fisiologis utama tubuh, sehingga perubahan dapat mengganggu film air mata yang seimbang dengan tepat. Ketika hormon berubah, tinjauan medis mungkin diperlukan.',
+        hu: 'A hormonok számos alapvető élettani folyamatot szabályoznak, ezért a hormonális változások felboríthatják a könnyfilm finoman szabályozott egyensúlyát. Hormonális változások esetén indokolt lehet orvosi kivizsgálás.',
     },
     {
         code: '_medication_review_button',
@@ -342,6 +367,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'MEDICATIE EVALUATIE',
         cs: 'KONTROLA UŽÍVANÝCH LÉKŮ',
         id: 'ULASAN OBAT',
+        hu: 'Gyógyszeres kezelés felülvizsgálata',
     },
     {
         en: 'Medication Review',
@@ -353,6 +379,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'MEDICATIE EVALUATIE',
         cs: 'KONTROLA UŽÍVANÝCH LÉKŮ',
         id: 'ULASAN OBAT',
+        hu: 'Gyógyszeres kezelés felülvizsgálata',
     },
     {
         code: '_medication_review_text',
@@ -365,6 +392,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Veel geneesmiddelen, zowel receptplichtig als vrij verkrijgbaar, kunnen invloed hebben op de traanfilm. Een medicatie-evaluatie in samenwerking met de voorschrijvend arts kan daarom helpen om de klachten te verminderen. ',
         cs: 'Mnoho léků, ať už na lékařský předpis nebo volně prodejných, může ovlivnit slzný film. Kontrola užívaných léků ve spolupráci s lékařem proto může pomoci zmírnit přítomné symptomy.',
         id: 'Banyak obat, baik yang diresepkan atau yang dijual bebas, dapat memengaruhi film air mata, sehingga tinjauan pengobatan, bersama dengan dokter yang meresepkan, mungkin memungkinkan gejala berkurang.',
+        hu: 'Számos gyógyszer, legyen az vényköteles vagy vény nélkül kapható, befolyásolhatja a könnyfilmet, ezért a gyógyszerek felülvizsgálata a kezelőorvossal együttműködésben segíthet a tünetek csökkentésében.',
     },
     {
         code: '_triaging_button',
@@ -377,6 +405,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'TRIAGE ',
         cs: 'TRIÁŽ',
         id: 'TRIASE',
+        hu: 'Elsődleges felmérés',
     },
     {
         en: 'Triaging',
@@ -388,6 +417,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'TRIAGE ',
         cs: 'TRIÁŽ',
         id: 'TRIASE',
+        hu: 'Elsődleges felmérés',
     },
     {
         code: '_symptom_check_button',
@@ -400,6 +430,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'SYMPTOOMCHECK',
         cs: 'KONTROLA SYMPTOMŮ',
         id: 'PEMERIKSAAN GEJALA',
+        hu: 'Tünetellenőrzés',
     },
     {
         en: 'Symptom Check',
@@ -411,6 +442,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'SYMPTOOMCHECK',
         cs: 'KONTROLA SYMPTOMŮ',
         id: 'PEMERIKSAAN GEJALA',
+        hu: 'Tünetellenőrzés',
     },
     {
         code: '_symptom_check_text',
@@ -423,6 +455,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Anamnese: een zorgvuldige anamnese maakt het mogelijk om zowel symptomen van droge ogen als risicofactoren die bijdragen aan het ontstaan ervan te identificeren. Het is met name belangrijk om beïnvloedbare risicofactoren in kaart te brengen, omdat eenvoudige leefstijlaanpassingen hun negatieve effect kunnen verminderen of zelfs wegnemen en daarmee kunnen bijdragen aan een gezonder oogoppervlak. ',
         cs: 'Anamnéza: Pečlivé odebrání anamnézy umožňuje identifikovat symptomy suchého oka i rizika spojená s rozvojem tohoto onemocnění. Obzvláště důležité je rozpoznat ovlivnitelné rizikové faktory, protože jednoduché změny v životním stylu mohou pomoci snížit jejich dopad a podpořit zdravější povrch oka.',
         id: 'Pencatatan riwayat: Pencatatan riwayat yang cermat memungkinkan identifikasi gejala mata kering serta risiko yang terkait dengan perkembangan penyakit mata kering. Faktor risiko yang dapat dimodifikasi sangat penting untuk diidentifikasi, karena perubahan sederhana dalam gaya hidup dapat membantu mengurangi atau menghilangkan dampaknya, dan meningkatkan permukaan mata yang lebih sehat.',
+        hu: 'Anamnézis felvétel: A gondos anamnézis felvétel lehetővé teszi a száraz szem tüneteinek felismerését, valamint a betegség kialakulásával összefüggő kockázati tényezők azonosítását. A módosítható rizikófaktorok felismerése különösen fontos, mivel az életmódbeli változások segíthetnek ezek hatásának csökkentésében vagy megszüntetésében, és hozzájárulnak az egészségesebb szemfelszín fenntartásához.',
     },
     {
         code: '_differential_diagnosis_button',
@@ -435,6 +468,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'DIFFERENTIËLE DIAGNOSE',
         cs: 'DIFERENCIÁLNÍ DIAGNÓZY',
         id: 'PERBEDAAN DIAGNOSA',
+        hu: 'Differenciál diagnózis',
     },
     {
         en: 'Differential Diagnosis',
@@ -446,6 +480,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'DIFFERENTIËLE DIAGNOSE',
         cs: 'DIFERENCIÁLNÍ DIAGNÓZY',
         id: 'PERBEDAAN DIAGNOSA',
+        hu: 'Differenciál diagnózis',
     },
     {
         code: '_differential_icon',
@@ -458,6 +493,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'DIFFERENTIËLE|DIAGNOSE',
         cs: 'DIFERENCIÁLNÍ|DIAGNÓZY',
         id: 'PERBEDAAN|DIAGNOSA',
+        hu: 'Differenciál|diagnózis',
     },
     {
         code: '_contact_lens_icon',
@@ -470,6 +506,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'CONTACTLENZEN',
         cs: 'KONTAKTNÍ ČOČKY',
         id: 'LENSA KONTAK',
+        hu: 'Kontaktlencse',
     },
     {
         code: '_eye_strain_icon',
@@ -482,6 +519,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'DIGITALE|OOGVERMOEIDHEID',
         cs: 'DIGITÁLNÍ ÚNAVA|OČÍ',
         id: 'KETEGANGAN MATA|DIGITAL',
+        hu: 'Digitális|szemterhelés',
     },
     {
         code: '_medication_review_icon',
@@ -494,6 +532,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'MEDICATIE|EVALUATIE',
         cs: 'KONTROLA|UŽÍVANÝCH LÉKŮ',
         id: 'ULASAN OBAT',
+        hu: 'Gyógyszeres|kezelés|felülvizsgálata',
     },
     {
         code: '_symptom_check_icon',
@@ -506,6 +545,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'SYMPTOOMCHECK',
         cs: 'KONTROLA|SYMPTOMŮ',
         id: 'PEMERIKSAAN|GEJALA',
+        hu: 'Tünetellenőrzés',
     },
     {
         code: `_differential_header`,
@@ -517,6 +557,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Droge ogen zijn slechts één van de vele aandoeningen van het oogoppervlak. Het uitvoeren van een differentiële diagnose is daarom essentieel om uit te sluiten dat andere onderliggende aandoeningen, zoals oculaire allergieën of infecties, verantwoordelijk zijn voor de klachten waarmee de patiënt zich presenteert. Eventuele bijkomende (comorbide) aandoeningen dienen eerst te worden behandeld voordat resterende droge ogen problematiek wordt aangepakt, om de kans op een succesvol behandelresultaat te vergroten. De TFOS DEWS II-triagechecklist biedt een snelle en praktische ondersteuning bij het verfijnen van de diagnose en kan helpen onnodige klinische bezoeken te voorkomen.',
         cs: 'Onemocnění suchého oka je jen jedním z mnoha onemocnění povrchu oka. Diferenciální diagnostika pomáhá zajistit, aby pacientovy přítomné symptomy nebyly zodpovědné jiné základní diagnózy, jako je oční alergie nebo infekce. Před řešením jakéhokoli přetrvávajícího onemocnění suchého oka vyřešte přidružená onemocnění (komorbidity), abyste zvýšili šance na úspěšný výsledek pacientů. Triážní dotazník TFOS DEWS II pomáhá rychle a snadno zúžit diagnózu a vyhnout se zbytečným klinickým návštěvám',
         id: 'Penyakit mata kering hanyalah salah satu dari banyak penyakit permukaan okular. Diagnosis banding membantu memastikan tidak ada kondisi mendasar lainnya, seperti alergi mata atau infeksi, yang bertanggung jawab atas gejala pasien yang muncul. Mengobati kondisi penyerkabel sebelum mengatasi sisa penyakit mata kering, untuk meningkatkan peluang hasil yang berhasil bagi pasien. Daftar periksa triase TFOS DEWS II dengan cepat dan mudah membantu mempersempit diagnosis dan menghindari kunjungan klinis yang tidak perlu.',
+        hu: 'A szárazszem-betegség csak egy a számos szemfelszíni betegségek közül. A differenciál diagnózis segít kizárni az egyéb, háttérben álló korképeket-például szemészeti allergiát vagy fertőzést-, amelyek a beteg tüneteiért felelősek lehetnek. A társbetegségek kezelése megelőzi a fennmaradó szárazszem-betegség kezelését, ezáltal növelve a sikeres terápiás kimenetel esélyét. A TFOS DEWS II triázs ellenörzőlista gyors és egyszerű módon segíti a diagnózis pontosítását és a felesleges klinikai vizitek elkerülését.',
     },
     {
         code: `_differential_list`,
@@ -600,6 +641,16 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
 <li>Apakah Anda memakai lensa kontak?</li>
 <li>Apakah Anda telah didiagnosis dengan kondisi kesehatan umum (termasuk infeksi pernapasan baru-baru ini) atau apakah Anda mengonsumsi obat apa pun?</li>
 `,
+        hu: `
+<li>Mennyire súlyos a diszkomfort a szemben?</li>
+<li>Tapasztal száj szárazságot vagy duzzadt mirigyeket?</li>
+<li>Mióta állnak fenn a tünetek, és volt-e kiváltó esemény?</li>
+<li>A látása is érintett a problémában, pislogásra javul?</li>
+<li>A tünetek vagy pirosság jelentősen erősebb az egyik szemen, mint a másikon?</li>
+<li>Viszketnek a szemek, duzzadtnak vagy csipásnak tűnnek, esetleg váladákoznak?</li>
+<li>Visel kontaktlencsét?</li>
+<li>Diagznosztizáltak Önnél bármilyen általános betegséget (beleértve a közelmúltbeli légúti fertőzéseket), vagy szed-e valamilyen gyógyszert?</li>
+`,
     },
     {
         code: `_differential_footer`,
@@ -611,6 +662,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: '+ Indien de antwoorden daartoe aanleiding geven, dient een uitgebreid differentieel diagnostisch onderzoek van het voorste oogsegment te worden uitgevoerd.',
         cs: '+ Podrobné vyšetření předního segmentu oka, diferenciální diagnostika tam, kde to naznačují odpovědi.',
         id: '+ Diagnosis banding pemeriksaan mata anterior terperinci jika ditunjukkan oleh jawaban.',
+        hu: '+ Részletes elülső szegmens vizsgálat és differenciál diagnózis a válaszok alapján.',
     },
     {
         code: '_prophylaxis_button',
@@ -623,6 +675,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'PREVENTIEVE MAATREGELEN ',
         cs: 'PROFYLAXE ',
         id: 'PROFILAKSIS',
+        hu: 'Megelőzés',
     },
     {
         en: 'Prophylaxis',
@@ -634,6 +687,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'PREVENTIEVE MAATREGELEN ',
         cs: 'PROFYLAXE ',
         id: 'PROFILAKSIS',
+        hu: 'Megelőzés',
     },
     {
         code: '_prophylaxis_text',
@@ -646,6 +700,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Preventieve maatregelen, zoals goede hydratatie, het beheersen van omgevingsfactoren en ooghygiëne, kunnen helpen om schade aan het oogoppervlak en de daaruit voortvloeiende klachten van droge ogen te voorkomen. ',
         cs: 'Profylaxe, jako je dobrá hydratace, kontrola podmínek prostředí a oční hygiena, může pomoci předcházet poškození povrchu oka a následným příznakům suchého oka.',
         id: 'Profilaksis, seperti hidrasi yang baik, mengontrol kondisi lingkungan, dan kebersihan okular, dapat membantu mencegah kerusakan permukaan okular dan mengakibatkan gejala mata kering.',
+        hu: 'A megelőzés, például megfelelő hidratálás, a környezeti tényezők kontrollja és a szemhéjhigiéné segíthet megelőzni a szemfelszín károsodását és az ebből fakadó száraz szem tüneteket.',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_button',
@@ -658,6 +713,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Proactief management van aandoeningen van het oogoppervlak',
         cs: 'Proaktivní management onemocnění povrchu oka',
         id: 'Manajemen proaktif penyakit permukaan mata',
+        hu: 'A szemfelszíni betegségek proaktív kezelése',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_title',
@@ -670,6 +726,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Proactief management van aandoeningen van het oogoppervlak',
         cs: 'Proaktivní management onemocnění povrchu oka',
         id: 'Manajemen proaktif penyakit permukaan mata',
+        hu: 'A szemfelszíni betegségek proaktív kezelése',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_icon',
@@ -682,6 +739,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Proactief|management van|aandoeningen|van het|oogoppervlak',
         cs: 'Proaktivní|management|onemocnění|povrchu oka',
         id: 'Manajemen|proaktif|penyakit|permukaan mata',
+        hu: 'A szemfelszíni|betegségek|proaktív|kezelése',
     },
     {
         code: '_proactive_management_of_ocular_surface_disease_text',
@@ -694,6 +752,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Herstelt de homeostase van het oogoppervlak, zelfs bij afwezigheid van symptomen, en voorkomt zo het ontstaan van toekomstige klachten.',
         cs: 'Obnova homeostázy povrchu oka, a to i v nepřítomnosti symptomů, za účelem zmírnění budoucího rozvoje symptomů.',
         id: 'Mengembalikan homeostasis permukaan okular, bahkan tanpa adanya gejala, untuk mengurangi perkembangan gejala di masa depan',
+        hu: 'Helyreállítja a szemfelszín egyensúlyát (homeosztázisát) még tünetmentes állapotban is, ezáltal csökkentve a későbbi tünetek kialakulásának kockázatát.',
     },
     {
         code: '_corneal_sensitivity_button',
@@ -706,6 +765,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Beoordeling van de|corneagevoeligheid',
         cs: 'Hodnocení citlivosti|rohovky',
         id: 'Sensitivitas Kornea|Penilaian',
+        hu: 'Szaruhártya-érézékenység|vizsgálata',
     },
     {
         code: '_corneal_sensitivity_title',
@@ -718,6 +778,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Beoordeling van de corneagevoeligheid',
         cs: 'Hodnocení citlivosti rohovky',
         id: 'Sensitivitas Kornea Penilaian',
+        hu: 'Szaruhártya-érézékenység vizsgálata',
     },
     {
         code: '_corneal_sensitivity_assessment_icon',
@@ -730,6 +791,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Beoordeling van|de|corneagevoeligheid',
         cs: 'Hodnocení|citlivosti|rohovky',
         id: 'Sensitivitas|Kornea|Penilaian',
+        hu: 'Szaruhártya-érézékenység|vizsgálata',
     },
     {
         code: '_corneal_sensitivity_assessment_text',
@@ -742,5 +804,6 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'Een hoekje van een tissue, een wattenstaafje, een aesthesiometer of een test met een lokaal anestheticum kan worden ingezet om te beoordelen of er sprake is van neurale disfunctie. ',
         cs: 'K posouzení známek neurální dysfunkce lze použít cíp papírového kapesníku, chomáček vatové tyčinky, esteziometr nebo test lokální anestezie',
         id: 'Sudut jaringan, gumpalan cotton bud, aesthesiometer, atau tantangan anestesi topikal dapat digunakan untuk menilai tanda-tanda disfungsi saraf',
+        hu: 'A szaruhártya-érzékenység vizsgálatához használható például zsebkendő sarka, vattapálca, esztéziométer, vagy helyi érzéstelenítő próba az idegi diszfunkció jeleinek vizsgálatára.',
     },
 ];

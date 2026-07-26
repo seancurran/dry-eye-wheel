@@ -11,6 +11,7 @@ export default [
         nl: 'MANAGEMENT',
         cs: 'MANAGEMENT  ',
         id: 'MANAJEMEN',
+        hu: 'KEZELÉS',
     },
     {
         en: 'Management',
@@ -22,6 +23,7 @@ export default [
         nl: 'MANAGEMENT',
         cs: 'MANAGEMENT  ',
         id: 'MANAJEMEN',
+        hu: 'KEZELÉS',
     },
     {
         code: '_management_text',
@@ -34,6 +36,7 @@ export default [
         nl: 'De behandeling van droge ogen vereist een stapsgewijze aanpak, waarbij ernstigere vormen vaak meerdere behandelingen nodig hebben. \n\nDe meeste patiënten kunnen echter effectief worden geholpen met relatief eenvoudige maatregelen, zoals bevochtiging en goede ooglidhygiëne. \n\nIdealiter is de behandeling gericht op het verminderen van de ernst van de aandoening én op het aanpakken van de onderliggende oorzaak van de droge ogen. Het onderverdeeln van de aandoening in subtypes, zoals een waterdeficiëntie, evaporatief of een gemengde oorzaak, kan daarbij helpen om een gerichte en passende behandelstrategie te kiezen. ',
         cs: 'Způsob zvládání onemocnění suchého oka vyžaduje stupňovitý přístup, přičemž závažnější stavy často vyžadují kombinaci několika typů terapie.\n\nVětšina pacientů lze však úspěšně vyřešit pomocí relativně jednoduchých strategií, které zahrnují oční lubrikanta a opatření v oblasti hygieny očních víček.\n\nStrategie terapie by měly být v ideálním případě zaměřeny na zvládání závažnosti onemocnění a zároveň cíleny na hlavní vyvolávající příčinu suchého oka. Určení podtypu onemocnění podle toho, zda se jedná o formu s deficitem vodné složky (hyposekreční), evaporativní (se zvýšeným odpařováním), nebo smíšenou, může pomoci při výběru správné léčby.',
         id: 'Penanganan mata kering membutuhkan pendekatan bertahap, dengan kondisi yang lebih parah seringkali membutuhkan beberapa perawatan.\n\nNamun, sebagian besar pasien dapat dikelola dengan strategi yang relatif sederhana, yang terdiri dari pelumas okular dan tindakan kebersihan kelopak mata.\n\nStrategi manajemen harus idealnya ditujukan untuk mengelola tingkat keparahan penyakit, selain ditargetkan pada alasan utama yang mendasari mata kering. Sub-tipe penyakit menjadi apakah itu kekurangan air, evaporatif, atau bersifat campuran, dapat membantu pilihan pengobatan.',
+        hu: 'A száraz szem kezelése lépcsőzetes megközelítést igényel, a súlyosabb esetek gyakran többféle kezelést tesznek szükségessé. Ugyanakkor a betegek többsége viszonylag egyszerű stratégiákkal is jól kezelhető, például szemfelszín-nedvesítő késztményekkel és szemhéjhigiénés intézkedésekkel. A kezelési stratégiáknak ideális esetben a betegség súlyosságának kontrollálására kell irányulniuk, emellett pedig a száraz szem kiváltó okának célzott kezelésére is. A betegség altípusának meghatározása (csökkent könnytermelésű, evaporatív vagy kevert típus) segíthet a megfelelő kezelés kiválasztásában.',
     },
     {
         en: 'Mild',
@@ -45,6 +48,7 @@ export default [
         nl: 'MILD',
         cs: 'LEHKÁ FORMA',
         id: 'RINGAN',
+        hu: 'ENYHE',
     },
     {
         code: '_artificial_tears_button',
@@ -57,6 +61,7 @@ export default [
         nl: 'KUNSTTRANEN',
         cs: 'UMĚLÉ SLZY',
         id: 'AIR MATA BUATAN',
+        hu: 'MŰKÖNNY',
     },
     {
         code: '_artificial_tears_icon',
@@ -69,6 +74,7 @@ export default [
         nl: 'KUNSTTRANEN',
         cs: 'UMĚLÉ SLZY',
         id: 'AIR MATA BUATAN',
+        hu: 'MŰKÖNNY',
     },
     {
         code: '_artificial_tears_text',
@@ -81,6 +87,7 @@ export default [
         nl: 'Kunsttranen vormen een essentieel onderdeel van de behandeling van droge ogen. Er is een breed scala aan samenstellingen beschikbaar, waaronder lipide-gebaseerde oogdruppels die bijdragen aan het stabiliseren van de traanfilm. Daarnaast bestaan er veel conserveringsmiddel-vrije opties, die met name worden aanbevolen bij ernstigere vormen van droge ogen.  ',
         cs: 'Oční lubrikanty zůstávají hlavním pilířem léčby onemocnění suchého oka. Existuje mnoho různých forem, včetně kapek na bázi lipidů, které pomáhají stabilizovat slzný film, a mnoha variant bez konzervačních látek, které se doporučují u závažnějších forem tohoto onemocnění.',
         id: 'Pelumas okular tetap menjadi andalan manajemen penyakit mata kering. Ada banyak formulasi yang berbeda, termasuk tetes berbasis lipid untuk membantu menstabilkan lapisan air mata dan banyak pilihan bebas pengawet, yang disarankan untuk bentuk penyakit yang lebih parah.',
+        hu: 'A szemfelszín-nedvesítő késztmények továbbra is a száraz szem betegség kezelésének alapját képezik. Számos különböző készítmény létezik, beleértve a lipid alapú cseppeket, amelyek segítenek stabilizálni a könnyfilmet, valamint sok tartósítószer-mentes opciót, amelyek a betegség súlyosabb formáiban különösen ajánlottak.',
     },
     {
         code: '_advice_button',
@@ -93,6 +100,7 @@ export default [
         nl: 'ADVIES',
         cs: 'RADY/DOPORUČENÍ',
         id: 'SARAN',
+        hu: 'TANÁCSOK',
     },
     {
         en: 'Advice',
@@ -104,6 +112,7 @@ export default [
         nl: 'ADVIES',
         cs: 'RADY/DOPORUČENÍ',
         id: 'SARAN',
+        hu: 'TANÁCSOK',
     },
     {
         code: '_advice_text',
@@ -116,6 +125,7 @@ export default [
         nl: 'Het is belangrijk om met patiënten te bespreken dat de behandeling van droge ogen een langdurige en consequente inzet vraagt. Genezing is zelden mogelijk; de behandeling is daarom vooral gericht op het beheersen van de klachten door middel van verschillende behandelstrategieën, met zorgvuldige en regelmatige follow-up door de zorgprofessional. ',
         cs: 'Je důžeité s pacienty probrat, že onemocnění suchého oka vyžaduje dlouhodobý a nepřetržitý přístup k léčbě a jen zřídkakdy se zcela vyléčí. Spíše se zvládá pomocí různých přístupů, přičemž zásadní je pečlivé sledování u jejich ošetřujícího lékaře. ',
         id: 'Penting untuk berdiskusi dengan pasien bahwa penyakit mata kering membutuhkan komitmen jangka panjang yang berkelanjutan untuk manajemen dan jarang disembuhkan, melainkan dikelola menggunakan berbagai pendekatan, dengan tindak lanjut yang cermat dengan praktisi mereka menjadi penting.',
+        hu: 'Fontos megbeszélni a betegekkel, hogy a száraz szem betegség hosszú távú, folyamatos kezelést igényel, ritkán gyógyítható meg teljesen, inkább különböző módszerekkel tartható kontroll alatt. Emiatt kiemelten fontos a rendszeres utánkövetés a kezelő szakemberrel.',
     },
     {
         code: '_blink_exercises_button',
@@ -128,6 +138,7 @@ export default [
         nl: 'KNIPPER OEFENINGEN',
         cs: 'CVIČENÍ MRKÁNÍ',
         id: 'LATIHAN BERKEDIP',
+        hu: 'PISLOGÁSI GYAKORLATOK',
     },
     {
         code: '_blink_exercises_icon',
@@ -140,6 +151,7 @@ export default [
         nl: 'KNIPPER|OEFENINGEN',
         cs: 'CVIČENÍ MRKÁNÍ',
         id: 'LATIHAN|BERKEDIP',
+        hu: 'PISLOGÁSI|GYAKORLATOK',
     },
     {
         code: '_blink_exercises_text',
@@ -152,6 +164,7 @@ export default [
         nl: 'Verminderd knipperen tijdens beeldschermwerk kan bijdragen aan het ontstaan van droge ogen. Door patiënten te trainen om volledig te knipperen, hen aan te moedigen regelmatig pauzes te nemen van nabijwerk en gebruik te maken van hulpmiddelen die het knipperen actief onder aandacht brengen, kunnen deze klachten worden verminderd. ',
         cs: 'Snížená frekvence mrkání během používání digitálních zařízení může vést k suchosti očí. Nácvik úplného mrkání u pacientů, zařazování pravidelných přestávek při práci do blízka a používání různých metod, které jim pravidelné mrkání připomenou, může tyto problémy zmírnit.',
         id: 'Berkurangnya kedipan selama penggunaan perangkat digital dapat menyebabkan mata kering. Melatih pasien cara berkedip sepenuhnya, beristirahat secara teratur dari dekat tempat kerja dan menggunakan berbagai metode untuk mengingatkan mereka untuk berkedip secara teratur dapat meringankan masalah ini.',
+        hu: 'A digitális eszközök használata közben csökkent pislogás száraz szemhez vezethet. A betegek megtanítása a teljes pislogásra, a rendszeres szünetek beiktatására közeli munkavégzés során, valamint különböző emlékeztető módszerek alkalmazása a gyakori pislogás ösztönzésére segíthet enyhíteni ezeket a problémákat.',
     },
     {
         code: '_diet_and_dietary_supplements_button',
@@ -164,6 +177,7 @@ export default [
         nl: 'VOEDING EN VOEDINGSSUPPLEMENTEN',
         cs: 'STRAVA A DOPLŇKY STRAVY',
         id: 'DIET DAN SUPLEMEN MAKANAN',
+        hu: 'ÉTREND ÉS TÁPLÁLÉK KIEGÉSZÍTŐK',
     },
     {
         code: '_diet_and_dietary_supplements_icon',
@@ -176,6 +190,7 @@ export default [
         nl: 'VOEDING EN|VOEDINGSSUPPLEMENTEN',
         cs: 'STRAVA A|DOPLŇKY STRAVY',
         id: 'DIET DAN|SUPLEMEN|MAKANAN',
+        hu: 'ÉTREND ÉS|TÁPLÁLÉK|KIEGÉSZÍTŐK',
     },
     {
         code: '_diet_and_dietary_supplements_text',
@@ -188,6 +203,7 @@ export default [
         nl: 'Een gezonde voeding, met name een mediterraan dieet, kan bijdragen aan het ondersteunen van het oogoppervlak. Dit kan eventueel worden aangevuld met supplementen die rijk zijn aan Omega-3-vetzuren.',
         cs: 'Zdravá strava, zejména středomořská, může společně s doplňky stravy, jakou jsou ty bohaté na Omega-3 mastné kyseliny, podpořit oční povrch.',
         id: 'Diet yang sehat, terutama Mediterania, dapat membantu permukaan mata bersama dengan suplemen seperti yang kaya akan Omega-3.',
+        hu: 'Az egészséges, különösen mediterrán étrend támogathatja a szemfelszín állapotát, kiegészítve például Omega-3 zsírsavakban gazdag étrend-kiegészítőkkel',
     },
     {
         code: '_warm_compress_button',
@@ -200,6 +216,7 @@ export default [
         nl: 'WARME COMPRESSEN',
         cs: 'TEPLÉ OBKLADY',
         id: 'KOMPRES HANGAT',
+        hu: 'MELEG BOROGATÁS',
     },
     {
         code: '_warm_compress_icon',
@@ -212,6 +229,7 @@ export default [
         nl: 'WARME|COMPRESSEN',
         cs: 'TEPLÉ OBKLADY',
         id: 'KOMPRES HANGAT',
+        hu: 'MELEG BOROGATÁS',
     },
     {
         code: '_warm_compress_text',
@@ -224,6 +242,7 @@ export default [
         nl: 'Warmte kan worden toegepast op de buitenzijde van de oogleden met behulp van diverse warme compressen, zoals maskers gevuld met magnetron-verwarmde zaden of kraaltjes, of via speciale brillen die vochtige warmte afgeven. Warmtetoepassing bevordert het openen van de meibomklieren en speelt daarmee een belangrijke rol in de behandeling van meibomklierdysfunctie, de belangrijkste oorzaak van evaporatieve droge ogen.',
         cs: 'Teplo lze na oční víčka aplikovat zevně pomocí široké škály teplých obkladů. Ty mohou obsahovat semínka ohřívaná v mikrovlné troubě nebo skleněné kuličky, případně lze využít aplikaci latentního vlhkého tepla prostřednictvím speciálních brýlí. Teplo pomáhá uvolnit meibomské žlázy a hraje důležitou roli při léčbě dysfunkce meibomských žláz, která je hlavním faktorem vedoucím k evaporativní formě suchého oka.',
         id: 'Panas dapat diterapkan secara eksternal ke kelopak mata dengan bantuan berbagai kompres hangat, yang mungkin berisi biji yang dipanaskan microwave atau manik-manik kaca, atau dengan aplikasi panas lembab laten yang disampaikan melalui kacamata. Panas membantu membuka blokir kelenjar meibomian dan memainkan peran penting dalam pengelolaan disfungsi kelenjar meibomian, yang merupakan faktor utama yang menyebabkan mata kering evaporatif.',
+        hu: 'A hő külsőleg alkalmazható a szemhéjakon különböző meleg borogatások segítségével, amelyek tartalmazhatnak mikrohullámmal melegített magokat vagy üveggyöngyöket, illetve nedves hő alkalmazásával speciális szemmaszk segítségével. A hő elősegíti a Meibom-mirigyek váladékának kiürülését, így segít megszüntetni az elzáródást. Ez kulcsszerepet játszik a Meibom-mirigy működési zavarának kezelsében, amely az evaporatív száraz szem egyik leggyakoribb oka.',
     },
     {
         code: '_lid_hygiene_button',
@@ -236,6 +255,7 @@ export default [
         nl: 'OOGLIDHYGIËNE',
         cs: 'HYGIENA OČNÍCH VÍČEK',
         id: 'KEBERSIHAN TUTUPNYA',
+        hu: 'SZEMHÉJHIGIÉNIA',
     },
     {
         code: '_lid_hygiene_icon',
@@ -248,6 +268,7 @@ export default [
         nl: 'OOGLIDHYGIËNE',
         cs: 'HYGIENA OČNÍCH|VÍČEK',
         id: 'KEBERSIHAN|TUTUPNYA',
+        hu: 'SZEMHÉJHIGIÉNIA',
     },
     {
         code: '_lid_hygiene_text',
@@ -260,6 +281,7 @@ export default [
         nl: 'Ooglidreinigingsproducten kunnen effectief vuil en andere verontreinigingen van en rond de ogen verwijderen en helpen de bacteriële belasting te verminderen. Ooglidhygiëne vormt een essentieel onderdeel van de behandeling van blefaritis, waarbij sommige producten actieve ingrediënten bevatten die specifiek gericht zijn op de aanpak van Demodex.',
         cs: 'Přípravky na čištění očních víček dokážou účinně odstranit nečistoty z víček a jiné dráždivé látky z okolí očí a snížit výskyt bakterií. Hygiena očních víček je hlavním pilířem léčby blefaritidy (zánětu očních víček), přičemže některé přípravky obsahují aktivní složky specificky určené k hubení Demodexe ',
         id: 'Produk pembersih kelopak mata dapat secara efektif menghilangkan kotoran kelopak mata dan iritasi lainnya dari sekitar mata dan mengurangi bakteri. Kebersihan kelopak mata adalah andalan manajemen blepharitis dengan beberapa mengandung bahan aktif untuk pengendalian demodex secara khusus.',
+        hu: 'A szemhéjtisztító készítmények hatékonynan eltávolítják a szemhéjszéli lerakódásokat és egyéb irritáló anyagokat, valamint csökkentik a baktériumok számát a szem környékén. A szemhéjhigiénia a blepharitis kezelésének alapvető része, és egyes keszítmények speciális hatóanyagokat tartalmaznak a Demodex atkák elleni célzott kezelésre',
     },
     {
         en: 'Moderate',
@@ -271,6 +293,7 @@ export default [
         nl: 'MATIG',
         cs: 'STŘEDNĚ ZÁVAŽNÁ FORMA',
         id: 'SEDANG',
+        hu: 'KÖZEPES',
     },
     {
         code: '_in_office_light_heat_based_devices_button',
@@ -283,6 +306,7 @@ export default [
         nl: 'Eerstelijnsbehandelingen met licht/warmte apparatuur ',
         cs: 'AMBULANTNÍ PŘÍSTROJE NA BÁZI SVĚTLA/TEPLA',
         id: 'Perangkat berbasis cahaya/panas di kantor',
+        hu: 'RENDELŐBEN VÉGZETT FÉNY-ÉS HŐALAPÚ KEZELÉSEK',
     },
     {
         code: '_in_office_light_heat_based_devices_icon',
@@ -295,6 +319,7 @@ export default [
         nl: 'Eerstelijnsbehandelingen|met|licht/warmte|apparatuur',
         cs: 'AMBULANTNÍ|PŘÍSTROJE NA|BÁZI|SVĚTLA/TEPLA',
         id: 'Perangkat|berbasis|cahaya/panas di|kantor',
+        hu: 'RENDELŐBEN|VÉGZETT FÉNY-ÉS|HŐALAPÚ|KEZELÉSEK',
     },
     {
         code: '_in_office_light_heat_based_devices_text',
@@ -307,6 +332,7 @@ export default [
         nl: 'Complexere behandelingen zoals serumdruppels en amnionmembranen. ',
         cs: 'Komplexní léčba, jako jsou sérové kapky/ amniová membrána',
         id: 'Perawatan kompleks seperti tetes serum/selaput ketuban',
+        hu: 'Ilyenek például a szérum szemcseppek vagy az amniomembrán alkalmazása',
     },
     {
         code: '_pharmaceuticals_button',
@@ -319,6 +345,7 @@ export default [
         nl: 'GENEESMIDDELEN',
         cs: 'FARMAKOLOGICKÁ LÉČBA / LÉKY ',
         id: 'FARMASI',
+        hu: 'GYÓGYSZERES KEZELÉS',
     },
     {
         en: 'Pharmaceuticals',
@@ -330,6 +357,7 @@ export default [
         nl: 'GENEESMIDDELEN',
         cs: 'FARMAKOLOGICKÁ LÉČBA / LÉKY ',
         id: 'FARMASI',
+        hu: 'GYÓGYSZERES KEZELÉS',
     },
     {
         code: '_pharmaceuticals_text',
@@ -342,6 +370,7 @@ export default [
         nl: 'Voor de behandeling van ernstigere vormen van droge ogen zijn inmiddels diverse receptplichtige geneesmiddelen beschikbaar, zowel voor orale als lokale (topicale) toepassing.  ',
         cs: 'Pro léčbu závažnějších forem onemocnění suchého oka je nyní k dispozici řada perorálních a lokálních fakmakologických přípravků na lékařský předpis.',
         id: 'Sejumlah agen farmasi resep oral dan topikal sekarang tersedia untuk pengelolaan bentuk mata kering yang lebih parah.',
+        hu: 'Számos, szájon át szedhető és helyileg alkalmazható, vényköteles gyógyszer áll rendelkezésre a száraz szem súlyosabb formáinak kezelésére.',
     },
     {
         code: '_scleral_lenses_button',
@@ -354,6 +383,7 @@ export default [
         nl: 'SCLERALE LENZEN',
         cs: 'SKLERÁLNÍ ČOČKY',
         id: 'LENSA SCLERAL',
+        hu: 'SCLERÁLIS KONTAKTLENCSÉK',
     },
     {
         code: '_scleral_lenses_icon',
@@ -366,6 +396,7 @@ export default [
         nl: 'SCLERALE LENZEN',
         cs: 'SKLERÁLNÍ ČOČKY',
         id: 'LENSA SCLERAL',
+        hu: 'SCLERÁLIS|KONTAKTLENCSÉK',
     },
     {
         code: '_scleral_lenses_text',
@@ -378,6 +409,7 @@ export default [
         nl: 'Steeds meer bewijs toont aan dat sommige patiënten met droge ogen baat kunnen hebben bij het dragen van sclerale contactlenzen. Deze lenzen houden tranen vast tussen de lens en het hoornvlies/de conjunctiva en voorkomen zo uitdroging van het oogoppervlak. ',
         cs: 'Přibývající důkazy ukazují, že někteří pacienti se suchým okem mohou mít prospěch z nošení sklerálních kontaktních čoček, které zadržují slzy mezi čočkou a rohovkou/spojivkou a zabraňují vysychání očního povrchu.',
         id: 'Bukti yang berkembang menunjukkan bahwa beberapa pasien dengan mata kering dapat memperoleh manfaat dari pemakaian lensa kontak scleral, yang menahan robekan antara lensa dan kornea/konjungtiva dan mencegah pengeringan permukaan okular.',
+        hu: 'Egyre több bizonyítek támasztja alá, hogy egyes száraz szem betegek számára előnyös lehet a sclerális kontaktlencsék viselése. Ezek a lencsék folyadékréteget tartanak fenn a lencse és a szaruhártya/kötőhártya között, ezáltal védik a szemfelszínt a kiszáradástól.',
     },
     {
         en: 'Severe',
@@ -389,6 +421,7 @@ export default [
         nl: 'ERNSTIG',
         cs: 'TĚŽKÁ FORMA',
         id: 'PARAH',
+        hu: 'SÚLYOS',
     },
     {
         code: '_surgical_approaches_button',
@@ -401,6 +434,7 @@ export default [
         nl: 'Chirurgische behandelingen',
         cs: 'CHIRURGICKÉ PŘÍSTUPY',
         id: 'Pendekatan Bedah',
+        hu: 'SEBÉSZETI MEGOLDÁSOK',
     },
     {
         code: '_surgical_approaches_icon',
@@ -413,6 +447,7 @@ export default [
         nl: 'Chirurgische|behandelingen',
         cs: 'CHIRURGICKÉ|PŘÍSTUPY',
         id: 'Pendekatan|Bedah',
+        hu: 'SEBÉSZETI|MEGOLDÁSOK',
     },
     {
         code: '_surgical_approaches_text',
@@ -425,6 +460,7 @@ export default [
         nl: 'Punctumpluggen kunnen worden ingezet om de afvoer van tranen vanaf het oogoppervlak tijdelijk of permanent te blokkeren, door te traanpunten (puncta) af te sluiten.',
         cs: 'Uzávěry slzných bodů (punktální plugy) lze použít k dočasnému nebo trvalému zablokování odtoku slz z očního povrchu ucpáním slzných bodů.',
         id: 'Sumbat punctal dapat digunakan untuk sementara atau permanen memblokir drainase robekan dari permukaan mata dengan menyumbat puncta.',
+        hu: 'A könnypontok elzárására szolgáló plugok alkalmazhatók a könny elvezetésének ideiglenes vagy tartós gátlására, ezáltal segítve a könny megtartását a szemfelszínen.',
     },
     {
         code: '_complex_treatments_button',
@@ -437,6 +473,7 @@ export default [
         nl: 'Complexe behandeling',
         cs: 'Komplexní léčba',
         id: 'Perawatan kompleks',
+        hu: 'Komplex kezelés',
     },
     {
         code: '_complex_treatments_icon',
@@ -449,6 +486,7 @@ export default [
         nl: 'Complexe|behandeling',
         cs: 'Komplexní léčba',
         id: 'Perawatan|kompleks',
+        hu: 'Komplex kezelés',
     },
     {
         code: '_complex_treatments_text',
@@ -461,5 +499,6 @@ export default [
         nl: 'Complexere behandelingen zoals serumdruppels en amnionmembranen. ',
         cs: 'Komplexní léčba, jako jsou sérové kapky/ amniová membrána',
         id: 'Perawatan kompleks seperti tetes serum/selaput ketuban',
+        hu: 'Ilyenek például a szérum szemcseppek vagy az amniomembrán alkalmazása',
     },
 ];
