@@ -7,6 +7,7 @@ export default [
         fr: `Évaluation`,
         zh: '测量',
         ar: 'قياسات جفاف العين',
+        uk: 'ОЦІНКА',
     },
     {
         en: 'Measurement',
@@ -14,6 +15,7 @@ export default [
         fr: `Évaluation`,
         zh: '测量',
         ar: 'القياس',
+        uk: 'ОЦІНКА',
     },
     {
         code: `_measurement_header`,
@@ -21,6 +23,7 @@ export default [
         fr: `Le diagnostic doit être un processus standardisé afin que :`,
         zh: `为了实现以下目标，诊断过程需要标准化：`,
         ar: 'يجب أن تكون عملية التشخيص عملية مُوَحَّدة من أجل:',
+        uk: 'Діагностика має бути стандартизованим процесом, щоб забезпечити:',
     },
     {
         code: `_measurement_list`,
@@ -44,6 +47,11 @@ export default [
 <li>أن يضمن الممارسون اتساقًا في أسلوب العمل.</li>
 <li>أن تحصل الجهات الصحية على بيانات وبائية قوية تساعد في التخطيط لتوزيع الموارد.</li>
 `,
+        uk: `
+<li>впевненість пацієнтів у діагнозі та довіру до лікаря;</li>
+<li>узгоджений підхід серед фахівців;</li>
+<li>отримання достовірних епідеміологічних даних.</li>
+`,
     },
     {
         code: `_measurement_text_1`,
@@ -51,6 +59,7 @@ export default [
         fr: `Une technologie avancée n'est pas nécessaire pour un diagnostic indicatif, lequel peut être réalisé avec un questionnaire standardisé et le test simple du temps de confort après clignement. Le diagnostic peut être aidé par une évaluation des lésions de la surface oculaire avec des colorants ophtalmiques et une évaluation de la stabilité et de l'osmolarité du film lacrymal.`,
         zh: `指示性诊断并不需要先进的技术，通过一份标准化问卷以及简单的眨眼后舒适时间测试即可实现。使用眼科染色剂进行眼表损伤评估，并对泪膜稳定性和渗透压进行评估也可以辅助诊断。`,
         ar: 'لا تتطلب التكنولوجيا المتقدمة للوصول إلى تشخيص مبدئي، إذ يمكن تحقيقه من خلال استبيان مُوَحَّد واختبار راحة العين بعد الرَمش. ويمكن دعم التشخيص بتقييم تلف سطح العين باستخدام الصبغات العينية، بالإضافة إلى تقييم استقرار طبقة الدموع وقياس الأسمولارية.',
+        uk: 'Для орієнтовної діагностики не обов’язково використовувати складні технології. Її можна провести за допомогою стандартизованої анкети та простого тесту часу настання дискомфорту після моргання.\nДодатково можуть застосовуватися:\n• профарбовування поверхні ока;\n• оцінка стабільності слізної плівки;\n• визначення осмолярності.',
     },
     {
         code: `_measurement_text_2`,
@@ -58,6 +67,7 @@ export default [
         fr: `De même, la sous-classification pour aider le choix du traitement peut être obtenue avec l'étude du clignement (fréquence et complétude), le volume lacrymal et l'expression des glandes de Meibomius, ainsi que l'imagerie des glandes de Meibomius.`,
         zh: `同样，可以通过眨眼（频率/完整性）、泪液量和睑板腺挤压情况以及睑板腺成像来进行亚分类研究，以帮助选择管理方案。`,
         ar: 'وبالمثل، يمكن إجراء التصنيف الفرعي للمساعدة في اختيار طريقة الإدارة المناسبة من خلال تقييم الرَمش (المعدل/الكمال)، وحجم الدموع، وضغط وإفراز الغدد الميبومية، إلى جانب تصوير الغدد الميبومية.',
+        uk: 'Для уточнення підтипу захворювання доцільно оцінювати:\n• частоту та повноту моргання;\n• об’єм слізи;\n• функцію мейбомієвих залоз;\n• візуалізацію мейбомієвих залоз (мейбографія).',
     },
     // Measurement -> Diagnosis.
     {
@@ -67,6 +77,7 @@ export default [
         fr: `Diagnostic`,
         zh: '诊断',
         ar: 'التشخيص',
+        uk: 'ДІАГНОСТИКА',
     },
     {
         en: 'Diagnosis',
@@ -74,6 +85,7 @@ export default [
         fr: `Diagnostic`,
         zh: '诊断',
         ar: 'التشخيص',
+        uk: 'ДІАГНОСТИКА',
     },
     {
         code: '_comfort_time_after_blink_test_button',
@@ -82,6 +94,7 @@ export default [
         fr: `Temps de confort après clignement des yeux`,
         zh: '眨眼后舒适时间测试',
         ar: 'اختبار مدة الراحة بعد الرَمش',
+        uk: 'ЧАС ДО ПОЯВИ ДИСКОМФОРТУ ПІСЛЯ КЛІПАННЯ',
     },
     {
         code: '_comfort_time_after_blink_test_icon',
@@ -90,6 +103,7 @@ export default [
         fr: `Temps de confort après|clignement des yeux`,
         zh: '眨眼后舒适时间测试',
         ar: 'اختبار مدة الراحة|بعد الرَمش',
+        uk: 'ЧАС ДО ПОЯВИ ДИСКОМФОРТУ ПІСЛЯ КЛІПАННЯ',
     },
     {
         code: '_comfort_time_after_blink_test_text_1',
@@ -98,6 +112,7 @@ export default [
         fr: `Le patient cligne des yeux et signale quand ses yeux deviennent inconfortables pour la première fois - répéter 3 fois.`,
         zh: '患者眨眼并在眼睛首次感到不适时报告-重复3次。',
         ar: 'يَرْمُش المريض ثم يُبلِّغ عن اللحظة التي تبدأ فيها العين بالشعور بعدم الارتياح – ويُكرَّر ذلك 3 مرات',
+        uk: 'Пацієнт повідомляє, коли з’являється перший дискомфорт (повторити 3 рази) після останнього кліпання.',
     },
     {
         code: '_comfort_time_after_blink_test_text_2',
@@ -106,6 +121,7 @@ export default [
         fr: `< 10s est indicatif de la sécheresse oculaire.`,
         zh: '若< 10s, 则提示存在干眼症',
         ar: 'أقل من 10 ثوانٍ يُعَدّ مؤشرًا على جفاف العين',
+        uk: '< 10 сек. — ознака захворювання сухого ока',
     },
     {
         code: '_osdi_6_button',
@@ -114,6 +130,7 @@ export default [
         fr: `Questionnaire validé`,
         zh: '有效问卷OSDI-6',
         ar: 'مؤشر مرض جفاف العين – نسخة 6 أسئلة',
+        uk: 'OSDI-6',
     },
     {
         en: 'OSDI-6',
@@ -121,6 +138,7 @@ export default [
         fr: `Questionnaire validé`,
         zh: '有效问卷OSDI-6',
         ar: 'مؤشر مرض جفاف العين – نسخة 6 أسئلة',
+        uk: 'OSDI-6',
     },
     {
         code: '_osdi_6_text',
@@ -144,6 +162,10 @@ export default [
 <div>درجة OSDI‑6 ≥ 4</div>
 <div>يمكن أن تساعد الاستبيانات الأخرى في اختيار خطة الإدارة، لكنها لا تُعد أدوات تشخيصية مُوَحَّدة.</div>
 `,
+        uk: `
+<div>OSDI-6 показник ≥ 4</div>
+<div>Інші анкети можуть допомагати у виборі лікування, але не є стандартизованими для діагностики.</div>
+`,
     },
     {
         code: '_fluorescein_staining_button',
@@ -152,6 +174,7 @@ export default [
         fr: `Coloration à la fluorescéine`,
         zh: '荧光素染色',
         ar: 'تلطيخ الفلوريسئين',
+        uk: 'ПРОФАРБОВУВАННЯ ФЛЮОРЕСЦЕЇНОМ',
     },
     {
         code: '_fluorescein_staining_icon',
@@ -160,6 +183,7 @@ export default [
         fr: `Coloration à la|fluorescéine`,
         zh: '荧光素染色',
         ar: 'تلطيخ|الفلوريسئين',
+        uk: 'ПРОФАРБОВУВАННЯ ФЛЮОРЕСЦЕЇНОМ',
     },
     {
         code: '_fluorescein_staining_text',
@@ -182,6 +206,10 @@ export default [
 <div>يُوضع مقدار ضئيل من الفلوريسئين على العين، ثم يتم الفحص بعد 1 إلى 3 دقائق من التقطير.</div>
 <div>وجود أكثر من 5 نقاط قرنية يُعدّ تشخيصيًا لمرض جفاف العين.</div>
 `,
+        uk: `
+<div>Невелика кількість барвника наноситься на око; оцінка через 1–3 хвилини.</div>
+<div>> 5 точок на рогівці — діагностична ознака</div>
+`,
     },
     {
         code: '_non_invasive_breakup_time_button',
@@ -190,6 +218,7 @@ export default [
         fr: `Temps de rupture non invasif (NIBUT)`,
         zh: '非侵入性泪膜破裂时间',
         ar: 'زمن تكسّر الدموع غير التداخلي',
+        uk: 'НЕІНВАЗИВНИЙ ЧАС РОЗРИВУ СЛІЗНОЇ ПЛІВКИ',
     },
     {
         code: '_non_invasive_breakup_time_icon',
@@ -198,6 +227,7 @@ export default [
         fr: `Temps de rupture|non invasif|(NIBUT)`,
         zh: '非侵入性泪|膜破裂时间',
         ar: 'زمن تكسّر الدموع|غير التداخلي',
+        uk: 'НЕІНВАЗИВНИЙ ЧАС РОЗРИВУ СЛІЗНОЇ ПЛІВКИ',
     },
     {
         code: '_non_invasive_breakup_time_text',
@@ -224,6 +254,10 @@ export default [
 <div>يَرْمُش المريض ثم يُبقي عينيه مفتوحتين لأطول فترة ممكنة، ويُسجَّل الوقت الذي تبدأ فيه انعكاسات سطح العين بالتشوّه، وهو ما يدل على جودة طبقة الدموع.</div>
 <div>أقل من 10 ثوانٍ يُعَدّ تشخيصيًا لمرض جفاف العين.</div>
 `,
+        uk: `
+<div>Інструментальний метод оцінки, коли деформація відблисків від поверхні ока свідчить про порушення слізної плівки.</div>
+<div>< 10 с — ознака захворювання</div>
+`,
     },
     {
         code: '_osmolarity_button',
@@ -232,6 +266,7 @@ export default [
         fr: `Osmolarité`,
         zh: '渗透压',
         ar: 'الأسمولارية',
+        uk: 'ОСМОЛЯРНІСТЬ',
     },
     {
         en: 'Osmolarity',
@@ -239,6 +274,7 @@ export default [
         fr: `Osmolarité`,
         zh: '渗透压',
         ar: 'الأسمولارية',
+        uk: 'ОСМОЛЯРНІСТЬ',
     },
     {
         code: '_osmolarity_text',
@@ -265,6 +301,10 @@ export default [
 <div>يتم أخذ عيّنة صغيرة جدًا من طبقة الدموع، ويُقاس مدى المقاومة الكهربائية لتقييم أسمولارية الدموع (مستوى الملوحة).</div>
 <div>قيمة ≥ 308 mOsm/L أو وجود فرق أكبر من 8 بين العينين يُعدّ تشخيصيًا لمرض جفاف العين.</div>
 `,
+        uk: `
+<div>Визначення концентрації розчинених речовин у слізній плівці.</div>
+<div>≥ 308 мОсм/л або різниця між очима > 8 — діагностична ознака</div>
+`,
     },
     {
         code: '_lissamine_green_staining_button',
@@ -273,6 +313,7 @@ export default [
         fr: `Coloration au vert de lissamine`,
         zh: '绿色利萨明染色',
         ar: 'تلطيخ الليسّامين الأخضر',
+        uk: 'ПРОФАРБОВУВАННЯ ЛІСАМІНОВИМ ЗЕЛЕНИМ',
     },
     {
         code: '_lissamine_green_staining_icon',
@@ -281,6 +322,7 @@ export default [
         fr: `Coloration|au vert de|lissamine`,
         zh: '绿色利萨明染色',
         ar: 'تلطيخ|الليسّامين|الأخضر',
+        uk: 'ПРОФАРБОВУВАННЯ ЛІСАМІНОВИМ ЗЕЛЕНИМ',
     },
     {
         code: '_lissamine_green_staining_text',
@@ -321,6 +363,12 @@ export default [
 <div>يُفحَص حافّة الجفن بين 3 و6 دقائق.</div>
 <div>طول ≥ 2 مم و/أو ≥ 25% من العرض السهمي (باستثناء خط ماركس) يُعدّ تشخيصيًا لمرض جفاف العين.</div>
 `,
+        uk: `
+<div>Смужку з лісаміновим зеленим змочують фізіологічним розчином; крапля має залишатися на смужці щонайменше 5 секунд для вивільнення барвника. Оцінку проводять через 1-4 хвилини після інстиляції.</div>
+<div>> 9 точок на кон’юнктиві — діагностична ознака захворювання сухого ока.</div>
+<div>Край повіки оцінюють через 3-6 хвилин.</div>
+<div>≥ 2 мм у довжину та/або ≥ 25% сагітальної ширини (за винятком лінії Маркса) — діагностична ознака захворювання сухого ока.</div>
+`,
     },
     // Measurement -> Sub-classification.
     {
@@ -330,6 +378,7 @@ export default [
         fr: `Sous-classification`,
         zh: '亚分类',
         ar: 'التصنيف الفرعي',
+        uk: 'ВИЗНАЧЕННЯ ПІДТИПУ',
     },
     {
         en: 'Sub-Typing',
@@ -337,6 +386,7 @@ export default [
         fr: `Sous-classification`,
         zh: '亚分类',
         ar: 'التصنيف الفرعي',
+        uk: 'ВИЗНАЧЕННЯ ПІДТИПУ',
     },
     // There are two versions (one with ampersand) used in the English version.
     {
@@ -346,6 +396,7 @@ export default [
         fr: `Fréquence et Complétude des Clignements`,
         zh: '眨眼完整性及眼睑闭合：眼表充血',
         ar: 'اكتمال الرَمش وإغلاق الجفن؛ الاحمرار',
+        uk: 'Кліпання та змикання повік; гіперемія',
     },
     {
         code: '_blink_rate_and_completeness_title',
@@ -354,6 +405,7 @@ export default [
         fr: `Fréquence et Complétude des Clignements`,
         zh: '眨眼完整性及眼睑闭合：|眼表充血',
         ar: 'اكتمال الرَمش وإغلاق الجفن؛ الاحمرار',
+        uk: 'Кліпання та змикання повік; гіперемія',
     },
     {
         code: '_blink_rate_and_completeness_icon',
@@ -362,6 +414,7 @@ export default [
         fr: `Fréquence et|complétude des|clignements`,
         zh: '眨眼完整性及眼睑闭合：|眼表充血',
         ar: 'اكتمال الرَمش|وإغلاق الجفن؛|الاحمرار',
+        uk: 'Кліпання та змикання повік; гіперемія',
     },
     {
         code: '_blink_rate_and_completeness_text',
@@ -370,6 +423,7 @@ export default [
         fr: `Une fréquence réduite de clignement ou des clignements incomplets peuvent entraîner une sécheresse oculaire évaporative.`,
         zh: '眨眼频率降低或眨眼不完全可能会引发蒸发过强型干眼症。',
         ar: 'يمكن أن يؤدي انخفاض معدل الرَمش أو عدم اكتمال الرَمش إلى الإصابة بجفاف العين التبخّري.',
+        uk: 'Зменшення частоти або неповне змикання повік сприяє випаровуванню сльози.',
     },
     {
         code: '_aqueous_tear_meniscus_height_button',
@@ -378,6 +432,7 @@ export default [
         fr: `Hauteur du ménisque lacrymal`,
         zh: '泪河高度',
         ar: 'ارتفاع الهلالة الدمعية المائية',
+        uk: 'Висота слізного меніска',
     },
     {
         code: '_aqueous_tear_meniscus_height_icon',
@@ -386,6 +441,7 @@ export default [
         fr: `Hauteur du|ménisque lacrymal`,
         zh: '泪河高度',
         ar: 'ارتفاع الهلالة|الدمعية المائية',
+        uk: 'Висота слізного меніска',
     },
     {
         code: '_aqueous_tear_meniscus_height_text',
@@ -410,6 +466,10 @@ export default [
 <div>أقل من 0.2 مم يُعدّ مؤشرًا على جفاف العين المائي.</div>
 <div>يشير عدم الانتظام إلى ضعف جودة طبقة الدموع.</div>
 `,
+        uk: `
+<div>< 0,2 мм — ознака вододефіцитного типу</div>
+<div>Нерівність — ознака поганої якості слізної плівки</div>
+`,
     },
     {
         code: '_eyelids_meibomian_gland_expression_button',
@@ -418,6 +478,7 @@ export default [
         fr: '',
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير الغدد الميبومية',
+        uk: 'Повіки: Експресія мейбомієвих залоз',
     },
     {
         code: '_eyelids_meibomian_gland_expression_title',
@@ -426,6 +487,7 @@ export default [
         fr: '',
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير|الغدد الميبومية',
+        uk: 'Повіки: Експресія мейбомієвих залоз',
     },
     {
         code: '_eyelids_meibomian_gland_expression_icon',
@@ -434,6 +496,7 @@ export default [
         fr: `Expression des|glandes de|Meibomius`,
         zh: '眼睑：睑板腺挤压',
         ar: 'الجفون: تعصير|الغدد الميبومية',
+        uk: 'Повіки: Експресія мейбомієвих залоз',
     },
     {
         code: '_eyelids_meibomian_gland_expression_text',
@@ -442,6 +505,7 @@ export default [
         fr: `Une expression trouble, épaissie ou absente lors de la pression sur le bord palpébral peut indiquer une sécheresse oculaire évaporative.`,
         zh: '对睑缘施加压力时，出现分泌物混浊、变稠，或者没有分泌物挤出，都可能提示存在蒸发过强型干眼症。',
         ar: 'قد يشير خروج إفرازات ميبومية عكرة أو سميكة، أو عدم خروج أي إفراز عند الضغط على حافة الجفن، إلى الإصابة بجفاف العين التبخّري.',
+        uk: 'Каламутний, густий секрет або його відсутність — ознака евапоративного типу захворювання сухого ока',
     },
     {
         code: '_meibography_and_interferometry_button',
@@ -450,6 +514,7 @@ export default [
         fr: `Meibographie`,
         zh: '睑板腺成像术 及 脂质层干涉成像术',
         ar: 'تصوير الغدد الميبومية والإنترفيريومتري',
+        uk: 'Мейбографія та інтерферометрія',
     },
     {
         code: '_meibography_and_interferometry_icon',
@@ -458,6 +523,7 @@ export default [
         fr: `Meibographie`,
         zh: '睑板腺成像术 及|脂质层干涉成像术',
         ar: 'تصوير الغدد الميبومية|والإنترفيريومتري',
+        uk: 'Мейбографія та інтерферометрія',
     },
     {
         code: '_meibography_and_interferometry_text',
@@ -466,6 +532,7 @@ export default [
         fr: `L'observation de glandes raccourcies ou atrophiées lors de la transillumination ou de l'imagerie infrarouge paupières éversées, peut indiquer une sécheresse oculaire évaporative.`,
         zh: '翻转眼睑进行透照检查或红外成像检查时，若发现腺体缩短或缺失，可能提示存在蒸发过强型干眼症。',
         ar: 'قد يشير قصر الغدد الميبومية أو فقدانها عند الفحص بالإنارة النافذة أو بالتصوير بالأشعة تحت الحمراء للجفن المقلوب إلى الإصابة بجفاف العين التبخّري.',
+        uk: 'Атрофія або зменшення кількості залоз — характерно для евапоративного типу захворювання сухого ока',
     },
     {
         code: '_ocular_surface_misalignment_button',
@@ -474,6 +541,7 @@ export default [
         fr: 'Mésalignement de la surface oculaire',
         zh: '眼表对位不良',
         ar: 'اختلال محاذاة سطح العين',
+        uk: 'Зміни очної поверхні',
     },
     {
         code: '_ocular_surface_misalignment_title',
@@ -482,6 +550,7 @@ export default [
         fr: 'Mésalignement de la|surface oculaire',
         zh: '眼表对位不良',
         ar: 'اختلال محاذاة سطح العين',
+        uk: 'Зміни очної поверхні',
     },
     {
         code: '_ocular_surface_misalignment_icon',
@@ -490,6 +559,7 @@ export default [
         fr: 'Mésalignement de la surface oculaire',
         zh: '眼表对位不良',
         ar: 'اختلال محاذاة|سطح العين',
+        uk: 'Зміни очної поверхні',
     },
     {
         code: '_ocular_surface_misalignment_text',
@@ -498,6 +568,7 @@ export default [
         fr: 'Un mauvais alignement entre le globe oculaire et les surfaces internes des paupières, dû par exemple à un ptérygion, perturbe la répartition du film lacrymal sur la surface oculaire, entraînant une instabilité du film lacrymal.',
         zh: '由于翼状胬肉破坏了眼球与眼睑内表面的正常贴合关系，例如损害了泪膜在眼表的分布，从而导致泪膜不稳定',
         ar: 'يمكن أن يؤدي تغيّر المحاذاة بين مقلة العين والأسطح الداخلية للجفن — كما يحدث في حالات مثل الظفرة — إلى إعاقة توزيع طبقة الدموع على سطح العين، مما يؤدي إلى عدم استقرار طبقة الدموع.',
+        uk: 'Порушення відповідності очного яблука та внутрішньої поверхні повік, наприклад при птеригії, погіршує рівномірний розподіл слізної плівки по поверхні ока, що призводить до її нестабільності.',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_button',
@@ -506,6 +577,7 @@ export default [
         fr: 'Examen Des Paupières : Blépharite Antérieure',
         zh: '眼睑：前部睑缘炎检查',
         ar: 'الجفون: فحص التهاب الجفن الأمامي',
+        uk: 'Повіки: Передній блефарит',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_title',
@@ -514,6 +586,7 @@ export default [
         fr: 'Examen Des Paupières :|Blépharite Antérieure',
         zh: '眼睑：|前部睑缘炎检查',
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
+        uk: 'Повіки: Передній блефарит',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_icon',
@@ -522,6 +595,7 @@ export default [
         fr: 'Examen Des Paupières : Blépharite Antérieure',
         zh: '眼睑：|前部睑缘炎检查',
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
+        uk: 'Повіки: Передній блефарит',
     },
     {
         code: '_eyelids_anterior_blepharitis_exam_text',
@@ -530,6 +604,7 @@ export default [
         fr: 'L\u2019examen précis des cils en regard inférieur permet de rechercher la présence de squames ou de collerettes pouvant révéler une charge microbienne élevée.',
         zh: '通过让患者向下看，借助裂隙灯检查其睫毛根部是否存在鳞屑或袖套样结痂，这一体征可能表明患者眼睑存在大量的微生物定植',
         ar: 'يمكن أن يساعد فحص الرموش تحت التكبير أثناء النظر إلى الأسفل في الكشف عن وجود قشور أو حلقات (Collarettes)، مما قد يشير إلى حمولة ميكروبية عالية.',
+        uk: 'Наявність лусочок або «комірців» на віях може свідчити про підвищене мікробне навантаження.',
     },
 
     // The Wheel.
@@ -539,6 +614,7 @@ export default [
         fr: `La Roue`,
         zh: '干眼轮',
         ar: 'العجلة',
+        uk: 'Колесо',
     },
     {
         code: '_the_wheel_text',
@@ -547,6 +623,7 @@ export default [
         fr: `La sécheresse oculaire est une affection chronique qui nécessitera de travailler avec votre patient pour la gérer. La roue symbolise le processus d'atténuation, de mesure et d'utilisation de ces informations pour orienter votre approche de prise en charge. Lorsque votre patient revient pour un suivi, vous recueillerez à nouveau les informations pour comprendre ce qui a changé et comment cela peut influencer la poursuite de l'atténuation, de la mesure et l'affinement de votre approche de prise en charge.`,
         zh: '干眼症是一种慢性疾病，需要您与患者共同努力进行管理。干眼轮象征着缓解、测量和利用信息来指导管理方法的过程。当患者复诊时，您需要再次收集信息以了解病情变化，从而指导进一步的缓解措施、测量方法，并完善管理方案。',
         ar: 'جفاف العين هو حالة مزمنة تتطلب منك العمل مع المريض لإدارتها بالشكل الصحيح. تمثل العجلة دورة مستمرة من التخفيف، والقياس، واستخدام هذه المعلومات لتوجيه خطة العلاج. وعند عودة المريض للمراجعة، ستقوم بجمع المعلومات مرة أخرى لفهم ما الذي تغيّر أو كيف تغيّر، وكيف يمكن أن يساعدك ذلك في تحسين خطوات التخفيف، وإعادة القياس، وتطوير خطة الإدارة العلاجية بشكل أدق.',
+        uk: 'Сухість очей — це хронічний стан, який потребує співпраці з пацієнтом для ефективного контролю захворювання.\nКолесо символізує циклічний процес зменшення проявів, оцінки стану та використання отриманої інформації для формування стратегії ведення.\nПід час повторного візиту пацієнта необхідно знову зібрати дані, щоб оцінити зміни стану та скоригувати подальше ведення задля зменшення симптомів.',
     },
     {
         en: 'The Rings',
@@ -554,6 +631,7 @@ export default [
         fr: `Les Anneaux`,
         zh: '干眼轮环',
         ar: 'الحلَقَات',
+        uk: 'Кільця',
     },
     {
         code: '_the_rings_text',
@@ -585,6 +663,7 @@ export default [
 <div>تُجسِّد الحلقات المعروضة في عجلة جفاف العين الانتقال من أبسط الأساليب إلى أكثرها تعقيدًا في التخفيف، والقياس، والإدارة، وذلك بحسب درجة شدة الحالة.</div>
 <div>هناك الكثير مما يمكنك فعله للتخفيف من انزعاج المرضى المصابين بجفاف العين من خلال التخفيف، والقياس، والإدارة، حتى دون أي استثمار إضافي (الحلقة الخارجية البرونزية) أو مع استثمار محدود (الحلقة الوسطى الفضية). ونظرًا لأن غالبية مرضى جفاف العين يعانون من حالات خفيفة إلى متوسطة، يجب على جميع الممارسين المشاركة في الإدارة، مع إحالة الحالات إلى المراكز المتخصصة عند الحاجة.</div>
 `,
+        uk: 'Кільця на схемі «Колесо ведення захворювання сухого ока» символізують послідовний перехід від найпростіших до більш складних підходів у зменшенні проявів, оцінці та лікуванні захворювання сухого ока відповідно до ступеня тяжкості.\nІснує багато можливостей полегшити дискомфорт у пацієнтів із захворюванням сухого ока шляхом профілактики, оцінки та ведення, навіть без додаткових інвестицій (зовнішнє бронзове кільце) або з мінімальними вкладеннями (середнє срібне кільце).\nОскільки більшість пацієнтів мають легкий або помірний перебіг захворювання, усі фахівці повинні брати участь у веденні таких пацієнтів, за потреби направляючи їх до спеціалізованих центрів.',
     },
     {
         en: 'Simple Treatment',
@@ -592,6 +671,7 @@ export default [
         fr: `Traitement simple`,
         zh: '简单治疗',
         ar: 'علاج بسيط',
+        uk: 'Лікування легкого рівня',
     },
     {
         en: 'Moderate Treatment',
@@ -599,6 +679,7 @@ export default [
         fr: `Traitement modéré`,
         zh: '中等治疗',
         ar: 'علاج متوسط',
+        uk: 'Лікування середнього рівня',
     },
     {
         en: 'Complex Treatment',
@@ -606,5 +687,6 @@ export default [
         fr: `Traitement complexe`,
         zh: '复杂治疗',
         ar: 'علاج معقد',
+        uk: 'Лікування тяжкого рівня',
     },
 ];
