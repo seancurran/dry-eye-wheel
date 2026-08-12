@@ -29,5 +29,9 @@
         "vite-svg-loader": "^5.1.0",
         "vue": "^3.5.13",
         "vue-slider-component": "^4.1.0-beta.7"
+    },
+    "dependencies": {
+        "baseline-browser-mapping": "^2.11.4",
+        "caniuse-lite": "^1.0.30001806"
     }
 }
