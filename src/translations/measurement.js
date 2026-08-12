@@ -1016,4 +1016,16 @@ export default [
         id: 'Perawatan kompleks',
         hu: 'Komplex kezelés',
     },
+    {
+        en: 'Pinch to zoom in',
+        es: 'Pellizca para ampliar',
+        fr: 'Pincez pour zoomer',
+        zh: '双指捏合放大',
+        ar: 'اقرص للتكبير',
+        uk: 'Зведіть пальці, щоб збільшити',
+        nl: 'Knijp om in te zoomen',
+        cs: 'Sevřete prsty pro přiblížení',
+        id: 'Cubit untuk memperbesar',
+        hu: 'Csippentéssel nagyíthat',
+    },
 ];
