@@ -6,7 +6,7 @@ import OsmolarityIcon from '@/components/wheel/measurement/animated-icons/Osmola
 <template>
     <PopoverCard
         :title="$t('_osmolarity_button')"
-        class="absolute left-1/2 top-[300px] z-10 col-span-5 ml-[-260px] max-w-lg">
+        class="relative z-10 mb-4 w-full max-w-none md:absolute md:left-1/2 md:top-[300px] md:z-10 md:col-span-5 md:ml-[-260px] md:max-w-lg md:w-auto">
         <template #icon>
             <OsmolarityIcon class="!-mb-12 !-mt-14 !h-40" />
         </template>

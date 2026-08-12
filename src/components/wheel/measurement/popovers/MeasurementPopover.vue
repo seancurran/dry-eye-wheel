@@ -8,7 +8,7 @@ import GradientBorderBox from '@/components/GradientBorderBox.vue';
     <!-- TODO: Consider using a list-marker-class as a translation. -->
     <PopoverCard
         :title="$t('Measurement')"
-        class="absolute left-1/2 top-[340px] z-10 col-span-5 ml-[-460px] max-w-lg">
+        class="relative z-10 mb-4 w-full max-w-none md:absolute md:left-1/2 md:top-[340px] md:z-10 md:col-span-5 md:ml-[-460px] md:max-w-lg md:w-auto">
         <template v-if="$selectedLanguage.value === 'en'">
             <div>Diagnosis needs to be a standardised process in order for:</div>
             <GradientBorderBox>

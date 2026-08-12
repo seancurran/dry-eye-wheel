@@ -7,7 +7,7 @@ import GradientBorderBox from '@/components/GradientBorderBox.vue';
 <template>
     <PopoverCard
         :title="$t('_differential_diagnosis_button')"
-        class="absolute left-1/2 top-[240px] z-10 col-span-5 ml-[-224px] max-w-xl">
+        class="relative z-10 mb-4 w-full max-w-none md:absolute md:left-1/2 md:top-[240px] md:z-10 md:col-span-5 md:ml-[-224px] md:max-w-xl md:w-auto">
         <template #icon>
             <DifferentialDiagnosisIcon class="!-mb-8 !-mt-10 !h-40" />
         </template>

@@ -7,36 +7,27 @@ import GradientButton from '../GradientButton.vue';
 const controlsStore = useControlsStore();
 const { sliderValue } = storeToRefs(controlsStore);
 
+const areaIdBySliderValue = { 0: 'mitigation-area', 50: 'measurement-area', 100: 'management-area' };
+
 watch(sliderValue, () => {
-    if (sliderValue.value === 0) {
-        document.getElementById('scroll-me').scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
+    const scrollContainer = document.getElementById('scroll-me');
+    const areaEl = document.getElementById(areaIdBySliderValue[sliderValue.value]);
+    if (!scrollContainer || !areaEl) {
+        return;
     }
-    if (sliderValue.value === 50) {
-        document.getElementById('scroll-me').scrollTo({
-            top: 392,
-            behavior: 'smooth',
-        });
-    }
-    if (sliderValue.value === 100) {
-        document.getElementById('scroll-me').scrollTo({
-            top: 760,
-            behavior: 'smooth',
-        });
-    }
+    const top = areaEl.getBoundingClientRect().top - scrollContainer.getBoundingClientRect().top + scrollContainer.scrollTop;
+    scrollContainer.scrollTo({ top, behavior: 'smooth' });
 });
 </script>
 
 <template>
     <div
         id="scroll-me"
-        class="mx-6 flex w-full flex-col gap-3 overflow-y-hidden p-[3px]">
+        class="flex w-full flex-col gap-4 p-[3px] tablet:gap-3 md:mx-6 md:overflow-y-hidden">
         <!-- Mitigation -->
         <GradientButton
             id="mitigation-area"
-            @click="controlsStore.selectArea('mitigation')"
+            @click="controlsStore.selectedArea === 'mitigation' ? controlsStore.collapseArea() : controlsStore.selectArea('mitigation')"
             :class="{ active: controlsStore.selectedArea === 'mitigation' }"
             class="btn-area">
             <div
@@ -45,7 +36,10 @@ watch(sliderValue, () => {
                 {{ line }}
             </div>
         </GradientButton>
-        <div class="grid grid-cols-2 gap-3">
+        <div
+            class="flex flex-col gap-4 tablet:gap-3 md:gap-3"
+            :class="{ 'hidden tablet:flex': controlsStore.selectedArea !== 'mitigation' }">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectSection('risk-factors', 'mitigation')"
                 :class="{ active: controlsStore.selectedSection === 'risk-factors' }"
@@ -67,7 +61,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('sleep', 'risk-factors', 'mitigation')"
                 :class="{ active: controlsStore.selectedItem === 'sleep' }"
@@ -89,7 +83,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('environment-advice', 'risk-factors', 'mitigation')"
                 :class="{ active: controlsStore.selectedItem === 'environment-advice' }"
@@ -111,7 +105,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('contact-lens', 'risk-factors', 'mitigation')"
                 :class="{ active: controlsStore.selectedItem === 'contact-lens' }"
@@ -135,7 +129,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('digital-eye-strain', 'risk-factors', 'mitigation')"
                 :class="{ active: controlsStore.selectedItem === 'digital-eye-strain' }"
@@ -160,7 +154,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('previous-eye-surgery', 'risk-factors', 'mitigation')"
                 :class="{ active: controlsStore.selectedItem === 'previous-eye-surgery' }"
@@ -182,7 +176,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('hormones', 'risk-factors', 'mitigation')"
                 :class="{ active: controlsStore.selectedItem === 'hormones' }"
@@ -195,7 +189,7 @@ watch(sliderValue, () => {
             </GradientButton>
             <div>&nbsp;</div>
         </div>
-        <div class="mb-6 grid grid-cols-2 gap-3">
+        <div class="mb-6 grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('medication-review', 'risk-factors', 'mitigation')"
                 :class="{ active: controlsStore.selectedItem === 'medication-review' }"
@@ -208,11 +202,12 @@ watch(sliderValue, () => {
             </GradientButton>
             <div>&nbsp;</div>
         </div>
+        </div>
 
         <!-- Measurement -->
         <GradientButton
             id="measurement-area"
-            @click="controlsStore.selectArea('measurement')"
+            @click="controlsStore.selectedArea === 'measurement' ? controlsStore.collapseArea() : controlsStore.selectArea('measurement')"
             :class="{ active: controlsStore.selectedArea === 'measurement' }"
             class="btn-area">
             <div
@@ -221,7 +216,10 @@ watch(sliderValue, () => {
                 {{ line }}
             </div>
         </GradientButton>
-        <div class="grid grid-cols-2 gap-3">
+        <div
+            class="flex flex-col gap-4 tablet:gap-3 md:gap-3"
+            :class="{ 'hidden tablet:flex': controlsStore.selectedArea !== 'measurement' }">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectSection('diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedSection === 'diagnosis' }"
@@ -243,7 +241,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('comfort-time-after-blink-test', 'diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'comfort-time-after-blink-test' }"
@@ -265,7 +263,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('osdi-6', 'diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'osdi-6' }"
@@ -287,7 +285,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('fluorescein-staining', 'diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'fluorescein-staining' }"
@@ -309,7 +307,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('osmolarity', 'diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'osmolarity' }"
@@ -331,7 +329,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('non-invasive-breakup-time', 'diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'non-invasive-breakup-time' }"
@@ -353,7 +351,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('lissamine-green-staining', 'diagnosis', 'measurement')"
                 :class="{ active: controlsStore.selectedItem === 'lissamine-green-staining' }"
@@ -375,11 +373,12 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
+        </div>
 
         <!-- Management -->
         <GradientButton
             id="management-area"
-            @click="controlsStore.selectArea('management')"
+            @click="controlsStore.selectedArea === 'management' ? controlsStore.collapseArea() : controlsStore.selectArea('management')"
             :class="{ active: controlsStore.selectedArea === 'management' }"
             class="btn-area">
             <div
@@ -388,7 +387,10 @@ watch(sliderValue, () => {
                 {{ line }}
             </div>
         </GradientButton>
-        <div class="grid grid-cols-2 gap-3">
+        <div
+            class="flex flex-col gap-4 tablet:gap-3 md:gap-3"
+            :class="{ 'hidden tablet:flex': controlsStore.selectedArea !== 'management' }">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('artificial-tears', null, 'management')"
                 :class="{ active: controlsStore.selectedItem === 'artificial-tears' }"
@@ -410,7 +412,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('blink-exercises', null, 'management')"
                 :class="{ active: controlsStore.selectedItem === 'blink-exercises' }"
@@ -432,7 +434,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('warm-compress', null, 'management')"
                 :class="{ active: controlsStore.selectedItem === 'warm-compress' }"
@@ -454,7 +456,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('in-office-light-heat-based-devices', null, 'management')"
                 :class="{ active: controlsStore.selectedItem === 'in-office-light-heat-based-devices' }"
@@ -476,7 +478,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('scleral-lenses', null, 'management')"
                 :class="{ active: controlsStore.selectedItem === 'scleral-lenses' }"
@@ -498,7 +500,7 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <div class="grid grid-cols-2 gap-3">
+        <div class="grid grid-cols-2 gap-4 tablet:gap-3 md:gap-3">
             <GradientButton
                 @click="controlsStore.selectItem('complex-treatments', null, 'management')"
                 :class="{ active: controlsStore.selectedItem === 'complex-treatments' }"
@@ -510,8 +512,9 @@ watch(sliderValue, () => {
                 </div>
             </GradientButton>
         </div>
-        <!-- Empty space -->
-        <div class="h-[600px]">
+        </div>
+        <!-- Empty space (desktop only: gives the scroll-sync room to align Management with the top) -->
+        <div class="hidden md:block md:h-[600px]">
             <div class="h-[600px]">&nbsp;</div>
         </div>
     </div>

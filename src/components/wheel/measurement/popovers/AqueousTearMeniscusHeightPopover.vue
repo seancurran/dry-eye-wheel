@@ -6,7 +6,7 @@ import AqueousTearMeniscusHeightIcon from '@/components/wheel/measurement/animat
 <template>
     <PopoverCard
         :title="$t('_aqueous_tear_meniscus_height_button')"
-        class="absolute left-1/2 top-[360px] z-10 col-span-5 ml-[-340px] max-w-lg">
+        class="relative z-10 mb-4 w-full max-w-none md:absolute md:left-1/2 md:top-[360px] md:z-10 md:col-span-5 md:ml-[-340px] md:max-w-lg md:w-auto">
         <template #icon>
             <AqueousTearMeniscusHeightIcon class="!-mb-8 !-mt-10 !h-40" />
         </template>

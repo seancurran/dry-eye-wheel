@@ -16,6 +16,12 @@ export const useControlsStore = defineStore('controls', {
             this.selectedItem = null;
             this.sliderValue = 0;
         },
+        collapseArea() {
+            this.selectedSection = null;
+            this.selectedItem = null;
+            this.sliderValue = 0;
+            this.defaultStateInit = true;
+        },
         selectArea(area, skipReset) {
             this.defaultStateInit = false;
             if (!skipReset) {

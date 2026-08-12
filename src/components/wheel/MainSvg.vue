@@ -11,54 +11,87 @@ const controlsStore = useControlsStore();
 </script>
 
 <template>
-    <div class="relative h-full w-full">
-        <MitigationPopovers />
-        <MeasurementPopovers />
-        <ManagementPopovers />
+    <div class="relative w-full md:h-full">
+        <!-- Pinch-to-zoom hint: mobile only, the wheel is small enough that icons/text benefit from zooming in -->
+        <div class="mb-2 flex items-center justify-center gap-1.5 text-[11px] text-gray-500 tablet:hidden">
+            <svg
+                class="h-4 w-4 shrink-0"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M9 3L5 7M5 7H8M5 7V4"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path
+                    d="M15 21L19 17M19 17H16M19 17V20"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path
+                    d="M8.5 8.5L4 4"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round" />
+                <path
+                    d="M15.5 15.5L20 20"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round" />
+            </svg>
+            <span>{{ $t('Pinch to zoom in') }}</span>
+        </div>
 
-        <MainMitigationSvg
-            :class="controlsStore.mitigationAreaClasses"
-            class="mitigation-svg absolute max-h-[800px] w-full transition-all duration-300" />
+        <!-- Wheel visual: square on mobile, fills the desktop wheel area -->
+        <div class="relative aspect-square w-full md:aspect-auto md:h-full">
+            <MainMitigationSvg
+                :class="controlsStore.mitigationAreaClasses"
+                class="mitigation-svg absolute w-full transition-all duration-300 md:h-[800px] md:w-[800px]" />
 
-        <MainMeasurementSvg
-            :class="controlsStore.measurementAreaClasses"
-            class="measurement-svg absolute max-h-[800px] w-full transition-all duration-300" />
+            <MainMeasurementSvg
+                :class="controlsStore.measurementAreaClasses"
+                class="measurement-svg absolute w-full transition-all duration-300 md:h-[800px] md:w-[800px]" />
 
-        <MainManagementSvg
-            :class="controlsStore.managementAreaClasses"
-            class="management-svg absolute max-h-[800px] w-full" />
+            <MainManagementSvg
+                :class="controlsStore.managementAreaClasses"
+                class="management-svg absolute w-full md:h-[800px] md:w-[800px]" />
 
-        <!-- Key Area -->
+            <!-- Grayscale class needs to exist in a template to build in Tailwind -->
+            <span class="hidden grayscale"></span>
+        </div>
+
+        <!-- Key Area: full-width single row under the wheel on mobile, tucked bottom-right on desktop -->
         <div
-            class="w-54 absolute bottom-0 end-0 flex flex-col gap-2 border-4 border-[#E5E6E7] p-3 font-euclid-circular-medium text-sm">
-            <div class="flex gap-2">
-                <div class="items-center justify-center">
-                    <img
-                        class="h-5 w-5"
-                        src="@/assets/svg/orange-dot.svg?url" />
-                </div>
-                <div class="grow items-center">{{ $t('Simple Treatment') }}</div>
+            class="mb-4 mt-2 flex w-full items-center justify-between gap-1 border-2 border-[#E5E6E7] p-1.5 font-euclid-circular-medium text-[9px] md:mb-0 md:mt-0 md:absolute md:bottom-0 md:end-0 md:w-auto md:flex-col md:items-stretch md:justify-start md:gap-2 md:border-4 md:p-3 md:text-sm">
+            <div class="flex items-center gap-1 md:gap-2">
+                <img
+                    class="h-3 w-3 md:h-5 md:w-5"
+                    src="@/assets/svg/orange-dot.svg?url" />
+                <div>{{ $t('Simple Treatment') }}</div>
             </div>
-            <div class="flex gap-2">
-                <div class="items-center justify-center">
-                    <img
-                        class="h-5 w-5"
-                        src="@/assets/svg/silver-dot.svg?url" />
-                </div>
-                <div class="grow items-center">{{ $t('Moderate Treatment') }}</div>
+            <div class="flex items-center gap-1 md:gap-2">
+                <img
+                    class="h-3 w-3 md:h-5 md:w-5"
+                    src="@/assets/svg/silver-dot.svg?url" />
+                <div>{{ $t('Moderate Treatment') }}</div>
             </div>
-            <div class="flex gap-2">
-                <div class="items-center justify-center">
-                    <img
-                        class="h-5 w-5"
-                        src="@/assets/svg/yellow-dot.svg?url" />
-                </div>
-                <div class="grow items-center">{{ $t('Complex Treatment') }}</div>
+            <div class="flex items-center gap-1 md:gap-2">
+                <img
+                    class="h-3 w-3 md:h-5 md:w-5"
+                    src="@/assets/svg/yellow-dot.svg?url" />
+                <div>{{ $t('Complex Treatment') }}</div>
             </div>
         </div>
 
-        <!-- Grayscale class needs to exist in a template to build in Tailwind -->
-        <span class="hidden grayscale"></span>
+        <!-- Selected-item content: flows below the wheel on mobile; on desktop it overlays the wheel at each popover's own tuned position -->
+        <div class="relative md:absolute md:inset-0">
+            <MitigationPopovers />
+            <MeasurementPopovers />
+            <ManagementPopovers />
+        </div>
     </div>
 </template>
 
@@ -156,6 +189,150 @@ const controlsStore = useControlsStore();
     }
     100% {
         top: 45px;
+    }
+}
+
+/* The wheel is much smaller on mobile, so the same pixel offsets used on desktop push the rings
+   too far apart relative to the wheel's own size and off the edge of the visual. Scale them down,
+   including the animation keyframes so the sweep doesn't overshoot past the smaller resting position. */
+@media (max-width: 767px) {
+    .mitigation-svg.active {
+        top: -8px;
+        left: -16px;
+    }
+
+    .measurement-svg.active {
+        top: -8px;
+        left: 16px;
+    }
+
+    .management-svg.active {
+        top: 18px;
+    }
+
+    @keyframes mitigation-slide-in {
+        0% {
+            top: -8px;
+            left: -16px;
+        }
+        100% {
+            top: 0px;
+            left: 0px;
+        }
+    }
+
+    @keyframes mitigation-slide-out {
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+        100% {
+            top: -8px;
+            left: -16px;
+        }
+    }
+
+    @keyframes measurement-slide-in {
+        0% {
+            top: -8px;
+            left: 16px;
+        }
+        100% {
+            top: 0px;
+            left: 0px;
+        }
+    }
+
+    @keyframes measurement-slide-out {
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+        100% {
+            top: -8px;
+            left: 16px;
+        }
+    }
+
+    @keyframes management-slide-in {
+        0% {
+            top: 18px;
+        }
+        100% {
+            top: 0px;
+        }
+    }
+
+    @keyframes management-slide-out {
+        0% {
+            top: 0px;
+        }
+        100% {
+            top: 18px;
+        }
+    }
+}
+
+/* Desktop: the wheel area is much wider than the fixed 800px wheel graphic (it stretches to fill
+   the leftover space between the sidebar and the language buttons), so the wheel needs to be
+   explicitly centered in that space instead of pinned to the left edge. */
+@media (min-width: 1450px) {
+    .mitigation-svg,
+    .measurement-svg,
+    .management-svg {
+        left: calc(50% - 400px);
+    }
+
+    .mitigation-svg.active {
+        left: calc(50% - 440px);
+    }
+
+    .measurement-svg.active {
+        left: calc(50% - 360px);
+    }
+
+    @keyframes mitigation-slide-in {
+        0% {
+            top: -20px;
+            left: calc(50% - 440px);
+        }
+        100% {
+            top: 0px;
+            left: calc(50% - 400px);
+        }
+    }
+
+    @keyframes mitigation-slide-out {
+        0% {
+            top: 0px;
+            left: calc(50% - 400px);
+        }
+        100% {
+            top: -20px;
+            left: calc(50% - 440px);
+        }
+    }
+
+    @keyframes measurement-slide-in {
+        0% {
+            top: -20px;
+            left: calc(50% - 360px);
+        }
+        100% {
+            top: 0px;
+            left: calc(50% - 400px);
+        }
+    }
+
+    @keyframes measurement-slide-out {
+        0% {
+            top: 0px;
+            left: calc(50% - 400px);
+        }
+        100% {
+            top: -20px;
+            left: calc(50% - 360px);
+        }
     }
 }
 
