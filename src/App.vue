@@ -4,7 +4,6 @@ import WheelSvg from '@/components/wheel/MainSvg.vue';
 import VerticalSlider from '@/components/VerticalSlider.vue';
 import PopoverCard from '@/components/PopoverCard.vue';
 import MainNavigation from '@/components/layout/MainNavigation.vue';
-import GradientButton from '@/components/GradientButton.vue';
 import AreaTabs from '@/components/layout/AreaTabs.vue';
 import LanguageDropdown from '@/components/layout/LanguageDropdown.vue';
 import { useControlsStore } from '@/stores/controlsStore.js';
@@ -94,16 +93,7 @@ onBeforeUnmount(() => {
                 <!-- <TestOutput /> -->
             </div>
 
-            <div class="absolute right-8 top-8 hidden flex-col gap-3 md:flex">
-                <GradientButton
-                    :key="$language.code"
-                    v-for="$language in $languages"
-                    @click="$setLanguage($language.code)"
-                    class="btn btn-section"
-                    :class="{ active: $language.code === $selectedLanguage.value }">
-                    {{ $language.name }}
-                </GradientButton>
-            </div>
+            <LanguageDropdown class="absolute end-8 top-8 hidden md:flex" />
         </div>
 
         <div class="my-5 grid grid-cols-1 gap-5 md:grid-cols-12">

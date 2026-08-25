@@ -7,7 +7,12 @@ const controlsStore = useControlsStore();
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'pharmaceuticals' }"
         class="svg-icon svg-fill-path svg-fill-circle"
-        :style="{ transform: $selectedLanguage.value === 'uk' ? 'translate(0px, 10px)' : 'translate(0px, 0px)' }">
+        :style="{
+            transform:
+                $selectedLanguage.value === 'uk' || $selectedLanguage.value === 'nl'
+                    ? 'translate(-4px, 10px)'
+                    : 'translate(-4px, 0px)',
+        }">
         <!-- Icon -->
         <g>
             <g>
@@ -24,9 +29,15 @@ const controlsStore = useControlsStore();
         <text
             x="430"
             y="610"
-            text-anchor="middle"
-            :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
-            {{ $t('Pharmaceuticals') }}
+            text-anchor="middle">
+            <tspan
+                v-for="(line, index) in $t('_pharmaceuticals_icon').split('|')"
+                :key="index"
+                x="430"
+                :dy="index === 0 ? 0 : '1.2em'"
+                :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
+                {{ line }}
+            </tspan>
         </text>
     </g>
 </template>

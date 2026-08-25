@@ -7,7 +7,14 @@ const controlsStore = useControlsStore();
     <g
         :class="{ 'svg-active': controlsStore.selectedItem === 'blink-exercises' }"
         class="svg-icon svg-fill-path svg-fill-circle"
-        :style="{ transform: $selectedLanguage.value === 'uk' ? 'translate(16px, 0px)' : 'translate(0px, 0px)' }">
+        :style="{
+            transform:
+                $selectedLanguage.value === 'uk'
+                    ? 'translate(16px, 0px)'
+                    : $selectedLanguage.value === 'cs'
+                      ? 'translate(14px, 0px)'
+                      : 'translate(0px, 0px)',
+        }">
         <!-- Icon -->
         <g>
             <g>
