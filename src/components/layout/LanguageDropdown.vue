@@ -6,7 +6,7 @@ const isOpen = ref(false);
 
 <template>
     <div class="flex items-center gap-2">
-        <span class="shrink-0 text-[10px] font-euclid-circular-bold uppercase text-[#58595B] md:text-xs">
+        <span class="hidden shrink-0 text-[10px] font-euclid-circular-bold uppercase text-[#58595B] md:inline md:text-xs">
             {{ $t('Language') }}
         </span>
 
