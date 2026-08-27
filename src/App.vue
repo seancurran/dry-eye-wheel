@@ -4,7 +4,7 @@ import WheelSvg from '@/components/wheel/MainSvg.vue';
 import VerticalSlider from '@/components/VerticalSlider.vue';
 import PopoverCard from '@/components/PopoverCard.vue';
 import MainNavigation from '@/components/layout/MainNavigation.vue';
-import AreaTabs from '@/components/layout/AreaTabs.vue';
+import AreaDropdown from '@/components/layout/AreaDropdown.vue';
 import LanguageDropdown from '@/components/layout/LanguageDropdown.vue';
 import { useControlsStore } from '@/stores/controlsStore.js';
 // import TestOutput from '@/components/TestOutput.vue';
@@ -67,12 +67,14 @@ onBeforeUnmount(() => {
 
 <template>
     <div class="p-6">
-        <!-- Mobile-only header: area tabs + language switcher (desktop uses the slider + stacked pills below).
-             Area tabs drop out at tablet width, since the sidebar's own area pills sit right next to the wheel
-             there and duplicate the same control. -->
-        <div class="mb-4 flex items-center justify-end gap-2 md:hidden">
-            <AreaTabs class="grow tablet:hidden" />
-            <LanguageDropdown />
+        <!-- Mobile-only header: area picker + language switcher (desktop uses the slider + stacked pills below).
+             The area picker drops out at tablet width, since the sidebar's own area pills sit right next to the
+             wheel there and duplicate the same control. Both are dropdowns rather than a 3-across pill strip:
+             at phone width each pill only got ~64px of text room, which clipped even English ("Measurement"
+             needs 75px) and could never fit the longest unbreakable word across the ten languages (~84px). -->
+        <div class="mb-4 flex items-center gap-2 md:hidden">
+            <AreaDropdown class="grow min-w-fit max-w-[200px] tablet:hidden" />
+            <LanguageDropdown class="ms-auto shrink-0" />
         </div>
 
         <div

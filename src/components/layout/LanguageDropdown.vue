@@ -6,7 +6,7 @@ const isOpen = ref(false);
 
 <template>
     <div class="flex items-center gap-2">
-        <span class="hidden shrink-0 text-[10px] font-euclid-circular-bold uppercase text-[#58595B] md:inline md:text-xs">
+        <span class="hidden shrink-0 text-[10px] font-euclid-circular-medium uppercase text-[#58595B] md:inline md:text-xs">
             {{ $t('Language') }}
         </span>
 
@@ -14,7 +14,7 @@ const isOpen = ref(false);
             <button
                 type="button"
                 @click="isOpen = !isOpen"
-                class="flex min-h-[34px] items-center gap-1 rounded-full border-2 border-[#E5E6E7] bg-white px-3 text-[10px] font-euclid-circular-bold uppercase leading-tight text-[#2B398F] md:px-3 md:text-xs">
+                class="flex h-[34px] items-center gap-1 whitespace-nowrap rounded-full border-2 border-[#E5E6E7] bg-white px-3 text-[10px] font-euclid-circular-medium uppercase leading-tight text-[#2B398F] md:px-3 md:text-xs">
                 {{ $languages.find((language) => language.code === $selectedLanguage.value)?.name }}
                 <span class="text-[9px]">▾</span>
             </button>
