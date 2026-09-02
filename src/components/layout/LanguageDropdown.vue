@@ -15,6 +15,9 @@ const isOpen = ref(false);
                 type="button"
                 @click="isOpen = !isOpen"
                 class="flex h-[34px] items-center gap-1 whitespace-nowrap rounded-full border-2 border-[#E5E6E7] bg-white px-3 text-[10px] font-euclid-circular-medium uppercase leading-tight text-[#2B398F] md:px-3 md:text-xs">
+                <span
+                    :class="`fi fi-${$languages.find((language) => language.code === $selectedLanguage.value)?.flag}`"
+                    class="shrink-0 rounded-[2px]"></span>
                 {{ $languages.find((language) => language.code === $selectedLanguage.value)?.name }}
                 <span class="text-[9px]">▾</span>
             </button>
@@ -40,7 +43,8 @@ const isOpen = ref(false);
                             ? 'bg-[#2B398F] text-white'
                             : 'text-[#58595B]'
                     "
-                    class="rounded-lg px-3 py-2 text-start text-sm capitalize">
+                    class="flex items-center gap-2 rounded-lg px-3 py-2 text-start text-sm capitalize">
+                    <span :class="`fi fi-${language.flag}`" class="shrink-0 rounded-[2px]"></span>
                     {{ language.name }}
                 </button>
             </div>

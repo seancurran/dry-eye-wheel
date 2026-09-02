@@ -7,16 +7,16 @@ export default {
         });
 
         const languages = [
-            { code: 'en', name: 'english' },
-            { code: 'es', name: 'español' },
-            { code: 'fr', name: 'Français' },
-            { code: 'zh', name: '中文' },
-            { code: 'ar', name: 'عربي' },
-            { code: 'uk', name: 'Українська' },
-            { code: 'nl', name: 'Nederlands' },
-            { code: 'cs', name: 'Čeština' },
-            { code: 'id', name: 'Bahasa' },
-            { code: 'hu', name: 'Magyar' },
+            { code: 'en', name: 'english', flag: 'gb' },
+            { code: 'es', name: 'español', flag: 'es' },
+            { code: 'fr', name: 'Français', flag: 'fr' },
+            { code: 'zh', name: '中文', flag: 'cn' },
+            { code: 'ar', name: 'عربي', flag: 'sa' },
+            { code: 'uk', name: 'Українська', flag: 'ua' },
+            { code: 'nl', name: 'Nederlands', flag: 'nl' },
+            { code: 'cs', name: 'Čeština', flag: 'cz' },
+            { code: 'id', name: 'Bahasa', flag: 'id' },
+            { code: 'hu', name: 'Magyar', flag: 'hu' },
         ];
 
         const rtlLanguages = ['ar'];

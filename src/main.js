@@ -6,6 +6,7 @@ import measurementTranslations from './translations/measurement.js';
 import managementTranslations from './translations/management.js';
 import uiTranslations from './translations/ui.js';
 
+import 'flag-icons/css/flag-icons.min.css';
 import './style.css';
 
 import App from './App.vue';
