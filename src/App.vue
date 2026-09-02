@@ -118,9 +118,9 @@ onBeforeUnmount(() => {
 
         <!-- Footer -->
         <div class="mt-5 text-center text-[10px] text-gray-600 md:text-xs">
-            <p>Spanish Translation provided by: Colegio Federación Colombiana de Optómetras - Fedopto</p>
-            <p>French translation provided by: Association des Optométristes de France (AOF)</p>
-            <p>Chinese translation provided by: Alcon Professional Education Team, China</p>
+            <p>Spanish Translation provided by: Colegio Federación Colombiana de Optómetras - Fedopto, updated May 2026 by Alcon Professional Education Team, Spain</p>
+            <p>French translation provided by: Association des Optométristes de France (AOF), updated May 2026 by Alcon Professional Education Team, France</p>
+            <p>All other translations kindly provided by: Alcon Professional Education Teams in China, Benelux, South East Asia, Czechia, Hungary, Ukraine and the Middle East.</p>
         </div>
     </div>
 </template>
