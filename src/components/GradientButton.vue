@@ -6,7 +6,7 @@
 
 <style lang="postcss" scoped>
 .btn {
-    @apply min-h-[34px] rounded-full bg-gradient-to-r px-1.5 text-[10px] leading-tight md:px-2 md:text-xs;
+    @apply min-h-[34px] break-words rounded-full bg-gradient-to-r px-1.5 text-[10px] leading-tight md:px-2 md:text-xs;
 }
 
 .btn-area {

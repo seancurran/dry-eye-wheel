@@ -69,9 +69,9 @@ remita al paciente según corresponda.</div>
         nl: `Door het uitvoeren van triage aan de hand een gerichte anamnese, symptoombespreking en het uitvoeren van een differentiële diagnose, kan men vroegtijdig preventieve maatregelen nemen om schade aan het oogoppervlak te beperken. 
 
 Andere aandoeningen van het oogoppervlak kunnen fungeren als trigger voor de vicieuze cirkel van droge ogen en zo leiden tot ongemak bij patiënten. Dit risico kan worden verminderd door risicofactoren zorgvuldig in kaart te brengen, zoals contactlensgebruik, gebruik van digitale apparaten, omgevingsfactoren en hormonale veranderingen of medicatiegebruik, en door alert te zijn op bijkomende klinische bevindingen. Op basis hiervan kan de patiënt adequaat worden behandeld binnen de eigen praktijk of, indien nodig, worden doorverwezen. `,
-        cs: `Třídění pacientů (triáž) na základě sílené anamnézy a symptomů spolu s provedením diferenciální diagnostiky umožňuje zavést profylaktická opatření k omezení poškození oka
+        cs: `Třídění pacientů (triáž) na základě cílené anamnézy a symptomů spolu s provedením diferenciální diagnostiky umožňuje zavést profylaktická opatření k omezení poškození oka.
 
-Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu syndromu onemocnění suchého oka a vést k nepříjemným symptomům u pacientů. Snižte riziko pečlivou identifikací rizikových faktorů, jako je nošení kontaktních čoček, používání digitálních zařízení, vlivy prostředí, hormonální změny, vlivy prostředí, hormonální změny a změny v užívání léků. Dále řešte oči z hlediska náhodných nálezů a podle toho pacienta řešte nebo odešlete ke specialistovi`,
+Jiná onemocnění povrchu oka mohou sloužit jako spouštěč bludného kruhu syndromu onemocnění suchého oka a vést k nepříjemným symptomům u pacientů. Snižte riziko pečlivou identifikací rizikových faktorů, jako je nošení kontaktních čoček, používání digitálních zařízení, vlivy prostředí, hormonální změny a změny v užívání léků. Dále řešte oči z hlediska náhodných nálezů a podle toho pacienta řešte nebo odešlete ke specialistovi`,
         id: `Triase dengan riwayat dan gejala yang ditargetkan, serta melakukan diagnosis banding dapat memungkinkan tindakan profilaksis dilakukan untuk membatasi kerusakan permukaan mata
 
 Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan penyakit mata kering dan menyebabkan gejala ketidaknyamanan bagi pasien. Kurangi risiko ini dengan hati-hati mengidentifikasi faktor risiko seperti pemakaian lensa kontak, penggunaan perangkat digital, tantangan lingkungan, dan perubahan hormon dan obat-obatan, serta menilai mata untuk temuan insidental, dan kelola atau rujuk pasien sesuai dengan itu.`,
@@ -406,7 +406,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
         nl: 'TRIAGE',
         cs: 'TRIÁŽ',
         id: 'TRIASE',
-        hu: 'Elsődleges felmérés',
+        hu: 'Elsődleges|felmérés',
     },
     {
         en: 'Triaging',
@@ -618,7 +618,7 @@ Kondisi permukaan okular lainnya dapat berfungsi sebagai pemicu lingkaran setan 
 <li>Sinds wanneer bestaan de klachten en was er sprake van een aanleidende gebeurtenis?</li>
 <li>Is uw zicht verminderd en verbetert dit na knipperen?</li>
 <li>Zijn de klachten en/of eventuele roodheid duidelijk erger aan één oog dan aan het andere?</li>
-<li>Zijn er klachten van jeukende ogen, gezwollen ogen, kortsvorming of afscheiding?</li>
+<li>Zijn er klachten van jeukende ogen, gezwollen ogen, korstvorming of afscheiding?</li>
 <li>Draagt u contactlenzen?</li>
 <li>Is er sprake van bekende algemene gezondheidsaandoeningen (inclusief recente luchtweginfecties) of gebruikt u medicatie?</li>
 `,

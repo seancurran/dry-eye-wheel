@@ -395,7 +395,7 @@ const controlsStore = useControlsStore();
         <g>
             <path
                 id="mitigation-title-arc"
-                d="M 6.3 339.8 A 462.7 462.7 0 0 1 224.3 32.2"
+                d="M -1.7 460.3 A 462.7 462.7 0 0 1 335.4 -15.3"
                 fill="none"
                 stroke="none" />
             <text
@@ -458,7 +458,7 @@ const controlsStore = useControlsStore();
         <!-- TRIAGING text -->
         <text
             x="260"
-            y="102"
+            :y="$t('Triaging').includes('|') ? 88 : 102"
             text-anchor="middle"
             :style="{
                 fontSize:
@@ -469,7 +469,13 @@ const controlsStore = useControlsStore();
                     '14px'
             }"
             style="rotate: 31deg; font-family: 'EuclidCircularA-Bold', sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; fill: #fff;">
-            {{ $t('Triaging') }}
+            <tspan
+                v-for="(line, index) in $t('Triaging').split('|')"
+                :key="index"
+                x="260"
+                :dy="index === 0 ? 0 : '1.1em'">
+                {{ line }}
+            </tspan>
         </text>
         </svg>
 </template>
