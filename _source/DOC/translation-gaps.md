@@ -52,6 +52,15 @@ No additional issues found beyond the above.
 ### Czech (cs)
 No additional issues found beyond the above. (Its `DRY EYE WHEEL` sheet splits the color-code legend across 3 separate rows instead of 1 combined cell — handled directly, no gap.)
 
+**Final copy applied (Sep 2026):** `Dry Eye Wheel Translation (Czech) 202609.xlsx` replaces the 202605 file as the source for `cs`. Its 26 changed cells were applied: mostly typo, grammar and punctuation fixes, plus a new Mitigation title, `MÍRNĚNÍ ŠKOD` (was `ZMÍRNĚNÍ NÁSLEDKŮ`). Every `cs` string was then re-checked against the 202609 file and matches, except these deliberate app-side deviations:
+- Mild/Moderate/Severe ring labels are shortened to `LEHKÁ` / `STŘEDNÍ` / `TĚŽKÁ` (xlsx: `… FORMA` / `STŘEDNĚ ZÁVAŽNÁ FORMA`) so they fit the ring.
+- `Sevřete prsty pro přiblížení` (pinch to zoom) and `Jazyk` (Language) are UI strings that aren't in the xlsx.
+- Wheel icon and popover labels use Czech sentence case (`Kontaktní čočky`, `Strava a doplňky stravy`) instead of the xlsx's ALL CAPS. This follows the translators' own lowercase edits (`zarudnutí`, `vyšetření`, `exprese`). The acronym `NIBUT` stays uppercase.
+
+The final copy still contains these apparent typos. They were applied as written, not corrected:
+- `_the_wheel_text`: `porozumněli` (standard: `porozuměli`) and `léčebné přístupu` (standard: `léčebného přístupu`).
+- `_comfort_time_after_blink_test_text_1`: `opakujte se 3krát` (the 202605 file had `opakujte 3krát`).
+
 ### Bahasa Indonesia (id)
 No additional issues found beyond the above. Button label is shown as "Bahasa" (per request), while the language code remains `id`/Indonesian to match the actual content in the spreadsheet (see the earlier "Bahasa language" clarification in this session — the file's vocabulary/spelling is Indonesian, not Malay).
 

@@ -33,6 +33,8 @@ const controlsStore = useControlsStore();
                 :style="
                     $selectedLanguage.value === 'zh'
                         ? 'font-size: 14px !important;'
+                        : $selectedLanguage.value === 'cs'
+                        ? 'font-size: 8px !important;'
                         : $selectedLanguage.value === 'es'
                         ? 'font-size: 8px !important;'
                         : ''

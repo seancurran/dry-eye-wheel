@@ -133,7 +133,22 @@ const controlsStore = useControlsStore();
                 y2="450.7" />
         </g>
         <!-- Use _complex_treatments_icon translation with | as line break delimiter -->
+        <template v-if="$selectedLanguage.value === 'cs'">
+            <text
+                x="528"
+            y="446"
+                text-anchor="middle">
+                {{ $t('_complex_treatments_icon').split('|')[0] }}
+            </text>
+            <text
+                x="528"
+            y="459"
+                text-anchor="middle">
+                {{ $t('_complex_treatments_icon').split('|')[1] }}
+            </text>
+        </template>
         <text
+            v-else
             :x="$selectedLanguage.value === 'uk' ? 534 : 528"
             y="450"
             text-anchor="middle">

@@ -425,6 +425,7 @@ const controlsStore = useControlsStore();
                     $selectedLanguage.value === 'fr' ? '11px' :
                     $selectedLanguage.value === 'zh' ? '14px' :
                     $selectedLanguage.value === 'uk' ? '12px' :
+                    $selectedLanguage.value === 'cs' ? '11px' :
                     '14px'
             }"
             style="rotate: 31deg; font-family: 'EuclidCircularA-Bold', sans-serif; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; fill: #fff;">

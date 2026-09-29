@@ -9,7 +9,9 @@ const controlsStore = useControlsStore();
         class="svg-icon svg-fill-path svg-fill-circle"
         :style="{
             transform:
-                $selectedLanguage.value === 'uk' || $selectedLanguage.value === 'nl'
+                $selectedLanguage.value === 'cs'
+                    ? 'translate(-4px, 7px)'
+                    : $selectedLanguage.value === 'uk' || $selectedLanguage.value === 'nl'
                     ? 'translate(-4px, 10px)'
                     : 'translate(-4px, 0px)',
         }">

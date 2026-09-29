@@ -34,7 +34,7 @@ export default [
         ar: 'يجب أن تكون عملية التشخيص عملية مُوَحَّدة من أجل:',
         uk: 'Діагностика має бути стандартизованим процесом, щоб забезпечити:',
         nl: 'Diagnostiek dient een gestandaardiseerd proces te zijn om te waarborgen dat:',
-        cs: 'Diagnostika mucí být standardizovaným procesem, aby:',
+        cs: 'Diagnostika musí být standardizovaným procesem, aby:',
         id: 'Diagnosis perlu menjadi proses standar untuk:',
         hu: 'A diagnózisnak standarizált folyamatnak kell lennie annak érdekében, hogy:',
     },
@@ -72,7 +72,7 @@ export default [
 `,
         cs: `
 <li>Pacienti měli jistotu ohledně svého onemocnění a důvěru ke klinickým lékařům</li>
-<li>Kliničtí lékaři měli konzistatní přístup</li>
+<li>Kliničtí lékaři měli konzistentní přístup</li>
 <li>Úřady získávaly robustní epidemiologická data pro plánování alokace zdrojů</li>
 `,
         id: `
@@ -106,7 +106,7 @@ export default [
         ar: 'وبالمثل، يمكن إجراء التصنيف الفرعي للمساعدة في اختيار طريقة الإدارة المناسبة من خلال تقييم الرَمش (المعدل/الكمال)، وحجم الدموع، وضغط وإفراز الغدد الميبومية، إلى جانب تصوير الغدد الميبومية.',
         uk: 'Для уточнення підтипу захворювання доцільно оцінювати:\n• частоту та повноту моргання;\n• об’єм слізи;\n• функцію мейбомієвих залоз;\n• візуалізацію мейбомієвих залоз (мейбографія).',
         nl: 'Daarnaast kan ter ondersteuning van de behandelkeuze een verdere subclassificatie worden uitgevoerd. Dit kan door beoordeling van het knippergedrag (frequentie en volledigheid), het traanvolume en de expressie van de meibomklieren, aangevuld met beeldvorming van de meibomklieren.',
-        cs: 'Podobně lze podrobnější klasifikaci pro usnadnění volby léčebného postupu vyšetřit pomocí mrkání (frekvence/úplnost), objemu slz a exprese meibomských žláz, stejně jako zobrazovacích metod meibomských žláz',
+        cs: 'Podobně lze podrobnější klasifikaci pro usnadnění volby léčebného postupu vyšetřit pomocí mrkání (frekvence/úplnost), objemu slz a exprese meibomských žláz, stejně jako zobrazovacích metod meibomských žláz.',
         id: 'Demikian juga, sub-klasifikasi untuk membantu pilihan manajemen dapat diselidiki dengan berkedip (laju/kelengkapan), volume sobek, dan ekspresi kelenjar meibomian, serta pencitraan kelenjar meibomian.',
         hu: 'Hasonlóképpen, a kezelés megválasztását segítő alcsoportosítás vizsgálható az alábiakkal: pislogás (gyakoriság/teljesség), könnymennyiség, a meibom-mirigy kiürülése, meibom-mirigy képalkotó vizsgálata.',
     },
@@ -145,7 +145,7 @@ export default [
         ar: 'اختبار مدة الراحة بعد الرَمش',
         uk: 'Час до появи|дискомфорту після|кліпання',
         nl: 'Comforttijd Na|Knipperen-test',
-        cs: 'Test Doby Komfortu|Po Mrknutí',
+        cs: 'Test doby komfortu|po mrknutí',
         id: 'Waktu Kenyamanan|Setelah Uji Kedipan',
         hu: 'Pislogás utáni|komfortidő teszt',
     },
@@ -158,7 +158,7 @@ export default [
         ar: 'اختبار مدة الراحة|بعد الرَمش',
         uk: 'Час до появи|дискомфорту|після кліпання',
         nl: 'Comforttijd Na|Knipperen-test',
-        cs: 'Test Doby|Komfortu Po|Mrknutí',
+        cs: 'Test doby|komfortu po|mrknutí',
         id: 'Waktu|Kenyamanan|Setelah Uji|Kedipan',
         hu: 'Pislogás utáni|komfortidő|teszt',
     },
@@ -171,7 +171,7 @@ export default [
         ar: 'يَرْمُش المريض ثم يُبلِّغ عن اللحظة التي تبدأ فيها العين بالشعور بعدم الارتياح – ويُكرَّر ذلك 3 مرات',
         uk: 'Пацієнт повідомляє, коли з’являється перший дискомфорт (повторити 3 рази) після останнього кліпання.',
         nl: 'De patiënt knippert en geeft aan wanneer de ogen voor het eerst oncomfortabel aanvoelen, herhaal dit 3 keer.',
-        cs: 'Pacient mrkne a oznámí, kdy poprvé začnou být oči nepohodlné. - opakujte 3krát',
+        cs: 'Pacient mrkne a oznámí, kdy poprvé začne pocit nepohodlí v očích - opakujte se 3krát',
         id: 'Pasien berkedip dan melaporkan ketika mata pertama kali menjadi tidak nyaman – ulangi 3 kali',
         hu: 'A beteg pislog, majd jelzi, hogy mikor érez először kellemetlenséget, 3 alkalommal megismételve',
     },
@@ -245,7 +245,7 @@ export default [
 `,
         cs: `
 <div>Skóre OSDI-6 ≥ 4</div>
-<div>Jiné dotazník mohou pomoci při výběru léčebného postupu, nikoli však při standardizované diagnostice.</div>
+<div>Jiné dotazníky mohou pomoci při výběru léčebného postupu, nikoli však při standardizované diagnostice.</div>
 `,
         id: `
 <div>Skor OSDI-6 ≥ 4</div>
@@ -265,7 +265,7 @@ export default [
         ar: 'تلطيخ الفلوريسئين',
         uk: 'Профарбовування|флюоресцеїном',
         nl: 'Fluoresceïne|Staining',
-        cs: 'Barvení|Fluoresceinem',
+        cs: 'Barvení|fluoresceinem',
         id: 'Pewarnaan|Fluorescein',
         hu: 'Fluoreszcein festés',
     },
@@ -278,7 +278,7 @@ export default [
         ar: 'تلطيخ|الفلوريسئين',
         uk: 'Профарбовування|флюоресцеїном',
         nl: 'Fluoresceïne|Staining',
-        cs: 'Barvení|Fluoresceinem',
+        cs: 'Barvení|fluoresceinem',
         id: 'Pewarnaan|Fluorescein',
         hu: 'Fluoreszcein|festés',
     },
@@ -313,7 +313,7 @@ export default [
 `,
         cs: `
 <div>Do oka se aplikuje minimální množství fluoresceinu; pozoruje se mezi 1 a 3 minutami po nakapání.</div>
-<div>> 5 rohovkových bodů je diagnostickým znakem onemocnění suchého oka</div>
+<div>> 5 rohovkových bodů je diagnostickým znakem onemocnění suchého oka.</div>
 `,
         id: `
 <div>Fluorescein minimal dioleskan pada mata; diamati antara 1 dan 3 menit setelah instilasi.</div>
@@ -333,7 +333,7 @@ export default [
         ar: 'زمن تكسّر الدموع غير التداخلي',
         uk: 'Неінвазивний час|розриву слізної|плівки',
         nl: 'Non-invasieve|Breakup Time',
-        cs: 'Neinvazivní Rozpad|Slzného Filmu -|Nibut',
+        cs: 'Neinvazivní rozpad|slzného filmu -|NIBUT',
         id: 'Waktu Putus|Non-invasif',
         hu: 'Nem invazív|könnyfilm-felszakadási|idő',
     },
@@ -346,7 +346,7 @@ export default [
         ar: 'زمن تكسّر الدموع|غير التداخلي',
         uk: 'Неінвазивний|час розриву|слізної плівки',
         nl: 'Non-invasieve|Breakup Time',
-        cs: 'Neinvazivní|Rozpad Slzného|Filmu - Nibut',
+        cs: 'Neinvazivní|rozpad slzného|filmu - NIBUT',
         id: 'Waktu Putus|Non-invasif',
         hu: 'Nem invazív|könnyfilm-|bomlási|idő',
     },
@@ -456,7 +456,7 @@ export default [
 `,
         cs: `
 <div>Odebere se drobný vzorek slzného filmu a impedance se použije k posouzení osmolarity slzného filmu.</div>
-<div>≥ 308 mOsm/L nebo rozdíl mezi očima > 8 je diagnostickým znakem onemocnění suchého oka</div>
+<div>≥ 308 mOsm/L nebo rozdíl mezi očima > 8 je diagnostickým znakem onemocnění suchého oka.</div>
 `,
         id: `
 <div>Sampel kecil film air mata diekstraksi, dan impedansi digunakan untuk menilai osmolaritas (keasinannya) film air mata</div>
@@ -475,7 +475,7 @@ export default [
         ar: 'تلطيخ الليسّامين الأخضر',
         uk: 'Профарбовування|лісаміновим зеленим',
         nl: 'Lissamine Groen|Staining',
-        cs: 'Barvení Lissaminovou|Zelení',
+        cs: 'Barvení lissaminovou|zelení',
         id: 'Pewarnaan Hijau|Lissamin',
         hu: 'Lisszamin zöld|festés',
     },
@@ -488,7 +488,7 @@ export default [
         ar: 'تلطيخ|الليسّامين|الأخضر',
         uk: 'Профарбовування|лісаміновим|зеленим',
         nl: 'Lissamine Groen|Staining',
-        cs: 'Barvení|Lissaminovou|Zelení',
+        cs: 'Barvení|lissaminovou|zelení',
         id: 'Pewarnaan Hijau|Lissamin',
         hu: 'Lisszamin zöld|festés',
     },
@@ -598,7 +598,7 @@ export default [
         ar: 'اكتمال الرَمش وإغلاق الجفن؛ الاحمرار',
         uk: 'Кліпання та змикання|повік; гіперемія',
         nl: 'Volledigheid van de|knipperslag en|Ooglidsluiting;|Roodheid',
-        cs: 'Úplnost mrkání a|dovření víček;|Zarudnutí',
+        cs: 'Úplnost mrkání a|dovření víček;|zarudnutí',
         id: 'Kelengkapan Berkedip|dan Penutupan Tutup;|Kemerahan',
         hu: 'Pislogás teljessége|és szemhéjzáródás;|vörösség',
     },
@@ -611,7 +611,7 @@ export default [
         ar: 'اكتمال الرَمش وإغلاق الجفن؛ الاحمرار',
         uk: 'Кліпання та змикання|повік; гіперемія',
         nl: 'Volledigheid van de|knipperslag en|Ooglidsluiting;|Roodheid',
-        cs: 'Úplnost mrkání a|dovření víček;|Zarudnutí',
+        cs: 'Úplnost mrkání a|dovření víček;|zarudnutí',
         id: 'Kelengkapan Berkedip|dan Penutupan Tutup;|Kemerahan',
         hu: 'Pislogás teljessége|és szemhéjzáródás;|vörösség',
     },
@@ -624,7 +624,7 @@ export default [
         ar: 'اكتمال الرَمش|وإغلاق الجفن؛|الاحمرار',
         uk: 'Кліпання та|змикання повік;|гіперемія',
         nl: 'Volledigheid|van de|knipperslag en|Ooglidsluiting;|Roodheid',
-        cs: 'Úplnost mrkání|a dovření|víček;|Zarudnutí',
+        cs: 'Úplnost mrkání|a dovření|víček;|zarudnutí',
         id: 'Kelengkapan|Berkedip dan|Penutupan|Tutup;|Kemerahan',
         hu: 'Pislogás|teljessége és|szemhéjzáródás;|vörösség',
     },
@@ -698,8 +698,8 @@ export default [
 <div>Een waarde van < 0,2 mm is indicatief voor waterdeficiëntie droge-ogenproblematiek. Onregelmatigheid duidt op een verminderde traanfilmkwaliteit.</div>
 `,
         cs: `
-<div><0,2 mm svědčí pro hyposekreční formu onemocnění suchého oka</div>
-<div>Nepravidelnost naznačuje špatnou kvalitu slzného filmu</div>
+<div><0,2 mm svědčí pro hyposekreční formu onemocnění suchého oka.</div>
+<div>Nepravidelnost naznačuje špatnou kvalitu slzného filmu.</div>
 `,
         id: `
 <div>< 0,2 mm menunjukkan penyakit mata kering berair.</div>
@@ -719,7 +719,7 @@ export default [
         ar: 'الجفون: تعصير الغدد الميبومية',
         uk: 'Повіки: Експресія|мейбомієвих залоз',
         nl: 'Oogleden:|Meibomklier|expressie',
-        cs: 'Oční víčka: Exprese|Meibomských žlaz',
+        cs: 'Oční víčka: exprese|Meibomských žlaz',
         id: 'Kelopak Mata:|Ekspresi Kelenjar|Meibomian',
         hu: 'Szemhéjak:|Meibom-mirigy|expresszió',
     },
@@ -732,7 +732,7 @@ export default [
         ar: 'الجفون: تعصير|الغدد الميبومية',
         uk: 'Повіки: Експресія|мейбомієвих залоз',
         nl: 'Oogleden:|Meibomklier|expressie',
-        cs: 'Oční víčka: Exprese|Meibomských žlaz',
+        cs: 'Oční víčka: exprese|Meibomských žlaz',
         id: 'Kelopak Mata:|Ekspresi Kelenjar|Meibomian',
         hu: 'Szemhéjak:|Meibom-mirigy|expresszió',
     },
@@ -745,7 +745,7 @@ export default [
         ar: 'الجفون: تعصير|الغدد الميبومية',
         uk: 'Повіки: Експресія|мейбомієвих залоз',
         nl: 'Oogleden:|Meibomklier|expressie',
-        cs: 'Oční víčka:|Exprese|Meibomských žlaz',
+        cs: 'Oční víčka:|exprese|Meibomských žlaz',
         id: 'Kelopak Mata:|Ekspresi|Kelenjar|Meibomian',
         hu: 'Szemhéjak:|Meibom-mirigy|expresszió',
     },
@@ -771,7 +771,7 @@ export default [
         ar: 'تصوير الغدد الميبومية والإنترفيريومتري',
         uk: 'Мейбографія та|інтерферометрія',
         nl: 'Meibografie en|Interferometrie',
-        cs: 'Meibografie a|Interferometrie',
+        cs: 'Meibografie a|interferometrie',
         id: 'Meibografi dan|Interferometri',
         hu: 'Meibográfia és|interferometria',
     },
@@ -784,7 +784,7 @@ export default [
         ar: 'تصوير الغدد الميبومية|والإنترفيريومتري',
         uk: 'Мейбографія та|інтерферометрія',
         nl: 'Meibografie en|Interferometrie',
-        cs: 'Meibografie a|Interferometrie',
+        cs: 'Meibografie a|interferometrie',
         id: 'Meibografi dan|Interferometri',
         hu: 'Meibográfia és|interferometria',
     },
@@ -797,7 +797,7 @@ export default [
         ar: 'قد يشير قصر الغدد الميبومية أو فقدانها عند الفحص بالإنارة النافذة أو بالتصوير بالأشعة تحت الحمراء للجفن المقلوب إلى الإصابة بجفاف العين التبخّري.',
         uk: 'Атрофія або зменшення кількості залоз — характерно для евапоративного типу захворювання сухого ока',
         nl: 'Verkorte klieren of uitval (\'drop-out\'), zichtbaar bij transilluminatie of infraroodbeeldvorming (IR) van geëverteerde oogleden, kan wijzen op evaporatieve droge-ogenproblematiek. ',
-        cs: 'Zkrácené žlázy nebo ztráta žláz (drop out) při prosvícení (transiluminaci) nebo infračerveném (IR) snímání evertonovaných víček může svědčit pro evaporativní formu onemocnění suchého oka',
+        cs: 'Zkrácené žlázy nebo ztráta žláz (drop out) při prosvícení (transiluminaci) nebo infračerveném (IR) snímání evertonovaných víček může svědčit pro evaporativní formu onemocnění suchého oka.',
         id: 'Kelenjar pendek / putus pada transiluminasi atau pencitraan IR kelopak mata berputar dapat menjadi indikasi penyakit mata kering evaporatif.',
         hu: 'A megrövidült mirigyek vagy a mirigykiesés transzilluminációval vagy infravörös (IR) képalkotással, kifordított szemhéjak vizsgálata során, evaporatív száraz szem betegségre utalhatnak.',
     },
@@ -849,7 +849,7 @@ export default [
         ar: 'يمكن أن يؤدي تغيّر المحاذاة بين مقلة العين والأسطح الداخلية للجفن — كما يحدث في حالات مثل الظفرة — إلى إعاقة توزيع طبقة الدموع على سطح العين، مما يؤدي إلى عدم استقرار طبقة الدموع.',
         uk: 'Порушення відповідності очного яблука та внутрішньої поверхні повік, наприклад при птеригії, погіршує рівномірний розподіл слізної плівки по поверхні ока, що призводить до її нестабільності.',
         nl: 'Een verstoorde uitlijning tussen de oogbol en de binnenzijde van de oogleden, bijvoorbeeld als gevolg van een pterygium, kan de gelijkmatige verdeling van de traanfilm over het oogoppervlak belemmeren. Dit resulteert in een verminderde stabiliteit van de traanfilm.   ',
-        cs: 'Změna vzájemného postavení mezi očním bulbem a vnitřním povrchem očních víček, například v důsledku pterygia, narušuje distribuci slzného filmu po povrchu oka, což vede k nestabilitě slzného filmu',
+        cs: 'Změna vzájemného postavení mezi očním bulbem a vnitřním povrchem očních víček, například v důsledku pterygia, narušuje distribuci slzného filmu po povrchu oka, což vede k nestabilitě slzného filmu.',
         id: 'Keselarasan yang diubah antara permukaan bola dunia dan kelopak mata bagian dalam karena pterygium, misalnya, mengganggu distribusi film air mata di seluruh permukaan okular, mengakibatkan ketidakstabilan film air mata',
         hu: 'A szemgolyó és a belső szemhéj felszínek közötti megváltozott illeszkedés, például pterygium esetén rontja a könnyfilm eloszlását a szemfelszínen, ami a könnyfilm instabilitásához vezet.',
     },
@@ -862,7 +862,7 @@ export default [
         ar: 'الجفون: فحص التهاب الجفن الأمامي',
         uk: 'Повіки: Передній|блефарит',
         nl: 'Oogleden: Anterieure|blefaritis',
-        cs: 'Oční víčka:|Vyšetření přední|blefaritidy',
+        cs: 'Oční víčka:|vyšetření přední|blefaritidy',
         id: 'Kelopak Mata:|Pemeriksaan|Blepharitis Anterior',
         hu: 'Szemhéjak:elülső|blepharitis|vizsgálata',
     },
@@ -875,7 +875,7 @@ export default [
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
         uk: 'Повіки: Передній|блефарит',
         nl: 'Oogleden: Anterieure|blefaritis',
-        cs: 'Oční víčka:|Vyšetření přední|blefaritidy',
+        cs: 'Oční víčka:|vyšetření přední|blefaritidy',
         id: 'Kelopak Mata:|Pemeriksaan|Blepharitis Anterior',
         hu: 'Szemhéjak:elülső|blepharitis|vizsgálata',
     },
@@ -888,7 +888,7 @@ export default [
         ar: 'الجفون: فحص|التهاب الجفن الأمامي',
         uk: 'Повіки:|Передній|блефарит',
         nl: 'Oogleden:|Anterieure|blefaritis',
-        cs: 'Oční víčka:|Vyšetření|přední|blefaritidy',
+        cs: 'Oční víčka:|vyšetření|přední|blefaritidy',
         id: 'Kelopak Mata:|Pemeriksaan|Blepharitis|Anterior',
         hu: 'Szemhéjak:elülső|blepharitis|vizsgálata',
     },
@@ -928,7 +928,7 @@ export default [
         ar: 'جفاف العين هو حالة مزمنة تتطلب منك العمل مع المريض لإدارتها بالشكل الصحيح. تمثل العجلة دورة مستمرة من التخفيف، والقياس، واستخدام هذه المعلومات لتوجيه خطة العلاج. وعند عودة المريض للمراجعة، ستقوم بجمع المعلومات مرة أخرى لفهم ما الذي تغيّر أو كيف تغيّر، وكيف يمكن أن يساعدك ذلك في تحسين خطوات التخفيف، وإعادة القياس، وتطوير خطة الإدارة العلاجية بشكل أدق.',
         uk: 'Сухість очей — це хронічний стан, який потребує співпраці з пацієнтом для ефективного контролю захворювання.\nКолесо символізує циклічний процес зменшення проявів, оцінки стану та використання отриманої інформації для формування стратегії ведення.\nПід час повторного візиту пацієнта необхідно знову зібрати дані, щоб оцінити зміни стану та скоригувати подальше ведення задля зменшення симптомів.',
         nl: 'Droge ogen is een chronische aandoening waarvoor je samen met je patiënt een behandeltraject aangaat. Het wiel staat symbool voor dit proces: het verminderen van klachten (mitigatie), het meten, en het gebruiken van deze informatie om de behandelstrategie gericht bij te sturen. Bij elke controleafspraak verzamel je opnieuw de informatie om veranderingen in kaart te brengen. Deze evaluatie helpt om te begrijpen wat er is veranderd, waarom dat zo is, en hoe deze inzichten kunnen bijdragen aan verdere mitigatie en optimalisatie van je behandelaanpak. ',
-        cs: 'Onemocnění suchého oka je chronické onemocnění, které od vás bude vyžadovat spolupráci s pacientem při jeho zvládání. Kolo symbolizuje proces zmírňování projevů (prevence). Měření a využití těchto informací k určení vašeho léčebné přístupu. Když se pacient vrátí na kontrolu, shromáždíte tyto informace znovu, abyste porozumněli tomu, co nebo jak se změnilo, a jak to může ovlivnit další zmírňování, měření a upřesnění vašeho přístupu k managementu léčby.',
+        cs: 'Onemocnění suchého oka je chronické onemocnění, které od vás bude vyžadovat spolupráci s pacientem při jeho zvládání. Kolo symbolizuje proces zmírňování projevů (prevence), měření a využití těchto informací k určení vašeho léčebné přístupu. Když se pacient vrátí na kontrolu, shromáždíte tyto informace znovu, abyste porozumněli tomu, co nebo jak se změnilo, a jak to může ovlivnit další zmírňování, měření a upřesnění vašeho přístupu k managementu léčby.',
         id: 'Mata kering adalah kondisi kronis yang mengharuskan Anda bekerja dengan pasien Anda untuk mengelolanya. Roda melambangkan proses mitigasi, pengukuran, dan penggunaan informasi tersebut untuk menginformasikan pendekatan manajemen Anda. Ketika pasien Anda kembali untuk ditinjau, Anda akan mengumpulkan informasi lagi untuk memahami apa atau bagaimana hal itu telah berubah dan bagaimana hal ini dapat menginformasikan mitigasi, pengukuran, dan penyempurnaan pendekatan manajemen Anda lebih lanjut.',
         hu: 'A szárazszem-betegség krónikus állapot, amely folyamatos együttműködést igényel a pácienssel a megfelelő kezelés érdekében. A kerék a tünetek enyhítésének, mérésének és az ezekből származó információk felhasználásának folyamatát szemlélteti a kezelési stratégia kialakításához. Amikor a páciens visszatér a kontrollvizsgálatra, az információk ismételt gyűjtése segít megérteni a változásokat, és támogatja a további enyhítési, mérési és kezelési lépések finomítását.',
     },
@@ -976,7 +976,7 @@ export default [
 `,
         uk: 'Кільця на схемі «Колесо ведення захворювання сухого ока» символізують послідовний перехід від найпростіших до більш складних підходів у зменшенні проявів, оцінці та лікуванні захворювання сухого ока відповідно до ступеня тяжкості.\nІснує багато можливостей полегшити дискомфорт у пацієнтів із захворюванням сухого ока шляхом профілактики, оцінки та ведення, навіть без додаткових інвестицій (зовнішнє бронзове кільце) або з мінімальними вкладеннями (середнє срібне кільце).\nОскільки більшість пацієнтів мають легкий або помірний перебіг захворювання, усі фахівці повинні брати участь у веденні таких пацієнтів, за потреби направляючи їх до спеціалізованих центрів.',
         nl: 'De ringen die in het dry eye wheel worden weergegeven, symboliseren een aanpak die loopt van eenvoudig tot meer complex voor het verminderen (mitigatie), meten en behandelen van droge ogen, afhankelijk van de ernst van de aandoening. \n\nEr zijn veel mogelijkheden om het ongemak van patiënten met droge ogen te verlichten door middel van mitigatie, meting en behandeling, zelfs zonder extra investering (de bronzen buitenring), of met een beperkte investering (zilveren middelste ring). Aangezien het merendeel van de patiënten milde tot matige droge ogen heeft, is het belangrijk dat alle zorgverleners hierbij betrokken zijn en, waar nodig, doorverwijzen naar specialistische centra.  ',
-        cs: 'Prstence zobrazené v kole onemocnění suchého oka symbolizují nejjednodušší až složitější přístupy k prevenci, měření a managementu suchého oka v závislosti na závažnosti onemocnění\n\nExistuje mnoho způsobů, jak můžete zmírnit nepohodlí pacientů s onemocněním suchého oka prostřednictvím prevence, měření a managementu léčby, a to i bez jakýchkoli dalších nákladů (bronzový vnější prstenec) nebo s omezenými náklady (stříbrný prstenec). Vzhledem k tomu, že většina pacientů s onemocněním suchého oka má mírnou až středně závažnou formu onemocnění, je zapotřebí, aby se zapojili všichni oční specialisté v praxi a v případě potřeby odesílali pacienty do specializovaných center.',
+        cs: 'Prstence zobrazené v Kole onemocnění suchého oka symbolizují nejjednodušší až složitější přístupy k prevenci, měření a managementu suchého oka v závislosti na závažnosti onemocnění.\n\nExistuje mnoho způsobů, jak můžete zmírnit nepohodlí pacientů s onemocněním suchého oka prostřednictvím prevence, měření a managementu léčby, a to i bez jakýchkoli dalších nákladů (bronzový vnější prstenec) nebo s omezenými náklady (stříbrný prstenec). Vzhledem k tomu, že většina pacientů s onemocněním suchého oka má mírnou až středně závažnou formu onemocnění, je zapotřebí, aby se zapojili všichni oční specialisté v praxi a v případě potřeby odesílali pacienty do specializovaných center.',
         id: 'Cincin yang ditunjukkan di roda mata kering melambangkan pendekatan yang paling sederhana hingga lebih kompleks untuk mitigasi, pengukuran, dan pengelolaan mata kering, sesuai dengan tingkat keparahan.\n\nAda banyak hal yang dapat Anda lakukan untuk meringankan ketidaknyamanan pasien mata kering melalui mitigasi, pengukuran, dan pengelolaan, bahkan tanpa investasi tambahan (cincin luar perunggu) atau investasi terbatas (cincin tengah perak). Karena mayoritas pasien dengan mata kering memiliki penyakit ringan hingga sedang, semua praktisi perlu terlibat, merujuk ke pusat spesialis bila diperlukan.',
         hu: 'A kerékben megjelenített gyűrűk a szárazszem-betegség enyhítésére, mérésére és kezelésére szolgáló megközelítéseket szemléltetik az egyszerűbbtől a komplexebb módszerek felé haladva, a betegség súlyosságának megfelelően. Számos lehetőség áll rendelkezésre a száraz szemmel küzdő betegek panaszainak enyhítésére a tünetcsökkentés, a mérés és a kezelés eszközeivel, akár további ráfordítás nélkül (külső bronz gyűrű), vagy korlátozott erőforrások melett (középső ezüst gyűrű) is.Mivel a páciensek többsége enyhe vagy közepes súlyosságú problémában szenved, minden szakember számára fontos az aktív részvétel az ellátásban, és szükség esetén a betegeket specialistához kell irányítani.',
     },

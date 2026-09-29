@@ -24,7 +24,7 @@ const controlsStore = useControlsStore();
                 :key="index"
                 x="584"
                 :dy="index === 0 ? 0 : '1.2em'"
-                :style="$selectedLanguage.value === 'fr' ? 'font-size: 8px !important' : ''">
+                :style="$selectedLanguage.value === 'fr' || $selectedLanguage.value === 'cs' ? 'font-size: 8px !important' : ''">
                 {{ line }}
             </tspan>
         </text>

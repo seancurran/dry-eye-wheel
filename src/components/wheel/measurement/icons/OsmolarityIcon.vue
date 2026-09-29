@@ -52,7 +52,7 @@ const controlsStore = useControlsStore();
             x="504"
             y="290"
             text-anchor="middle"
-            :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : ''">
+            :style="$selectedLanguage.value === 'zh' ? 'font-size: 14px !important;' : $selectedLanguage.value === 'cs' ? 'font-size: 9px !important;' : ''">
             {{ $t('Osmolarity') }}
         </text>
     </g>
