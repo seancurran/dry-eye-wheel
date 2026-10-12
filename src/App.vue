@@ -67,14 +67,28 @@ onBeforeUnmount(() => {
 
 <template>
     <div class="p-6">
-        <!-- Mobile-only header: area picker + language switcher (desktop uses the slider + stacked pills below).
+        <!-- Language selector: right-aligned row directly above the wheel box, all screen sizes -->
+        <div class="mb-3 flex justify-end md:pe-8">
+            <LanguageDropdown />
+        </div>
+
+        <!-- The Wheel intro: boxed card above everything else -->
+        <div class="mb-10">
+            <PopoverCard
+                :title="$t('The Wheel')"
+                theme="card"
+                class="max-w-none">
+                {{ $t('_the_wheel_text') }}
+            </PopoverCard>
+        </div>
+
+        <!-- Mobile-only header: area picker (desktop uses the slider + stacked pills below).
              The area picker drops out at tablet width, since the sidebar's own area pills sit right next to the
-             wheel there and duplicate the same control. Both are dropdowns rather than a 3-across pill strip:
+             wheel there and duplicate the same control. It's a dropdown rather than a 3-across pill strip:
              at phone width each pill only got ~64px of text room, which clipped even English ("Measurement"
              needs 75px) and could never fit the longest unbreakable word across the ten languages (~84px). -->
         <div class="mb-4 flex items-center gap-2 md:hidden">
             <AreaDropdown class="grow min-w-fit max-w-[200px] tablet:hidden" />
-            <LanguageDropdown class="ms-auto shrink-0" />
         </div>
 
         <div
@@ -94,24 +108,14 @@ onBeforeUnmount(() => {
                 <WheelSvg />
                 <!-- <TestOutput /> -->
             </div>
-
-            <LanguageDropdown class="absolute end-8 top-8 hidden md:flex" />
         </div>
 
-        <div class="my-5 grid grid-cols-1 gap-5 md:grid-cols-12">
-            <!-- The Wheel -->
-            <PopoverCard
-                :title="$t('The Wheel')"
-                theme="card"
-                class="max-w-none md:col-span-5">
-                {{ $t('_the_wheel_text') }}
-            </PopoverCard>
-
+        <div class="my-5">
             <!-- The Rings -->
             <PopoverCard
                 :title="$t('The Rings')"
                 theme="card"
-                class="max-w-none md:col-span-7">
+                class="max-w-none">
                 <span v-html="$t('_the_rings_text')" />
             </PopoverCard>
         </div>
